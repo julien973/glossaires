@@ -15,10 +15,66 @@ const identification = {
 };
 
 const chapters = [
+  // ───── CH. 78-80 — glossaire appli (unité 52 du PDF : fin ch. 78 TURBO餐馆 + ch. 79 闲谈 + début ch. 80 朋友的母亲) ─────
+  {
+    id: "ch79-app",
+    corrige: false,
+    title: "Ch. 78 (fin) + 79 闲谈 + 80 (début) — glossaire appli raw chinois (unité 52 PDF)",
+    capture: "texte du glossaire collé par Shenn (3 Characters + 6 Terms, sans captures) — texte vérifié via le skill glossaire-pdf-tampon (unité 52, sans rouvrir le PDF)",
+    observations: [
+      "📍 Règle appliquée : « glossaire suivant » = l'UNITÉ 52 complète du PDF = fin du ch. 78 TURBO餐馆 + ch. 79 闲谈 (entier) + début du ch. 80 朋友的母亲 (en-tête inline à 80 %). Lu depuis le skill glossaire-pdf-tampon — le PDF n'a pas été rouvert. Et règle systématique : ch77-app passé corrige: true AVANT tout le reste.",
+      "⭐ Le chapitre des SURNOMS : deux surnoms de Lin Mo détectés comme personnages (小林墨 par Rebecca, 小金主 par Maine) → règle des deux fiches (Term « (à ajouter à la main) » dans la section d'arrivée + « (supprimer) » dans la section de départ), exactement comme 林君 au ch. 77.",
+      "多莉欧 = Dorio : canon Edgerunners, nom chinois OFFICIEL 多莉欧 (AniBase) — l'appli a défiguré en « Dolio ». Compagne et bras droit de Maine, recoupé wiki EN + nautiljon FR. Genre : Femme (champ vide dans l'appli).",
+      "全食品工厂 = canon CP2077/Edgerunners : le wiki FR a une page « Usine All Foods » (ancien abattoir, Northside, Watson) — l'appli a mis un tiret (« All-Foods » ❌) et classé Organization alors que c'est un LIEU (cat. Location ; la corpo s'appelle All Foods Inc.).",
+      "边缘行者 : même canon que 边缘人 (ch. 58/75) = Edgerunners, UN mot — l'appli l'a cassé en « Edge-runner ». Cette forme du raw est la traduction chinoise standard du titre Edgerunners ; absente des unités 53-54, mais le Term garantit la traduction si elle revient.",
+      "暗夜精灵 : pure métaphore littéraire (« 宛如冷月下的暗夜精灵 », Rebecca sous le clair de lune) → À SUPPRIMER, pas une espèce ni un terme du monde du jeu. 1 seule occurrence dans les unités 52-54.",
+      "Les modules de Maine : 速度组件 et 神经反应组件 = descriptifs MAISON du speedware (l'auteur garde 克伦齐科夫/Kerenzikov, ch. 73, pour l'objet canon) — l'appli a traduit juste les deux, harmoniser seulement la casse (nom commun, bas de casse). « Réaction nerveuse » attesté (Glosbe).",
+      "Le chapitre : la soirée après la bataille des Désosseurs — Rebecca offre une boisson gazeuse à Lin Mo (il est allergique à l'alcool), Maine achète le 关东煮, et Maine finit par envisager d'engager Lin Mo (le Sandevistan 3 militaire lui manque)."
+    ],
+    sources: [
+      { label: "Wiki Cyberpunk FR — Usine All Foods (Northside, Watson)", url: "https://cyberpunk.fandom.com/fr/wiki/Usine_All_Foods" },
+      { label: "AniBase — Dorio (nom chinois officiel 多莉欧, compagne de Maine)", url: "https://anibase.net/fr/character/mOpeV/Dorio" },
+      { label: "Wiki Cyberpunk EN — Dorio Gunnarsdóttir", url: "https://cyberpunk.fandom.com/wiki/Dorio_Gunnarsd%C3%B3ttir" },
+      { label: "nautiljon — Dorio, membre de l'équipe de Maine (FR)", url: "https://www.nautiljon.com/persos/cyberpunk-+edgerunners/dorio.html" },
+      { label: "Larousse — mécène (personne qui aide financièrement)", url: "https://www.larousse.fr/dictionnaires/francais/m%C3%A9c%C3%A8ne/50041" },
+      { label: "Glosbe — réaction nerveuse (attestation)", url: "https://fr.glosbe.com/fr/fr/r%C3%A9action%20nerveuse" }
+    ],
+    terms: [
+      { raw: "全食品工厂", tr: "usine All Foods", cat: "Location", verdict: "corriger", auto: "Usine All-Foods ❌", canon: "All Foods Factory (canon CP2077/Edgerunners)", canonFR: "usine All Foods", action: "Corriger → usine All Foods + cat Organization → Location",
+        note: "Ancien abattoir devenu usine de nourriture synthétique du groupe All Foods, à Watson.",
+        detail: "Wiki FR : page « Usine All Foods » — « ancien abattoir situé dans la section sud-est de Northside, à Watson », lieu du jeu ET d'Edgerunners. Ici : les 关东煮 synthétiques que mange Lin Mo en sortent (« 产自全食品工厂的合成食材 »). L'appli a mis un tiret (All-Foods) et classé Organization : le raw désigne le LIEU (la corpo s'appelle All Foods Inc.). Corriger le tr ET la catégorie." },
+      { raw: "神经反应组件", tr: "module de réaction nerveuse", cat: "Technology", verdict: "harmoniser", auto: "Module de réaction nerveuse ✔", canon: "descriptif maison (l'auteur translittère Kerenzikov à part : 克伦齐科夫)", canonFR: "module de réaction nerveuse", action: "Harmoniser → module de réaction nerveuse (bas de casse)",
+        note: "Implant neuronal qui accélère les réactions du porteur, alternative au Sandevistan.",
+        detail: "Maine : il dédaigne les modules de vitesse 1-2, mais porte d'autres « 神经反应组件 » à fonction similaire pour tenir face aux porteurs de 速度组件. Terme MAISON générique — l'auteur garde 克伦齐科夫 (Kerenzikov, ch. 73) pour l'objet canon, donc pas de nom canon ici. « Réaction nerveuse » attesté (Glosbe) ; l'appli a traduit juste, harmoniser seulement la casse (nom commun)." },
+      { raw: "速度组件", tr: "module de vitesse", cat: "Technology", verdict: "harmoniser", auto: "Module de vitesse ✔", canon: "composant de vitesse du Sandevistan (types 1-2 civils, type 3 militaire)", canonFR: "module de vitesse", action: "Harmoniser → module de vitesse (bas de casse)",
+        note: "Composant de vitesse du Sandevistan : les types 1-2 sont civils, le 3 militaire.",
+        detail: "Maine convoite le Sandevistan « 3型的军用级别 » (type 3, militaire — celui de David Martinez dans Edgerunners) mais n'a pas de débouché ; les 速度组件 1 et 2 ne valent pas le coup à ses yeux. Terme maison descriptif, pas de nom canon ; l'appli a traduit juste, casse à harmoniser (nom commun). Cohérent avec module Berserk (ch. 77)." },
+      { raw: "边缘行者", tr: "Edgerunners", cat: "Title", verdict: "corriger", auto: "Edge-runner ❌", canon: "Edgerunners", canonFR: "Edgerunners", action: "Corriger → Edgerunners (un mot, majuscule)",
+        note: "Mercenaires des milieux cyber de Night City ; c'est aussi le titre de l'anime.",
+        detail: "« 边缘行者围坐在一起 » : les mercenaires autour des tables après la mission. Même canon que 边缘人 (ch. 58/75) : Edgerunners, UN mot, majuscule — l'appli l'a cassé en « Edge-runner ». Cette forme du raw (行者) est la traduction chinoise standard du titre Edgerunners ; elle n'apparaît qu'ici dans les unités 52-54, mais le Term garantit la traduction si elle revient." },
+      { raw: "小林墨 (à ajouter à la main)", tr: "Petit Lin Mo", cat: "Title", verdict: "corriger", auto: "(détecté à tort comme personnage « Petit Lin Mo »)", canon: "surnom de Rebecca pour Lin Mo", canonFR: "Petit Lin Mo", action: "Ajouter à la main (le personnage détecté est à supprimer)",
+        note: "Surnom affectueux de Rebecca pour Lin Mo ; il le trouve « pas mal ».",
+        detail: "« 以后再聊咯，小林墨！ » : Rebecca ajoute le 小 affectueux à son nom, comme Kitagawa avec 林君 (ch. 77). Lin Mo répond « 这个称呼，好像挺不错的 » (« ce surnom n'est pas mal »). PAS un personnage : le Term traduit le surnom, le personnage détecté se supprime (règle des deux fiches)." },
+      { raw: "小金主 (à ajouter à la main)", tr: "petit mécène", cat: "Title", verdict: "corriger", auto: "(détecté à tort comme personnage « Petit financier »)", canon: "surnom de Maine pour Lin Mo", canonFR: "petit mécène", action: "Ajouter à la main (le personnage détecté est à supprimer)",
+        note: "Surnom que Maine donne à Lin Mo : c'est lui qui paie les contrats.",
+        detail: "Maine, mi-taquin : « 好，我给你买，小金主 » puis « 说说看吧，小金主，没准以后我也能过上那种吃好穿好的生活 ». 金主 = celui qui finance — Larousse : mécène = « personne qui aide financièrement », syn. bienfaiteur. « Petit financier » sonne comme un métier de comptoir ; « petit mécène » garde la taquinerie. Revient dans l'unité 53 → Term utile." },
+      { raw: "暗夜精灵 (supprimer)", tr: "elfe de la nuit", cat: "Species", verdict: "corriger", auto: "Elfe de la nuit-noire (ou Elfe nocturne) ❌", canon: "—", canonFR: "—", action: "Supprimer (métaphore littéraire, pas un terme)",
+        note: "Image poétique : Rebecca sous le clair de lune, comparée à une elfe.",
+        detail: "« 被银辉渐染的肌肤让她蓦然看去宛如冷月下的暗夜精灵 » : la peau de Rebecca argentée par la lune la fait ressembler à une elfe sous la lune froide. Pure COMPARAISON d'auteur (暗夜精灵 = « night elf », le terme chinois standard des elfes de la nuit) : pas une créature du monde Cyberpunk, 1 seule occurrence dans les unités 52-54. À supprimer pour ne pas polluer le glossaire ; si l'image revient plus loin, on la recréera en Term avec « elfe de la nuit »." }
+    ],
+    characters: [
+      { raw: "多莉欧", tr: "Dorio", gender: "Female", verdict: "corriger", auto: "Dolio ❌", note: "La compagne et bras droit de Maine : grande costaud au cœur tendre.", action: "Corriger → Dorio + genre F",
+        detail: "Canon Edgerunners : Dorio, très grande et musculeuse, bras droit et petite amie de Maine (wiki EN : « Maine's right-hand and girlfriend » ; nautiljon FR : « membre de l'équipe de edgerunners menée par son petit ami Maine »). L'appli a défiguré en « Dolio » ; le nom chinois officiel est bien 多莉欧 (AniBase). Genre : Femme (champ vide dans l'appli)." },
+      { raw: "小林墨 (supprimer)", tr: "Petit Lin Mo", gender: "Male", verdict: "corriger", note: "(non-perso : surnom de Rebecca pour Lin Mo)", action: "Supprimer (créer le Term 小林墨 à la place)",
+        detail: "Pas un nouveau personnage : c'est Lin Mo lui-même, appelé affectueusement par Rebecca. Règle des deux fiches (cf. 林君, ch. 77) : supprimer le personnage + créer le Term « (à ajouter à la main) »." },
+      { raw: "小金主 (supprimer)", tr: "Petit financier", gender: "Male", verdict: "corriger", note: "(non-perso : surnom de Maine pour Lin Mo)", action: "Supprimer (créer le Term 小金主 à la place)",
+        detail: "Pas un nouveau personnage : c'est Lin Mo, le « financeur » de l'équipe selon la taquinerie de Maine. Règle des deux fiches : supprimer le personnage + créer le Term petit mécène « (à ajouter à la main) »." }
+    ]
+  },
   // ───── CH. 77 — glossaire appli (unité 51 du PDF : ch. 77 摩尔科技 + début ch. 78 TURBO餐馆) ─────
   {
     id: "ch77-app",
-    corrige: false,
+    corrige: true,
     title: "Ch. 77 — glossaire appli raw chinois (unité 51 PDF : ch. 77 摩尔科技 + début ch. 78 TURBO餐馆)",
     capture: "texte du glossaire collé par Julien (2 Characters + 18 Terms, sans captures) — texte vérifié via le skill glossaire-pdf-tampon (unité 51, sans rouvrir le PDF)",
     observations: [
