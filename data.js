@@ -15,10 +15,87 @@ const identification = {
 };
 
 const chapters = [
+  // ───── CH. 80-82 — glossaire appli (unité 53 du PDF : fin ch. 80 朋友的母亲 + ch. 81 猜想 + en-tête ch. 82 黑客小课堂) ─────
+  {
+    id: "ch81-app",
+    corrige: false,
+    title: "Ch. 80 (fin) + 81 猜想 + 82 (en-tête) — glossaire appli raw chinois (unité 53 PDF)",
+    capture: "texte du glossaire collé par Shenn (2 Characters + 13 Terms, sans captures) — confronté au corpus d'anticipation preparation-unite-53.md (skill glossaire-anticipation)",
+    observations: [
+      "📍 Règle appliquée : « glossaire suivant » = l'UNITÉ 53 complète du PDF = fin du ch. 80 朋友的母亲 + ch. 81 猜想 (entier) + en-tête du ch. 82 黑客小课堂 (intercalaire hacker à 99 %, son contenu se traitera à l'unité 54). Et règle systématique : ch79-app passé corrige: true AVANT tout le reste.",
+      "⭐ PREMIÈRE livraison avec corpus d'anticipation (preparation-unite-53.md) : la recherche était déjà faite. 3 imprévus seulement sur 15 détections : 黑客 (relié à la fiche 网络黑客 ch. 76), 小鬼头 (règle des deux fiches, non prévu) et 军用载具 (générique). Et l'appli a rendu JUSTE 9 entrées du premier coup : Gloria, Académie Arasaka, Basilisk, composants biologiques, immunosuppresseur, injecteur pneumatique, dissipateur thermique, netrunner, braindance, Lizzie's Bar.",
+      "⭐ L'auteur traduit le canon EXACT du jeu : 芳纶聚碳酸酯战斗服 = « Arasaka polycarbonate-laced bulletproof aramid vest » (item CP2077, Outer Torso), 魔蜥 = Militech Basilisk (hovertank), 散热槽 = mod « Sandevistan: Heatsink » (retiré au patch 2.0). Seule 芳纶聚碳酸酯战斗服 exige l'alignement canon.",
+      "Le chapitre : la transaction d'immunosuppresseurs derrière le TURBO (le patron est un fixeur), la révélation GLORIA (mère de David, ×177 dans le roman), Maine au-delà du seuil d'implants (lien cyberpsychose ch. 77), et l'annonce du cours de hacking de Sasha (intercalaire ch. 82).",
+      "Piège graphique tracé au corpus : l'auteur écrit 阙值 pour 阈值 (seuil) — pas flaggé ici, à surveiller aux unités suivantes.",
+      "Corrections réelles : 克伦齐科夫 → Kerenzikov (orthographe), 芳纶聚碳酸酯战斗服 → gilet pare-balles aramide doublé de polycarbonate (canon), 义体插件 → plug-ins de matériel cybernétique (l'appli avait perdu le 插件), 小鬼头 → règle des deux fiches (Term gamin + personnage à supprimer)."
+    ],
+    sources: [
+      { label: "Wiki Cyberpunk EN — Kerenzikov (cyberware Système nerveux)", url: "https://cyberpunk.fandom.com/wiki/Kerenzikov" },
+      { label: "jeuxvideo.com FR — Kerenzikov, implant cybernétique", url: "https://www.jeuxvideo.com/news/1805316/kerenzikov-cyberpunk-2077-pourquoi-equiper-cet-implant-cybernetique-legendaire-et-quel-build-faire-pour-l-optimiser.htm" },
+      { label: "Wiki Cyberpunk EN — Arasaka polycarbonate-laced bulletproof aramid vest", url: "https://cyberpunk.fandom.com/wiki/Arasaka_polycarbonate-laced_bulletproof_aramid_vest" },
+      { label: "Wiki Cyberpunk EN — Militech Basilisk (hovertank)", url: "https://cyberpunk.fandom.com/wiki/Militech_Basilisk" },
+      { label: "Wiki Cyberpunk EN — Sandevistan: Heatsink (mod)", url: "https://cyberpunk.fandom.com/wiki/Sandevistan:_Heatsink" },
+      { label: "Larousse — immunosuppresseur", url: "https://www.larousse.fr/encyclopedie/medical/immunosuppresseur/13823" },
+      { label: "cyberpunk2077.fr — Gloria Martinez (ambulancière)", url: "https://cyberpunk2077.fr/edgerunners/personnages/gloria-martinez" },
+      { label: "cyberpunk2077.fr — David Martinez (Académie Arasaka)", url: "https://cyberpunk2077.fr/edgerunners/personnages/david-martinez" },
+      { label: "emagtrends FR — dissipateur thermique Sandevistan", url: "https://emagtrends.com/fr/comment-obtenir-un-dissipateur-thermique-sandevistan-dans-cyberpunk-2077-et-ce-quil-fait/" },
+      { label: "Linguee — injecteur pneumatique", url: "https://www.linguee.com/french-english/translation/injecteur+pneumatique.html" }
+    ],
+    terms: [
+      { raw: "黑客", tr: "netrunner", cat: "Title", verdict: "garder", auto: "netrunner ✔", canon: "netrunner", canonFR: "netrunner", action: "Garder",
+        note: "Pirate du Net de l'univers Cyberpunk ; le canon FR garde netrunner.",
+        detail: "« 我想了解有关黑客的一切常识 » : Lin Mo demande à Sasha de lui enseigner tout le hacking — l'intercalaire ch. 82 黑客小课堂 arrive. Même canon que 网络黑客 (fiche ch. 76, rendu netrunner ✔ aussi) : l'appli a le bon réflexe canonique, garder tel quel." },
+      { raw: "荒坂学院", tr: "Académie Arasaka", cat: "Organization", verdict: "garder", auto: "Académie Arasaka ✔", canon: "Arasaka Academy", canonFR: "Académie Arasaka", action: "Garder",
+        note: "L'académie d'élite d'Arasaka où David étudie à prix d'or.",
+        detail: "Corpus préparé : cyberpunk2077.fr écrit « jeune étudiant brillant de l'Académie Arasaka ». L'appli a rendu le terme exact du premier coup. ×66 dans le roman : l'entrée servira encore (Gloria se saigne aux frais de scolarité)." },
+      { raw: "超梦", tr: "braindance", cat: "Technology", verdict: "garder", auto: "braindance ✔", canon: "braindance", canonFR: "braindance (gardé)", action: "Garder (fiche ch. 58 : déjà corrigée)",
+        note: "Illusion sensorielle enregistrée qu'on revit ; le canon FR garde braindance.",
+        detail: "Re-flag : la fiche ch. 58 (superdream ❌ → braindance) est corrigée dans l'appli — elle traduit désormais juste (« 在超梦里畅游了一个晚上 », la soirée braindance de David au Lizzie's). Confirmer la sauvegarde, rien à retoucher." },
+      { raw: "丽姿酒吧", tr: "Lizzie's Bar", cat: "Location", verdict: "garder", auto: "Lizzie's Bar ✔", canon: "Lizzie's Bar", canonFR: "Lizzie's Bar (gardé tel quel)", action: "Garder (fiche ch. 59)",
+        note: "Bar canon des Mox à Kabuki ; le FR du jeu garde Lizzie's Bar.",
+        detail: "Re-flag : fiche ch. 59 déjà corrigée, l'appli rend juste (l'apostrophe courbe de la capture est inoffensive). La soirée où David a découvert les braindances s'est passée là." },
+      { raw: "克伦齐科夫", tr: "Kerenzikov", cat: "Technology", verdict: "corriger", auto: "Kereznikov ❌", canon: "Kerenzikov (cyberware Système nerveux)", canonFR: "Kerenzikov", action: "Corriger → Kerenzikov (orthographe)",
+        note: "Implant du système nerveux qui ralentit le temps pour esquiver et tirer.",
+        detail: "L'appli a défiguré l'orthographe (« Kereznikov ») : le canon = Kerenzikov, cyberware de la zone Système nerveux du jeu (wiki EN + jeuxvideo.com FR « cet implant cybernétique »). Cité entre【】comme le Sandevistan : l'un des deux implants purement mécaniques de Lin Mo. Brutus en portait un (ch. 73). Corriger juste l'orthographe." },
+      { raw: "生物组件", tr: "composants biologiques", cat: "Technology", verdict: "garder", auto: "composants biologiques ✔", canon: "descriptif maison (lore : bioware vs chrome)", canonFR: "composants biologiques", action: "Garder",
+        note: "Implants biologiques appariés à l'ADN : aucun rejet, à l'inverse du chrome mécanique.",
+        detail: "Corpus préparé : ×66 dans le roman. Les parties biologiques de Lin Mo (appariées à son ADN) ne provoquent AUCUN rejet immunitaire, contrairement au Sandevistan et au Kerenzikov purement mécaniques. L'appli a rendu exactement la proposition du corpus — garder tel quel." },
+      { raw: "气动注射器", tr: "injecteur pneumatique", cat: "Technology", verdict: "garder", auto: "injecteur pneumatique ✔", canon: "descriptif (dispositif médical)", canonFR: "injecteur pneumatique", action: "Garder",
+        note: "Stylo-injecteur à pression qui pousse le produit sans aiguille.",
+        detail: "Corpus préparé (entrée ⚠️ à trancher) : l'appli a rendu pile la proposition « injecteur pneumatique » (attesté Linguee). Maine y charge la dose d'immunosuppresseur avant de se piquer le bras. Garder — ×17 dans le roman, l'entrée servira." },
+      { raw: "魔蜥", tr: "Basilisk", cat: "Technology", verdict: "garder", auto: "Basilisk ✔", canon: "Militech Basilisk (hovertank biplace)", canonFR: "Basilisk", action: "Garder (Militech en note seulement)",
+        note: "Char volant biplace de Militech, le gros véhicule militaire du jeu.",
+        detail: "Corpus préparé : l'appli a rendu « Basilisk » du premier coup (魔蜥 = basilic). Militech n'est pas nommé dans le chapitre → la marque reste en note, tr = Basilisk seul (règle Kiroshi). Cat Technology cohérente avec le précédent véhicule (古拉德跑车). « 比如说魔蜥什么的，我也能吃得下 」 : Lin Mo rêve gros, demi-blague." },
+      { raw: "军用载具", tr: "véhicule militaire", cat: "Technology", verdict: "garder", auto: "véhicule militaire ✔", canon: "générique", canonFR: "véhicule militaire", action: "Garder",
+        note: "Terme générique : chars, transports et aérodynes des armées.",
+        detail: "Le seul imprévu « banal » de la capture (pas dans le corpus) : « 如果能搞来一些军用载具，比如说魔蜥 » — la catégorie qui contient le Basilisk. Traduction déjà juste ; garder évite le re-flag, aucune recherche nécessaire." },
+      { raw: "芳纶聚碳酸酯战斗服", tr: "gilet pare-balles aramide doublé de polycarbonate", cat: "Item", verdict: "corriger", auto: "combinaison de combat en polycarbonate d'aramide ❌", canon: "Arasaka polycarbonate-laced bulletproof aramid vest (item du jeu)", canonFR: "gilet pare-balles aramide doublé de polycarbonate", action: "Corriger → gilet pare-balles aramide doublé de polycarbonate",
+        note: "Armure légère d'Arasaka, pièce du jeu ; le roman l'appelle « tenue de combat ».",
+        detail: "⭐ Corpus préparé : l'auteur traduit une pièce EXACTE du jeu — « Arasaka polycarbonate-laced bulletproof aramid vest » (Outer Torso, CP2077). 芳纶 = aramide, 聚碳酸酯 = polycarbonate, et il simplifie « vest » en 战斗服 (« tenue de combat »). L'appli a fait un littéral propre mais non canon : aligner sur l'item du jeu, comme la veste de l'École du Loup (ch. 77). Arasaka est nommé dans le chapitre (荒坂公司) donc la marque reste dans le flux du roman." },
+      { raw: "散热槽", tr: "dissipateur thermique", cat: "Technology", verdict: "garder", auto: "dissipateur thermique ✔", canon: "Sandevistan: Heatsink (mod du jeu)", canonFR: "dissipateur thermique", action: "Garder",
+        note: "Module d'évacuation de chaleur ; ici celui du Sandevistan, un mod du jeu.",
+        detail: "Corpus préparé : le mod canon s'appelle « Sandevistan: Heatsink » (retiré au patch 2.0). L'appli a flaggé 散热槽 SEUL (sans le préfixe 斯安威斯坦 de « 斯安威斯坦散热槽 ») et a rendu juste « dissipateur thermique » (attesté par les guides FR). Garder tel quel." },
+      { raw: "义体插件", tr: "plug-ins de matériel cybernétique", cat: "Technology", verdict: "corriger", auto: "implants cybernétiques ❌", canon: "descriptif maison (插件 = plug-in)", canonFR: "plug-ins de matériel cybernétique", action: "Corriger → plug-ins de matériel cybernétique",
+        note: "Extensions à greffer sur le matériel cybernétique pour l'améliorer.",
+        detail: "L'appli a rendu « implants cybernétiques » : elle a perdu le 插件 (plug-in) et repris la catégorie générale. Règle : 义体 seul = matériel cybernétique ; 义体 + 插件 = les plug-ins QUI SE GREFFENT sur le matériel (cohérent avec plug-in Berserk, ch. 77). « 他能不能帮我搞到一些义体插件 » : Lin Mo demande des modules d'extension au fixeur du TURBO." },
+      { raw: "免疫抑制剂", tr: "immunosuppresseur", cat: "Item", verdict: "garder", auto: "immunosuppresseur ✔", canon: "immunosuppresseur (Larousse)", canonFR: "immunosuppresseur", action: "Garder",
+        note: "Médicament qui supprime le rejet immunitaire des implants cybernétiques.",
+        detail: "Corpus préparé : Larousse « médicament qui atténue ou supprime les réactions immunitaires ». Le vrai nerf du chapitre : Maine s'injecte, et son visage de bien-être (« comme après un spa intégral ») révèle à Lin Mo que ce grand block dépasse largement le seuil d'implants — lien direct avec la cyberpsychose (ch. 77). L'appli a rendu le terme exact du corpus." },
+      { raw: "小鬼头 (à ajouter à la main)", tr: "gamin", cat: "Title", verdict: "corriger", auto: "(détecté à tort comme personnage « Gamin »)", canon: "surnom de Maine et du narrateur pour Lin Mo", canonFR: "gamin", action: "Ajouter à la main (le personnage détecté est à supprimer)",
+        note: "Façon dont Maine voit Lin Mo : le « gamin » riche de l'équipe.",
+        detail: "« 不过是小鬼头偶尔的感慨世俗罢了 » : dans la tête de Maine, Lin Mo reste un gamin qui philosopherait sur le monde. PAS un personnage — c'était l'imprévu de la capture. Règle des deux fiches (cf. 小金主, ch. 79) : Term « (à ajouter à la main) » + Character « (supprimer) ». 1 occurrence dans les unités 53-55 : si l'appellation revient, le Term garantit « gamin »." }
+    ],
+    characters: [
+      { raw: "葛洛莉亚", tr: "Gloria", gender: "Female", verdict: "garder", auto: "Gloria ✔", note: "Mère de David, ambulancière à Night City ; elle revend des implants d'occasion en cachette.", action: "Garder",
+        detail: "⭐ Corpus préparé : Gloria Martinez, mère de David, ambulancière (cyberpunk2077.fr « ambulancière dévouée », wiki EN EMT) — ×177 dans le roman, personnage MAJEUR, et l'appli l'a rendue juste du premier coup. Ici : la fournisseuse d'implants d'occasion de Maine. Le monde est petit : Lin Mo a déjà son numéro (obtenu auprès de David avant la soirée au Lizzie's) et n'ose pas l'appeler — il reconstitue la trajectoire canon de David (accident de Gloria, arrêt des études, légende)." },
+      { raw: "小鬼头 (supprimer)", tr: "Gamin", gender: "Male", verdict: "corriger", note: "(non-perso : Maine et le narrateur parlant de Lin Mo)", action: "Supprimer (créer le Term 小鬼头 à la place)",
+        detail: "Pas un personnage : c'est Lin Mo vu par Maine (« le gamin »). Règle des deux fiches : supprimer le personnage + créer le Term « (à ajouter à la main) »." }
+    ]
+  },
   // ───── CH. 78-80 — glossaire appli (unité 52 du PDF : fin ch. 78 TURBO餐馆 + ch. 79 闲谈 + début ch. 80 朋友的母亲) ─────
   {
     id: "ch79-app",
-    corrige: false,
+    corrige: true,
     title: "Ch. 78 (fin) + 79 闲谈 + 80 (début) — glossaire appli raw chinois (unité 52 PDF)",
     capture: "texte du glossaire collé par Shenn (3 Characters + 6 Terms, sans captures) — texte vérifié via le skill glossaire-pdf-tampon (unité 52, sans rouvrir le PDF)",
     observations: [
