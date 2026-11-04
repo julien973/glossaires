@@ -242,20 +242,8 @@ tr.grow.alt:hover { background: var(--acc-soft); }
   .hero { padding: 20px 18px 16px; }
   .tb-actions { margin-left: 0; }
 }
-.done-btn { font-weight: 700; }
-.done-btn.done { background: var(--grn-bg); color: var(--grn); border-color: var(--grn-br); }
 tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 .badge.dup { background: var(--man-bg); color: var(--man-ink); border: 1px solid var(--man-br); margin-left: 5px; }
-.modal-ov { position: fixed; inset: 0; z-index: 40; background: rgba(2,6,14,.74); display: flex;
-  align-items: center; justify-content: center; padding: 18px; }
-.modal-card { background: var(--surface); border: 1px solid var(--border-strong); border-radius: 16px;
-  box-shadow: var(--shadow-md); padding: 18px 20px; max-width: 560px; width: 100%;
-  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
-.modal-card h3 { margin: 0 0 10px; }
-.modal-ta { width: 100%; min-height: 110px; font: inherit; font-size: 13px; border-radius: 10px;
-  border: 1px solid var(--btn-border); background: var(--btn-bg); color: var(--ink);
-  padding: 10px; box-sizing: border-box; resize: vertical; }
-.modal-row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px; }
 </style>
 </head>
 <body class="night">
@@ -289,7 +277,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 <script id="app">
 (function () {
   "use strict";
-  var VERSION = "v2.2";
+  var VERSION = "v2.3";
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -304,18 +292,11 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
   function lsGet(k) { try { return localStorage.getItem(k); } catch (_) { return (k in memStore) ? memStore[k] : null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (_) { memStore[k] = v; } }
 
-  // ── Fiches cochées « corrigé » (par roman, clé = raw : un terme coché l'est partout) ──
-  var doneSet = {};
+  // ── État « corrigé » : porté par les DONNÉES (drapeau corrige sur chaque chapitre) ──
+  // Mis à jour par Vibe dans le canvas atelier à chaque « glossaire suivant », puis poussé :
+  // visible sur tous les appareils, versionné git — rien à cocher côté lecteur.
   var curRomanId = (typeof ROMANS !== "undefined" && ROMANS && ROMANS.length) ? ROMANS[0].id : "";
   var curData = null, curRoman = null;
-  function loadDone(id) {
-    doneSet = {}; curRomanId = id;
-    var raw = lsGet("gloss-done-" + id);
-    if (!raw) return;
-    try { var arr = JSON.parse(raw); if (arr) arr.forEach(function (r) { if (typeof r === "string") doneSet[r] = 1; }); } catch (_) {}
-  }
-  function saveDone() { lsSet("gloss-done-" + curRomanId, JSON.stringify(Object.keys(doneSet))); }
-  function doneCount() { return Object.keys(doneSet).length; }
 
   // ── Chapitres dépliés (par roman, mémorisés sur l'appareil) ──
   function loadOpen(id) {
@@ -335,39 +316,6 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     });
   }
   function dupRawCount() { var n = 0; for (var k in dupMap) if (dupMap[k] > 1) n++; return n; }
-
-  // ── Restaurer une sauvegarde (coller le code exporté d'un autre appareil) ──
-  function openRestore() {
-    var ov = el("div", "modal-ov");
-    var card = el("div", "modal-card");
-    card.appendChild(el("h3", null, "📥 Restaurer tes fiches cochées"));
-    var ta = el("textarea", "modal-ta");
-    ta.placeholder = "Colle ici le code « 📤 Exporter mes ✔ » (pour récupérer tes ✔ d'un autre appareil).";
-    card.appendChild(ta);
-    var row = el("div", "modal-row");
-    var bOk = el("button", "pill", "✔ Restaurer");
-    bOk.type = "button";
-    var bNo = el("button", "pill", "✖ Annuler");
-    bNo.type = "button";
-    row.appendChild(bOk); row.appendChild(bNo);
-    card.appendChild(row);
-    ov.appendChild(card);
-    function close() { try { document.body.removeChild(ov); } catch (_) {} }
-    ov.addEventListener("click", function (ev) { if (ev.target === ov) close(); });
-    bNo.addEventListener("click", close);
-    bOk.addEventListener("click", function () {
-      var txt = (ta.value || "").trim();
-      close();
-      if (!txt) return;
-      try {
-        var arr = JSON.parse(txt);
-        if (arr) arr.forEach(function (r) { if (typeof r === "string") doneSet[r] = 1; });
-        saveDone();
-        renderAll(curData, curRoman, state);
-      } catch (_) {}
-    });
-    document.body.appendChild(ov);
-  }
 
   // ── Copie ──
   function copyText(t, btn) {
@@ -407,15 +355,23 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 
   // ── Stats ──
   function computeStats(data) {
-    var s = { chapters: data.chapters.length, terms: 0, chars: 0, corriger: 0, harmoniser: 0, garder: 0 };
+    var s = { chapters: data.chapters.length, terms: 0, chars: 0, corriger: 0, harmoniser: 0, garder: 0, corrigees: 0, fixTodo: 0, fixC: 0, fixH: 0 };
     data.chapters.forEach(function (ch) {
       s.terms += ch.terms.length;
       s.chars += ch.characters.length;
-      ch.terms.concat(ch.characters).forEach(function (e) {
+      var all = ch.terms.concat(ch.characters);
+      all.forEach(function (e) {
         if (e.verdict === "corriger") s.corriger++;
         else if (e.verdict === "harmoniser") s.harmoniser++;
         else s.garder++;
       });
+      if (ch.corrige) { s.corrigees += all.length; }
+      else {
+        all.forEach(function (e) {
+          if (e.verdict === "corriger") { s.fixTodo++; s.fixC++; }
+          else if (e.verdict === "harmoniser") { s.fixTodo++; s.fixH++; }
+        });
+      }
     });
     s.total = s.terms + s.chars;
     return s;
@@ -425,9 +381,9 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
   var expanders = []; // callbacks d'ouverture des lignes de détails de ce rendu
   var chapterTogglers = []; // contrôleurs de repli des chapitres de ce rendu
 
-  function tableNode(items, isChar, label, st) {
-    var onlyFix = st.onlyFix, hideDone = st.hideDone;
-    var list = items.filter(function (e) { return (!onlyFix || e.verdict !== "garder") && (!hideDone || !doneSet[e.raw]); });
+  function tableNode(items, isChar, label, st, done) {
+    var onlyFix = st.onlyFix;
+    var list = items.filter(function (e) { return !onlyFix || e.verdict !== "garder"; });
     var wrap = el("div");
     wrap.appendChild(el("div", "tbl-title", label + " (" + list.length + (onlyFix && list.length !== items.length ? "/" + items.length : "") + ")"));
     if (!list.length) { wrap.appendChild(el("div", "sub", "— aucun —")); return wrap; }
@@ -458,8 +414,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     var tbody = el("tbody");
     list.forEach(function (e, i) {
       // ligne principale
-      var isDone = !!doneSet[e.raw];
-      var tr = el("tr", "grow" + (i % 2 ? " alt" : "") + (isDone ? " done" : ""));
+      var tr = el("tr", "grow" + (i % 2 ? " alt" : "") + (done ? " done" : ""));
       tr.appendChild(el("td", "td-x", "▸"));
       var tdR = el("td", "td-raw", e.raw);
       tdR.appendChild(cpyBtn("Copier le raw", function () { return e.raw; }));
@@ -484,16 +439,6 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
       var tdV = el("td");
       tdV.appendChild(verdictBadge(e.verdict));
       if (e.manual) tdV.appendChild(el("span", "badge man", "✋"));
-      var dBtn = el("button", "cpy done-btn" + (isDone ? " done" : ""), isDone ? "☑" : "☐");
-      dBtn.type = "button";
-      dBtn.title = isDone ? "Fiche corrigée — cliquer pour décocher" : "Cliquer quand tu as corrigé cette fiche dans l'appli";
-      dBtn.addEventListener("click", function (ev) {
-        ev.stopPropagation();
-        if (doneSet[e.raw]) delete doneSet[e.raw]; else doneSet[e.raw] = 1;
-        saveDone();
-        renderAll(curData, curRoman, st);
-      });
-      tdV.appendChild(dBtn);
       tr.appendChild(tdV);
       // ligne de détails (dépliable)
       var dtr = el("tr", "det-row");
@@ -533,8 +478,9 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 
   // ── Chapitre ──
   function chapterNode(ch, st) {
-    var onlyFix = st.onlyFix, hideDone = st.hideDone;
-    var keep = function (e) { return (!onlyFix || e.verdict !== "garder") && (!hideDone || !doneSet[e.raw]); };
+    if (st.hideDone && ch.corrige) return null;
+    var onlyFix = st.onlyFix;
+    var keep = function (e) { return !onlyFix || e.verdict !== "garder"; };
     var terms = ch.terms.filter(keep);
     var chars = ch.characters.filter(keep);
     if (!terms.length && !chars.length) return null;
@@ -548,7 +494,8 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     head.appendChild(chev);
     head.appendChild(el("h2", "ch-title", ch.title));
     head.appendChild(el("span", "cnt", (ch.terms.length + ch.characters.length) + " fiches"));
-    if (nfix) head.appendChild(el("span", "badge fixc", "⚠ " + nfix + " à corriger"));
+    if (ch.corrige) head.appendChild(el("span", "badge v-garder", "✔ Corrigé"));
+    else if (nfix) head.appendChild(el("span", "badge fixc", "⚠ " + nfix + " à corriger"));
     head.appendChild(el("div", "ch-cap", "📸 " + ch.capture));
     card.appendChild(head);
     var body = el("div", "ch-body");
@@ -562,8 +509,8 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
       d.appendChild(box);
       body.appendChild(d);
     }
-    body.appendChild(tableNode(ch.terms, false, "Termes", st));
-    body.appendChild(tableNode(ch.characters, true, "Personnages", st));
+    body.appendChild(tableNode(ch.terms, false, "Termes", st, !!ch.corrige));
+    body.appendChild(tableNode(ch.characters, true, "Personnages", st, !!ch.corrige));
     if (ch.sources && ch.sources.length) {
       var sTitle = el("div", "tbl-title", "Sources");
       body.appendChild(sTitle);
@@ -616,19 +563,19 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     kpis.appendChild(kpi("Chapitres", s.chapters));
     kpis.appendChild(kpi("Termes", s.terms));
     kpis.appendChild(kpi("Personnages", s.chars));
-    kpis.appendChild(kpi("À corriger", s.corriger + s.harmoniser, "⚠ " + s.corriger + " corriger · ↻ " + s.harmoniser + " harmoniser"));
-    kpis.appendChild(kpi("✔ Corrigées", doneCount(), "cochées par toi"));
+    kpis.appendChild(kpi("À corriger", s.fixTodo, "⚠ " + s.fixC + " corriger · ↻ " + s.fixH + " harmoniser"));
+    kpis.appendChild(kpi("✔ Corrigées", s.corrigees, "marquées par Vibe"));
     kpis.appendChild(kpi("⧉ Doublons", dupRawCount(), "termes en double"));
-    // barre de progression (tes fiches cochées)
+    // barre de progression (chapitres corrigés dans les données)
     var kb = clear($("kbar"));
     var wh = el("div", "win-head");
-    wh.appendChild(el("span", "win-title", "✅ Ta progression de correction"));
-    wh.appendChild(el("span", "sub", doneCount() + " / " + s.total + " fiches"));
+    wh.appendChild(el("span", "win-title", "✅ Progression du chantier"));
+    wh.appendChild(el("span", "sub", s.corrigees + " / " + s.total + " fiches"));
     kb.appendChild(wh);
-    kb.appendChild(el("div", "win-sub", "Coche ☑ chaque fiche corrigée dans l'appli — " + s.garder + " « garder » · " + (s.corriger + s.harmoniser) + " à corriger. Tes ✔ restent sur cet appareil (📤 pour les transférer)."));
+    kb.appendChild(el("div", "win-sub", "Chapitres marqués ✔ corrigés automatiquement à chaque « glossaire suivant » — rien à cocher. " + s.garder + " « garder » · " + (s.corriger + s.harmoniser) + " corrections livrées au total."));
     var bar = el("div", "win-bar");
     var fill = el("i");
-    fill.style.width = (s.total ? Math.round(doneCount() / s.total * 100) : 0) + "%";
+    fill.style.width = (s.total ? Math.round(s.corrigees / s.total * 100) : 0) + "%";
     bar.appendChild(fill);
     kb.appendChild(bar);
     // contrôles
@@ -665,21 +612,6 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     bHide.type = "button";
     bHide.addEventListener("click", function () { st.hideDone = !st.hideDone; renderAll(data, roman, st); });
     c.appendChild(bHide);
-    var bExp = el("button", "pill", "📤 Exporter mes ✔");
-    bExp.type = "button";
-    bExp.addEventListener("click", function () { copyText(JSON.stringify(Object.keys(doneSet)), bExp); });
-    c.appendChild(bExp);
-    var bImp = el("button", "pill", "📥 Restaurer");
-    bImp.type = "button";
-    bImp.addEventListener("click", openRestore);
-    c.appendChild(bImp);
-    var bRst = el("button", "pill", "↺ Tout décocher");
-    bRst.type = "button";
-    bRst.addEventListener("click", function () {
-      if (doneCount() && typeof confirm === "function" && !confirm("Décocher TOUTES les fiches cochées de ce roman ?")) return;
-      doneSet = {}; saveDone(); renderAll(data, roman, st);
-    });
-    c.appendChild(bRst);
     // navigation chapitres
     var nav = clear($("chNav"));
     data.chapters.forEach(function (ch) {
@@ -753,7 +685,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     if (!r) r = ROMANS[0];
     buildPills(r.id);
     try { localStorage.setItem("gloss-roman", r.id); } catch (_) {}
-    loadDone(r.id);
+    curRomanId = r.id;
     loadOpen(r.id);
     clear($("chapters"));
     $("loading").style.display = "";
@@ -808,7 +740,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
   }
 
   // API pour tests (harnais) — ne pas utiliser ailleurs.
-  window.__GLOSS = { renderAll: renderAll, computeStats: computeStats, VERSION: VERSION, doneCount: doneCount, dupRawCount: dupRawCount, loadDone: loadDone, loadOpen: loadOpen, exportDone: function () { return JSON.stringify(Object.keys(doneSet)); }, importDone: function (txt) { try { var a = JSON.parse(txt); if (a) a.forEach(function (x) { if (typeof x === "string") doneSet[x] = 1; }); saveDone(); } catch (_) {} }, isOpen: function (id) { return !!state.open[id]; }, openCount: function () { return Object.keys(state.open).length; }, storeGet: function (k) { return lsGet(k); } };
+  window.__GLOSS = { renderAll: renderAll, computeStats: computeStats, VERSION: VERSION, dupRawCount: dupRawCount, loadOpen: loadOpen, isOpen: function (id) { return !!state.open[id]; }, openCount: function () { return Object.keys(state.open).length; }, storeGet: function (k) { return lsGet(k); } };
 })();
 </script>
 </body>

@@ -18,6 +18,7 @@ const chapters = [
   // ───── CH. 75 — glossaire appli (raw chinois) : la correction complète ─────
   {
     id: "ch75-app",
+    corrige: true,
     title: "Ch. 75 — glossaire appli raw chinois : la correction",
     capture: "captures IMG_9129-9132 (onglets Characters + Terms) + chapitre collé par Julien",
     observations: [
@@ -117,6 +118,7 @@ const chapters = [
   // ─────────── CH. 60, suite 4 — après-bataille (ch. 74-75 raw chinois) ───────────
   {
     id: "ch60-4",
+    corrige: true,
     title: "Ch. 60, suite 4 — l'après-bataille (= ch. 74-75 du raw chinois)",
     capture: "texte EN collé au chat + vérification raw chinois (ch. 74 fin + 75)",
     observations: [
@@ -174,6 +176,7 @@ const chapters = [
   // ───────────────────────── CH. 60, suite 3 ─────────────────────────
   {
     id: "ch60-3",
+    corrige: true,
     title: "Ch. 60, suite 3 — la bataille de l'usine",
     capture: "captures IMG_9127 / IMG_9128",
     observations: [
@@ -230,6 +233,7 @@ const chapters = [
   // ───────────────────────── CH. 60, suite 2 ─────────────────────────
   {
     id: "ch60-2",
+    corrige: true,
     title: "Ch. 60, suite 2 — affrontement avec Brutus",
     capture: "captures IMG_9125 / IMG_9126",
     observations: [
@@ -293,6 +297,7 @@ const chapters = [
   // ───────────────────────── CH. 60, suite ─────────────────────────
   {
     id: "ch60-1",
+    corrige: true,
     title: "Ch. 60, suite — Sandevistan en action",
     capture: "capture IMG_9116",
     observations: [
@@ -327,6 +332,7 @@ const chapters = [
   // ───────────────────────── CH. 60 ─────────────────────────
   {
     id: "ch60",
+    corrige: true,
     title: "Ch. 60 — infiltration, suite",
     capture: "capture IMG_9111",
     observations: [
@@ -365,6 +371,7 @@ const chapters = [
   // ───────────────────────── CH. 59 ─────────────────────────
   {
     id: "ch59",
+    corrige: true,
     title: "Ch. 59 — infiltration",
     capture: "suite du ch. 58",
     observations: [
@@ -403,6 +410,7 @@ const chapters = [
   // ───────────────────────── CH. 58 ─────────────────────────
   {
     id: "ch58",
+    corrige: true,
     title: "Ch. 58 « Prélude »",
     capture: "texte tapé par Julien",
     observations: [
@@ -457,6 +465,7 @@ const chapters = [
   // ───────────────────────── CH. 2 ─────────────────────────
   {
     id: "ch2",
+    corrige: true,
     title: "Ch. 2 — équipe de Maine",
     capture: "onglets Characters + Terms",
     observations: [
@@ -521,6 +530,7 @@ const chapters = [
   // ───────────────────────── CH. 1 ─────────────────────────
   {
     id: "ch1",
+    corrige: true,
     title: "Ch. 1 — onglet Terms",
     capture: "premier glossaire envoyé",
     observations: [
