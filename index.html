@@ -167,6 +167,8 @@ a:hover { text-decoration: underline; }
 .ch-cap { color: var(--muted); font-size: .8rem; width: 100%; margin-top: 2px; }
 .ch-head .fixc { margin-left: auto; }
 .ch-body { padding: 14px 16px 16px; }
+.ch-head { cursor: pointer; user-select: none; }
+.ch-chev { display: inline-block; color: var(--cy); font-size: 1rem; min-width: 14px; }
 .ch-obs { margin-bottom: 12px; }
 .ch-obs .obs-box { border: 1px dashed var(--card-border); border-radius: 12px; padding: 10px 14px;
   margin-top: 8px; background: var(--det-bg); }
@@ -281,13 +283,13 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 </main>
 <footer class="botbar"><div class="botbar-inner">
   <span id="bbLeft">📚 Glossaires</span>
-  <span class="bb-ver" id="bbVer">v2.1</span>
+  <span class="bb-ver" id="bbVer">v2.2</span>
 </div><i id="progress" aria-hidden="true"></i></footer>
 <script src="romans.js"></script>
 <script id="app">
 (function () {
   "use strict";
-  var VERSION = "v2.1";
+  var VERSION = "v2.2";
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -314,6 +316,15 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
   }
   function saveDone() { lsSet("gloss-done-" + curRomanId, JSON.stringify(Object.keys(doneSet))); }
   function doneCount() { return Object.keys(doneSet).length; }
+
+  // ── Chapitres dépliés (par roman, mémorisés sur l'appareil) ──
+  function loadOpen(id) {
+    state.open = {};
+    var raw = lsGet("gloss-open-" + id);
+    if (!raw) return;
+    try { var arr = JSON.parse(raw); if (arr) arr.forEach(function (c) { if (typeof c === "string") state.open[c] = 1; }); } catch (_) {}
+  }
+  function saveOpen(map) { lsSet("gloss-open-" + curRomanId, JSON.stringify(Object.keys(map || state.open))); }
 
   // ── Doublons : occurrences de chaque raw dans le roman courant ──
   var dupMap = {};
@@ -412,8 +423,10 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 
   // ── Tableau d'un chapitre (termes ou personnages) ──
   var expanders = []; // callbacks d'ouverture des lignes de détails de ce rendu
+  var chapterTogglers = []; // contrôleurs de repli des chapitres de ce rendu
 
-  function tableNode(items, isChar, label, onlyFix, hideDone) {
+  function tableNode(items, isChar, label, st) {
+    var onlyFix = st.onlyFix, hideDone = st.hideDone;
     var list = items.filter(function (e) { return (!onlyFix || e.verdict !== "garder") && (!hideDone || !doneSet[e.raw]); });
     var wrap = el("div");
     wrap.appendChild(el("div", "tbl-title", label + " (" + list.length + (onlyFix && list.length !== items.length ? "/" + items.length : "") + ")"));
@@ -478,7 +491,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
         ev.stopPropagation();
         if (doneSet[e.raw]) delete doneSet[e.raw]; else doneSet[e.raw] = 1;
         saveDone();
-        renderAll(curData, curRoman, state);
+        renderAll(curData, curRoman, st);
       });
       tdV.appendChild(dBtn);
       tr.appendChild(tdV);
@@ -519,7 +532,8 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
   }
 
   // ── Chapitre ──
-  function chapterNode(ch, onlyFix, hideDone) {
+  function chapterNode(ch, st) {
+    var onlyFix = st.onlyFix, hideDone = st.hideDone;
     var keep = function (e) { return (!onlyFix || e.verdict !== "garder") && (!hideDone || !doneSet[e.raw]); };
     var terms = ch.terms.filter(keep);
     var chars = ch.characters.filter(keep);
@@ -529,7 +543,11 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     var card = el("section", "chapter");
     card.id = ch.id;
     var head = el("div", "ch-head");
+    head.title = "Cliquer pour déplier / replier ce chapitre";
+    var chev = el("span", "ch-chev", st.open[ch.id] ? "▾" : "▸");
+    head.appendChild(chev);
     head.appendChild(el("h2", "ch-title", ch.title));
+    head.appendChild(el("span", "cnt", (ch.terms.length + ch.characters.length) + " fiches"));
     if (nfix) head.appendChild(el("span", "badge fixc", "⚠ " + nfix + " à corriger"));
     head.appendChild(el("div", "ch-cap", "📸 " + ch.capture));
     card.appendChild(head);
@@ -544,11 +562,11 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
       d.appendChild(box);
       body.appendChild(d);
     }
-    body.appendChild(tableNode(ch.terms, false, "Termes", onlyFix, hideDone));
-    body.appendChild(tableNode(ch.characters, true, "Personnages", onlyFix, hideDone));
+    body.appendChild(tableNode(ch.terms, false, "Termes", st));
+    body.appendChild(tableNode(ch.characters, true, "Personnages", st));
     if (ch.sources && ch.sources.length) {
-      var st = el("div", "tbl-title", "Sources");
-      body.appendChild(st);
+      var sTitle = el("div", "tbl-title", "Sources");
+      body.appendChild(sTitle);
       var sr = el("div", "srcs");
       ch.sources.forEach(function (s) {
         var a = el("a", null, s.label);
@@ -558,12 +576,25 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
       body.appendChild(sr);
     }
     card.appendChild(body);
+    function setOpen(v) {
+      body.style.display = v ? "" : "none";
+      chev.textContent = v ? "▾" : "▸";
+    }
+    setOpen(!!st.open[ch.id]);
+    head.addEventListener("click", function () {
+      var nv = !st.open[ch.id];
+      if (nv) st.open[ch.id] = 1; else delete st.open[ch.id];
+      saveOpen(st.open);
+      setOpen(nv);
+    });
+    chapterTogglers.push({ id: ch.id, setOpen: setOpen });
     return card;
   }
 
   // ── Rendu complet d'un roman ──
-  function renderAll(data, roman, state) {
+  function renderAll(data, roman, st) {
     expanders = [];
+    chapterTogglers = [];
     curData = data; curRoman = roman;
     buildDupMap(data);
     var s = computeStats(data);
@@ -602,21 +633,37 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     kb.appendChild(bar);
     // contrôles
     var c = clear($("controls"));
-    var bFix = el("button", state.onlyFix ? "pill on" : "pill", state.onlyFix ? "☑ Corrections seulement" : "☐ Corrections seulement");
+    var bFix = el("button", st.onlyFix ? "pill on" : "pill", st.onlyFix ? "☑ Corrections seulement" : "☐ Corrections seulement");
     bFix.type = "button";
-    bFix.addEventListener("click", function () { state.onlyFix = !state.onlyFix; renderAll(data, roman, state); });
+    bFix.addEventListener("click", function () { st.onlyFix = !st.onlyFix; renderAll(data, roman, st); });
     c.appendChild(bFix);
-    var bAll = el("button", "pill", "▼ Tout déplier");
-    bAll.type = "button";
+    var bChO = el("button", "pill", "📖 Tout ouvrir");
+    bChO.type = "button"; bChO.title = "Déplier tous les chapitres";
+    bChO.addEventListener("click", function () {
+      data.chapters.forEach(function (ch) { st.open[ch.id] = 1; });
+      saveOpen(st.open);
+      chapterTogglers.forEach(function (t) { t.setOpen(true); });
+    });
+    c.appendChild(bChO);
+    var bChC = el("button", "pill", "📕 Tout replier");
+    bChC.type = "button"; bChC.title = "Replier tous les chapitres";
+    bChC.addEventListener("click", function () {
+      st.open = {};
+      saveOpen(st.open);
+      chapterTogglers.forEach(function (t) { t.setOpen(false); });
+    });
+    c.appendChild(bChC);
+    var bAll = el("button", "pill", "▼ Déplier fiches");
+    bAll.type = "button"; bAll.title = "Déplier le détail de toutes les fiches affichées";
     bAll.addEventListener("click", function () { expanders.forEach(function (f) { f(true); }); });
     c.appendChild(bAll);
-    var bNone = el("button", "pill", "▲ Tout replier");
-    bNone.type = "button";
+    var bNone = el("button", "pill", "▲ Replier fiches");
+    bNone.type = "button"; bNone.title = "Replier le détail de toutes les fiches";
     bNone.addEventListener("click", function () { expanders.forEach(function (f) { f(false); }); });
     c.appendChild(bNone);
-    var bHide = el("button", state.hideDone ? "pill on" : "pill", state.hideDone ? "☑ Cacher les corrigées" : "☐ Cacher les corrigées");
+    var bHide = el("button", st.hideDone ? "pill on" : "pill", st.hideDone ? "☑ Cacher les corrigées" : "☐ Cacher les corrigées");
     bHide.type = "button";
-    bHide.addEventListener("click", function () { state.hideDone = !state.hideDone; renderAll(data, roman, state); });
+    bHide.addEventListener("click", function () { st.hideDone = !st.hideDone; renderAll(data, roman, st); });
     c.appendChild(bHide);
     var bExp = el("button", "pill", "📤 Exporter mes ✔");
     bExp.type = "button";
@@ -630,7 +677,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     bRst.type = "button";
     bRst.addEventListener("click", function () {
       if (doneCount() && typeof confirm === "function" && !confirm("Décocher TOUTES les fiches cochées de ce roman ?")) return;
-      doneSet = {}; saveDone(); renderAll(data, roman, state);
+      doneSet = {}; saveDone(); renderAll(data, roman, st);
     });
     c.appendChild(bRst);
     // navigation chapitres
@@ -638,6 +685,11 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     data.chapters.forEach(function (ch) {
       var a = el("a", "chpill", ch.title.split(/[—–]/)[0].trim());
       a.href = "#" + ch.id;
+      a.addEventListener("click", function () {
+        st.open[ch.id] = 1;
+        saveOpen(st.open);
+        chapterTogglers.forEach(function (t) { if (t.id === ch.id) t.setOpen(true); });
+      });
       nav.appendChild(a);
     });
     // identification
@@ -649,7 +701,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     // chapitres
     var holder = clear($("chapters"));
     data.chapters.forEach(function (ch) {
-      var n = chapterNode(ch, state.onlyFix, state.hideDone);
+      var n = chapterNode(ch, st);
       if (n) holder.appendChild(n);
     });
     // à suivre
@@ -684,7 +736,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     document.head.appendChild(s);
   }
 
-  var state = { onlyFix: false, hideDone: false };
+  var state = { onlyFix: false, hideDone: false, open: {} };
   function buildPills(activeId) {
     var nav = clear($("tbRomans"));
     ROMANS.forEach(function (r) {
@@ -702,6 +754,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     buildPills(r.id);
     try { localStorage.setItem("gloss-roman", r.id); } catch (_) {}
     loadDone(r.id);
+    loadOpen(r.id);
     clear($("chapters"));
     $("loading").style.display = "";
     $("loading").textContent = "⏳ Chargement du roman…";
@@ -755,7 +808,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
   }
 
   // API pour tests (harnais) — ne pas utiliser ailleurs.
-  window.__GLOSS = { renderAll: renderAll, computeStats: computeStats, VERSION: VERSION, doneCount: doneCount, dupRawCount: dupRawCount, loadDone: loadDone, exportDone: function () { return JSON.stringify(Object.keys(doneSet)); }, importDone: function (txt) { try { var a = JSON.parse(txt); if (a) a.forEach(function (x) { if (typeof x === "string") doneSet[x] = 1; }); saveDone(); } catch (_) {} } };
+  window.__GLOSS = { renderAll: renderAll, computeStats: computeStats, VERSION: VERSION, doneCount: doneCount, dupRawCount: dupRawCount, loadDone: loadDone, loadOpen: loadOpen, exportDone: function () { return JSON.stringify(Object.keys(doneSet)); }, importDone: function (txt) { try { var a = JSON.parse(txt); if (a) a.forEach(function (x) { if (typeof x === "string") doneSet[x] = 1; }); saveDone(); } catch (_) {} }, isOpen: function (id) { return !!state.open[id]; }, openCount: function () { return Object.keys(state.open).length; }, storeGet: function (k) { return lsGet(k); } };
 })();
 </script>
 </body>
