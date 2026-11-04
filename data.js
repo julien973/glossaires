@@ -15,10 +15,70 @@ const identification = {
 };
 
 const chapters = [
+  // ───── CH. 84-85 — glossaire appli (unité 55 du PDF : PS fin ch. 83 + ch. 84 黑客知识简述 + début ch. 85 四眼仔) ─────
+  {
+    id: "ch85-app",
+    corrige: false,
+    title: "Ch. 84 黑客知识简述 + début 85 四眼仔 — glossaire appli raw chinois (unité 55 PDF)",
+    capture: "texte du glossaire collé par Shenn (3 Characters + 5 Terms) — confronté au corpus d'anticipation preparation-unite-55.md",
+    observations: [
+      "🔥 5e livraison consécutive sur corpus d'anticipation : 8 détections, TOUTES couvertes par le corpus (四眼仔 flaggé en Character → règle des deux fiches, prévue au brouillon). L'appli de Shenn continue d'exceller : Faraday ✔, Kiwi ✔, Court-circuit ✔ (nom FR vanilla exact). RÈGLE COMPÉTENCES APPLIQUÉE (3e raffinement) : question posée à Shenn AVANT livraison → 电磁短路 = Court-circuit (FR), 义体故障 = Dysfonctionnement du cyberware (FR).",
+      "📍 Le PS de fin ch. 83 pose l'abréviation OFFICIELLE : 【快速破解组件】→【破解组件】 « 以后还是省略成【破解组件】吧 ». Le raw 破解组件 n'apparaît PAS encore seul dans cette unité (le ch. 84 dit encore 快速破解组件 ×4, déjà fiché) → fiche à créer dès sa première apparition réelle (unité 56+), tr = composant de piratage rapide (harmonisé). Tracé dans le corpus 56.",
+      "⚠️ Non-flaggés par l'appli bien que présents dans l'unité : 雪佛利 (×1, la violette de Faraday — risque de fuzzy « Chevrolet » : fiche maison créée), 巫毒帮 (×1, daemon 逐光者 — fiche maison créée), RAM (×4, reste tel quel), 智力属性 (attribut), 脑后神经插管 (prise neurale cervicale), 局域网/数据链 (génériques réseau). Si Shenn voit encore du chinois à ces mots dans son texte, il le dira.",
+      "⭐ L'intercalaire ch. 84 = le chapitre le plus DENSE en vocabulaire hacker du roman : définitions MAISON de l'auteur (RAM = barre de mana, 网络接入仓 = bâton du mage, 魔偶 = les sorts, quickhacks = casts instantanés). Cameos de définition : Kiwi utilise 系统重置 sur Rebecca (l'autorisation de coéquipier = piratage sans limites), les Voodoo Boys implantent 逐光者 à V sans qu'il le sente.",
+      "⭐ Révélation narrative du début ch. 85 : Lin Mo ne peut PAS toucher au deck de Bartmoss (virus trop fort, Intelligence 4) → seul un build hacker façon V pourra le purger : l'arc deck est verrouillé. Et entrée de Faraday, fixer de la zone (Chevillon violette, 3 义眼 serpents) : mission confidentielle à trois (Maine, Sasha, Lin Mo) — l'arc Edgerunners se referme sur l'équipe canon.",
+    ],
+    sources: [
+      { label: "fandom EN — Faraday (fixer, antagoniste principal d'Edgerunners)", url: "https://cyberpunk.fandom.com/wiki/Faraday" },
+      { label: "fandom EN — Kiwi (netrunner de l'équipe de Maine)", url: "https://cyberpunk.fandom.com/wiki/Kiwi" },
+      { label: "fandom EN — Chevillon (constructeur, Emperor 620 Ragnar)", url: "https://cyberpunk.fandom.com/wiki/Chevillon" },
+      { label: "fandom EN — Voodoo Boys", url: "https://cyberpunk.fandom.com/wiki/Voodoo_Boys" },
+      { label: "playnews — tier list FR quickhacks patch 2.3 (Court-circuit, Dysfonctionnement du cyberware)", url: "https://www.playnews.gg/guides/cyberpunk-2077-tier-list-des-quickhacks-netrunner-patch-2-3" },
+      { label: "fandom EN — Short Circuit", url: "https://cyberpunk.fandom.com/wiki/Short_Circuit" },
+      { label: "fandom EN — Personal Link (prise neurale)", url: "https://cyberpunk.fandom.com/wiki/Personal_Link" },
+      { label: "IGN — I Walk the Line (le daemon des VDB implanté à V)", url: "https://www.ign.com/wikis/cyberpunk-2077/I_Walk_the_Line_Walkthrough" },
+      { label: "Hello Night City — les fixeurs", url: "https://www.hellonightcity.fr/fixers" },
+      { label: "Reddit lore — chaises de plongée vs bains de glace", url: "https://www.reddit.com/r/cyberpunkgame/comments/1myps3y/lore_question_on_net_deep_dive/" }
+    ],
+    terms: [
+      { raw: "中间人", tr: "fixeur", cat: "Title", verdict: "corriger", auto: "Fixer ❌", canon: "fixer", canonFR: "fixeur", action: "Corriger → fixeur + bas de casse",
+        note: "Intermédiaire entre mercenaires et clients : il fournit missions et infos.",
+        detail: "Usage FR du jeu : « fixeur » (Hello Night City « les fixeurs », guides FR ; le wiki FR a une page « Fixer » mais le texte des joueurs dit fixeur). 「这一带最厉害的中间人」 : Sasha présente Faraday comme le meilleur fixeur du coin — bas de casse, c'est un métier. Un rôle → Title ✔." },
+      { raw: "黑客椅", tr: "chaise de netrunner", cat: "Technology", verdict: "corriger", auto: "Chaise de netrunning ❌", canon: "descriptif maison (chaise de plongée profonde)", canonFR: "chaise de netrunner", action: "Corriger → chaise de netrunner + bas de casse",
+        note: "Chaise de plongée profonde dans le Net : elle refroidit le corps du netrunner.",
+        detail: "「脑后神经插管，也就是黑客椅一类设备的辅助，黑客椅可以提升大脑运算能力」 ×2 : la chaise sert aux plongées lourdes (gros flux), elle booste la capacité de calcul du cerveau — lore des chaises de plongée vs bains de glace (Reddit deep dive). L'appli rend « Chaise de netrunning » : netrunning est un calque de l'activité ; en français réel on nomme l'AGENT → chaise de netrunner, bas de casse. Un équipement → Technology ✔." },
+      { raw: "逐光者", tr: "Chasseur de lumière", cat: "Technology", verdict: "corriger", auto: "Chercheur de lumière ❌", canon: "nom maison de l'auteur (daemon de traçage des Voodoo Boys)", canonFR: "Chasseur de lumière", action: "Corriger → Chasseur de lumière",
+        note: "Daemon de traçage des Voodoo Boys : il suit sa cible sans être repéré.",
+        detail: "「剧情中巫毒帮植入“逐光者”魔偶时，V却一点都没有察觉」 : le daemon que les Voodoo Boys implantent à V dans I Walk the Line, sans qu'il le sente. AUCUN nom canon attesté dans le jeu (17173/3DM disent juste « le virus des VDB ») → nom MAISON de l'auteur. 逐 = pourchasser/traquer (pas chercher) : le daemon TRACE sa cible → « Chasseur de lumière », majuscule au premier mot (nom propre de programme, comme Marionette). Alternative si Shenn préfère le sens pur : « Traqueur »." },
+      { raw: "电磁短路", tr: "Court-circuit", cat: "Technology", verdict: "garder", auto: "Court-circuit ✔", canon: "Short Circuit", canonFR: "Court-circuit", action: "Garder + Category : Technique → Technology",
+        note: "Quickhack de combat : il électrise la cible et la paralyse brièvement.",
+        detail: "⭐ CHOIX DE SHENN (05/11, règle cas par cas posée AVANT livraison) : FRANÇAIS — l'appli avait rendu le nom FR vanilla EXACT (playnews tier list patch 2.3 : Court-circuit, tier S+ ; EN Short Circuit). Verdict : GARDER. Cité par le ch. 84 comme 超大型魔偶 (ex. « 电磁短路：【系统重置】【义体故障】等作用于人体的魔偶 »). Une arme du netrunner → Technology." },
+      { raw: "义体故障", tr: "Dysfonctionnement du cyberware", cat: "Technology", verdict: "corriger", auto: "Dysfonctionnement cybernétique ❌", canon: "Cyberware Malfunction", canonFR: "Dysfonctionnement du cyberware", action: "Corriger → Dysfonctionnement du cyberware + Category : Technique → Technology",
+        note: "Quickhack : il fait dysfonctionner le cyberware de la cible.",
+        detail: "⭐ CHOIX DE SHENN (05/11, règle cas par cas) : FRANÇAIS — « Dysfonctionnement du cyberware », le nom FR in-game (Reddit FR, xboxplay ; EN Cyberware Malfunction). L'appli avait calqué (义体 → cybernétique) : corriger. ⚠️ NB règle 义体 : le canon du quickhack PRIME — on garde « cyberware » du nom officiel, la règle implant/materiel cybernétique ne s'applique pas aux noms propres de compétences. Une arme du netrunner → Technology." },
+      { raw: "四眼仔 (à ajouter à la main)", tr: "quat'yeux", cat: "Title", verdict: "corriger", auto: "Quatre-yeux (flaggé Character) ❌", canon: "surnom de Faraday (1 œil + 3 implants oculaires)", canonFR: "quat'yeux", action: "Ajouter à la main en Term (Title) ; supprimer l'entrée Character",
+        note: "Surnom moqueur de Faraday : ses trois yeux implants plus le vrai.",
+        detail: "「这四眼仔是谁啊」 : Lin Mo voit Faraday et son titre de chapitre — « le quat'yeux, quelle envie de le frapper ». L'épithète désigne Faraday dans la MÊME scène (Sasha répond « 他叫法拉第 ») → règle des deux fiches (cf. 黑客之神 ch. 83, 小鬼头 ch. 81) : Term (à ajouter à la main) + Character (supprimer). « Quat'yeux » = le mot français familier réel (celui qui porte des lunettes), pas le calque « Quatre-yeux » ; bas de casse." },
+      { raw: "雪佛利 (à ajouter à la main)", tr: "Chevillon", cat: "Technology", verdict: "corriger", auto: "(non flaggé par l'appli) ❌", canon: "Chevillon (constructeur canon)", canonFR: "Chevillon", action: "Ajouter à la main en Term (l'appli n'a pas flaggé ce raw ; si elle rend déjà « Chevillon », ne rien faire)",
+        note: "Constructeur automobile néo-militariste de Night City.",
+        detail: "「一辆紫色涂装的雪佛利」 : la voiture violette de Faraday — l'Emperor 620 Ragnar de l'anime (fandom Edgerunners vehicles). L'auteur translittère Chevillon → 雪佛利 comme Quadra → 古拉德 et Zetatech → 泽塔科技. ⚠️ NON FLAGGÉ par l'appli malgré sa présence dans le texte : risque de fuzzy « Chevrolet » (l'appli défigure les marques — cf. Chevillon Thrax → Chevrolet Ceres, ch. 76) → fiche maison pour que Shenn entre « Chevillon » à la main." },
+      { raw: "巫毒帮 (à ajouter à la main)", tr: "Voodoo Boys", cat: "Species", verdict: "corriger", auto: "(non flaggé par l'appli) ❌", canon: "Voodoo Boys (gang canon de Pacifica)", canonFR: "Voodoo Boys", action: "Ajouter à la main en Term (l'appli n'a pas flaggé ce raw ; si elle rend déjà « Voodoo Boys », ne rien faire)",
+        note: "Gang de hackers haïtiens de Pacifica, seul chemin vers le Blackwall.",
+        detail: "「巫毒帮植入“逐光者”魔偶时」 : le gang canon de Pacifica (VG百科 CN, bilibili wiki), cité comme exemple par le ch. 84. ⚠️ NON FLAGGÉ par l'appli malgré sa présence dans le texte → fiche maison. Catégorie Species gardée (un collectif humain, comme les équipes de l'index) ; « Voodoo Boys » reste en anglais = canon FR incontesté du jeu." },
+    ],
+    characters: [
+      { raw: "四眼仔 (supprimer)", tr: "Quatre-yeux", gender: "Male", verdict: "corriger", note: "(non-perso : surnom de Faraday)", action: "Supprimer (créer le Term quat'yeux à la place)",
+        detail: "Épithète de Faraday, pas un personnage autonome — règle des deux fiches, cf. le Term 四眼仔 ci-dessus et 黑客之神 ch. 83." },
+      { raw: "法拉第", tr: "Faraday", gender: "Male", verdict: "garder", auto: "Faraday ✔", note: "Fixeur de l'anime Edgerunners : trois yeux cybernétiques, costume rayé rouge.", action: "Garder + enrichir (antagoniste principal de l'anime)",
+        detail: "⭐ Prévu par le corpus (personnage canon de l'anime). « 他叫法拉第，这一带最厉害的中间人 » : fixer du secteur de Maine dans Edgerunners, ANTAGONISTE PRINCIPAL de l'anime (fandom, ép. 9 Humanity). TROIS 义眼 serpents à l'œil droit, costume rayé rouge impeccable, arrive en Chevillon violette et confie une mission confidentielle à Maine : le lancement de l'arc (équipe à trois). L'appli a rendu juste. Surnom : quat'yeux (cf. Term ci-dessus)." },
+      { raw: "绮薇", tr: "Kiwi", gender: "Female", verdict: "garder", auto: "Kiwi ✔", note: "Netrunner de l'équipe de Maine dans l'anime ; corps presque entièrement cybernétique.", action: "Garder",
+        detail: "« 动漫里绮薇对瑞贝卡使用【系统重置】 » ×1 : cameo de DÉFINITION du ch. 84 — l'autorisation de coéquipier permet le piratage sans limites (Kiwi utilise 系统重置 sur Rebecca dans l'anime). Canon : Kiwi, netrunner de l'équipe de Maine dans Edgerunners, corps presque entièrement cybernétique (fandom). L'appli a rendu juste ; jamais fichée avant (première apparition du raw dans le roman)." },
+    ],
+  },
   // ───── CH. 82-83 — glossaire appli (unité 54 du PDF : ch. 82 黑客小课堂 + ch. 83 巴氏传承) ─────
   {
     id: "ch83-app",
-    corrige: false,
+    corrige: true,
     title: "Ch. 82 黑客小课堂 + 83 巴氏传承 — glossaire appli raw chinois (unité 54 PDF)",
     capture: "texte du glossaire collé par Shenn (3 Characters + 19 Terms) — confronté au corpus d'anticipation preparation-unite-54.md (skill glossaire-anticipation)",
     observations: [
