@@ -277,7 +277,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 <script id="app">
 (function () {
   "use strict";
-  var VERSION = "v2.3.1";
+  var VERSION = "v2.3.2";
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -318,6 +318,10 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
   function dupRawCount() { var n = 0; for (var k in dupMap) if (dupMap[k] > 1) n++; return n; }
 
   // ── Copie ──
+  // Copie intelligente : retire l'éventuelle parenthèse d'annotation en fin de raw
+  // (« 头狼 (à ajouter à la main) » → copie « 头狼 »). L'affichage reste inchangé.
+  function stripCopy(s) { return (s || "").replace(/\s*\([^)]*\)\s*$/, ""); }
+
   function copyText(t, btn) {
     function done() {
       if (btn) { var old = btn.textContent; btn.textContent = "✓"; setTimeout(function () { btn.textContent = old; }, 900); }
@@ -402,7 +406,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
         (function (key) {
           b.addEventListener("click", function (ev) {
             ev.stopPropagation();
-            copyText(list.map(function (e) { return e[key] || ""; }).join("\n"), b);
+            copyText(list.map(function (e) { return key === "raw" ? stripCopy(e[key]) : (e[key] || ""); }).join("\n"), b);
           });
         })(c.k);
         th.appendChild(b);
@@ -417,7 +421,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
       var tr = el("tr", "grow" + (i % 2 ? " alt" : "") + (done ? " done" : ""));
       tr.appendChild(el("td", "td-x", "▸"));
       var tdR = el("td", "td-raw", e.raw);
-      tdR.appendChild(cpyBtn("Copier le raw", function () { return e.raw; }));
+      tdR.appendChild(cpyBtn("Copier le raw (sans la parenthèse)", function () { return stripCopy(e.raw); }));
       if (dupMap[e.raw] > 1) {
         var db = el("span", "badge dup", "⧉ ×" + dupMap[e.raw]);
         db.title = "Doublon : ce terme apparaît " + dupMap[e.raw] + " fois dans le roman — vérifie que les traductions sont harmonisées.";
