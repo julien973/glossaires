@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+<title>Glossaire — 《我的赛博朋克模拟器》</title>
+<script>
+window.addEventListener('error', function (e) {
+  try {
+    var d = document.getElementById('diagErr') || (function () {
+      var d = document.createElement('div');
+      d.id = 'diagErr';
+      d.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:#f23f43;color:#fff;font:600 12px/1.4 system-ui,sans-serif;padding:8px 12px;text-align:center';
+      (document.body || document.documentElement).appendChild(d);
+      return d;
+    })();
+    d.textContent = '⚠️ Erreur JS : ' + (e.message || e.type);
+  } catch (_) {}
+}, true);
+</script>
+<style>
+:root {
+  --bg: #0b0e14; --card: #131826; --card2: #0f131e; --line: #232c42;
+  --txt: #d7e2f4; --dim: #8391ad; --cy: #2de2e6; --ye: #fcee0a;
+  --red: #ff5d5d; --org: #ffb454; --grn: #4ade80;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--txt); font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--cy); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 16px 14px 64px; }
+header.top { border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(180deg, #141b2e 0%, #10141f 100%); padding: 18px 16px; margin-bottom: 14px; }
+h1 { margin: 0 0 4px; font-size: 22px; }
+h1 .zh { color: var(--ye); }
+.sub { color: var(--dim); font-size: 13px; }
+.stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.stat { background: #0d1322; border: 1px solid var(--line); border-radius: 999px; padding: 3px 11px; font-size: 12.5px; color: var(--dim); }
+.stat b { color: var(--txt); font-weight: 600; }
+.bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 14px 0; }
+button { font: inherit; cursor: pointer; border-radius: 10px; border: 1px solid var(--line); background: var(--card2); color: var(--txt); padding: 7px 13px; }
+button:hover { border-color: var(--cy); }
+button.primary { background: #123042; border-color: #1f5f6b; }
+button.on { background: #3a2b0a; border-color: #8a6d00; color: var(--ye); }
+details.ident { margin-top: 12px; }
+details.ident summary { cursor: pointer; color: var(--cy); font-size: 13.5px; }
+.ident-box { border: 1px dashed var(--line); border-radius: 10px; padding: 10px 14px; margin-top: 10px; background: var(--card2); }
+.ident-box p { margin: 7px 0; font-size: 13px; color: var(--dim); }
+.chapter { border: 1px solid var(--line); border-radius: 14px; background: var(--card); margin-bottom: 16px; overflow: hidden; }
+.ch-head { padding: 13px 16px; border-bottom: 1px solid var(--line); }
+.ch-title { font-weight: 700; font-size: 16.5px; margin: 0; }
+.ch-cap { color: var(--dim); font-size: 12.5px; margin-top: 3px; }
+.ch-body { padding: 12px 14px; }
+.obs-title, .src-title, .tbl-title { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--dim); margin: 12px 0 6px; }
+.obs-title:first-child, .tbl-title.first { margin-top: 0; }
+ul.obs { margin: 0; padding-left: 20px; }
+ul.obs li { margin: 5px 0; font-size: 13.5px; color: #b9c6dd; }
+.srcs { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12.5px; }
+.badge { display: inline-block; border-radius: 6px; font-size: 11px; font-weight: 700; padding: 1px 7px; white-space: nowrap; }
+.v-corriger { background: #3a1114; color: var(--red); border: 1px solid #6b2026; }
+.v-harmoniser { background: #3a2a10; color: var(--org); border: 1px solid #6b4d1c; }
+.v-garder { background: #0f2c1a; color: var(--grn); border: 1px solid #22522f; }
+.badge.man { background: #241a33; color: #c19bff; border: 1px solid #4b3a6b; margin-left: 6px; }
+.badge.cat { background: #0d1c2c; color: #7fb8e6; border: 1px solid #1c3a55; font-weight: 600; }
+.badge.gd { background: #200f1e; color: #f0a6d8; border: 1px solid #55284e; font-weight: 600; }
+.entry { border: 1px solid var(--line); border-radius: 10px; background: var(--card2); margin-bottom: 8px; }
+.e-head { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; padding: 9px 12px; cursor: pointer; }
+.e-head:hover { background: #151d30; }
+.e-raw { font-weight: 700; }
+.e-arrow { color: var(--dim); }
+.e-tr { color: var(--ye); font-weight: 700; }
+.e-auto { color: var(--dim); font-size: 12.5px; }
+.e-auto.wrong { color: var(--red); text-decoration: line-through; }
+.e-note { width: 100%; color: #b9c6dd; font-size: 13px; }
+.cnt { color: var(--dim); font-size: 11px; }
+.cnt.over { color: var(--red); font-weight: 700; }
+.cpy { border: 1px solid var(--line); background: #182036; color: var(--txt); border-radius: 7px; padding: 2px 8px; font-size: 12px; }
+.cpy:active { background: #223; }
+.e-body { display: none; padding: 4px 14px 12px; border-top: 1px dashed var(--line); }
+.entry.open .e-body { display: block; }
+.e-detail { margin: 8px 0 10px; font-size: 13.5px; color: #c5d2e8; }
+.e-meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12.5px; color: var(--dim); }
+.e-meta b { color: #9fb2d0; font-weight: 600; }
+.e-action { margin-top: 8px; font-size: 12.5px; color: var(--cy); }
+.colcpy { margin: 4px 0 8px; display: flex; flex-wrap: wrap; gap: 8px; }
+.colcpy .cpy { background: #10222c; border-color: #1c4255; }
+.suivre { border: 1px solid var(--line); border-radius: 14px; background: var(--card); padding: 12px 16px; }
+.suivre ul { margin: 6px 0 0; padding-left: 20px; }
+.suivre li { margin: 5px 0; font-size: 13.5px; color: #b9c6dd; }
+.botbar { position: fixed; bottom: 0; left: 0; right: 0; background: #0a0d13ee; border-top: 1px solid var(--line); backdrop-filter: blur(6px); padding: 8px 14px; font-size: 12px; color: var(--dim); text-align: center; z-index: 50; }
+</style>
+</head>
+<body>
+<noscript>
+  <div style="background:#f23f43;color:#fff;padding:10px;text-align:center;font:600 13px system-ui">
+    ⚠️ JavaScript est désactivé — le glossaire ne peut pas s'afficher. / JavaScript is disabled — the glossary cannot display. / JavaScript is uitgeschakeld — het woordenboek kan niet worden weergegeven.
+  </div>
+</noscript>
+<div class="wrap">
+  <header class="top" id="siteHeader"></header>
+  <div class="bar" id="controls"></div>
+  <div id="chapters"></div>
+  <section class="suivre" id="suivre"></section>
+</div>
+<div class="botbar" id="botbar"></div>
+<script src="data.js"></script>
+<script>
+(function () {
+  "use strict";
+  var VERSION = "v1.0";
+  var $ = function (id) { return document.getElementById(id); };
+
+  // ── Statistiques ──
+  function computeStats() {
+    var s = { chapters: chapters.length, terms: 0, chars: 0, corriger: 0, harmoniser: 0, garder: 0 };
+    chapters.forEach(function (ch) {
+      s.terms += ch.terms.length;
+      s.chars += ch.characters.length;
+      ch.terms.concat(ch.characters).forEach(function (e) {
+        if (e.verdict === "corriger") s.corriger++;
+        else if (e.verdict === "harmoniser") s.harmoniser++;
+        else s.garder++;
+      });
+    });
+    return s;
+  }
+
+  function copyText(t, btn) {
+    function done() {
+      if (btn) { var old = btn.textContent; btn.textContent = "✓"; setTimeout(function () { btn.textContent = old; }, 900); }
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(t).then(done, function () { fallback(t); done(); });
+    } else { fallback(t); done(); }
+    function fallback(txt) {
+      var ta = document.createElement("textarea");
+      ta.value = txt; ta.style.cssText = "position:fixed;opacity:0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); } catch (_) {}
+      document.body.removeChild(ta);
+    }
+  }
+
+  function el(tag, cls, txt) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (txt !== undefined) n.textContent = txt;
+    return n;
+  }
+  function verdictBadge(v) {
+    var m = { corriger: ["v-corriger", "⚠ Corriger"], harmoniser: ["v-harmoniser", "↻ Harmoniser"], garder: ["v-garder", "✓ Garder"] };
+    var conf = m[v] || m.garder;
+    return el("span", "badge " + conf[0], conf[1]);
+  }
+
+  // ── En-tête de site ──
+  function renderHeader(s) {
+    var h = $("siteHeader");
+    var h1 = el("h1", null, "🌃 Glossaire ");
+    var zh = el("span", "zh", identification.titre);
+    h1.appendChild(zh);
+    h.appendChild(h1);
+    h.appendChild(el("div", "sub", "Correction du glossaire de l'appli de lecture — raw chinois → français canon Cyberpunk 2077."));
+    var d = el("details", "ident");
+    d.appendChild(el("summary", null, "🔎 Identification du roman & notes de chantier"));
+    var box = el("div", "ident-box");
+    identification.lignes.forEach(function (l) { box.appendChild(el("p", null, l)); });
+    d.appendChild(box);
+    h.appendChild(d);
+    var st = el("div", "stats");
+    st.appendChild(el("span", "stat", "")).innerHTML = "<b>" + s.chapters + "</b> chapitres";
+    st.appendChild(el("span", "stat", "")).innerHTML = "<b>" + s.terms + "</b> termes";
+    st.appendChild(el("span", "stat", "")).innerHTML = "<b>" + s.chars + "</b> personnages";
+    st.appendChild(el("span", "stat", "")).innerHTML = "⚠ <b>" + s.corriger + "</b> à corriger";
+    st.appendChild(el("span", "stat", "")).innerHTML = "↻ <b>" + s.harmoniser + "</b> à harmoniser";
+    st.appendChild(el("span", "stat", "")).innerHTML = "✓ <b>" + s.garder + "</b> à garder";
+    h.appendChild(st);
+  }
+
+  // ── Contrôles ──
+  function renderControls(onlyFix, setOnlyFix, expandAll, collapseAll) {
+    var c = $("controls");
+    c.textContent = "";
+    var bFix = el("button", onlyFix ? "primary on" : "primary", onlyFix ? "☑ Corrections seulement" : "☐ Corrections seulement");
+    bFix.id = "btnFix";
+    bFix.addEventListener("click", setOnlyFix);
+    c.appendChild(bFix);
+    var bAll = el("button", null, "▼ Tout déplier");
+    bAll.addEventListener("click", expandAll);
+    c.appendChild(bAll);
+    var bNone = el("button", null, "▲ Tout replier");
+    bNone.addEventListener("click", collapseAll);
+    c.appendChild(bNone);
+  }
+
+  // ── Une fiche (terme ou perso) ──
+  function entryNode(e, isChar) {
+    var box = el("div", "entry");
+    var head = el("div", "e-head");
+    head.appendChild(verdictBadge(e.verdict));
+    var raw = el("span", "e-raw", e.raw);
+    head.appendChild(raw);
+    if (e.manual) head.appendChild(el("span", "badge man", "✋ à la main"));
+    head.appendChild(el("span", "e-arrow", "→"));
+    var tr = el("span", "e-tr", e.tr);
+    head.appendChild(tr);
+    var cpR = el("button", "cpy", "📋");
+    cpR.title = "Copier le raw";
+    cpR.addEventListener("click", function (ev) { ev.stopPropagation(); copyText(e.raw, cpR); });
+    head.appendChild(cpR);
+    var cpT = el("button", "cpy", "📋");
+    cpT.title = "Copier la traduction";
+    cpT.addEventListener("click", function (ev) { ev.stopPropagation(); copyText(e.tr, cpT); });
+    head.appendChild(cpT);
+    if (!isChar && e.auto) {
+      var a = el("span", "e-auto wrong", "auto : " + e.auto);
+      head.appendChild(a);
+    }
+    if (isChar) {
+      head.appendChild(el("span", "badge gd", e.gender || "—"));
+    } else if (e.cat) {
+      head.appendChild(el("span", "badge cat", e.cat));
+    }
+    head.appendChild(el("span", null, "▾"));
+    var note = el("div", "e-note", e.note || "");
+    var len = (e.note || "").length;
+    var cnt = el("span", "cnt" + (len > 100 ? " over" : ""), " " + len + "/100");
+    note.appendChild(cnt);
+    head.appendChild(note);
+    var body = el("div", "e-body");
+    if (e.detail) body.appendChild(el("div", "e-detail", e.detail));
+    var meta = el("div", "e-meta");
+    if (!isChar) {
+      if (e.canon) meta.appendChild(el("span", null, "")).innerHTML = "<b>canon :</b> " + e.canon;
+      if (e.canonFR) meta.appendChild(el("span", null, "")).innerHTML = "<b>canon FR :</b> " + e.canonFR;
+    } else {
+      if (e.gender) meta.appendChild(el("span", null, "")).innerHTML = "<b>genre :</b> " + e.gender;
+    }
+    if (meta.childNodes.length) body.appendChild(meta);
+    if (e.action) body.appendChild(el("div", "e-action", "→ " + e.action));
+    box.appendChild(head);
+    box.appendChild(body);
+    head.addEventListener("click", function () { box.classList.toggle("open"); });
+    return box;
+  }
+
+  // ── Tableau d'un chapitre (termes ou persos) ──
+  function tableNode(items, isChar, label, onlyFix) {
+    var list = onlyFix ? items.filter(function (e) { return e.verdict !== "garder"; }) : items;
+    var holder = el("div");
+    var t = el("div", "tbl-title", label + " (" + list.length + (onlyFix && list.length !== items.length ? "/" + items.length : "") + ")");
+    holder.appendChild(t);
+    if (!list.length) { holder.appendChild(el("div", "sub", "— aucun —")); return holder; }
+    var cc = el("div", "colcpy");
+    var bRaw = el("button", "cpy", "📋 Colonne RAW");
+    bRaw.addEventListener("click", function () { copyText(list.map(function (e) { return e.raw; }).join("\n"), bRaw); });
+    cc.appendChild(bRaw);
+    var bTr = el("button", "cpy", "📋 Colonne TRANSLATED");
+    bTr.addEventListener("click", function () { copyText(list.map(function (e) { return e.tr; }).join("\n"), bTr); });
+    cc.appendChild(bTr);
+    var bNote = el("button", "cpy", "📋 Colonne NOTES");
+    bNote.addEventListener("click", function () { copyText(list.map(function (e) { return e.note || ""; }).join("\n"), bNote); });
+    cc.appendChild(bNote);
+    holder.appendChild(cc);
+    list.forEach(function (e) { holder.appendChild(entryNode(e, isChar)); });
+    return holder;
+  }
+
+  // ── Chapitre ──
+  function chapterNode(ch, onlyFix) {
+    var card = el("div", "chapter");
+    var head = el("div", "ch-head");
+    head.appendChild(el("h2", "ch-title", ch.title));
+    head.appendChild(el("div", "ch-cap", "📸 " + ch.capture));
+    card.appendChild(head);
+    var body = el("div", "ch-body");
+    if (ch.observations && ch.observations.length) {
+      body.appendChild(el("div", "obs-title", "Observations"));
+      var ul = el("ul", "obs");
+      ch.observations.forEach(function (o) { ul.appendChild(el("li", null, o)); });
+      body.appendChild(ul);
+    }
+    body.appendChild(tableNode(ch.terms, false, "Termes", onlyFix));
+    body.appendChild(tableNode(ch.characters, true, "Personnages", onlyFix));
+    if (ch.sources && ch.sources.length) {
+      body.appendChild(el("div", "src-title", "Sources"));
+      var sr = el("div", "srcs");
+      ch.sources.forEach(function (s) {
+        var a = el("a", null, s.label);
+        a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+        sr.appendChild(a);
+      });
+      body.appendChild(sr);
+    }
+    card.appendChild(body);
+    return card;
+  }
+
+  // ── Rendu global ──
+  var onlyFix = false;
+  function render() {
+    var s = computeStats();
+    renderHeader(s);
+    renderControls(onlyFix, function () { onlyFix = !onlyFix; render(); },
+      function () { document.querySelectorAll(".entry").forEach(function (n) { n.classList.add("open"); }); },
+      function () { document.querySelectorAll(".entry").forEach(function (n) { n.classList.remove("open"); }); });
+    var holder = $("chapters");
+    holder.textContent = "";
+    chapters.forEach(function (ch) { holder.appendChild(chapterNode(ch, onlyFix)); });
+    var sv = $("suivre");
+    sv.textContent = "";
+    sv.appendChild(el("div", "obs-title", "📌 À suivre (règles du chantier)"));
+    var ul = el("ul");
+    aSuivre.forEach(function (a) { ul.appendChild(el("li", null, a)); });
+    sv.appendChild(ul);
+    $("botbar").textContent = "Glossaire 《我的赛博朋克模拟器》 — " + VERSION + " · " + s.chapters + " chapitres · " + (s.terms + s.chars) + " fiches · source : canvas (atelier)";
+  }
+  render();
+})();
+</script>
+</body>
+</html>
