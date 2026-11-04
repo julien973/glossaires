@@ -277,7 +277,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 <script id="app">
 (function () {
   "use strict";
-  var VERSION = "v2.3";
+  var VERSION = "v2.3.1";
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -438,7 +438,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
       tr.appendChild(tdN);
       var tdV = el("td");
       tdV.appendChild(verdictBadge(e.verdict));
-      if (e.manual) tdV.appendChild(el("span", "badge man", "✋"));
+      if (e.manual) { var manB = el("span", "badge man", "✋"); manB.title = "À ajouter à la main dans l'appli (le bouton ⧉ ne copie que le raw, sans annotation)"; tdV.appendChild(manB); }
       tr.appendChild(tdV);
       // ligne de détails (dépliable)
       var dtr = el("tr", "det-row");
