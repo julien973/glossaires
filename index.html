@@ -240,6 +240,20 @@ tr.grow.alt:hover { background: var(--acc-soft); }
   .hero { padding: 20px 18px 16px; }
   .tb-actions { margin-left: 0; }
 }
+.done-btn { font-weight: 700; }
+.done-btn.done { background: var(--grn-bg); color: var(--grn); border-color: var(--grn-br); }
+tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
+.badge.dup { background: var(--man-bg); color: var(--man-ink); border: 1px solid var(--man-br); margin-left: 5px; }
+.modal-ov { position: fixed; inset: 0; z-index: 40; background: rgba(2,6,14,.74); display: flex;
+  align-items: center; justify-content: center; padding: 18px; }
+.modal-card { background: var(--surface); border: 1px solid var(--border-strong); border-radius: 16px;
+  box-shadow: var(--shadow-md); padding: 18px 20px; max-width: 560px; width: 100%;
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+.modal-card h3 { margin: 0 0 10px; }
+.modal-ta { width: 100%; min-height: 110px; font: inherit; font-size: 13px; border-radius: 10px;
+  border: 1px solid var(--btn-border); background: var(--btn-bg); color: var(--ink);
+  padding: 10px; box-sizing: border-box; resize: vertical; }
+.modal-row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px; }
 </style>
 </head>
 <body class="night">
@@ -267,13 +281,13 @@ tr.grow.alt:hover { background: var(--acc-soft); }
 </main>
 <footer class="botbar"><div class="botbar-inner">
   <span id="bbLeft">📚 Glossaires</span>
-  <span class="bb-ver" id="bbVer">v2.0</span>
+  <span class="bb-ver" id="bbVer">v2.1</span>
 </div><i id="progress" aria-hidden="true"></i></footer>
 <script src="romans.js"></script>
 <script id="app">
 (function () {
   "use strict";
-  var VERSION = "v2.0";
+  var VERSION = "v2.1";
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -282,6 +296,67 @@ tr.grow.alt:hover { background: var(--acc-soft); }
     return n;
   }
   function clear(n) { n.textContent = ""; return n; }
+
+  // ── Stockage local (localStorage, ou mémoire de secours si indisponible) ──
+  var memStore = {};
+  function lsGet(k) { try { return localStorage.getItem(k); } catch (_) { return (k in memStore) ? memStore[k] : null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (_) { memStore[k] = v; } }
+
+  // ── Fiches cochées « corrigé » (par roman, clé = raw : un terme coché l'est partout) ──
+  var doneSet = {};
+  var curRomanId = (typeof ROMANS !== "undefined" && ROMANS && ROMANS.length) ? ROMANS[0].id : "";
+  var curData = null, curRoman = null;
+  function loadDone(id) {
+    doneSet = {}; curRomanId = id;
+    var raw = lsGet("gloss-done-" + id);
+    if (!raw) return;
+    try { var arr = JSON.parse(raw); if (arr) arr.forEach(function (r) { if (typeof r === "string") doneSet[r] = 1; }); } catch (_) {}
+  }
+  function saveDone() { lsSet("gloss-done-" + curRomanId, JSON.stringify(Object.keys(doneSet))); }
+  function doneCount() { return Object.keys(doneSet).length; }
+
+  // ── Doublons : occurrences de chaque raw dans le roman courant ──
+  var dupMap = {};
+  function buildDupMap(data) {
+    dupMap = {};
+    data.chapters.forEach(function (ch) {
+      ch.terms.concat(ch.characters).forEach(function (e) { dupMap[e.raw] = (dupMap[e.raw] || 0) + 1; });
+    });
+  }
+  function dupRawCount() { var n = 0; for (var k in dupMap) if (dupMap[k] > 1) n++; return n; }
+
+  // ── Restaurer une sauvegarde (coller le code exporté d'un autre appareil) ──
+  function openRestore() {
+    var ov = el("div", "modal-ov");
+    var card = el("div", "modal-card");
+    card.appendChild(el("h3", null, "📥 Restaurer tes fiches cochées"));
+    var ta = el("textarea", "modal-ta");
+    ta.placeholder = "Colle ici le code « 📤 Exporter mes ✔ » (pour récupérer tes ✔ d'un autre appareil).";
+    card.appendChild(ta);
+    var row = el("div", "modal-row");
+    var bOk = el("button", "pill", "✔ Restaurer");
+    bOk.type = "button";
+    var bNo = el("button", "pill", "✖ Annuler");
+    bNo.type = "button";
+    row.appendChild(bOk); row.appendChild(bNo);
+    card.appendChild(row);
+    ov.appendChild(card);
+    function close() { try { document.body.removeChild(ov); } catch (_) {} }
+    ov.addEventListener("click", function (ev) { if (ev.target === ov) close(); });
+    bNo.addEventListener("click", close);
+    bOk.addEventListener("click", function () {
+      var txt = (ta.value || "").trim();
+      close();
+      if (!txt) return;
+      try {
+        var arr = JSON.parse(txt);
+        if (arr) arr.forEach(function (r) { if (typeof r === "string") doneSet[r] = 1; });
+        saveDone();
+        renderAll(curData, curRoman, state);
+      } catch (_) {}
+    });
+    document.body.appendChild(ov);
+  }
 
   // ── Copie ──
   function copyText(t, btn) {
@@ -338,8 +413,8 @@ tr.grow.alt:hover { background: var(--acc-soft); }
   // ── Tableau d'un chapitre (termes ou personnages) ──
   var expanders = []; // callbacks d'ouverture des lignes de détails de ce rendu
 
-  function tableNode(items, isChar, label, onlyFix) {
-    var list = onlyFix ? items.filter(function (e) { return e.verdict !== "garder"; }) : items;
+  function tableNode(items, isChar, label, onlyFix, hideDone) {
+    var list = items.filter(function (e) { return (!onlyFix || e.verdict !== "garder") && (!hideDone || !doneSet[e.raw]); });
     var wrap = el("div");
     wrap.appendChild(el("div", "tbl-title", label + " (" + list.length + (onlyFix && list.length !== items.length ? "/" + items.length : "") + ")"));
     if (!list.length) { wrap.appendChild(el("div", "sub", "— aucun —")); return wrap; }
@@ -370,10 +445,16 @@ tr.grow.alt:hover { background: var(--acc-soft); }
     var tbody = el("tbody");
     list.forEach(function (e, i) {
       // ligne principale
-      var tr = el("tr", "grow" + (i % 2 ? " alt" : ""));
+      var isDone = !!doneSet[e.raw];
+      var tr = el("tr", "grow" + (i % 2 ? " alt" : "") + (isDone ? " done" : ""));
       tr.appendChild(el("td", "td-x", "▸"));
       var tdR = el("td", "td-raw", e.raw);
       tdR.appendChild(cpyBtn("Copier le raw", function () { return e.raw; }));
+      if (dupMap[e.raw] > 1) {
+        var db = el("span", "badge dup", "⧉ ×" + dupMap[e.raw]);
+        db.title = "Doublon : ce terme apparaît " + dupMap[e.raw] + " fois dans le roman — vérifie que les traductions sont harmonisées.";
+        tdR.appendChild(db);
+      }
       tr.appendChild(tdR);
       var tdT = el("td", "td-tr", e.tr);
       tdT.appendChild(cpyBtn("Copier la traduction", function () { return e.tr; }));
@@ -385,10 +466,21 @@ tr.grow.alt:hover { background: var(--acc-soft); }
       var len = (e.note || "").length;
       var tdN = el("td", "td-note", e.note || "");
       tdN.appendChild(el("span", "cnt" + (len > 100 ? " over" : ""), len + "/100"));
+      tdN.appendChild(cpyBtn("Copier la note", function () { return e.note || ""; }));
       tr.appendChild(tdN);
       var tdV = el("td");
       tdV.appendChild(verdictBadge(e.verdict));
       if (e.manual) tdV.appendChild(el("span", "badge man", "✋"));
+      var dBtn = el("button", "cpy done-btn" + (isDone ? " done" : ""), isDone ? "☑" : "☐");
+      dBtn.type = "button";
+      dBtn.title = isDone ? "Fiche corrigée — cliquer pour décocher" : "Cliquer quand tu as corrigé cette fiche dans l'appli";
+      dBtn.addEventListener("click", function (ev) {
+        ev.stopPropagation();
+        if (doneSet[e.raw]) delete doneSet[e.raw]; else doneSet[e.raw] = 1;
+        saveDone();
+        renderAll(curData, curRoman, state);
+      });
+      tdV.appendChild(dBtn);
       tr.appendChild(tdV);
       // ligne de détails (dépliable)
       var dtr = el("tr", "det-row");
@@ -427,9 +519,10 @@ tr.grow.alt:hover { background: var(--acc-soft); }
   }
 
   // ── Chapitre ──
-  function chapterNode(ch, onlyFix) {
-    var terms = onlyFix ? ch.terms.filter(function (e) { return e.verdict !== "garder"; }) : ch.terms;
-    var chars = onlyFix ? ch.characters.filter(function (e) { return e.verdict !== "garder"; }) : ch.characters;
+  function chapterNode(ch, onlyFix, hideDone) {
+    var keep = function (e) { return (!onlyFix || e.verdict !== "garder") && (!hideDone || !doneSet[e.raw]); };
+    var terms = ch.terms.filter(keep);
+    var chars = ch.characters.filter(keep);
     if (!terms.length && !chars.length) return null;
     var nfix = 0;
     ch.terms.concat(ch.characters).forEach(function (e) { if (e.verdict !== "garder") nfix++; });
@@ -451,8 +544,8 @@ tr.grow.alt:hover { background: var(--acc-soft); }
       d.appendChild(box);
       body.appendChild(d);
     }
-    body.appendChild(tableNode(ch.terms, false, "Termes", onlyFix));
-    body.appendChild(tableNode(ch.characters, true, "Personnages", onlyFix));
+    body.appendChild(tableNode(ch.terms, false, "Termes", onlyFix, hideDone));
+    body.appendChild(tableNode(ch.characters, true, "Personnages", onlyFix, hideDone));
     if (ch.sources && ch.sources.length) {
       var st = el("div", "tbl-title", "Sources");
       body.appendChild(st);
@@ -471,6 +564,8 @@ tr.grow.alt:hover { background: var(--acc-soft); }
   // ── Rendu complet d'un roman ──
   function renderAll(data, roman, state) {
     expanders = [];
+    curData = data; curRoman = roman;
+    buildDupMap(data);
     var s = computeStats(data);
     document.title = "Glossaires — " + data.identification.titre;
     try { document.documentElement.style.setProperty("--rom", roman.accent || "#2de2e6"); } catch (_) {}
@@ -491,16 +586,18 @@ tr.grow.alt:hover { background: var(--acc-soft); }
     kpis.appendChild(kpi("Termes", s.terms));
     kpis.appendChild(kpi("Personnages", s.chars));
     kpis.appendChild(kpi("À corriger", s.corriger + s.harmoniser, "⚠ " + s.corriger + " corriger · ↻ " + s.harmoniser + " harmoniser"));
-    // barre de validation
+    kpis.appendChild(kpi("✔ Corrigées", doneCount(), "cochées par toi"));
+    kpis.appendChild(kpi("⧉ Doublons", dupRawCount(), "termes en double"));
+    // barre de progression (tes fiches cochées)
     var kb = clear($("kbar"));
     var wh = el("div", "win-head");
-    wh.appendChild(el("span", "win-title", "✓ Fiches validées (garder)"));
-    wh.appendChild(el("span", "sub", s.garder + " / " + s.total + " fiches"));
+    wh.appendChild(el("span", "win-title", "✅ Ta progression de correction"));
+    wh.appendChild(el("span", "sub", doneCount() + " / " + s.total + " fiches"));
     kb.appendChild(wh);
-    kb.appendChild(el("div", "win-sub", "Barre de progression du chantier de correction."));
+    kb.appendChild(el("div", "win-sub", "Coche ☑ chaque fiche corrigée dans l'appli — " + s.garder + " « garder » · " + (s.corriger + s.harmoniser) + " à corriger. Tes ✔ restent sur cet appareil (📤 pour les transférer)."));
     var bar = el("div", "win-bar");
     var fill = el("i");
-    fill.style.width = (s.total ? Math.round(s.garder / s.total * 100) : 0) + "%";
+    fill.style.width = (s.total ? Math.round(doneCount() / s.total * 100) : 0) + "%";
     bar.appendChild(fill);
     kb.appendChild(bar);
     // contrôles
@@ -517,6 +614,25 @@ tr.grow.alt:hover { background: var(--acc-soft); }
     bNone.type = "button";
     bNone.addEventListener("click", function () { expanders.forEach(function (f) { f(false); }); });
     c.appendChild(bNone);
+    var bHide = el("button", state.hideDone ? "pill on" : "pill", state.hideDone ? "☑ Cacher les corrigées" : "☐ Cacher les corrigées");
+    bHide.type = "button";
+    bHide.addEventListener("click", function () { state.hideDone = !state.hideDone; renderAll(data, roman, state); });
+    c.appendChild(bHide);
+    var bExp = el("button", "pill", "📤 Exporter mes ✔");
+    bExp.type = "button";
+    bExp.addEventListener("click", function () { copyText(JSON.stringify(Object.keys(doneSet)), bExp); });
+    c.appendChild(bExp);
+    var bImp = el("button", "pill", "📥 Restaurer");
+    bImp.type = "button";
+    bImp.addEventListener("click", openRestore);
+    c.appendChild(bImp);
+    var bRst = el("button", "pill", "↺ Tout décocher");
+    bRst.type = "button";
+    bRst.addEventListener("click", function () {
+      if (doneCount() && typeof confirm === "function" && !confirm("Décocher TOUTES les fiches cochées de ce roman ?")) return;
+      doneSet = {}; saveDone(); renderAll(data, roman, state);
+    });
+    c.appendChild(bRst);
     // navigation chapitres
     var nav = clear($("chNav"));
     data.chapters.forEach(function (ch) {
@@ -533,7 +649,7 @@ tr.grow.alt:hover { background: var(--acc-soft); }
     // chapitres
     var holder = clear($("chapters"));
     data.chapters.forEach(function (ch) {
-      var n = chapterNode(ch, state.onlyFix);
+      var n = chapterNode(ch, state.onlyFix, state.hideDone);
       if (n) holder.appendChild(n);
     });
     // à suivre
@@ -568,7 +684,7 @@ tr.grow.alt:hover { background: var(--acc-soft); }
     document.head.appendChild(s);
   }
 
-  var state = { onlyFix: false };
+  var state = { onlyFix: false, hideDone: false };
   function buildPills(activeId) {
     var nav = clear($("tbRomans"));
     ROMANS.forEach(function (r) {
@@ -585,6 +701,7 @@ tr.grow.alt:hover { background: var(--acc-soft); }
     if (!r) r = ROMANS[0];
     buildPills(r.id);
     try { localStorage.setItem("gloss-roman", r.id); } catch (_) {}
+    loadDone(r.id);
     clear($("chapters"));
     $("loading").style.display = "";
     $("loading").textContent = "⏳ Chargement du roman…";
@@ -596,6 +713,7 @@ tr.grow.alt:hover { background: var(--acc-soft); }
       }
       $("loading").style.display = "none";
       state.onlyFix = false;
+      state.hideDone = false;
       renderAll(data, r, state);
     });
   }
@@ -637,7 +755,7 @@ tr.grow.alt:hover { background: var(--acc-soft); }
   }
 
   // API pour tests (harnais) — ne pas utiliser ailleurs.
-  window.__GLOSS = { renderAll: renderAll, computeStats: computeStats, VERSION: VERSION };
+  window.__GLOSS = { renderAll: renderAll, computeStats: computeStats, VERSION: VERSION, doneCount: doneCount, dupRawCount: dupRawCount, loadDone: loadDone, exportDone: function () { return JSON.stringify(Object.keys(doneSet)); }, importDone: function (txt) { try { var a = JSON.parse(txt); if (a) a.forEach(function (x) { if (typeof x === "string") doneSet[x] = 1; }); saveDone(); } catch (_) {} } };
 })();
 </script>
 </body>
