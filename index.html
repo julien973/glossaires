@@ -124,6 +124,12 @@ a:hover { text-decoration: underline; }
   background: var(--title-grad); -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent; }
 .hero .sub { margin: 0; color: var(--muted); font-style: italic; font-size: .92rem; }
+.hero .csvbtn { display: inline-flex; align-items: center; gap: 8px; margin-top: 14px;
+  font: inherit; font-size: .9rem; font-weight: 700; padding: 8px 16px; border-radius: 999px;
+  border: 1px solid var(--btn-border); background: var(--btn-bg); color: var(--btn-ink);
+  text-decoration: none; white-space: nowrap; cursor: pointer;
+  transition: background .18s, transform .18s, box-shadow .18s; }
+.hero .csvbtn:hover { background: var(--btn-hover); transform: translateY(-1px); box-shadow: var(--shadow-md); }
 .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; margin: 16px 0; }
 .kpi { position: relative; overflow: hidden; background: var(--surface-kpi); border: 1px solid var(--card-border);
   border-radius: 18px; box-shadow: var(--shadow-md), var(--inner-light); padding: 15px 16px; text-align: center;
@@ -277,7 +283,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 <script id="app">
 (function () {
   "use strict";
-  var VERSION = "v2.3.2";
+  var VERSION = "v2.4";
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -555,6 +561,16 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
     var hero = clear($("hero"));
     hero.appendChild(el("h1", null, "🌃 " + data.identification.titre));
     hero.appendChild(el("p", "sub", roman.sub || ""));
+    // Bouton de téléchargement du CSV corrigé (import appli) — visible seulement si le roman en a un.
+    if (roman.csv) {
+      var aCsv = document.createElement("a");
+      aCsv.className = "csvbtn";
+      aCsv.href = roman.csv;
+      aCsv.setAttribute("download", roman.csv);
+      aCsv.setAttribute("title", "Télécharger le glossaire corrigé, prêt pour l'import dans l'appli de lecture");
+      aCsv.textContent = "⬇ Télécharger le CSV corrigé (import appli)";
+      hero.appendChild(aCsv);
+    }
     // KPI
     var kpis = clear($("kpis"));
     function kpi(label, value, sub) {

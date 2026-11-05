@@ -12,6 +12,10 @@
 //      window.ROMANS_DATA["<id>"] = { identification, chapters, aSuivre };
 //      C'est le format RECOMMANDÉ pour tous les romans suivants
 //      (aucune collision possible, chargeable dans n'importe quel ordre).
+//
+//  - "csv" (optionnel) : fichier CSV corrigé à télécharger pour
+//      l'import dans l'appli de lecture ; si défini, le site affiche
+//      un bouton de téléchargement dans le bandeau du roman.
 // ─────────────────────────────────────────────────────────────
 const ROMANS = [
   {
@@ -20,7 +24,8 @@ const ROMANS = [
     sub: "Correction du glossaire de l'appli de lecture — raw chinois → français canon Cyberpunk 2077.",
     fichier: "data.js",
     format: "legacy",
-    accent: "#2de2e6"
+    accent: "#2de2e6",
+    csv: "csv-glossaire-corrige.csv"
   }
   // Prochain roman : ajouter une entrée ici + pousser son fichier
   // data-<id>.js au format "ns", puis repousser le site (version++).
