@@ -26,6 +26,14 @@ const ROMANS = [
     format: "legacy",
     accent: "#2de2e6",
     csv: "csv-glossaire-corrige.csv"
+  },
+  {
+    id: "honkai-gacha",
+    court: "Honkai Gacha",
+    sub: "Dimensional Gacha in Honkai Impact · chantier ouvert : original chinois non identifié, glossaire (HI3, JoJo, Danmachi, Star Rail, Nier, Fate) à venir.",
+    fichier: "data-honkai-gacha.js",
+    format: "ns",
+    accent: "#8b5cf6"
   }
   // Prochain roman : ajouter une entrée ici + pousser son fichier
   // data-<id>.js au format "ns", puis repousser le site (version++).
