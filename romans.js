@@ -34,6 +34,14 @@ const ROMANS = [
     fichier: "data-honkai-gacha.js",
     format: "ns",
     accent: "#8b5cf6"
+  },
+  {
+    id: "chatgroup-40k",
+    court: "Chatgroup 40K",
+    sub: "从战锤开启的超次元综漫 · glossaire multi-franchises (Warhammer 40K, NieR: Automata, Muv-Luv, Full Metal Panic!, Aldnoah.Zero, Black Bullet, HOTD…) · marathon CSV : bloc 1 (Vol 1-3, 204 entrées) livré.",
+    fichier: "data-chatgroup-40k.js",
+    format: "ns",
+    accent: "#b91c1c"
   }
   // Prochain roman : ajouter une entrée ici + pousser son fichier
   // data-<id>.js au format "ns", puis repousser le site (version++).
