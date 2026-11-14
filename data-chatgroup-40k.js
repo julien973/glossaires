@@ -1,0 +1,15731 @@
+// data-chatgroup-40k.js — 《从战锤开启的超次元综漫》 glossaire complet (marathon 15 blocs, 14/11/2026).
+// Généré par genere-data40k-final.py depuis csv-original + csv-final + premieres-apparitions.
+window.ROMANS_DATA = window.ROMANS_DATA || {};
+window.ROMANS_DATA["chatgroup-40k"] = {
+  "identification": {
+    "titre": "《从战锤开启的超次元综漫》",
+    "lignes": [
+      "Source : Faloo, auteur 瞄一眼, agrégé trxs. Roman en cours (le ch. 1742 s'arrête en pleine scène). Traduction maison de l'appli de lecture, raw chinois.",
+      "Texte de référence : EPUB fusionné du dépôt (sources/), 24 sections, 1741 chapitres auteur + ch. 1742 final, 4 398 210 caractères.",
+      "Glossaire : export CSV de l'appli, 2210 entrées (1386 terms + 824 character), corrigé le 14/11/2026 en 15 blocs, harnais de vérification 10 points à chaque bloc.",
+      "CSV final : csv-40k-corrige.csv (163 886 octets, md5 99c35f943be442bdb9e2208389e7da8f), téléchargeable ci-dessus, importable tel quel dans l'appli.",
+      "Héros : 伊杰 (Yijie), alias 兰斯普莱恩 (Lance Plain) dans l'Imperium; membre du groupe de chat transdimensionnel. Le roman traverse Warhammer 40K puis une vingtaine de mondes (HOTD, FMP, NieR, Muv-Luv, SEED, SAO, Arpeggio, Black Bullet, IS, Gundam 00, Mahouka, Re:Creators, NGNL, DxD, MJP...)."
+    ]
+  },
+  "chapters": [
+    {
+      "id": "bloc1",
+      "corrige": true,
+      "title": "Bloc 1 · Vol 1-3 (ch. 1-49)",
+      "capture": "204 fiches : Warhammer 40K (Tyranides, flotte-ruche), NieR, Muv-Luv, FMP, Aldnoah, Black Bullet, HOTD, Oreimo, FF7, Demon Slayer. Verdicts : 137 corriger / 67 harmoniser / 0 garder.",
+      "observations": [
+        "Canon WH40K Lexicanum FR : bolter, armure énergétique, champ de Geller, Paria, flotte-ruche, frère de bataille, Âge d'or, révolte cybernétique.",
+        "Piège : 虫族 = les TYRANIDES ici (l'appli disait Zergs); 人族 ch. 33 = fragment de 小人族/巨人族.",
+        "Introuvables du bloc résolus : S.T.A.R.S., λdriver (système Lambda Driver), 伊—兰斯 (Lance Plain), 最终幻想VII.",
+        "Le héros 伊杰 = Yijie, alias 兰斯普莱恩 = Lance Plain dans l'Imperium."
+      ],
+      "terms": [
+        {
+          "raw": "公主殿下",
+          "tr": "Altesse Royale",
+          "note": "Titre d'Asseylum, princesse de l'Empire Vers (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "寄叶",
+          "tr": "YoRHa",
+          "note": "Force d'élite d'androïdes basée sur le Bunker (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "黄金时代",
+          "tr": "Âge d'or",
+          "note": "Âge d'Or de la Technologie, apogée humain fini par la révolte des Hommes de Fer (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "鸟卜仪",
+          "tr": "auspex",
+          "note": "Détecteur multifonction des forces de l'Imperium (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "热熔弹药",
+          "tr": "munitions à fusion",
+          "note": "Projectiles melta de l'Imperium, font fondre les blindages (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "跨世界邀请",
+          "tr": "Invitation inter-mondes",
+          "note": "Message du canal proposant à une recrue de rejoindre un monde.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "基因原体",
+          "tr": "Primarque",
+          "note": "Fils génétiques de l'Empereur, chefs des Légions (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "万灵药",
+          "tr": "panacée",
+          "note": "Remède du héros, efficace contre les virus comme les blessures.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "防御罩",
+          "tr": "bouclier défensif",
+          "note": "Champ protecteur bloquant attaques et projectiles.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "爆弹枪",
+          "tr": "fusil bolter",
+          "note": "Arme à obus explosifs des Astartes (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "个人空间",
+          "tr": "Espace personnel",
+          "note": "Interface du canal où chaque membre range ses fichiers et ses points.",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "热熔弹头",
+          "tr": "ogive à fusion",
+          "note": "Balle melta inventée par le héros, transmise aux androïdes (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "原肠病毒",
+          "tr": "virus Gastrea",
+          "note": "Infection transformant les humains en Gastrea (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "爆矢枪",
+          "tr": "bolter",
+          "note": "Autre nom chinois du bolter, fusil des Astartes (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "金属风暴",
+          "tr": "tempête métallique",
+          "note": "Rafale d'obus à plusieurs Mach sortie de l'arme du héros.",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "热熔弹",
+          "tr": "charge à fusion",
+          "note": "Charge melta de démolition, fond la cible à bout portant (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "阿斯塔特修士",
+          "tr": "Frère de bataille",
+          "note": "Rang d'un Astartes au sein de son chapitre (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "诅咒之子",
+          "tr": "Enfants maudits",
+          "note": "Filles nées du virus Gastrea, dotées de pouvoirs (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "原肠动物",
+          "tr": "Gastrea",
+          "note": "Monstres issus du virus du même nom, ennemis de l'humanité (Black Bullet).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "火星骑士",
+          "tr": "chevaliers orbitaux",
+          "note": "Nobles de l'Empire Vers pilotant des Kataphraktes (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "复活币",
+          "tr": "Jeton de résurrection",
+          "note": "Objet du canal qui ressuscite une personne contre des points.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "星界军",
+          "tr": "Astra Militarum",
+          "note": "Garde Impériale : les armées humaines de l'Imperium (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "STC",
+          "tr": "STC",
+          "note": "Standard Template Construct, schémas de l'Âge d'or (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "灵能者",
+          "tr": "psyker",
+          "note": "Humain aux pouvoirs du Warp, encadré ou chassé par l'Imperium (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "动力装甲",
+          "tr": "armure énergétique",
+          "note": "Armure à servomoteurs des forces de l'Imperium (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "寄叶部队",
+          "tr": "troupes YoRHa",
+          "note": "Unités de combat d'androïdes de YoRHa (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "复制人",
+          "tr": "réplicant",
+          "note": "Corps artificiel créé pour l'âme humaine du projet Gestalt (NieR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "不可接触者",
+          "tr": "Paria",
+          "note": "Humain sans âme Warp, repousse psykers et démons ; le héros en est un (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "无畏机甲",
+          "tr": "Dreadnought",
+          "note": "Sarcophage de guerre des Astartes tombés au combat (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "动力甲",
+          "tr": "armure énergétique",
+          "note": "Armure assistée du héros, d'origine Astartes (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "生物战舰",
+          "tr": "bio-vaisseau",
+          "note": "Vaisseau vivant Tyranide de la flotte-ruche (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "亚空间",
+          "tr": "Warp",
+          "note": "Dimension parallèle des émotions, source des pouvoirs psykers (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "虫巢舰队",
+          "tr": "flotte-ruche",
+          "note": "Armada Tyranide guidée par l'Esprit de la Ruche (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "泰伦虫族",
+          "tr": "Tyranides",
+          "note": "Race dévoreuse de mondes venue d'une autre galaxie (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "灵能",
+          "tr": "énergie psychique",
+          "note": "Énergie du Warp canalisée par les psykers (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "G元素",
+          "tr": "élément G",
+          "note": "Matériau des BETA, clé des technologies de Muv-Luv Alternative.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "主从追随式机甲系统",
+          "tr": "système maître-esclave",
+          "note": "Commande réflexe des Arm Slaves suivant les gestes du pilote (Full Metal Panic!).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "Alternative4",
+          "tr": "Alternative IV",
+          "note": "Plan de Yuuko Kouzuki pour vaincre les BETA (Muv-Luv Alternative).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "人造人",
+          "tr": "androïde",
+          "note": "Gardiens de l'humanité en guerre contre les machines (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "Alternative3计划",
+          "tr": "Projet Alternative III",
+          "note": "Plan antérieur à Alternative IV, bâti sur des cobayes humains (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "beta",
+          "tr": "BETA",
+          "note": "Envahisseurs extraterrestres de Muv-Luv ; acronyme de leur désignation humaine.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "战术机",
+          "tr": "TSF",
+          "note": "Tactical Surface Fighter : mecha bipède anti-BETA (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "G弹",
+          "tr": "bombe G",
+          "note": "Charge à élément G pulvérisant les structures BETA (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "driver系统",
+          "tr": "système Lambda Driver",
+          "note": "Dispositif convertissant la volonté du pilote en énergie (Full Metal Panic!).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "λdriver / -driver",
+          "tr": "Lambda Driver",
+          "note": "Technologie convertissant la volonté du pilote en énergie (Full Metal Panic!).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "机动战士",
+          "tr": "Mobile Suit",
+          "note": "Robot de combat humanoïde de la franchise Gundam.",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "超次元频道",
+          "tr": "Canal super-dimensionnel",
+          "note": "Groupe de discussion inter-mondes dont le héros est l'hôte.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "帝国",
+          "tr": "Imperium",
+          "note": "Empire humain de la galaxie fondé par l'Empereur (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "混沌",
+          "tr": "Chaos",
+          "note": "Force corruptrice du Warp et ses serviteurs (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "巢都",
+          "tr": "cité-ruche",
+          "note": "Mégalopole verticale surpeuplée d'un monde-ruche (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "午夜领主",
+          "tr": "Seigneurs de la Nuit",
+          "note": "VIIIe Légion renégate du terroriste Konrad Curze (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "PDF（行星防卫军）",
+          "tr": "PDF (Forces de défense planétaire)",
+          "note": "Garnisons locales de chaque monde de l'Imperium (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "太空要塞",
+          "tr": "forteresse spatiale",
+          "note": "Station orbitale armée de l'Imperium (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "最终幻想VII",
+          "tr": "Final Fantasy VII",
+          "note": "Arc Final Fantasy VII, le monde de Tifa, Aerith et de la Shinra.",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "米德加",
+          "tr": "Midgar",
+          "note": "Mégalopole aux réacteurs Mako de la Shinra (Final Fantasy VII).",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "第七天堂",
+          "tr": "Septième Ciel",
+          "note": "Bar de Tifa, quartier général d'Avalanche (Final Fantasy VII).",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "雪崩",
+          "tr": "Avalanche",
+          "note": "Cellule éco-terroriste opposée à la Shinra (Final Fantasy VII).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "飞行器",
+          "tr": "aéronef",
+          "note": "Terme générique désignant tout appareil volant.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "可变形战机",
+          "tr": "Flight Unit",
+          "note": "Appareil YoRHa convertible en mecha de combat (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "黑色标签",
+          "tr": "Black Label",
+          "note": "Organisation clandestine exécutant les criminels intouchables (Triage X).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "秘银",
+          "tr": "Mithril",
+          "note": "Organisation paramilitaire indépendante luttant contre les menaces (Full Metal Panic!).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "AS",
+          "tr": "AS (Arm Slave)",
+          "note": "Arm Slave : mecha de combat du monde de Full Metal Panic!.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "铁人",
+          "tr": "homme de fer",
+          "note": "Surnom du héros en armure ; les Hommes de Fer sont les IA de l'Âge d'or (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "BETA",
+          "tr": "BETA",
+          "note": "Envahisseurs extraterrestres dévorant les ressources (Muv-Luv).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "硬盘",
+          "tr": "disque dur",
+          "note": "Support de stockage où le héros archive un STC.",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "泰拉",
+          "tr": "Terra",
+          "note": "Nom de la Terre au 41e millénaire, siège du Trône d'Or (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "S.T.A.R.S.",
+          "tr": "S.T.A.R.S.",
+          "note": "Pseudo de Setsuna Shimazaki, clin d'œil à l'unité de Resident Evil.",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "突击级",
+          "tr": "classe Destroyer",
+          "note": "BETA blindé de première ligne, charge la défense (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "火星帝国",
+          "tr": "Empire de Mars",
+          "note": "L'Empire Vers, né de la colonisation de Mars (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "毒岛剑道流",
+          "tr": "École de kendo Busujima",
+          "note": "Pseudo du canal : l'école de kendo de Saeko (Highschool of the Dead).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "雷鹰炮艇机",
+          "tr": "Thunderhawk",
+          "note": "Canonnière orbitale des Space Marines (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "光线级",
+          "tr": "classe Laser",
+          "note": "BETA tirant des lasers abattant tout ce qui vole (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "寄叶2号B型",
+          "tr": "2B",
+          "note": "YoRHa no 2 modèle B, androïde de combat (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "镭射炮",
+          "tr": "canon laser",
+          "note": "Arme à faisceau cohérent, fréquente dans les mondes traversés.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "火星薇瑟帝国",
+          "tr": "Empire Vers de Mars",
+          "note": "Nom complet de l'empire fondé par les colons de Mars (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "黑刃",
+          "tr": "lame noire",
+          "note": "Lame noire que le héros dégaine en combat rapproché.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "混沌星际战士",
+          "tr": "Space Marines du Chaos",
+          "note": "Astartes renégats corrompus par le Chaos (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "第八军团午夜领主",
+          "tr": "Seigneurs de la Nuit (VIIIe Légion)",
+          "note": "Nom complet de la VIIIe Légion renégate (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "星际战士",
+          "tr": "Space Marines",
+          "note": "Guerriers génétiquement augmentés de l'Imperium (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "链锯剑",
+          "tr": "épée tronçonneuse",
+          "note": "Lame à dents motorisées des Astartes et du héros (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "爆弹",
+          "tr": "obus",
+          "note": "Projectile autopropulsé explosif du bolter (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "行星防卫军",
+          "tr": "Forces de défense planétaire",
+          "note": "Garnison de chaque monde de l'Imperium, dite PDF (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "链锯刀",
+          "tr": "couteau tronçonneuse",
+          "note": "Version compacte de l'épée tronçonneuse (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "盖勒力场",
+          "tr": "champ de Geller",
+          "note": "Bulle de réalité protégeant les vaisseaux dans le Warp (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "人工智能",
+          "tr": "intelligence artificielle",
+          "note": "Programme pensant, tabou dans l'Imperium depuis les Hommes de Fer.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "-driver系统",
+          "tr": "système Lambda Driver",
+          "note": "Dispositif convertissant la volonté du pilote en énergie (Full Metal Panic!).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "白磷弹",
+          "tr": "obus au phosphore blanc",
+          "note": "Munition incendiaire au phosphore, redoutable contre les personnes.",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "愧疚",
+          "tr": "Culpabilité",
+          "note": "Programme de dette imposé aux jumelles Devola et Popola (NieR: Automata).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "机械生命体",
+          "tr": "forme de vie mécanique",
+          "note": "Machines ennemies des androïdes, tombées de la Lune (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "月球基地",
+          "tr": "base lunaire",
+          "note": "Refuge de l'humanité sur la Lune, base Plato-1 (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "白盐化症候群",
+          "tr": "Syndrome de chloration blanche",
+          "note": "Maladie du maso : le pacte transforme les humains en sels blancs (NieR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "机械生物",
+          "tr": "forme de vie mécanique",
+          "note": "Variante du nom des machines ennemies (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "地面反抗军",
+          "tr": "Résistance",
+          "note": "Androïdes terrestres survivants hors de YoRHa (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "超巨型机械生命体",
+          "tr": "Goliath",
+          "note": "Machine colossale du prologue de NieR: Automata, haute comme une montagne.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "地堡",
+          "tr": "Bunker",
+          "note": "Base orbitale de YoRHa en orbite lunaire (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "卫星炮",
+          "tr": "canon satellite",
+          "note": "Arme orbitale bombardant le sol depuis l'espace.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "核心程序黑盒",
+          "tr": "boîte noire",
+          "note": "Enregistrement de l'âme d'un androïde YoRHa (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "人类议会",
+          "tr": "Conseil de l'Humanité",
+          "note": "Instance humaine officielle dirigeant YoRHa depuis la Lune (NieR: Automata).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "寄叶计划",
+          "tr": "Projet YoRHa",
+          "note": "Stratégie de maintien du moral des androïdes (NieR: Automata).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "泛用型战斗人造人",
+          "tr": "androïde de combat polyvalent",
+          "note": "Modèle YoRHa d'assaut, série de 2B et A2 (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "处决用人造人",
+          "tr": "androïde d'exécution",
+          "note": "Type E, chargé d'éliminer les unités compromises (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "扫描机种",
+          "tr": "modèle scanner",
+          "note": "Type S de reconnaissance, celui de 9S (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "钥匙",
+          "tr": "clé",
+          "note": "Objet du canal qui débloque fichiers ou mondes.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "ALDNOAH",
+          "tr": "ALDNOAH",
+          "note": "Énergie des réacteurs martiens, activable par la famille royale (Aldnoah.Zero).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "超空间门",
+          "tr": "hyperporte",
+          "note": "Portail lunaire reliant la Terre à Mars (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "大魔",
+          "tr": "Grand Démon",
+          "note": "Rang des plus grands démons du Warp (Warhammer 40K) ; Shadowlord (NieR).",
+          "verdict": "harmoniser",
+          "cat": "title"
+        },
+        {
+          "raw": "死亡蠕虫",
+          "tr": "ver de mort",
+          "note": "Ver géant légendaire ; machine foreuse ennemie à son image (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "薇瑟帝国",
+          "tr": "Empire Vers",
+          "note": "Empire martien fondé par les descendants de la Terre (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "机甲",
+          "tr": "mecha",
+          "note": "Robot de combat humanoïde piloté, terme générique.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "-driver",
+          "tr": "Lambda Driver",
+          "note": "Technologie convertissant la volonté du pilote en énergie (Full Metal Panic!).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "反重力",
+          "tr": "antigravité",
+          "note": "Technologie annulant la gravité, des moteurs aux plateformes.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "空间门",
+          "tr": "portail spatial",
+          "note": "Passage entre mondes du canal, ou vers Mars selon le contexte.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "被造物",
+          "tr": "créature",
+          "note": "Être né des mains d'un créateur ; les personnages dans Re:CREATORS.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "动力盔甲",
+          "tr": "armure énergétique",
+          "note": "Armure à servomoteurs des forces de l'Imperium (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "机械纪元",
+          "tr": "NieR: Automata",
+          "note": "Titre chinois officiel de NieR: Automata, monde de 2B et 9S.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "智械危机",
+          "tr": "révolte cybernétique",
+          "note": "Soulèvement des Hommes de Fer qui mit fin à l'Âge d'or (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "战锤",
+          "tr": "Warhammer",
+          "note": "Nom du jeu et du monde 40K où le récit commence.",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "联合",
+          "tr": "Union",
+          "note": "Selon le monde : l'ONU, l'Union de Gundam 00 ou l'Alliance terrestre de SEED.",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "强袭",
+          "tr": "assaut",
+          "note": "Type du Tuatha de Danaan, sous-marin d'assaut de Tessa (Full Metal Panic!).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "骑士",
+          "tr": "chevalier",
+          "note": "Nobles de l'Empire Vers, dits chevaliers orbitaux (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "要塞级",
+          "tr": "classe Fort",
+          "note": "BETA superblindé massif, quasi indestructible (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "领域",
+          "tr": "domaine",
+          "note": "Champ du héros neutralisant les pouvoirs psykers autour de lui.",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "魔素",
+          "tr": "maso",
+          "note": "Particules magiques venues d'un autre monde, cause du syndrome (NieR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "人族",
+          "tr": "Terrans",
+          "note": "Faction humaine de StarCraft, aux côtés des Protoss et des Zergs.",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "虫族",
+          "tr": "race insectoïde",
+          "note": "Race insectoïde : les Tyranides ici, les Zergs de StarCraft ailleurs.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "东京圈",
+          "tr": "Grand Tokyo",
+          "note": "Agglomération protégée contre les Gastrea (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "帝国战舰",
+          "tr": "vaisseau impérial",
+          "note": "Navire de guerre de la flotte de l'Imperium (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "母舰",
+          "tr": "vaisseau-mère",
+          "note": "Vaisseau principal d'une flotte, porte les unités mineures.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "宇宙战舰",
+          "tr": "vaisseau de combat spatial",
+          "note": "Navire de guerre conçu pour les batailles spatiales.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "同化",
+          "tr": "assimilation",
+          "note": "Fusion où un être absorbe l'autre et lui impose sa nature.",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "潜水舰",
+          "tr": "sous-marin",
+          "note": "Navire submersible, dont le Tuatha de Danaan (Full Metal Panic!).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "鬼",
+          "tr": "démon",
+          "note": "Monstres dévoreurs d'humains, vaincus par les pourfendeurs (Demon Slayer).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "柱",
+          "tr": "Pilier",
+          "note": "Rang d'élite des pourfendeurs de démons (Demon Slayer).",
+          "verdict": "harmoniser",
+          "cat": "title"
+        },
+        {
+          "raw": "白盐化",
+          "tr": "chloration blanche",
+          "note": "Forme abrégée du syndrome de chloration blanche (NieR).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "平行世界",
+          "tr": "monde parallèle",
+          "note": "Réalité alternative, socle des voyages du canal.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "总督",
+          "tr": "gouverneur",
+          "note": "Chef d'un monde de l'Imperium, ou vice-roi de zone (Code Geass).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "力场",
+          "tr": "champ de force",
+          "note": "Barrière d'énergie protectrice, terme générique.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "原型机",
+          "tr": "prototype",
+          "note": "Unité de présérie ; A2 est le prototype de type A (NieR: Automata).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "门",
+          "tr": "porte",
+          "note": "Passage physique ou du canal vers un autre monde.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "天子",
+          "tr": "Impératrice céleste",
+          "note": "Impératrice-enfant de la Fédération chinoise (Code Geass) ; entre dans le titre de Seitenshi.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "女武神",
+          "tr": "Valkyries",
+          "note": "Escadron d'élite d'Isumi, attaché à Alternative IV (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "污染",
+          "tr": "pollution",
+          "note": "Corruption d'une zone ou d'un corps par un agent extérieur.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "恶魔",
+          "tr": "démon",
+          "note": "Entités du Warp au service du Chaos (Warhammer 40K).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "精神攻击",
+          "tr": "attaque mentale",
+          "note": "Assaut psychique touchant l'esprit sans contact physique.",
+          "verdict": "corriger",
+          "cat": "technique"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "皇",
+          "tr": "Sumeragi",
+          "note": "Sumeragi Lee Noriega, tacticienne de Celestial Being (Gundam 00).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "红龍",
+          "tr": "dragon rouge",
+          "note": "Dragon apparu à Shinjuku en 2003 (NieR), hébergé plus tard chez Wang Liu Mei.",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "怀特",
+          "tr": "White",
+          "note": "Commandante de YoRHa, dirige les opérations depuis le Bunker (NieR: Automata).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "束",
+          "tr": "Tabane",
+          "note": "Tabane Shinonono, créatrice géniale des IS (Infinite Stratos), rejoint le canal plus tard.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "木更",
+          "tr": "Kisara",
+          "note": "Kisara Tendō, lycéenne présidente d'une agence de sécurité civile (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "天童菊之丞",
+          "tr": "Kikunojō Tendō",
+          "note": "Grand-père de Kisara, chef de la famille Tendō (Black Bullet).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "圣天子",
+          "tr": "Seitenshi",
+          "note": "Gouverneure de la zone de Tokyo, veut la coexistence avec les Gastrea (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "天童木更",
+          "tr": "Kisara Tendō",
+          "note": "Présidente de la sécurité civile Tendō, petite-fille de Kikunojō (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "耳语者",
+          "tr": "Whispered",
+          "note": "Personne porteuse de savoirs inconscients (Full Metal Panic!) ; ici Tessa.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "火星人",
+          "tr": "Martien",
+          "note": "Pseudo d'Asseylum dans le canal, princesse de l'Empire Vers (Aldnoah.Zero).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "金刚",
+          "tr": "Kongō",
+          "note": "Modèle mental féminin du vaisseau Kongō (Arpeggio of Blue Steel).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "神罗",
+          "tr": "Shinra",
+          "note": "Compagnie d'énergie dominant le monde de Final Fantasy VII.",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "兰斯",
+          "tr": "Lance",
+          "note": "Faux nom du héros dans l'Imperium : Lance Plain.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "阿斯塔特",
+          "tr": "Astartes",
+          "note": "Nom générique du guerrier génétiquement modifié de l'Imperium (Warhammer 40K).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "帝皇",
+          "tr": "Empereur",
+          "note": "Empereur de l'Humanité, cloué au Trône d'Or depuis l'Hérésie (Warhammer 40K).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "埃德尔利佐",
+          "tr": "Eddelrittuo",
+          "note": "Servante et garde dévouée d'Asseylum, princesse Vers (Aldnoah.Zero).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "艾瑟依拉姆",
+          "tr": "Asseylum",
+          "note": "Princesse de l'Empire Vers, seule à activer l'Aldnoah (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "五更琉璃",
+          "tr": "Ruri Gokou",
+          "note": "Kuroneko, la lolita gothique du groupe otaku de Kirino (Oreimo).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "社霞",
+          "tr": "Kasumi Yashiro",
+          "note": "Fillette surdouée du projet Alternative IV, protégée de Yuuko (Muv-Luv).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "毒岛冴子",
+          "tr": "Saeko Busujima",
+          "note": "Capitaine du club de kendo, experte au sabre de bois (Highschool of the Dead).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "香月夕呼",
+          "tr": "Yuuko Kouzuki",
+          "note": "Scientifique à l'origine du projet Alternative IV (Muv-Luv).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "6O",
+          "tr": "6O",
+          "note": "Opératrice de liaison de YoRHa au Bunker, accent enjoué (NieR: Automata).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "伊杰先生",
+          "tr": "Monsieur Yijie",
+          "note": "Façon dont les membres du canal appellent respectueusement le héros.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "黑猫小姐",
+          "tr": "Mademoiselle Kuroneko",
+          "note": "Pseudo de Ruri Gokou dans le canal (Oreimo).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "泰莎",
+          "tr": "Tessa",
+          "note": "Teletha Testarossa, capitaine du sous-marin Tuatha de Danaan (Full Metal Panic!).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "A2",
+          "tr": "A2",
+          "note": "Androïde YoRHa de type A, attaquante vétéran solitaire (NieR: Automata).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "伊杰",
+          "tr": "Yijie",
+          "note": "Vrai nom du héros, Chinois réveillé dans un monde Warhammer 40K.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "黄金马桶先生",
+          "tr": "Monsieur Toilette d'Or",
+          "note": "Pseudo du héros dans le canal, clin d'œil au Trône d'Or de l'Empereur.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "沙织",
+          "tr": "Saori",
+          "note": "Saori Makishima, dite Saori Bajeena, membre du groupe otaku (Oreimo).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "高城沙耶",
+          "tr": "Saya Takagi",
+          "note": "Lycéenne surdouée et mordante, stratège du groupe (Highschool of the Dead).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "冴子",
+          "tr": "Saeko",
+          "note": "Prénom de Saeko Busujima (Highschool of the Dead).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "天童民间警备公司",
+          "tr": "Sécurité civile Tendō",
+          "note": "Agence de Kisara Tendō, lutte contre les Gastrea (Black Bullet).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "香月博士",
+          "tr": "docteure Kouzuki",
+          "note": "Yuuko Kouzuki, directrice du projet Alternative IV (Muv-Luv).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "毒岛",
+          "tr": "Busujima",
+          "note": "Nom de Saeko Busujima, la kendoïste de Highschool of the Dead.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "夕呼",
+          "tr": "Yuuko",
+          "note": "Prénom de Yuuko Kouzuki, scientifique de Muv-Luv.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "高城",
+          "tr": "Takagi",
+          "note": "Nom de Saya Takagi, la stratège de Highschool of the Dead.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "伊—兰斯",
+          "tr": "Yijie",
+          "note": "Le héros : vrai nom Yijie, alias Lance Plain dans l'Imperium.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "艾瑟依拉姆·薇瑟·艾莉欧斯亚",
+          "tr": "Asseylum Vers Allusia",
+          "note": "Nom complet de la princesse de l'Empire Vers (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "黄金先生",
+          "tr": "Monsieur d'Or",
+          "note": "Variante raccourcie du pseudo du héros, Monsieur Toilette d'Or.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "造物主",
+          "tr": "Créateur",
+          "note": "Pour les androïdes : l'humanité disparue qui les a créés (NieR: Automata).",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "9S",
+          "tr": "9S",
+          "note": "Androïde scanner de YoRHa, curieux et analytique (NieR: Automata).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "琉璃",
+          "tr": "Ruri",
+          "note": "Prénom de Ruri Gokou, dite Kuroneko (Oreimo).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "毒岛小姐",
+          "tr": "Mademoiselle Busujima",
+          "note": "Façon dont le héros appelle Saeko (Highschool of the Dead).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "司令官",
+          "tr": "Commandante",
+          "note": "Cheffe de YoRHa depuis le Bunker, supérieure de 2B (NieR: Automata).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "怀特司令官",
+          "tr": "Commandante White",
+          "note": "Titre complet de la Commandante de YoRHa (NieR: Automata).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "岛崎刹那",
+          "tr": "Setsuna Shimazaki",
+          "note": "Jeune créatrice d'Altair, morte avant le récit (Re:CREATORS).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "指挥官",
+          "tr": "commandant",
+          "note": "Titre que les androïdes de YoRHa donnent au héros (NieR: Automata).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "哥哥",
+          "tr": "frère",
+          "note": "Kyousuke Kousaka, grand frère de Kirino (Oreimo), appelé ainsi par elle.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "爱",
+          "tr": "Ai",
+          "note": "Ai Hayasaka, servante dévouée des Shirogane (Kaguya-sama).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "刹那",
+          "tr": "Setsuna",
+          "note": "Setsuna Shimazaki, créatrice d'Altair (Re:CREATORS) ; signifie l'instant.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "菊之丞",
+          "tr": "Kikunojō",
+          "note": "Tendō Kikunojō, grand-père de Kisara (Black Bullet).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "终龍",
+          "tr": "Dragon Final",
+          "note": "Plus puissant des dragons de Disboard, rival du dieu Artosh (No Game No Life).",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "一条",
+          "tr": "Ichijō",
+          "note": "Masaki Ichijō, héritier d'un des Dix Clans (Mahouka) ; classificateur en chinois.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "白",
+          "tr": "Shiro",
+          "note": "Shiro, génie de onze ans de No Game No Life.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "幽灵",
+          "tr": "fantôme",
+          "note": "Membre féminine du canal, dite Mademoiselle Fantôme.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "创造主",
+          "tr": "Créateur",
+          "note": "Les humains pour les androïdes (NieR) ; les auteurs dans Re:CREATORS.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "忍",
+          "tr": "Shinobu",
+          "note": "Shinobu Kocho, Pilier insecte du Corps des pourfendeurs (Demon Slayer).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "队长",
+          "tr": "capitaine",
+          "note": "Grade militaire ; désigne le chef de section du héros.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "笨蛋",
+          "tr": "idiote",
+          "note": "Réplique affectueuse d'Asseylum, puis de Tessa, envers le héros.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "曹操",
+          "tr": "Cao Cao",
+          "note": "Chef de la faction Héros de High School DxD ; entre aussi dans un idiome chinois.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        }
+      ]
+    },
+    {
+      "id": "bloc2",
+      "corrige": true,
+      "title": "Bloc 2 · Vol 4-5 (ch. 50-131)",
+      "capture": "141 fiches : Highschool of the Dead complet + retour Warhammer Tyranides. Verdicts : 83 corriger / 14 harmoniser / 44 garder.",
+      "observations": [
+        "HOTD : Yuriko Takagi, Kohta Hirano, Hisashi Igo, Shizuka Marikawa corrigés; les zombies surnommés Eux (奴ら).",
+        "Triage X : Yûko Sagiri (accent nautiljon), Oriha Nashida, les Seringues, D99.",
+        "FMP : Andrei Kalinin (graphie FR), Richard Mardukas, Amalgam. SAO : Asuna Yūki, Akihiko Kayaba.",
+        "Piège : 颖 = le kabi de Knights of Sidonia (PAS kabane); 方舟 = le vaisseau du groupe, PAS l'Ark Mechanicus."
+      ],
+      "terms": [
+        {
+          "raw": "天人",
+          "tr": "Celestial Being",
+          "note": "1re occurrence : idiome 天人交战 ; puis l'organisation de Gundam 00.",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "方舟",
+          "tr": "Arche",
+          "note": "Vaisseau du groupe (探索者之王号), refuge de l'arc HOTD.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "大远征",
+          "tr": "Grande Croisade",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "能量金币",
+          "tr": "pièces d'énergie",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "机械神教",
+          "tr": "Adeptus Mechanicus",
+          "note": "L'organisation des technoprêtres de Mars (Lexicanum FR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "动力剑",
+          "tr": "épée énergétique",
+          "note": "Power sword ; gaine : champ disruptif (Lexicanum FR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "InfiniteStratos",
+          "tr": "Infinite Stratos",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "尖啸杀手",
+          "tr": "Screamer-Killer",
+          "note": "Variante du Carnifex (Tyranides) ; le roman glose l'anglais.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "灭绝令",
+          "tr": "Exterminatus",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "兵虫",
+          "tr": "insectes de guerre",
+          "note": "Générique Tyranide ; ici les Hormagaunts (刀虫).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "光束刃",
+          "tr": "lame de faisceau",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "D99",
+          "tr": "D99",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "IS",
+          "tr": "IS",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "超空间量子引擎",
+          "tr": "moteur quantique hyperspatial",
+          "note": "Propulsion maison du vaisseau du groupe.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "量子信标",
+          "tr": "balise quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "终结者",
+          "tr": "Terminator",
+          "note": "Référence au film : le T-800 venu du futur.",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "火蜥蜴战团",
+          "tr": "Chapitre des Salamandres",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "旋风鱼雷",
+          "tr": "torpille cyclonique",
+          "note": "Arme d'Exterminatus (Lexicanum FR : torpille cyclonique).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "量子幽灵模式",
+          "tr": "mode fantôme quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "量子幽灵状态",
+          "tr": "état fantôme quantique",
+          "note": "Même dispositif que le mode fantôme quantique.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "百灵药",
+          "tr": "panacée",
+          "note": "Remède immunisant contre le virus des cadavres (HOTD).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "能量币",
+          "tr": "pièces d'énergie",
+          "note": "Monnaie du canal, identique aux pièces d'énergie (能量金币).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "火蜥蜴",
+          "tr": "Salamandres",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "亚空间裂缝",
+          "tr": "Faille du Warp",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "混沌恶魔",
+          "tr": "Démons du Chaos",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "死亡守望",
+          "tr": "Deathwatch",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "黑色甲壳",
+          "tr": "Carapace Noire",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "飞冈市",
+          "tr": "Tobioka",
+          "note": "La ville de Triage X (Tobioka City).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "注射器",
+          "tr": "Seringues",
+          "note": "Organisation criminelle ; tomes FR : les Seringues (VO : Syringe).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "艾恩葛朗特",
+          "tr": "Aincrad",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "登出",
+          "tr": "déconnexion",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "主画面窗口",
+          "tr": "menu principal",
+          "note": "Fenêtre de menu de SAO, invoquée d'un geste du doigt.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "GM",
+          "tr": "maître du jeu",
+          "note": "L'administrateur du jeu (SAO).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "可变形动力甲",
+          "tr": "armure motorisée transformable",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "能量盾",
+          "tr": "bouclier énergétique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "汞合金",
+          "tr": "Amalgam",
+          "note": "L'organisation ennemie du Mithril (FMP).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "魔法少女",
+          "tr": "fille magique",
+          "note": "Genre consacré : magical girl ; Puella Magi chez Kyubey (Madoka).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "使魔",
+          "tr": "familier",
+          "note": "Serviteur d'une sorcière (Madoka).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "孵化者",
+          "tr": "Incubator",
+          "note": "L'espèce de Kyubey ; Fandom FR garde l'anglais (Madoka).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "灵魂宝石",
+          "tr": "Soul Gem",
+          "note": "Gemme cristallisant l'âme d'une fille magique (Madoka).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "悲叹之种",
+          "tr": "Grief Seed",
+          "note": "L'épine laissée par une sorcière, purifie la Soul Gem (Madoka).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "魔女",
+          "tr": "sorcière",
+          "note": "Monstre né d'une fille magique déchue (Madoka).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "时间回溯",
+          "tr": "retour dans le temps",
+          "note": "Boucles temporelles de Homura (Madoka).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "虚拟实境",
+          "tr": "réalité virtuelle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "VRMMORPG",
+          "tr": "VRMMORPG",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "憎恶智能",
+          "tr": "Intelligence Abominable",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "宏炮",
+          "tr": "macro-canon",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "活死人",
+          "tr": "morts-vivants",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "望月基地",
+          "tr": "Base Mochizuki",
+          "note": "QG du Black Label : l'hôpital Mochizuki (Triage X).",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "人类帝国",
+          "tr": "Imperium",
+          "note": "Convention bloc 1 : 帝国 et 人类帝国 = Imperium.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "SwordArtOnline",
+          "tr": "Sword Art Online",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "起始之镇",
+          "tr": "Cité de départ",
+          "note": "Town of Beginnings ; wiki FR : la Cité de départ (SAO).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "机魂",
+          "tr": "Esprit de la Machine",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "太空堡垒",
+          "tr": "forteresse spatiale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "特制钢衣",
+          "tr": "combinaison d'acier spécialisée",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "强化药物",
+          "tr": "drogue de renforcement",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "金属立方体",
+          "tr": "cube métallique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "飞行动力装甲",
+          "tr": "armure motorisée volante",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "微型核聚变",
+          "tr": "fusion nucléaire miniature",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "团长",
+          "tr": "commandant",
+          "note": "Générique (chef) ; SAO : le chef des Knights of the Blood.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "堕落混沌",
+          "tr": "déchu du Chaos",
+          "note": "Astartes renégat du Chaos (WH40K).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "异形审判官",
+          "tr": "Inquisiteur Xenos",
+          "note": "",
+          "verdict": "garder",
+          "cat": "title"
+        },
+        {
+          "raw": "链锯斧",
+          "tr": "hache tronçonneuse",
+          "note": "Chainaxe (Lexicanum FR : Hache Tronçonneuse).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "审判庭",
+          "tr": "Inquisition",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "D99病毒",
+          "tr": "virus D99",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "生化袭击",
+          "tr": "attaque biochimique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "异常病毒",
+          "tr": "virus anormal",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "大裂隙",
+          "tr": "Grande Faille",
+          "note": "La Cicatrix Maledictum (WH40K).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "《超次元频道》",
+          "tr": "Canal Transdimensionnel",
+          "note": "Le canal de chat du groupe ; titre EN : Dimensional Chat Group.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "IS学园",
+          "tr": "Académie IS",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "星舰",
+          "tr": "vaisseau stellaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "国教",
+          "tr": "Ecclésiarchie",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "暴风",
+          "tr": "tempête",
+          "note": "Fragments : 暴风雨 (tempête), 暴风小队 (indicatif) ; Buster Gundam en bloc 4.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "灵魂投影",
+          "tr": "projection de l'âme",
+          "note": "Le reflet de l'âme dans le Warp (WH40K).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "森罗万象",
+          "tr": "tous les phénomènes de l'univers",
+          "note": "Idiome (shinra banshō) : tout ce qui existe dans l'univers.",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "空间跳跃",
+          "tr": "saut spatial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "亚空间恶魔",
+          "tr": "démon du Warp",
+          "note": "Désigne les démons du Chaos (harmonisation WH40K).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "核聚变",
+          "tr": "fusion nucléaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "量子跳跃",
+          "tr": "saut quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "颖",
+          "tr": "kabi",
+          "note": "Matériau des kabizashi, seule arme anti-Gauna (Knights of Sidonia).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "死体病毒",
+          "tr": "virus des cadavres",
+          "note": "L'épidémie de HOTD ; les zombies sont surnommés Eux (奴ら).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "SRT",
+          "tr": "SRT",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "SAO",
+          "tr": "SAO",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "病毒炸弹",
+          "tr": "bombe virale",
+          "note": "Ogive au virus Dévoreur de Vie (Lexicanum FR).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "分解力场",
+          "tr": "champ disruptif",
+          "note": "Lexicanum FR : Champ Disruptif, gaine des armes énergétiques.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "水滴",
+          "tr": "Goutte",
+          "note": "Référence à la sonde trisolarienne (Le Problème à trois corps).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "EMP",
+          "tr": "EMP",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "亚光速航行",
+          "tr": "navigation subluminale",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "妖怪",
+          "tr": "Yōkai",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "贝利撒留考尔",
+          "tr": "Belisarius Cawl",
+          "note": "Archimagos de Mars, concepteur des Primaris (WH40K).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "柩小夜",
+          "tr": "Sayo Hitsugi",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "狭雾友子",
+          "tr": "Yûko Sagiri",
+          "note": "Black Label ; héritière de maîtres de sabres, jumelle de Yôko (Triage X).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "晶彦",
+          "tr": "Akihiko",
+          "note": "Prénom de Kayaba, créateur de SAO.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "明日奈",
+          "tr": "Asuna",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "结城明日奈",
+          "tr": "Asuna Yūki",
+          "note": "Nom réel d'Asuna ; ordre occidental (usage FR des sources).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "茅场晶彦",
+          "tr": "Akihiko Kayaba",
+          "note": "Créateur de SAO ; ordre occidental (usage FR des sources).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "兰斯普莱恩",
+          "tr": "Lance Plain",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "爱丽丝",
+          "tr": "Alice",
+          "note": "Fillette sauvée durant l'arc HOTD, distincte d'Alice Zuberg (SAO).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "亚丝娜",
+          "tr": "Asuna",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "劳尔斯",
+          "tr": "Laurs",
+          "note": "Salamande, OC du roman ; 1re occurrence corrompue par l'agrégateur.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "大贤者",
+          "tr": "Archimagos",
+          "note": "Titre de Belisarius Cawl (titre officiel FR de l'éditeur).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "槙岛沙织",
+          "tr": "Saori Makishima",
+          "note": "Oreimo ; ordre occidental (usage FR des sources).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "高城百合子",
+          "tr": "Yuriko Takagi",
+          "note": "Mère de Saya Takagi (HOTD).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "本子娜",
+          "tr": "Asuna des doujins",
+          "note": "本子 : doujin (argot) ; surnom moqueur du canal pour Asuna.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "黑猫氏",
+          "tr": "Kuroneko",
+          "note": "Suffixe 氏 de respect appliqué au pseudo Kuroneko (Oreimo).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "梨田织叶",
+          "tr": "Oriha Nashida",
+          "note": "Idole de 14 ans, passionnée d'explosifs (Triage X).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "织叶",
+          "tr": "Oriha",
+          "note": "Forme courte de Oriha Nashida (Triage X).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "菲欧娜兰温彻斯特",
+          "tr": "Fiona Ran Winchester",
+          "note": "Directrice de l'hôpital Mochizuki, membre du Black Label (Triage X).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "菲欧娜",
+          "tr": "Fiona",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "小夜",
+          "tr": "Sayo",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "木场美琴",
+          "tr": "Mikoto Kiba",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "美琴",
+          "tr": "Mikoto",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "友子",
+          "tr": "Yûko",
+          "note": "Forme courte de Yûko Sagiri (Triage X).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "堇",
+          "tr": "Sumire",
+          "note": "Idole du canal, 三日月堇 ; sœur de Helen (OC probable).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "赫伦",
+          "tr": "Helen",
+          "note": "Idole du canal, 三日月赫伦 ; sœur de Sumire (OC probable).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "鞠川静香",
+          "tr": "Shizuka Marikawa",
+          "note": "L'infirmière du lycée Fujimi (HOTD).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "静香",
+          "tr": "Shizuka",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "南里香",
+          "tr": "Rika Minami",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "宫本丽",
+          "tr": "Rei Miyamoto",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "理查德马度卡斯",
+          "tr": "Richard Mardukas",
+          "note": "Commandant en second du TDD-1 (Mithril, FMP).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "安德鲁",
+          "tr": "Andrei",
+          "note": "Fragment du nom complet de Kalinin (FMP).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "小圆",
+          "tr": "Madoka",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "鹿目圆",
+          "tr": "Madoka Kaname",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "丘比",
+          "tr": "Kyubey",
+          "note": "L'entité contractante des filles magiques (Madoka).",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "巴麻美",
+          "tr": "Mami Tomoe",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "晓美焰",
+          "tr": "Homura Akemi",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "友子姐",
+          "tr": "grande sœur Yûko",
+          "note": "Mode d'adresse affectueux pour Sagiri Yûko (Triage X).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "宫本",
+          "tr": "Miyamoto",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "静香老师",
+          "tr": "l'infirmière Shizuka",
+          "note": "Shizuka Marikawa, l'infirmière du lycée Fujimi (HOTD).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "望月院长",
+          "tr": "Directeur Mochizuki",
+          "note": "Président-fondateur du Black Label (Triage X).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "艾瑞特",
+          "tr": "Erett",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "平野户田",
+          "tr": "Kohta Hirano",
+          "note": "Élève de Fujimi, passionné d'armes (HOTD).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "考尔",
+          "tr": "Cawl",
+          "note": "Forme courte de Belisarius Cawl.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "小室孝",
+          "tr": "Takashi Komuro",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "井豪永",
+          "tr": "Hisashi Igo",
+          "note": "Élève de Fujimi, mordu dès le début de l'épidémie (HOTD).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "母亲",
+          "tr": "mère",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "妈妈",
+          "tr": "maman",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "汞",
+          "tr": "Mercure",
+          "note": "1re occurrence : fragment de 汞合金 (Amalgam).",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "安德鲁赛格维奇加里宁",
+          "tr": "Andrei Kalinin",
+          "note": "Mithril ; les sources FR écrivent Kalinin (nautiljon).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "姐姐",
+          "tr": "sœur aînée",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "圣女",
+          "tr": "sainte",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        }
+      ]
+    },
+    {
+      "id": "bloc3",
+      "corrige": true,
+      "title": "Bloc 3 · Vol 6-8 (ch. 132-196)",
+      "capture": "101 fiches : Full Metal Panic + Warhammer Orks + retours NieR/HOTD + débuts SEED/Code Geass/Muv-Luv/Three-Body. Verdicts : 62 corriger / 35 harmoniser / 4 garder.",
+      "observations": [
+        "FMP nautiljon : Sousuke Sagara, Tessa Testarossa, Kurz Weber; 强弩兵 = ARX-7 Arbalest; 丹努之子 = Tuatha de Danaan.",
+        "WH40K : 行商浪人 = Libre Marchand (Lexicanum FR); 沉思者 = Cogitateur; 虚空盾 = Bouclier Void.",
+        "SEED : Alliance Terrienne, Heliopolis, Patrick Zala, Mu La Flaga. Muv-Luv : Susano-O Mk. II canon.",
+        "Piège : 钛 = titane (chimie), PAS les T'au; 二向箔 = feuille bidimensionnelle (Three-Body)."
+      ],
+      "terms": [
+        {
+          "raw": "电磁迷彩系统",
+          "tr": "ECS",
+          "note": "Electronic Conceal System : camouflage actif des AS (FMP).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "光学迷彩伪装",
+          "tr": "camouflage optique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "电子病毒",
+          "tr": "virus électronique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "灵能冲击",
+          "tr": "onde de choc psychique",
+          "note": "Pouvoir psychique (WH40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "二向箔",
+          "tr": "feuille bidimensionnelle",
+          "note": "Arme de réduction dimensionnelle de Three-Body (dual vector foil, trad. maison).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "能量魔方",
+          "tr": "cube d'énergie",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "无限能量魔方",
+          "tr": "cube d'énergie infinie",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "虚空盾",
+          "tr": "Bouclier Void",
+          "note": "Void shield (Omnis Bibliotheca : Bouclier Void).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "不可接触者领域",
+          "tr": "aura de Paria",
+          "note": "L'aura de négation psychique des Parias (WH40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "电磁护盾",
+          "tr": "bouclier électromagnétique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "XG-70b【凄乃皇贰型】",
+          "tr": "XG-70b Susano-O Mk. II",
+          "note": "Forteresse aéronautique stratégique (Muv-Luv, nom officiel).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "热熔炸弹",
+          "tr": "bombe à fusion",
+          "note": "Melta bomb ; convention bloc 1 : 热熔弹 = charge à fusion.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "MA",
+          "tr": "MA (Mobile Armor)",
+          "note": "Mobile Armor (SEED).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "MS",
+          "tr": "MS (Mobile Suit)",
+          "note": "Mobile Suit, l'armure mobile (SEED).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "M9",
+          "tr": "M9 Gernsback",
+          "note": "M9 Gernsback, l'AS du Mithril (FMP).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "降维",
+          "tr": "réduction dimensionnelle",
+          "note": "Concept Three-Body (frappe de réduction dimensionnelle).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "维度武器",
+          "tr": "arme dimensionnelle",
+          "note": "Voir 降维 : réduction dimensionnelle (Three-Body).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "光学迷彩",
+          "tr": "camouflage optique",
+          "note": "Furtivité optique du M9 (FMP).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "Ho229",
+          "tr": "Horten Ho 229",
+          "note": "Aile volante allemande de 1945 (Wikipédia FR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "PLANT",
+          "tr": "PLANT",
+          "note": "Les colonies-cocons (SEED).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "扎夫特",
+          "tr": "ZAFT",
+          "note": "Zodiac Alliance of Freedom Treaty (SEED).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "殖民卫星",
+          "tr": "colonie spatiale",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "Ho229飞行器",
+          "tr": "aéronef Horten Ho 229",
+          "note": "L'appareil du groupe, version améliorée.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "异能基因",
+          "tr": "gène d'aptitude surnaturelle",
+          "note": "Mécanique liée au Geass (Code Geass).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "离子炮",
+          "tr": "canon ionique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "强袭扬陆潜舰【丹努之子】TDD-1",
+          "tr": "TDD-1 Tuatha de Danaan",
+          "note": "Sous-marin d'assaut du Mithril (FMP).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "SM-3G型防空导弹",
+          "tr": "missile anti-aérien type SM-3G",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "塞伯坦星球",
+          "tr": "Cybertron",
+          "note": "Simile Transformers : la planète Cybertron.",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "机械飞升",
+          "tr": "ascension mécanique",
+          "note": "Conversion intégrale au métal (WH40K).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "沉思者",
+          "tr": "Cogitateur",
+          "note": "Les ordinateurs numériques de l'Imperium (cogitators, WH40K).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "行星发动机",
+          "tr": "moteur planétaire",
+          "note": "Moteurs de la planète-tombe, écho de 流浪地球.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "能量传送装置",
+          "tr": "dispositif de transfert d'énergie",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "天梯",
+          "tr": "ascenseur spatial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "静滞力场",
+          "tr": "champ de stase",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "欧克兽人",
+          "tr": "Orks",
+          "note": "Les Orks (WH40K).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "WAAAGH！！",
+          "tr": "WAAAGH!!",
+          "note": "Le cri de guerre des Orks (WH40K).",
+          "verdict": "harmoniser",
+          "cat": "technique"
+        },
+        {
+          "raw": "调整者",
+          "tr": "Coordinateur",
+          "note": "Humains améliorés génétiquement (SEED).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "电磁屏障",
+          "tr": "bouclier électromagnétique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "强弩兵",
+          "tr": "Arbalest",
+          "note": "ARX-7 Arbalest, l'AS de Sagara (FMP).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "TDD1",
+          "tr": "TDD-1",
+          "note": "Le sous-marin d'assaut du Mithril (FMP).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "丹努之子",
+          "tr": "Tuatha de Danaan",
+          "note": "Le nom du TDD-1 (FMP).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "银色恶魔",
+          "tr": "démon argenté",
+          "note": "Épithète de l'Arbalest, λ-driver actif (FMP).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "奥布",
+          "tr": "Orb",
+          "note": "L'Union d'Orb, nation neutre (SEED).",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "地球联合",
+          "tr": "Alliance Terrienne",
+          "note": "Les Forces de l'OMNI (SEED).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "Gundam",
+          "tr": "Gundam",
+          "note": "Les armures mobiles prototypes (SEED).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "赫利奥波利斯",
+          "tr": "Heliopolis",
+          "note": "La colonie neutre de l'Union d'Orb (SEED).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "LOGOS",
+          "tr": "LOGOS",
+          "note": "Le consortium de l'industrie militaire (SEED).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "钛",
+          "tr": "titane",
+          "note": "L'élément chimique ; distinct de l'Empire T'au (WH40K).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "宇宙殖民舰",
+          "tr": "vaisseau colonial spatial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "星际移民舰",
+          "tr": "vaisseau d'immigration interstellaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "P.L.A.N.T.",
+          "tr": "PLANT",
+          "note": "Les colonies-cocons (SEED).",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "Z.A.F.T",
+          "tr": "ZAFT",
+          "note": "Zodiac Alliance of Freedom Treaty (SEED).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "尤尼乌斯7",
+          "tr": "Junius 7",
+          "note": "Colonie détruite lors de la Saint-Valentin Sanglante (SEED).",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "超重力炮",
+          "tr": "canon à super-gravité",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "银镜",
+          "tr": "miroir d'argent",
+          "note": "Le cœur sphérique de la planète-tombe.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "P.L.A.N.T",
+          "tr": "PLANT",
+          "note": "Les colonies-cocons (SEED).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "空间跃迁",
+          "tr": "saut spatial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "能量罩",
+          "tr": "bouclier énergétique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "行商浪人",
+          "tr": "Libre Marchand",
+          "note": "Rogue Trader (Lexicanum FR : Libre Marchand).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "自然人",
+          "tr": "Naturels",
+          "note": "Les non-Coordinateurs (SEED).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "里世界",
+          "tr": "monde intérieur",
+          "note": "La face interne de la planète-tombe (moteurs inversés).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "终端",
+          "tr": "terminal",
+          "note": "Générique (terminal portatif) ; le Terminal NieR ensuite.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "空间技术",
+          "tr": "technologie spatiale",
+          "note": "Souvent fragment : 超空间/亚空间 (hyperspatial, Warp).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "游戏人生",
+          "tr": "No Game No Life",
+          "note": "Titre NGNL (ch 1053+) ; 1re occ. ch 195 : idiome (vie de jeu).",
+          "verdict": "harmoniser",
+          "cat": "item"
+        },
+        {
+          "raw": "DRIVER",
+          "tr": "Lambda Driver",
+          "note": "Fragment de λ-DRIVER ; technologie de l'Arbalest (FMP).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "学生会",
+          "tr": "conseil des élèves",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "不可接触领域",
+          "tr": "aura de Paria",
+          "note": "L'aura de négation des Parias (WH40K, harmonisé avec 1085).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "星际战舰",
+          "tr": "vaisseau de guerre stellaire",
+          "note": "Harmonisé avec 星舰, vaisseau stellaire (bloc 2).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "个人存储空间",
+          "tr": "espace de stockage personnel",
+          "note": "L'inventaire des membres du canal (maison).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "联邦",
+          "tr": "fédération",
+          "note": "Générique ; 1re occ. : fragment de 大西洋联邦 (SEED).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "外骨骼",
+          "tr": "exosquelette",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "伊杰老师",
+          "tr": "professeur Yijie",
+          "note": "Le héros infiltré comme infirmier scolaire (cf. 伊杰, Yijie).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "夏娃",
+          "tr": "Ève",
+          "note": "Vie mécanique humanoïde (NieR).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "亚当",
+          "tr": "Adam",
+          "note": "Vie mécanique humanoïde (NieR).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "槙岛香织",
+          "tr": "Kaori Makishima",
+          "note": "La grande sœur de Saori (Oreimo) ; ordre occidental.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "阿斯兰",
+          "tr": "Athrun",
+          "note": "Athrun Zala (SEED).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "穆",
+          "tr": "Mu",
+          "note": "Mu La Flaga (SEED) ; parfois fragment de 穆尔塔阿兹拉埃尔.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "千鸟要",
+          "tr": "Kaname Chidori",
+          "note": "Lycéenne Whispered protégée par le Mithril (FMP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "拉克丝克莱因",
+          "tr": "Lacus Clyne",
+          "note": "La chanteuse de PLANT (SEED).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "拉克丝",
+          "tr": "Lacus",
+          "note": "Lacus Clyne, forme courte (SEED).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "桐谷和人",
+          "tr": "Kazuto Kirigaya",
+          "note": "Kirito (SAO) ; ordre occidental.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "相良宗介",
+          "tr": "Sousuke Sagara",
+          "note": "Soldat du Mithril (FMP) ; usage FR.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "风间信二",
+          "tr": "Shinji Kazama",
+          "note": "Camarade de classe, mordu de militaria (FMP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "泰罗莎",
+          "tr": "Testarossa",
+          "note": "Tessa Testarossa, appelée par son nom de famille (FMP).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "神乐坂恵理",
+          "tr": "Eri Kagurazaka",
+          "note": "Professeure au lycée Jindai (FMP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "梅利莎",
+          "tr": "Melissa",
+          "note": "Melissa Mao, cheffe d'équipe SRT (FMP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "克鲁兹",
+          "tr": "Kurz",
+          "note": "Kurz Weber, tireur d'élite (FMP).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "米丽雅莉亚",
+          "tr": "Miriallia",
+          "note": "Miriallia Haw (SEED).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "基拉",
+          "tr": "Kira",
+          "note": "Kira Yamato (SEED).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "波波菈",
+          "tr": "Popola",
+          "note": "Jumelle gardienne du village (NieR).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "迪瓦菈",
+          "tr": "Devola",
+          "note": "Jumelle gardienne du village (NieR).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "迪瓦菈波波菈",
+          "tr": "Devola et Popola",
+          "note": "Les jumelles (NieR).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "帕特里克萨拉",
+          "tr": "Patrick Zala",
+          "note": "Le père d'Athrun, faction radicale (SEED).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "萨拉",
+          "tr": "Zala",
+          "note": "Nom de famille de Patrick et Athrun (SEED).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "穆尔塔阿兹拉埃尔",
+          "tr": "Muruta Azrael",
+          "note": "Chef des Blue Cosmos et de LOGOS (SEED).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "阿兹拉埃尔",
+          "tr": "Azrael",
+          "note": "Muruta Azrael (SEED).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "卡隆",
+          "tr": "Charon",
+          "note": "1re occ. : fragment de 卡隆炮 (carronade) ; allié de Selesia (Re:CREATORS).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "香织",
+          "tr": "Kaori",
+          "note": "Grande sœur de Saori Makishima (Oreimo).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "CC",
+          "tr": "C.C.",
+          "note": "L'immortelle de Code Geass ; 1re occ. : fragment (100 cc de sang).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "C.C.",
+          "tr": "C.C.",
+          "note": "L'immortelle de Code Geass ; 1re occ. : fragment (100 cc de sang).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "C.C",
+          "tr": "C.C.",
+          "note": "L'immortelle de Code Geass ; 1re occ. : fragment (100 cc de sang).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        }
+      ]
+    },
+    {
+      "id": "bloc4",
+      "corrige": true,
+      "title": "Bloc 4 · Vol 9-10 (ch. 197-286)",
+      "capture": "209 fiches : Gundam SEED massif + Muv-Luv Total Eclipse + arc FF7 + T'au/Tyranides + retour SAO. Verdicts : 135 corriger / 31 harmoniser / 46 garder.",
+      "observations": [
+        "SEED : Natarle Badgiruel, Siegel Clyne, Cagalli Yula Athha, Morgenroete, classe Nazca = destroyer rapide, classe Laurasia = frégate, CGUE, armure Phase Shift, canon positronique.",
+        "Muv-Luv : Cryska Barchenowa, Inia Sestina, Cui Yifei, Bao-Feng, classes BETA canon, champ Rutherford, Moorcock-Lechte Drive; Stella Bremer = canon Total Eclipse.",
+        "WH40K : Toile (网道), Ombre dans le Warp, Narval, Chevalier Impérial, KX139 Ta'unar.",
+        "Pièges : 苏维 = abréviation URSS (pas un perso); 拉达 = fragments de Flaga; 超体 = le film Lucy; introuvables Aerith et 黄金机械座 (Trône d'Or) résolus.",
+        "INCIDENT corrigé : notes à virgules écrites sans quoting à la 1re passe, restauré depuis .bak puis réappliqué en QUOTE_MINIMAL (règle csv.reader gravée)."
+      ],
+      "terms": [
+        {
+          "raw": "终端机",
+          "tr": "terminal",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "绝对防御",
+          "tr": "défense absolue",
+          "note": "Ligne de défense RedShift du roman.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "防御力场",
+          "tr": "champ de force défensif",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "赛特拉",
+          "tr": "Cetra",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "魔晄",
+          "tr": "Mako",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "魔晄炉",
+          "tr": "réacteur Mako",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "网道",
+          "tr": "Toile",
+          "note": "Webway : réseau des Eldars entre Warp et univers réel (Lexicanum FR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "太空死灵",
+          "tr": "Nécrons",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "相位转移",
+          "tr": "Phase Shift",
+          "note": "Gundam SEED : armure Phase Shift des MS GAT-X.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "KX139",
+          "tr": "armure de suprématie KX139 Ta'unar",
+          "note": "T'au : super battlesuit de défense statique (Forge World FR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "钛族",
+          "tr": "T'au",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "超新星反应炉",
+          "tr": "réacteur Nova",
+          "note": "T'au : Nova Reactor du XV104 Riptide (canon, matière noire).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "以太孵化巢",
+          "tr": "couveuse éthérée",
+          "note": "Invention du roman : torpilles d'abordage vivantes Tyranides.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "角鲸虫舰",
+          "tr": "Narval",
+          "note": "WH40K : bio-vaisseau Tyranide aux couloirs gravitationnels (Lexicanum FR : Narval).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "亚空间阴影",
+          "tr": "Ombre dans le Warp",
+          "note": "Tyranides : brouillage psychique annonçant l'invasion (Lexicanum FR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "无限能源魔方",
+          "tr": "cube d'énergie infinie",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "战车级Beta",
+          "tr": "BETA de classe Tank",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "超次元直播",
+          "tr": "stream en direct transdimensionnel",
+          "note": "Émission du groupe de discussion (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "灵能领域",
+          "tr": "champ psychique",
+          "note": "Aligné sur la convention des blocs 1-3 : psychique.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "XV104流机甲",
+          "tr": "mecha de classe XV104",
+          "note": "T'au : le XV104 Riptide.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "RedShift",
+          "tr": "RedShift",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "共感设备",
+          "tr": "dispositif d'empathie",
+          "note": "Interface de co-sensation des XV104, invention du roman.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "战术机级beta机体",
+          "tr": "BETA de classe TSF",
+          "note": "Prototype du heros : BETA construit sur châssis de TSF (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "女武神队",
+          "tr": "escadron Valkyries",
+          "note": "Muv-Luv : Isumi Valkyries, escadron d'élite A-01.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "【兵蜂】",
+          "tr": "drone de combat",
+          "note": "Drones T'au du roman ; abeille soldate (désignation maison).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "XV104【激流】",
+          "tr": "XV104 Riptide",
+          "note": "Canon T'au : Riptide (= torrent).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "五次元重力弹",
+          "tr": "bombe G",
+          "note": "Canon Muv-Luv : G-Bomb, explosion à effet de 5e dimension.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "钛帝国飞行器【曼塔】",
+          "tr": "aéronef de l'Empire T'au [Manta]",
+          "note": "T'au : Manta, super-aéronef de déploiement de troupes.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "拉塞福力场",
+          "tr": "champ Rutherford",
+          "note": "Canon Muv-Luv : champ du moteur Moorcock-Lechte (XG-70).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "XV104超新星反应炉",
+          "tr": "réacteur Nova XV104",
+          "note": "T'au : Nova Reactor du Riptide.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "电磁护盾发生装置",
+          "tr": "dispositif de génération de bouclier électromagnétique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "初号机beta",
+          "tr": "Unité 01 BETA",
+          "note": "BETA à l'apparence de l'Unité 01 d'Evangelion (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "H20巢穴",
+          "tr": "ruche H20",
+          "note": "Canon Muv-Luv : Hive 20 = Sadogashima (Japon).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "曼塔",
+          "tr": "Manta",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "三联脉冲炮",
+          "tr": "canon à impulsions triple",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "突击级beta",
+          "tr": "BETA de classe Destroyer",
+          "note": "Canon : Destroyer-class (bloc 1) ; carapace Mohs 15.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "战术机级beta",
+          "tr": "BETA de classe TSF",
+          "note": "Prototype du heros : BETA construit sur châssis de TSF (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "席古",
+          "tr": "CGUE",
+          "note": "Gundam SEED : CGUE, MS de commandement ZAFT (successeur du GINN).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "纳斯卡级",
+          "tr": "classe Nazca",
+          "note": "Gundam SEED : destroyer spatial rapide ZAFT.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "电浆球体",
+          "tr": "sphère de plasma",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "电离辐射攻击",
+          "tr": "attaque par radiation ionisante",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "那斯卡级主炮",
+          "tr": "canon principal de classe Nazca",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "那斯卡级高速战斗舰",
+          "tr": "destroyer rapide de classe Nazca",
+          "note": "Gundam SEED : classe Nazca, destroyer rapide ZAFT.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "哥德菲尔特",
+          "tr": "canon à faisceau Gottfried Mk.71 225 cm",
+          "note": "Canon jumelé de l'Archangel (Gundam SEED).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "地狱镖",
+          "tr": "Hell-Dart",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "线性磁轨炮",
+          "tr": "canon linéaire Valiant Mk.8 110 cm",
+          "note": "Canon linéaire de l'Archangel (Gundam SEED).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "科林特导弹",
+          "tr": "missile Corinth",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "反光束炸弹",
+          "tr": "charge anti-faisceau",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "能量防御盾",
+          "tr": "bouclier énergétique",
+          "note": "Aligné sur le bloc 3 : bouclier énergétique.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "暴风高达",
+          "tr": "GAT-X103 Buster Gundam",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "迅雷高达",
+          "tr": "GAT-X207 Blitz Gundam",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "神盾高达",
+          "tr": "GAT-X303 Aegis Gundam",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "吉恩",
+          "tr": "GINN (ZGMF-1017)",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "那斯卡级",
+          "tr": "classe Nazca",
+          "note": "Gundam SEED : destroyer spatial rapide ZAFT.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "劳拉西亚级",
+          "tr": "classe Laurasia",
+          "note": "Gundam SEED : classe Laurasia, frégate ZAFT.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "尤尼乌斯7碎片地带",
+          "tr": "zone des débris de Junius Seven",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "反中子干扰器",
+          "tr": "N-Jammer Canceller",
+          "note": "Wikipédia FR : contre-mesure au N-Jammer, réactive le nucléaire.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "中子干扰器",
+          "tr": "brouilleur de neutrons (N-Jammer)",
+          "note": "Wikipédia FR : Neutron Jammer, neutralise le nucléaire et les comms.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "出云级战舰",
+          "tr": "cuirassé de classe Izumo",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "威萨留斯号",
+          "tr": "Vesalius",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "亚光速飞行",
+          "tr": "vol subluminique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "相位转移装甲",
+          "tr": "armure Phase Shift",
+          "note": "Gundam SEED (wiki FR) : armure à énergie des MS GAT-X.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "镇魂曲",
+          "tr": "Requiem",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "恩底弥翁之鹰",
+          "tr": "Faucon d'Endymion",
+          "note": "Surnom de Mu La Flaga (Gundam SEED).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "创世纪",
+          "tr": "Genesis",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "独眼巨人系统",
+          "tr": "système Cyclops",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "光学迷彩技术",
+          "tr": "technologie de camouflage optique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "MS形态",
+          "tr": "forme MS (mobile suit)",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "MA形态",
+          "tr": "forme MA (mobile armor)",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "GAT-X105强袭高达",
+          "tr": "GAT-X105 Strike Gundam",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "试作MS群第1期GAT-X系列",
+          "tr": "série GAT-X de 1re génération de MS prototypes",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "大天使号",
+          "tr": "Archangel (LHM-BB01)",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "神罗公司",
+          "tr": "compagnie Shinra",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "血盟骑士团",
+          "tr": "Knights of the Blood",
+          "note": "SAO : guilde la plus puissante, fondée par Heathcliff ; Asuna vice-commandante.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "反物质",
+          "tr": "antimatière",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "钛星人",
+          "tr": "T'au",
+          "note": "Xénos T'au de Warhammer 40K ; harmonisé à l'Empire T'au.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "恒星炸弹",
+          "tr": "bombe stellaire",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "新星反应炉",
+          "tr": "réacteur Nova",
+          "note": "Canon T'au : Nova Reactor.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "等离子炮",
+          "tr": "canon à plasma",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "粒子射线",
+          "tr": "rayon de particules",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "荷电粒子炮",
+          "tr": "canon à particules chargées",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "共感操作",
+          "tr": "opération d'empathie",
+          "note": "Co-sensation à distance des XV104, invention du roman.",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "XV139",
+          "tr": "XV139",
+          "note": "Désignation XV propre au roman (T'au).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "女武神二队",
+          "tr": "2e escadron Valkyries",
+          "note": "Muv-Luv : Isumi Valkyries (A-01).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "骑士机甲",
+          "tr": "Chevalier Impérial",
+          "note": "WH40K : Imperial Knight (Questoris), machine de guerre géante.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "人类帝皇",
+          "tr": "Empereur de l'Humanité",
+          "note": "",
+          "verdict": "garder",
+          "cat": "title"
+        },
+        {
+          "raw": "黄金机械座",
+          "tr": "Trône d'Or",
+          "note": "Raw composite de l'appli ; le Trône d'Or de l'Empereur (ch 242).",
+          "verdict": "harmoniser",
+          "cat": "item"
+        },
+        {
+          "raw": "调停者",
+          "tr": "médiateur",
+          "note": "Concept du roman : grade supérieur aux Coordinateurs (Lacus).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "芬德申",
+          "tr": "Fendschen",
+          "note": "Nation fictive propre au roman.",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "命运计划",
+          "tr": "plan Destiny",
+          "note": "GSD : Destiny Plan, contrôle génétique voulu par Durandal.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "暴风队",
+          "tr": "escouade Bao-Feng",
+          "note": "Canon Total Eclipse : Bao-Feng Test Flight de Cui Yifei.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "主纵坑",
+          "tr": "puits vertical principal",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "beta巢穴",
+          "tr": "ruche BETA",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "回声部队",
+          "tr": "unité Écho",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "能量反应炉",
+          "tr": "réacteur énergétique",
+          "note": "Le roman l'identifie au cerveau de la ruche (réacteur de ruche).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "头脑级beta",
+          "tr": "réacteur de ruche",
+          "note": "Canon Muv-Luv : Hive Reactor, cerveau de la ruche, relais du Superior.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "女武神1队",
+          "tr": "1er escadron Valkyries",
+          "note": "Muv-Luv : Isumi Valkyries (A-01).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "铁原巢穴（H20）",
+          "tr": "ruche de Cheorwon (H20)",
+          "note": "Canon : hive coréenne de Cheorwon ; le roman la numérote H20.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "太空轨道部队",
+          "tr": "forces orbitales",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "要塞级beta",
+          "tr": "BETA de classe Fort",
+          "note": "Canon Muv-Luv : Fort-class, carapace monumentale.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "第三代战术机",
+          "tr": "TSF de troisième génération",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "第二代战术机",
+          "tr": "TSF de deuxième génération",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "光束武器",
+          "tr": "arme à faisceau",
+          "note": "Gundam SEED : armes à faisceau (beam) ; convention faisceau.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "北美合众国",
+          "tr": "États-Unis d'Amérique (USA)",
+          "note": "Désignation des USA par le roman.",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "佐渡岛",
+          "tr": "Île de Sado",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "育空基地",
+          "tr": "base Yukon",
+          "note": "Canon Muv-Luv : base de test ONU en Alaska.",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "第三势力",
+          "tr": "Troisième Force",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "G兵器",
+          "tr": "armes G",
+          "note": "Gundam SEED : G-Weapons, prototypes volés à Heliopolis.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "320mm高能脉冲炮",
+          "tr": "canon à hyper-impulsion 320 mm",
+          "note": "Launcher Strike : canon Agni (Gundam SEED).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "阿耆尼",
+          "tr": "Agni",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "阳电子炮",
+          "tr": "canon positronique",
+          "note": "Wikipédia FR ; le Lohengrin de l'Archangel en est un.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "曙光社",
+          "tr": "Morgenroete",
+          "note": "Société d'armement d'Orb (Gundam SEED) ; Projet G.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "副团长",
+          "tr": "vice-commandant",
+          "note": "SAO : Asuna, vice-commandante des Knights of the Blood.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "非政府组织",
+          "tr": "organisation non gouvernementale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "driver设备",
+          "tr": "dispositif Lambda Driver",
+          "note": "Full Metal Panic ; aligné sur le bloc 1.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "G计划",
+          "tr": "Projet G",
+          "note": "Gundam SEED : acronyme GUNDAM ; mené par Morgenroete à Heliopolis.",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "古代种",
+          "tr": "Anciens",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "斯卡级高速战斗舰",
+          "tr": "destroyer rapide de classe Nazca",
+          "note": "Gundam SEED : classe Nazca, destroyer rapide ZAFT.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "劳拉西亚级护卫舰",
+          "tr": "frégate de classe Laurasia",
+          "note": "Gundam SEED : classe Laurasia, frégate ZAFT.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "吉恩小队",
+          "tr": "escouade Ginn",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "等离子球体",
+          "tr": "sphère de plasma",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "PSP游戏机",
+          "tr": "console PSP",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "最高评议会",
+          "tr": "Conseil suprême",
+          "note": "PLANT (Gundam SEED).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "生体CPU",
+          "tr": "CPU biologique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "重光线级",
+          "tr": "classe Heavy Laser",
+          "note": "Canon Muv-Luv : Heavy Laser-class, anti-aérien.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "超重光线级",
+          "tr": "classe Laser-Fort",
+          "note": "Canon : Laser-Fort, corps de classe Fort aux yeux Heavy Laser, rarissime.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "坦克级",
+          "tr": "classe Tank",
+          "note": "Canon Muv-Luv : Tank-class.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "大远征时代",
+          "tr": "ère de la Grande Croisade",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "神盾",
+          "tr": "Aegis",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "天基武器",
+          "tr": "arme orbitale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "静滞力场护盾",
+          "tr": "bouclier à champ de stase",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "ML装置",
+          "tr": "dispositif Moorcock-Lechte",
+          "note": "Canon Muv-Luv : Moorcock-Lechte Drive, moteur du XG-70.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超体",
+          "tr": "Lucy",
+          "note": "Référence au film Lucy (Luc Besson) : état surpuissant du heros.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "虫洞",
+          "tr": "trou de ver",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "地球联邦",
+          "tr": "Alliance Terrienne",
+          "note": "Gundam SEED : Alliance Terrienne (OMNI) ; le roman dit Fédération terrestre.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "宙域",
+          "tr": "secteur spatial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "指挥体",
+          "tr": "unité de commandement",
+          "note": "Le commandant BETA d'une ruche (cf. réacteur de ruche).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "卫人",
+          "tr": "gardien",
+          "note": "1re occ fragment ; Gardiens de Knights of Sidonia au bloc 11.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "腿甲",
+          "tr": "Jambière",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "王座",
+          "tr": "trône",
+          "note": "Le Trône d'Or (roman, ch 242).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "士兵级",
+          "tr": "classe Soldier",
+          "note": "Canon Muv-Luv : Soldier-class.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "地球联合舰队",
+          "tr": "flotte de l'Alliance Terrienne",
+          "note": "Gundam SEED : flotte combinée de l'Alliance (OMNI).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "联合政府",
+          "tr": "gouvernement unifié",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "日向",
+          "tr": "Hinata",
+          "note": "Hinata Gokou (Oreimo), petite soeur de Kuroneko ; le cuirasse Hyuga revient au bloc 9.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "里见",
+          "tr": "Satomi",
+          "note": "1re occ fragment ; referent : Satomi (Black Bullet, bloc 8).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "艾瑟依拉姆公主",
+          "tr": "princesse Asseylum",
+          "note": "Aldnoah.Zero : princesse Asseylum Vers Allusia.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "爱丽斯·盖恩斯伯勒",
+          "tr": "Aerith Gainsborough",
+          "note": "FF7 : Cetra, dernière des Anciens ; le roman écrit le nom autrement.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "爱丽斯",
+          "tr": "Aerith",
+          "note": "Forme courte d'Aerith Gainsborough (FF7).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "史黛拉",
+          "tr": "Stellar",
+          "note": "Stellar Loussier (Gundam SEED Destiny), enfant recueillie par le heros.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "克劳德",
+          "tr": "Cloud",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "萨菲罗斯",
+          "tr": "Sephiroth",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "钛帝国",
+          "tr": "Empire T'au",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "凉宫遥",
+          "tr": "Haruka Suzumiya",
+          "note": "Kiminozo, Muv-Luv : membre des Isumi Valkyries (A-01).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "克丽斯嘉",
+          "tr": "Cryska",
+          "note": "Cryska Barchenowa, l'une des Scarlet Twins (Total Eclipse).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "篁唯依",
+          "tr": "Yui Takamura",
+          "note": "Total Eclipse : commandante de l'Argos Test Flight.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "神宫司麻理茉",
+          "tr": "Marimo Jinguuji",
+          "note": "Total Eclipse : officier instructrice de la base Yukon.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "麻理茉",
+          "tr": "Marimo",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "煌武院悠阳",
+          "tr": "Yuuhi Koubuin",
+          "note": "Muv-Luv : commandante des Isumi Valkyries (A-01).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "铠衣左近",
+          "tr": "Sakon Yoroi",
+          "note": "Muv-Luv : pere de Mikoto, officier japonais lie aux refugies.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊妮亚谢斯切娜",
+          "tr": "Inia Sestina",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "伊妮亚",
+          "tr": "Inia",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "克丽斯嘉巴切诺娃",
+          "tr": "Cryska Barchenowa",
+          "note": "Scarlet Twins avec Inia Sestina (Total Eclipse).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "史黛拉布瑞梅尔",
+          "tr": "Stella Bremer",
+          "note": "Canon Total Eclipse : Argos Test Flight (Argos-4), originaire de Suede.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "崔亦菲",
+          "tr": "Cui Yifei",
+          "note": "Canon Total Eclipse : cheffe du Bao-Feng Test Flight.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "迪亚哥",
+          "tr": "Dearka Elsman",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊扎克玖尔",
+          "tr": "Yzak Joule",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "尼高尔",
+          "tr": "Nicol",
+          "note": "Nicol Amalfi (Gundam SEED).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "迪亚克",
+          "tr": "Dearka",
+          "note": "Dearka Elsman (Gundam SEED).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "穆拉弗拉格",
+          "tr": "Mu La Flaga",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "迪亚哥艾尔斯曼",
+          "tr": "Dearka Elsman",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "尼高尔阿玛菲",
+          "tr": "Nicol Amalfi",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "阿斯兰萨拉",
+          "tr": "Athrun Zala",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "弗拉格上尉",
+          "tr": "capitaine Mu La Flaga",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "阿迪斯舰长",
+          "tr": "capitaine Ades",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "克鲁泽",
+          "tr": "Rau Le Creuset",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "娜塔尔",
+          "tr": "Natarle",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "拉米亚斯舰长",
+          "tr": "capitaine Ramius",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "6O小姐",
+          "tr": "Mademoiselle 6O",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "佛拉达上尉",
+          "tr": "capitaine Flaga",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "玛琉",
+          "tr": "Murrue",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "佛拉达",
+          "tr": "Flaga",
+          "note": "Mu La Flaga (SEED) ; occurrences surtout issues de fragments de noms composites.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "劳鲁克鲁泽",
+          "tr": "Rau Le Creuset",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "拉米亚斯",
+          "tr": "Murrue Ramius",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "阿诺尔德诺伊曼",
+          "tr": "Arnold Neumann",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "穆拉佛拉达",
+          "tr": "Mu La Flaga",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "哈罗",
+          "tr": "Haro",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "娜塔尔巴基露露",
+          "tr": "Natarle Badgiruel",
+          "note": "XO de l'Archangel (Gundam SEED).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "穆拉弗拉达",
+          "tr": "Mu La Flaga",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "玛琉拉米亚斯",
+          "tr": "Murrue Ramius",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "卡嘉莉",
+          "tr": "Cagalli",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "巴基露露",
+          "tr": "Badgiruel",
+          "note": "Natarle Badgiruel, XO de l'Archangel (Gundam SEED).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "希兹克利夫",
+          "tr": "Heathcliff",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "辛",
+          "tr": "Xin",
+          "note": "1re occ fragment ; ensuite personnage SAO et fragments divers.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊隅美知留",
+          "tr": "Michiru Isumi",
+          "note": "Commandante des Isumi Valkyries (A-01, Muv-Luv).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "速濑水月",
+          "tr": "Mitsuki Hayase",
+          "note": "Kiminozo, Muv-Luv : Valkyrie d'Isumi (Mitsuki, pas Mizuki).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "吉尔伯特迪兰达尔",
+          "tr": "Gilbert Durandal",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "苏维",
+          "tr": "Soviétiques",
+          "note": "Le roman abrège ainsi l'Union soviétique ; pas un personnage.",
+          "verdict": "corriger",
+          "gender": ""
+        },
+        {
+          "raw": "伊达尔",
+          "tr": "Idar",
+          "note": "Escouade de TSF soviétiques du roman ; pas un personnage.",
+          "verdict": "harmoniser",
+          "gender": ""
+        },
+        {
+          "raw": "凯",
+          "tr": "Kai",
+          "note": "1re occ : incise de Cui Yifei ; quasi toutes les autres sont des fragments.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "卡嘉莉尤拉阿斯哈",
+          "tr": "Cagalli Yula Athha",
+          "note": "Gundam SEED : princesse d'Orb (famille Athha).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "史黛菈",
+          "tr": "Stellar",
+          "note": "Stellar Loussier (GSD), pilote Extended de l'Alliance.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "乌兹米尤拉阿斯哈",
+          "tr": "Uzumi Nara Athha",
+          "note": "Chef d'Orb (Gundam SEED), pere adoptif de Cagalli.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "尤纳洛马塞兰",
+          "tr": "Yuna Roma Seiran",
+          "note": "Orb (GSD), petit-fils d'Unato Ema Seiran.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "尤纳",
+          "tr": "Yuna",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "乌纳特艾玛塞兰",
+          "tr": "Unato Ema Seiran",
+          "note": "Orb (GSD) ; grand-pere de Yuna Roma Seiran.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "希格尔克莱茵",
+          "tr": "Siegel Clyne",
+          "note": "Président du Conseil suprême des PLANT, pere de Lacus.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊扎克",
+          "tr": "Yzak",
+          "note": "Yzak Joule (Gundam SEED).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "哈尔巴顿",
+          "tr": "Halberton",
+          "note": "Amiral de la 8e flotte (Gundam SEED).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "艾莉卡",
+          "tr": "Erika",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "八五七",
+          "tr": "857",
+          "note": "Terme propre au roman, référent non identifié.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "西蒙",
+          "tr": "Simmons",
+          "note": "1re occ : Erika Simmons (Morgenroete) ; plus tard commandant MJP (bloc 15).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "拉达",
+          "tr": "Flaga",
+          "note": "Fragments de noms composites : Mu La Flaga, Al Da Flaga.",
+          "verdict": "corriger",
+          "gender": "Male"
+        }
+      ]
+    },
+    {
+      "id": "bloc5",
+      "corrige": true,
+      "title": "Bloc 5 · Vol 11-12 (ch. 287-336)",
+      "capture": "106 fiches : flotte-ruche + monde-tombe Nécron + FF7 Dirge of Cerberus + salon de convention. Verdicts : 67 corriger / 24 harmoniser / 15 garder.",
+      "observations": [
+        "WH40K : Loup Suprême (Logan Grimnar), Spectre Canoptek, Monde-Tombe, C'tan, métal vivant, classe Luna, Guerre dans le Ciel, Aeldari, armure Mark X Primaris.",
+        "FF7R : Murmures (菲拉/菈菲 = deux graphies du même être), matéria, Reeve Tuesti (l'appli disait Levitusty), Deepground, Nero frère de Weiss.",
+        "Pièges : 杰生 = le héros Yijie (contraction de 伊杰先生), PAS Jason; 将监 1re occ = fragment de 将监视, vrai référent Shougen Ikuma (bloc 8); 米拉 = OC doujin Re:Creators; C设备 = fragment de STC设备."
+      ],
+      "terms": [
+        {
+          "raw": "魔晄液体",
+          "tr": "liquide Mako",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "超级魔晶石",
+          "tr": "super-matéria",
+          "note": "FF7 : super-matéria du roman, énergie quasi infinie.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "量子传送",
+          "tr": "téléportation quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "璀璨星图",
+          "tr": "carte stellaire étincelante",
+          "note": "Roman : artefact cartographiant la galaxie (Warhammer).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "阿赖耶识",
+          "tr": "inconscient collectif",
+          "note": "Alaya : inconscient collectif de l'humanité, assimilé au destin.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "灵能吞噬",
+          "tr": "absorption psychique",
+          "note": "Convention des blocs précédents : psychique (Hojo absorbe le bassin).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "灵能池",
+          "tr": "bassin psychique",
+          "note": "Le roman l'égale au bassin de Mako (ch 322).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "魔晄池",
+          "tr": "bassin de Mako",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "DG神罗战士军团",
+          "tr": "légion SOLDAT de Deepground",
+          "note": "Dirge of Cerberus : Deepground, armée secrète sous Midgar (Tsviets).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "无线接收装置",
+          "tr": "dispositif de réception sans fil",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "生命之流",
+          "tr": "flux vital",
+          "note": "FF7 : le Lifestream, courant de vie de la planète.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "杰诺瓦",
+          "tr": "Jénova",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "魔晶石",
+          "tr": "matéria",
+          "note": "FF7 : cristal condensé de Mako, support de magie (VF : matéria).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "命运守望者",
+          "tr": "gardiens du destin",
+          "note": "FF7R : les Murmures (Whispers), veilleurs du destin.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "菲拉",
+          "tr": "Murmures",
+          "note": "FF7R : les Whispers, dits Murmures en français, gardiens du destin.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "相位元素",
+          "tr": "éléments de phase",
+          "note": "Technique de phase des Nécrons (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "活体巢穴",
+          "tr": "ruche vivante",
+          "note": "Tyranides : assimilé au vaisseau-ruche (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "冥工幽魂",
+          "tr": "spectre Canoptek",
+          "note": "WH40K : Canoptek Wraith, éclaireur-automate Nécron (Lexicanum FR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "分解射线",
+          "tr": "rayon de désintégration",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "维度口袋",
+          "tr": "poche dimensionnelle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "高斯武器",
+          "tr": "arme Gauss",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "重型爆弹枪",
+          "tr": "bolter lourd",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "机仆",
+          "tr": "serviteur Nécron",
+          "note": "Roman : les guerriers-automates Nécrons (cf. squelettes métalliques).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "XV104激流",
+          "tr": "XV104 Riptide",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "MarkX动力甲",
+          "tr": "armure de puissance Mark X",
+          "note": "WH40K : armure des Primaris (Mark X Tacticus).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "热熔爆破装置",
+          "tr": "charge à fusion",
+          "note": "Melta ; convention bloc 1 : melta = à fusion.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "磁轨炮阵列",
+          "tr": "réseau de canons électromagnétiques",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "超重离子炮",
+          "tr": "canon à ions lourds",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "光矛",
+          "tr": "batterie de lances",
+          "note": "WH40K : batteries de lances des vaisseaux impériaux.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "墓穴世界",
+          "tr": "monde-tombe",
+          "note": "WH40K : monde-tombe des Nécrons (Lexicanum FR : Monde-Tombe).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "量子幽灵领域",
+          "tr": "champ fantôme quantique",
+          "note": "Roman : champ du vaisseau fantôme du héros.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "鲨鱼突击艇",
+          "tr": "canot d'assaut Shark",
+          "note": "WH40K : canot d'abordage impérial (classe Shark, Lexicanum FR).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "月级巡洋舰",
+          "tr": "croiseur de classe Luna",
+          "note": "WH40K : croiseur de classe Luna (Imperium).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "星神牌电池",
+          "tr": "batterie-fragment de C'tan",
+          "note": "Roman : fragment de C'tan servant de source d'énergie.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "静滞墓室",
+          "tr": "chambre de stase",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "活体金属",
+          "tr": "métal vivant",
+          "note": "WH40K : le métal vivant des corps Nécrons.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "天堂之战",
+          "tr": "Guerre dans le Ciel",
+          "note": "WH40K : la War in Heaven, Nécrontyrs et C'tan contre les Anciens.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "生化等离子炮",
+          "tr": "canon plasma bio-organique",
+          "note": "Tyranides : bio-plasma.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "太极",
+          "tr": "taiji",
+          "note": "Le symbole yin-yang, favori du héros.",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "北方大空洞",
+          "tr": "cratère du Nord",
+          "note": "FF7 : le cratère du Nord, repaire de Sephiroth.",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "神罗大楼",
+          "tr": "bâtiment Shinra",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "一号魔晄池",
+          "tr": "bassin de Mako no 1",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "一号魔晄炉",
+          "tr": "réacteur Mako no 1",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "杰诺瓦细胞",
+          "tr": "cellules de Jénova",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "盖亚意志",
+          "tr": "volonté de Gaïa",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "亚空间领域",
+          "tr": "domaine Warp",
+          "note": "Convention blocs 1-4 : le sous-espace chinois = Warp.",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "魔石",
+          "tr": "matéria",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "第七圆区",
+          "tr": "secteur 7",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "宇宙开发部",
+          "tr": "département du développement spatial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "古代种赛特拉",
+          "tr": "Anciens Cetra",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "次元壁垒",
+          "tr": "barrière dimensionnelle",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "第七圆盘",
+          "tr": "septième disque",
+          "note": "FF7 : la plate suspendue du secteur 7 (au-dessus des bidonvilles).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "第七街区",
+          "tr": "secteur 7",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "EMP装置",
+          "tr": "dispositif EMP",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "第五区",
+          "tr": "secteur 5",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "成神之池",
+          "tr": "bassin de l'apothéose",
+          "note": "Roman : le bassin de Mako où Hojo s'élève en dieu.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "重光线级beta",
+          "tr": "BETA de classe Heavy Laser",
+          "note": "Canon Muv-Luv : Heavy Laser-class (aligné bloc 4).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "等离子步枪",
+          "tr": "fusil à plasma",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "相位转移技术",
+          "tr": "technologie de phasage",
+          "note": "Nécrons : disparition-réapparition par déphasage (roman).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "阿斯塔特战士",
+          "tr": "guerrier Astartes",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "超重等离子炮",
+          "tr": "canon à plasma lourd",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "血条",
+          "tr": "barre de vie",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "相位传送",
+          "tr": "téléportation de phase",
+          "note": "Nécrons : déplacement par phasage (cf. téléportation phasique).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "量子联络设备",
+          "tr": "Dispositif de communication quantique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "相位传送技术",
+          "tr": "technologie de téléportation phasique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "太极组合",
+          "tr": "combinaison taiji",
+          "note": "Terme propre au roman (combinaison taiji).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "重生",
+          "tr": "Rebirth",
+          "note": "La renaissance de Hojo dans le bassin (roman, clin d'oeil FF7 Rebirth).",
+          "verdict": "harmoniser",
+          "cat": "item"
+        },
+        {
+          "raw": "生物母舰",
+          "tr": "vaisseau-mère biologique",
+          "note": "Tyranides : équivalent des vaisseaux-ruches.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "C设备",
+          "tr": "dispositif C",
+          "note": "1re occ fragment de STC ; référent réel au bloc 14 (Mahouka).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "术式",
+          "tr": "formule magique",
+          "note": "Structure magique gravée dans une matéra (terme récurrent du roman).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "星神碎片",
+          "tr": "fragments de C'tan",
+          "note": "WH40K : les C'tan brisés par les Nécrons (shards).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "金属骷髅",
+          "tr": "squelettes métalliques",
+          "note": "Nécrons : les guerriers au corps de métal (roman).",
+          "verdict": "corriger",
+          "cat": "species"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "尤菲",
+          "tr": "Yuffie",
+          "note": "Yuffie Kisaragi (FF7), kunoichi de Wutai.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "帕尔默",
+          "tr": "Palmer",
+          "note": "Shinra : directeur du programme spatial (FF7).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "将监",
+          "tr": "Shōgen",
+          "note": "1re occ fragment (surveillance) ; référent : Ikuma Shōgen, lié à Miori Shiba (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "纯白帝王",
+          "tr": "Weiss l'Immaculé",
+          "note": "Dirge of Cerberus : Weiss l'Immaculé, empereur de Deepground (Tsviets).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "菈菲",
+          "tr": "Murmures",
+          "note": "FF7R : les Murmures (Whispers) ; le roman emploie deux graphies du nom.",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "尼禄",
+          "tr": "Nero",
+          "note": "Dirge of Cerberus : Nero, frère cadet de Weiss, pouvoir des ténèbres (Tsviets).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "宝条",
+          "tr": "Hojo",
+          "note": "Shinra : chef du département scientifique (FF7).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "魏斯",
+          "tr": "Weiss",
+          "note": "Dirge of Cerberus : Weiss l'Immaculé, frère de Nero, chef des Tsviets.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "巴雷特",
+          "tr": "Barret",
+          "note": "Barret Wallace, chef d'AVALANCHE (FF7).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "艾达灵族",
+          "tr": "Aeldari",
+          "note": "WH40K : graphie officielle englobant les Eldars.",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "太空野狼战团团长",
+          "tr": "Loup Suprême des Space Wolves",
+          "note": "WH40K : Logan Grimnar, maître du chapitre (Lexicanum FR : Loup Suprême).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "星语者",
+          "tr": "Astropathe",
+          "note": "WH40K : télépathe des communications interstellaires (Lexicanum FR).",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "克莱尔雷德菲尔德",
+          "tr": "Claire Redfield",
+          "note": "Resident Evil : soeur de Chris Redfield.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "恸哭者战团",
+          "tr": "Lamenters",
+          "note": "WH40K : chapitre successeur des Blood Angels, chapitre maudit.",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "太空死灵族",
+          "tr": "Nécrons",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "星神",
+          "tr": "C'tan",
+          "note": "WH40K : dieux stellaires, brisés en fragments par les Nécrons.",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "古圣",
+          "tr": "Anciens",
+          "note": "WH40K : les Old Ones, créateurs des races psychiques ; distincts des Anciens de FF7.",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "惧亡者",
+          "tr": "Nécrontyrs",
+          "note": "WH40K : l'ancienne race au corps maudit, devenue les Nécrons.",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "旗柳",
+          "tr": "Flagellum",
+          "note": "Occurrence unique dans un passage corrompu du texte ; référent non identifié.",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "小尤菲",
+          "tr": "Yuffie",
+          "note": "Yuffie Kisaragi (FF7) ; le roman la dit petite.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "路法斯",
+          "tr": "Rufus",
+          "note": "Rufus Shinra : vice-président puis président (FF7).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "毕格斯",
+          "tr": "Biggs",
+          "note": "AVALANCHE (FF7).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "玛琳",
+          "tr": "Marlene",
+          "note": "FF7 : fille adoptive de Barret.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "杰西",
+          "tr": "Jessie",
+          "note": "AVALANCHE (FF7).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "威吉",
+          "tr": "Wedge",
+          "note": "AVALANCHE (FF7).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "扎克斯菲尔",
+          "tr": "Zack Fair",
+          "note": "FF7 : SOLDIER 1re classe, premier amour d'Aerith.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "扎克斯",
+          "tr": "Zack",
+          "note": "Zack Fair (FF7).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "史卡蕾特",
+          "tr": "Scarlet",
+          "note": "Shinra : directrice des armements (FF7).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "总裁",
+          "tr": "président Shinra",
+          "note": "FF7 : le président de la compagnie Shinra, père de Rufus.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "里维图伊斯蒂",
+          "tr": "Reeve Tuesti",
+          "note": "Shinra : urbanisme, créateur de Cait Sith (FF7).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "克莱尔",
+          "tr": "Claire",
+          "note": "Claire Redfield (Resident Evil).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "杰生",
+          "tr": "Yijie",
+          "note": "Contraction du nom du héros ; 2e occurrence fragment (nature du héros).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "米拉",
+          "tr": "Mira",
+          "note": "Mira Tsubakihara, mère de jumelles : doujin du roman (arc Re:Creators).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "鲁路修",
+          "tr": "Lelouch",
+          "note": "Code Geass : mentionné comme oeuvre classique au salon (ch 323).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        }
+      ]
+    },
+    {
+      "id": "bloc6",
+      "corrige": true,
+      "title": "Bloc 6 · Vol 13-14 (ch. 337-448)",
+      "capture": "169 fiches : SAO Aincrad puis Alicization + retour Gundam SEED + Arpeggio + retours NieR/HOTD. Verdicts : 116 corriger / 47 harmoniser / 7 garder.",
+      "observations": [
+        "SAO : Chevaliers de l'Intégrité, Église de l'Axiome, Deusolbert, Taillavenir (VF nautiljon de l'épée temporelle), Yûki Konno, Argo femme, Centoria, Fluctlight, objet divin, Grande Prêtresse.",
+        "Arpeggio : Flotte du Brouillard (3 graphies harmonisées), champ de Klein, modèle mental, I-401, Kotono Amaha.",
+        "GSD : Ezaria Joule, Eileen Canaver, Tad Elsman, Meyrin Hawke; Aura Maha Khyber = reine de Fondation (film SEED Freedom 2024).",
+        "Piège structurel résolu : la ligne quotée NR 990 (Sticia) passée en csv.reader; split des interdit définitivement.",
+        "NieR : 6O parle; 月面基地 = le Bunker YoRHa (l'appli disait base lunaire de Vers, FAUX)."
+      ],
+      "terms": [
+        {
+          "raw": "IA",
+          "tr": "IA",
+          "note": "Désigne une IA (Yui, Strea ; SAO).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "总旗舰",
+          "tr": "vaisseau-amiral suprême",
+          "note": "Désigne Yamato, vaisseau-amiral de la Brume.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "心智核心",
+          "tr": "noyau mental",
+          "note": "Coeur d'un modèle mental (Brume).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "雾之战舰",
+          "tr": "navire du Brouillard",
+          "note": "De la Flotte du Brouillard (Arpeggio).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "纳米材料",
+          "tr": "nanomatériaux",
+          "note": "Matériau constitutif des navires de la Brume (Arpeggio).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "侵蚀鱼雷",
+          "tr": "torpille corrosive",
+          "note": "Arme de la Brume (canon : corrosive torpedo).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "子弹时间",
+          "tr": "bullet time",
+          "note": "Ralenti perceptif du héros (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "舰娘",
+          "tr": "fille-navire",
+          "note": "Modèle mental féminin, terme KanColle (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "次元通道",
+          "tr": "passage dimensionnel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "月面基地",
+          "tr": "base lunaire",
+          "note": "Le Bunker YoRHa (NieR:Automata, dit par 6O).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "波动炮",
+          "tr": "canon à ondes de choc",
+          "note": "Wave Motion Gun (Yamato).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "平行世界人类拯救机关",
+          "tr": "organisation de sauvetage des humains des mondes parallèles",
+          "note": "Organisation inventée par 6O (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "侵蚀弹头",
+          "tr": "ogive corrosive",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "克莱因力场",
+          "tr": "champ de Klein",
+          "note": "Bouclier des navires de la Brume (canon).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "海雾",
+          "tr": "Flotte du Brouillard",
+          "note": "La Flotte du Brouillard, ennemie d'Arpeggio of Blue Steel.",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "心智模型",
+          "tr": "modèle mental",
+          "note": "Avatar humain d'un navire de la Brume (Arpeggio).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "寄叶的作战服",
+          "tr": "uniforme de combat YoRHa",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "完全潜行机",
+          "tr": "machine FullDive",
+          "note": "Appareil de plongée virtuelle (SAO : FullDive).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "创世神史提西亚",
+          "tr": "Stacia, déesse de la création",
+          "note": "Super-compte d'Asuna dans UnderWorld (SAO).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "武装完全支配解放术",
+          "tr": "art de contrôle total de l'armement",
+          "note": "Armament Full Control Art (canon SAO).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "超级账号",
+          "tr": "super-compte",
+          "note": "Comptes administrateurs d'UnderWorld (Stacia, Solus...).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "人界主系统管理权限",
+          "tr": "privilèges d'administration du système principal du Monde des Hommes",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "暗之国",
+          "tr": "Pays des Ténèbres",
+          "note": "Le Dark Territory d'UnderWorld (SAO).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "整合骑士",
+          "tr": "chevalier de l'intégrité",
+          "note": "Ordre de la Cathédrale Centrale (canon SAO).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "摇光数据",
+          "tr": "données Fluctlight",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "摇光模块",
+          "tr": "module Lightcube",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "ArtificialLabileIntelligentCybernetedExistence",
+          "tr": "A.L.I.C.E.",
+          "note": "Artificial Labile Intelligent Cyberneted Existence (canon SAO).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "量子场",
+          "tr": "champ quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "地堡的二级服务器",
+          "tr": "serveur de niveau 2 du bunker",
+          "note": "Bunker = QG de RATH (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "UnderWorld",
+          "tr": "UnderWorld",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "光量子信息",
+          "tr": "information quantique lumineuse",
+          "note": "Information voyageant dans le temps (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "Alicization",
+          "tr": "Alicization",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "Medicuboid",
+          "tr": "Medicuboid",
+          "note": "Machine FullDive médicale (canon SAO).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "电子生命",
+          "tr": "vie électronique",
+          "note": "Conscience convertie en données (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "金属义体",
+          "tr": "prothèse métallique",
+          "note": "Corps artificiel de synthèse (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "高适应性人工智能",
+          "tr": "intelligence artificielle hautement adaptable",
+          "note": "Projet ALI visant une IA adaptative (SAO).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "ArtificialLabileIntelligence",
+          "tr": "intelligence labile artificielle",
+          "note": "ALI, projet d'Alice Zuberg (SAO).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "摇光",
+          "tr": "Fluctlight",
+          "note": "Copie quantique d'une âme (SAO).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "人造人躯体",
+          "tr": "corps d'androïde",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "光学迷彩系统",
+          "tr": "système de camouflage optique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "ALfheimOnline",
+          "tr": "ALfheim Online",
+          "note": "ALO, monde des fées (SAO).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "UnderWorld界",
+          "tr": "monde UnderWorld",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "Alicization划",
+          "tr": "Projet Alicization",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "契约文件",
+          "tr": "document de contrat",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "战斗模块",
+          "tr": "module de combat",
+          "note": "De Strea (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "世界化身艾恩葛朗特",
+          "tr": "avatar du monde Aincrad",
+          "note": "Boss avatar d'Aincrad (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "红玉宫",
+          "tr": "Palais de Rubis",
+          "note": "Ruby Palace, donjon du 100e étage (SAO).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "影像水晶",
+          "tr": "cristal d'image",
+          "note": "Enregistrement d'images (SAO).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "Underworld",
+          "tr": "UnderWorld",
+          "note": "Doublon : même entrée que UnderWorld.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "HP点数",
+          "tr": "points de PV",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "系统界面",
+          "tr": "interface système",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "OceanTurtle",
+          "tr": "OceanTurtle",
+          "note": "Méga-base marine de RATH (SAO).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "RATH",
+          "tr": "RATH",
+          "note": "Organisation de Kikuoka (SAO).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "Rect",
+          "tr": "RECT",
+          "note": "Groupe du père d'Asuna (SAO).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "迷宫层",
+          "tr": "étage labyrinthe",
+          "note": "Zone du boss de chaque étage (SAO).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "转移门",
+          "tr": "portail de téléportation",
+          "note": "Portail entre étages d'Aincrad (SAO).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "狗头人领主",
+          "tr": "seigneur kobold",
+          "note": "Boss : Illfang, seigneur kobold (SAO).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "狗头人",
+          "tr": "kobold",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "体力药水",
+          "tr": "potion de vigueur",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "驯兽师",
+          "tr": "dompteur",
+          "note": "Titre de Silica, dompteuse (SAO).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "锻造师",
+          "tr": "forgeron",
+          "note": "Titre de Lisbeth, forgeronne (SAO).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "转移水晶",
+          "tr": "cristal de téléportation",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "时穿剑",
+          "tr": "Taillavenir",
+          "note": "Épée temporelle de Bercouli (nautiljon : Taillavenir).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "公理教会",
+          "tr": "Église de l'Axiome",
+          "note": "Pouvoir du Monde des Hommes (SAO).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "右眼的封印",
+          "tr": "sceau de l'œil droit",
+          "note": "Code 871 (canon SAO).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "卢利特村",
+          "tr": "village de Rulid",
+          "note": "Village natal d'Alice (SAO).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "神界",
+          "tr": "monde divin",
+          "note": "Croyance de l'Église de l'Axiome (roman).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "下界",
+          "tr": "monde inférieur",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "最高祭司",
+          "tr": "Grande Prêtresse",
+          "note": "Titre de Quinella (canon : Highest Minister).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "四帝国统一大会",
+          "tr": "tournoi d'unification des Quatre Empires",
+          "note": "Les vainqueurs deviennent Chevaliers (SAO).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "神圣术式",
+          "tr": "art sacré",
+          "note": "Arts Sacrés d'UnderWorld (SAO).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "央都",
+          "tr": "Centoria",
+          "note": "Capitale centrale du Monde des Hommes (SAO).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "系统操作台",
+          "tr": "console système",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "最终负荷",
+          "tr": "expérience de charge finale",
+          "note": "Final Load Experiment (canon SAO).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "蛋形设备",
+          "tr": "dispositif ovoïde",
+          "note": "Dispositif contre le contrôle mental (roman).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "国防委员会",
+          "tr": "comité de défense nationale",
+          "note": "Instance des PLANT (SEED).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "太极式",
+          "tr": "style Taiji",
+          "note": "Formule du héros (roman).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "哥德菲尔特高能光束炮",
+          "tr": "canon à faisceau haute énergie Gottfried",
+          "note": "Gottfried Mk.71 de l'Archangel (SEED).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "光波防御带",
+          "tr": "barrière à ondes lumineuses",
+          "note": "Le parasol d'Artemis (SEED).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "MA装备",
+          "tr": "équipement MA",
+          "note": "MA = mobile armor (SEED).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "共同战术网络",
+          "tr": "réseau tactique commun",
+          "note": "Des modèles mentaux de la Brume (roman).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "雾之舰队",
+          "tr": "Flotte du Brouillard",
+          "note": "Arpeggio of Blue Steel.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "东洋方面第一巡航舰队",
+          "tr": "première flotte de croisière de l'Orient",
+          "note": "Flotte de Kongou dans la Brume (Arpeggio).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "次元波动爆缩发射器",
+          "tr": "lanceur d'implosion à ondes dimensionnelles",
+          "note": "Version STC du canon à ondes (Yamato).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "寄叶号",
+          "tr": "vaisseau YoRHa",
+          "note": "Navire YoRHa du roman (NieR).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "yorha",
+          "tr": "YoRHa",
+          "note": "Forces androides (NieR:Automata).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "孟德尔殖民卫星",
+          "tr": "colonie spatiale Mendel",
+          "note": "Colonie abandonnée en L4 (SEED).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "弥赛尔",
+          "tr": "Messiah",
+          "note": "Forteresse successeur de GENESIS (GSD, roman).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "破坏死光",
+          "tr": "rayon de la mort",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "雅金杜维要塞",
+          "tr": "Forteresse Jachin Due",
+          "note": "Forteresse spatiale ZAFT (SEED).",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "地月拉格朗日L4",
+          "tr": "point de Lagrange Terre-Lune L4",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "阿普利里乌斯市",
+          "tr": "ville d'Aprilius",
+          "note": "Aprilius One, capitale des PLANT (SEED).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "零号世界",
+          "tr": "Monde Zéro",
+          "note": "Division du héros (roman).",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "史莱姆",
+          "tr": "Slime",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "三大联盟",
+          "tr": "trois grandes alliances",
+          "note": "Union, AEU, HRL (Gundam 00).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "跨世界支援",
+          "tr": "soutien intermondes",
+          "note": "Mécanisme du roman.",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "光量子闸绪晶体",
+          "tr": "cristal Lightcube",
+          "note": "Stocke les Fluctlight (SAO).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "假象课",
+          "tr": "section de gestion de l'espace virtuel",
+          "note": "Division du ministère de Kikuoka (SAO).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "海雾舰队",
+          "tr": "Flotte du Brouillard",
+          "note": "Arpeggio of Blue Steel.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "MR质",
+          "tr": "matière MR",
+          "note": "Matière exotique du roman (SEED).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "电磁轨道炮",
+          "tr": "canon à rail électromagnétique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "灵魂空间",
+          "tr": "espace de l'âme",
+          "note": "Domaine du héros (roman).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "时间断层",
+          "tr": "faille temporelle",
+          "note": "Time Fault (Yamato 2202).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "精神体",
+          "tr": "corps spirituel",
+          "note": "Forme consciente de Strea (roman).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "D99药剂",
+          "tr": "sérum D99",
+          "note": "Du virus D99 du roman (Vol 4, HOTD).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "-DRIVER系统",
+          "tr": "système Lambda Driver",
+          "note": "Lambda Driver (FMP), le raw a perdu le lambda.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "海军法典",
+          "tr": "Admiralty Code",
+          "note": "Système suprême de la Brume (Arpeggio).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "Code",
+          "tr": "Code",
+          "note": "Fragment (Admiralty Code notamment).",
+          "verdict": "harmoniser",
+          "cat": "technique"
+        },
+        {
+          "raw": "轨道炮",
+          "tr": "canon orbital",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "平行宇宙",
+          "tr": "univers parallèles",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "神器",
+          "tr": "objet divin",
+          "note": "Objet Divin d'UnderWorld (canon SAO).",
+          "verdict": "corriger",
+          "cat": "item"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "爱宕",
+          "tr": "Atago",
+          "note": "Croiseur de la Brume, soeur de Takao (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "伊401",
+          "tr": "I-401",
+          "note": "Sous-marin de la Brume (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "伊欧娜",
+          "tr": "Iona",
+          "note": "Modèle mental du I-401 (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "爱丽丝·祖贝鲁克",
+          "tr": "Alice Zuberg",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "大和",
+          "tr": "Yamato",
+          "note": "Vaisseau-amiral suprême de la Brume (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "天羽琴乃",
+          "tr": "Kotono Amaha",
+          "note": "Avatar mental de Yamato (canon Arpeggio : Amaha Kotono).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "AdmiraltyCode",
+          "tr": "Admiralty Code",
+          "note": "Système suprême de la Flotte du Brouillard (Arpeggio).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "高雄",
+          "tr": "Takao",
+          "note": "Croiseur de la Brume (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "雾岛",
+          "tr": "Kirishima",
+          "note": "Cuirassé de la Brume (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "比睿",
+          "tr": "Hiei",
+          "note": "Cuirassé de la Brume, classe Kongo (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "诗乃",
+          "tr": "Sinon",
+          "note": "Snipeuse GGO, ID de Shino Asada (SAO).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "丘德尔金",
+          "tr": "Chudelkin",
+          "note": "Bouffon dévot de Quinella (Alicization).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "阿多米尼斯多雷特",
+          "tr": "Administrator",
+          "note": "Quinella, cheffe de l'Église de l'Axiome (Alicization).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "卡迪纳尔",
+          "tr": "Cardinal",
+          "note": "Sage de la Grande Bibliothèque (Alicization).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "比嘉键",
+          "tr": "Takeru Higa",
+          "note": "Développeur RATH, variante d'écriture du nom (SAO).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "比嘉健",
+          "tr": "Takeru Higa",
+          "note": "Développeur RATH (canon : Higa Takeru, SAO).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "神代凛子",
+          "tr": "Rinko Kojiro",
+          "note": "Chercheuse, liée à Kayaba (SAO).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "结城京子",
+          "tr": "Kyouko Yuuki",
+          "note": "Mère d'Asuna (SAO).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "须乡伸之",
+          "tr": "Nobuyuki Sugou",
+          "note": "Alias Oberon, antagoniste d'ALO (SAO).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "菊冈诚二郎",
+          "tr": "Seijirou Kikuoka",
+          "note": "Officier JMSDF, membre de RATH (SAO).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "莉兹贝特",
+          "tr": "Lisbeth",
+          "note": "Forgeronne, amie d'Asuna (SAO).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "斯托蕾雅",
+          "tr": "Strea",
+          "note": "IA issue du système SAO (jeux vidéo SAO).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "结衣",
+          "tr": "Yui",
+          "note": "IA émotionnelle MHCP001 (SAO).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "西莉卡",
+          "tr": "Silica",
+          "note": "Dompteuse de Pina (SAO).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "莉兹",
+          "tr": "Liz",
+          "note": "Diminutif de Lisbeth (SAO).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "阿尔戈",
+          "tr": "Argo",
+          "note": "Revendeuse d'infos, dite le Rat (SAO).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "牙王",
+          "tr": "Kibaô",
+          "note": "Joueur accusateur des bêta-testeurs (SAO, nautiljon : Kibaô).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "艾基尔",
+          "tr": "Agil",
+          "note": "Tenancier du magasin d'objets (SAO).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "绀野蓝子",
+          "tr": "Aiko Konno",
+          "note": "Soeur aînée de Yûki Konno, fondatrice des Sleeping Knights (SAO).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "绀野木棉季",
+          "tr": "Yûki Konno",
+          "note": "Zekken, l'Épée Absolue (Mother's Rosario).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "木棉季",
+          "tr": "Yûki",
+          "note": "Yûki Konno, l'Épée Absolue (SAO).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "菊冈诚",
+          "tr": "Seijirou Kikuoka",
+          "note": "Abréviation de Seijirou Kikuoka (SAO).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "菊冈二佐",
+          "tr": "capitaine de frégate Kikuoka",
+          "note": "Grade JMSDF de Seijirou Kikuoka (二佐).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "凛子",
+          "tr": "Rinko",
+          "note": "Kojiro Rinko, chercheuse (SAO).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "伊尔凡古",
+          "tr": "Illfang",
+          "note": "Seigneur kobold, boss du 1er étage (SAO).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "贝尔库利",
+          "tr": "Bercouli",
+          "note": "Bercouli Synthesis One, chef des Chevaliers de l'Intégrité.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "迪索尔巴德",
+          "tr": "Deusolbert",
+          "note": "Chevalier de l'Intégrité, Synthesis Seven (Alicization).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "赛鲁卡",
+          "tr": "Selka",
+          "note": "Soeur adoptive d'Alice, élève à Rulid (Alicization).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "迪索尔巴德辛赛西斯赛门",
+          "tr": "Deusolbert Synthesis Seven",
+          "note": "Chevalier de l'Intégrité (canon : Synthesis Seven).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "暗之国的王",
+          "tr": "Roi du Pays des Ténèbres",
+          "note": "Souverain du Dark Territory (roman, cf. Pays des Ténèbres).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "葵妮拉",
+          "tr": "Quinella",
+          "note": "Quinella, dite Administrator (Alicization).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "奥拉玛哈海贝尔",
+          "tr": "Aura Maha Khyber",
+          "note": "Reine de Fondation (Gundam SEED Freedom).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "艾萨莉亚",
+          "tr": "Ezaria",
+          "note": "Ezaria Joule, mère de Yzak (SEED).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "艾萨莉亚玖尔",
+          "tr": "Ezaria Joule",
+          "note": "Mère de Yzak, conseil suprême PLANT (SEED).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "401",
+          "tr": "401",
+          "note": "Numéro de coque du sous-marin I-401 (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "武藏",
+          "tr": "Musashi",
+          "note": "Cuirassé jumeau de Yamato (Brume).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "露娜",
+          "tr": "Luna",
+          "note": "Forme courte de Lunamaria (GSD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "美玲",
+          "tr": "Meyrin",
+          "note": "Meyrin Hawke, cadette de Lunamaria (GSD).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "露娜玛丽亚",
+          "tr": "Lunamaria",
+          "note": "Pilote ZAFT, soeur de Meyrin (GSD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "泰德",
+          "tr": "Tad",
+          "note": "Tad Elsman, père de Dearka (SEED).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "艾琳",
+          "tr": "Eileen",
+          "note": "Eileen Canaver, diplomate PLANT (SEED).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "泰德艾尔斯曼",
+          "tr": "Tad Elsman",
+          "note": "Père de Dearka, conseil suprême PLANT (SEED).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊势",
+          "tr": "Ise",
+          "note": "Cuirassé de la Brume, jumeau de Hyuga (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "辉夜",
+          "tr": "Kaguya",
+          "note": "Port spatial et canon orbital d'Orb (SEED, mass driver Kaguya).",
+          "verdict": "harmoniser",
+          "gender": ""
+        },
+        {
+          "raw": "露娜玛丽亚霍克",
+          "tr": "Lunamaria Hawke",
+          "note": "Lunamaria Hawke, pilote ZAFT (GSD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "玛丽",
+          "tr": "Mary",
+          "note": "Ici fragment de Lunamaria ; Marie Parfacy (G00) plus tard.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "AC",
+          "tr": "AC",
+          "note": "Admiralty Code (Brume, Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "副队长",
+          "tr": "vice-capitaine",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊欧",
+          "tr": "Iona",
+          "note": "Fragment d'Iona le plus souvent (Arpeggio).",
+          "verdict": "corriger",
+          "gender": "Female"
+        }
+      ]
+    },
+    {
+      "id": "bloc7",
+      "corrige": true,
+      "title": "Bloc 7 · Vol 15-16 (ch. 449-493)",
+      "capture": "81 fiches : retour Warhammer (moisson des peaux + Grand Démon) + Aldnoah.Zero + retours. Verdicts : 44 corriger / 32 harmoniser / 5 garder.",
+      "observations": [
+        "Aldnoah : Asseylum Vers Allusia, Lemrina Vers Envers, Slaine Troyard, Comtes Klancain/Cruhteo/Saazbaum, Barouhcruz, Eddelrittuo, Darzana Magbaredge, château de débarquement; Inaho g Male.",
+        "Kaguya-sama : Ai Hayasaka. IS : Tabane Shinonono (ID du chat 我家妹妹最可爱).",
+        "Pièges : 红月 = la Lune rouge du roman (gender vidé, pas un perso); DNOAH.ZERO raw amputé reconstitué ALDNOAH.ZERO; 光荣弹 = grenade de dernier recours."
+      ],
+      "terms": [
+        {
+          "raw": "浮游炮",
+          "tr": "canons flottants",
+          "note": "Canons à distance d'un Kataphract (Aldnoah).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "光刃",
+          "tr": "lame énergétique",
+          "note": "Lames de faisceau des Kataphrakts (Aldnoah).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "侵蚀率",
+          "tr": "taux d'érosion",
+          "note": "Taux d'infection du virus Gastrea (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "巨石碑",
+          "tr": "monolithe",
+          "note": "Barrière de Varanium anti-Gastrea (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "原肠动物病毒",
+          "tr": "virus Gastrea",
+          "note": "Virus transformant les humains en Gastrea (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "实体分身",
+          "tr": "double physique",
+          "note": "Leurre massif d'un Kataphract (Aldnoah, roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "浮游武器",
+          "tr": "armes flottantes",
+          "note": "Armes guidées des Kataphrakts (Aldnoah).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "龙骑兵系统",
+          "tr": "système DRAGOON",
+          "note": "Technologie DRAGOON (Gundam SEED).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "Aldnoah驱动",
+          "tr": "propulsion Aldnoah",
+          "note": "Réacteur des machines de Vers (Aldnoah).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "扬陆城",
+          "tr": "Château de débarquement",
+          "note": "Landing Castle martien (Aldnoah).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "AREION",
+          "tr": "AREION",
+          "note": "KG-7 Areion, mecha terrien (Aldnoah).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "跨越次元的舰队",
+          "tr": "flotte trans-dimensionnelle",
+          "note": "La flotte du héros traversant les mondes (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "人造人机器人",
+          "tr": "androïde",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "维度坍塌",
+          "tr": "effondrement dimensionnel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "星球再生技术",
+          "tr": "technologie de régénération planétaire",
+          "note": "Régénération des mondes morts (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "第一代IS",
+          "tr": "IS de première génération",
+          "note": "Générations d'armures Infinite Stratos.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "星球再生装置",
+          "tr": "dispositif de régénération planétaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "亚空间跃迁",
+          "tr": "saut Warp",
+          "note": "Convention des blocs 1-6 : le sous-espace = Warp.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "量子分身",
+          "tr": "clonage quantique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "能量激发器",
+          "tr": "excitateur d'énergie",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "扬陆城推进器",
+          "tr": "propulseurs de château de débarquement",
+          "note": "Propulseurs des Landing Castles (Aldnoah).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "丢卡利翁",
+          "tr": "Deucalion",
+          "note": "Porte-avions amphibie terrien (Aldnoah).",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "斥力护盾",
+          "tr": "bouclier de répulsion",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "古代超文明",
+          "tr": "super-civilisation ancienne",
+          "note": "L'ancienne civilisation martienne d'Aldnoah.",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "绿洲",
+          "tr": "oasis",
+          "note": "Signe de la régénération du monde (roman).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "恶魔王子",
+          "tr": "Prince Démon",
+          "note": "Daemon Prince, ascension du Chaos (WH40K).",
+          "verdict": "harmoniser",
+          "cat": "title"
+        },
+        {
+          "raw": "世界抵抗战线",
+          "tr": "front de résistance mondial",
+          "note": "Résistance humaine du monde 40K (roman).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "光荣弹",
+          "tr": "grenade de gloire",
+          "note": "Grenade de dernier recours d'un résistant (roman).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "轨道电梯",
+          "tr": "ascenseur orbital",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "灵魂亚空间",
+          "tr": "sous-espace spirituel",
+          "note": "Le Warp intérieur du héros (cf. espace de l'âme).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "灼眼的夏娜",
+          "tr": "Shakugan no Shana",
+          "note": "Oeuvre citée en exemple (roman).",
+          "verdict": "harmoniser",
+          "cat": "item"
+        },
+        {
+          "raw": "STC通用硬盘",
+          "tr": "Disque dur universel STC",
+          "note": "STC : Standard Template Construct (WH40K).",
+          "verdict": "harmoniser",
+          "cat": "item"
+        },
+        {
+          "raw": "Aldnoah文明",
+          "tr": "civilisation Aldnoah",
+          "note": "Civilisation de Vers (Aldnoah).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "量子实体",
+          "tr": "entité quantique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "精灵",
+          "tr": "espiègle",
+          "note": "Fragment de l'idiome espiègle (pas une fée).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "ALDNOAH术",
+          "tr": "technologie Aldnoah",
+          "note": "L'activation Aldnoah (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超新星爆发",
+          "tr": "supernova",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "波动引擎",
+          "tr": "moteur à ondes",
+          "note": "Wave Motion Engine (Yamato).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "DNOAH.ZERO",
+          "tr": "ALDNOAH.ZERO",
+          "note": "Fragment du titre ALDNOAH.ZERO (raw amputé).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "ALDNOAH.ZERO",
+          "tr": "ALDNOAH.ZERO",
+          "note": "Monde de l'arc, titre officiel (Aldnoah.Zero).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "百灵药物质",
+          "tr": "panacée",
+          "note": "Le remède universel du héros (roman).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "星门",
+          "tr": "portail stellaire",
+          "note": "Portail hyperspatial du héros (roman).",
+          "verdict": "corriger",
+          "cat": "technology"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "艾瑟依拉姆薇瑟艾莉欧斯亚",
+          "tr": "Asseylum Vers Allusia",
+          "note": "Princesse puis impératrice de Vers (Aldnoah.Zero).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "早坂爱",
+          "tr": "Ai Hayasaka",
+          "note": "Domestique de Kaguya (Kaguya-sama).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "蕾穆丽娜",
+          "tr": "Lemrina",
+          "note": "Lemrina Vers Envers, soeur d'Asseylum (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "斯雷因特洛耶特",
+          "tr": "Slaine Troyard",
+          "note": "Chevalier orbital d'origine terrienne (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "库兰卡恩伯爵",
+          "tr": "Comte Klancain",
+          "note": "Comte, fils de Cruhteo (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "蕾穆丽娜薇瑟恩薇瑟",
+          "tr": "Lemrina Vers Envers",
+          "note": "Demi-soeur d'Asseylum, princesse de Vers (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "库鲁特欧伯爵",
+          "tr": "Comte Cruhteo",
+          "note": "Chevalier orbital, pilote du Tharsis (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "扎兹巴鲁姆伯爵",
+          "tr": "Comte Saazbaum",
+          "note": "Chevalier orbital, pilote du Dioscuria (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "尼娜",
+          "tr": "Nina",
+          "note": "Fragment de Nina Klein (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "箕国起助",
+          "tr": "Kisuke Mikuni",
+          "note": "Ami lycéen d'Inaho (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "加姆格拉弗特曼",
+          "tr": "Calm Craftman",
+          "note": "Ami lycéen d'Inaho (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "网文韵子",
+          "tr": "Inko Amifumi",
+          "note": "Amie d'enfance d'Inaho (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "尼娜克莱因",
+          "tr": "Nina Klein",
+          "note": "Amie lycéenne d'Inaho (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "界冢伊奈帆",
+          "tr": "Inaho Kaizuka",
+          "note": "Protagoniste terrien de l'arc (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "鞠户孝一郎",
+          "tr": "Koichiro Marito",
+          "note": "Officier de l'armée terrienne (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "界冢雪",
+          "tr": "Yuki Kaizuka",
+          "note": "Soeur aînée d'Inaho (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "剑光姬",
+          "tr": "Miki Tsurugi",
+          "note": "Anesthésiste de Black Label (Triage X).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "千冬",
+          "tr": "Chifuyu Orimura",
+          "note": "Soeur aînée et professeur d'Ichika (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "织斑一夏",
+          "tr": "Ichika Orimura",
+          "note": "Seul pilote masculin d'IS (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "筱之之束",
+          "tr": "Tabane Shinonono",
+          "note": "Créatrice des IS (Infinite Stratos) ; graphie simplifiée du nom.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "四宫辉夜",
+          "tr": "Kaguya Shinomiya",
+          "note": "Membre du chat, lycéenne géniale (Kaguya-sama).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "竹取物语",
+          "tr": "Conte du coupeur de bambou",
+          "note": "ID chat de Shinomiya Kaguya (Kaguya-sama).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "我家妹妹最可爱",
+          "tr": "Ma petite sœur est la plus mignonne",
+          "note": "ID chat de Tabane Shinonono (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "篠之之束",
+          "tr": "Tabane Shinonono",
+          "note": "Créatrice des IS (Infinite Stratos).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "扎兹巴鲁姆",
+          "tr": "Saazbaum",
+          "note": "Comte Saazbaum, chevalier orbital (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "12O",
+          "tr": "12O",
+          "note": "Opératrice YoRHa propre au roman (NieR).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "巴鲁克鲁斯",
+          "tr": "Barouhcruz",
+          "note": "Comte, pilote de l'Octantis (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "库鲁特欧",
+          "tr": "Cruhteo",
+          "note": "Comte Cruhteo, père de Klancain (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "库兰卡恩",
+          "tr": "Klancain",
+          "note": "Comte, fils de Cruhteo (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "德利佐",
+          "tr": "Eddelrittuo",
+          "note": "Fragment d'Eddelrittuo, servante d'Asseylum (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "鞠户孝",
+          "tr": "Koichiro Marito",
+          "note": "Abréviation de Koichiro Marito (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊奈帆",
+          "tr": "Inaho",
+          "note": "Fragment de Kaizuka Inaho (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "早坂",
+          "tr": "Hayasaka",
+          "note": "Fragment d'Ai Hayasaka (Kaguya-sama).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "达尔扎娜马克芭蕾吉",
+          "tr": "Darzana Magbaredge",
+          "note": "Capitaine du Deucalion (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "马克芭蕾吉",
+          "tr": "Magbaredge",
+          "note": "Fragment de Darzana Magbaredge (Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "达尔扎娜",
+          "tr": "Darzana",
+          "note": "Fragment de Darzana Magbaredge (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "妮娜",
+          "tr": "Nina",
+          "note": "Fragment de Nina Klein (Aldnoah).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "ZERO",
+          "tr": "ZERO",
+          "note": "Code de Lelouch Lamperouge (Code Geass).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "红月",
+          "tr": "Lune rouge",
+          "note": "La lune de sang vivante du roman (Warhammer).",
+          "verdict": "corriger",
+          "gender": ""
+        }
+      ]
+    },
+    {
+      "id": "bloc8",
+      "corrige": true,
+      "title": "Bloc 8 · Vol 17-19 (ch. 494-579)",
+      "capture": "133 fiches : Black Bullet + retour Warhammer/Lost Universe + Infinite Stratos. Verdicts : 87 corriger / 45 harmoniser / 4 garder.",
+      "observations": [
+        "Black Bullet : Shougen Ikuma (le 将监 du bloc 5 résolu), Sōgen Saitake, Président Mikajima, Syndicat des Cinq Ailes, Tina Sprout, Monolithe n°32 corrodé par Aldébaran, Zones (pas District), Varanium, Shiba Heavy Industries.",
+        "Lost Universe (KanzakaDex) : Canal Vorfeed, Sword Breaker, Dugradigdu, Lost Universe (typo corrigée), technologie psychique.",
+        "Infinite Stratos : système Valkyrie Trace, 亡国机业 = Phantom Task, Blue Tears, Silver Gospel, White Knight, Grayscale, Houki Shinonono, Laura Bodewig corrigée, Professeure Orimura g Female.",
+        "Pièges : 山田 ch 538 = Yamada Elf (Eromanga Sensei); hengdao = sabre droit Tang (pas tachi); classe panacée harmonisée; introuvables 阶段五 et IISO identifiés (formes-texte 阶段Ⅴ et 国际起始者监督机构)."
+      ],
+      "terms": [
+        {
+          "raw": "精神技术",
+          "tr": "technologie psychique",
+          "note": "Énergie mentale convertie en énergie physique (Lost Universe).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "量子技术",
+          "tr": "technologie quantique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "共享战术网络",
+          "tr": "réseau tactique partagé",
+          "note": "Réseau de la Flotte du Brouillard, centré sur le I-401 (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "女武神回溯系统",
+          "tr": "système Valkyrie Trace",
+          "note": "Valkyrie Trace : l'IS imite les gestes d'un champion (IS).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "灰色鳞壳",
+          "tr": "Grayscale",
+          "note": "Pile bunker de Charlotte, tueur de boucliers (Infinite Stratos).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "金属射流",
+          "tr": "jet métallique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "光之刃",
+          "tr": "lame de lumière",
+          "note": "Ailes du Silver Gospel changées en lames (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "迟缓光波",
+          "tr": "onde de ralentissement",
+          "note": "Effet du temps ralenti du héros, pensée accélérée (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "黑键",
+          "tr": "Clé noire",
+          "note": "IS de Chloé, fusionné à elle, intrusion réseau (fic).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "VT系统",
+          "tr": "système VT",
+          "note": "Valkyrie Trace System (Infinite Stratos).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "生体同期型IS",
+          "tr": "IS à synchronisation biologique",
+          "note": "IS fusionné au corps de sa pilote (roman).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "量子交换",
+          "tr": "échange quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "蓝色泪雨",
+          "tr": "Blue Tears",
+          "note": "IS de Cecilia Alcott, bits à distance (Infinite Stratos).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "银色福音",
+          "tr": "Silver Gospel",
+          "note": "IS conjointe des États-Unis et du Japon (Infinite Stratos).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "亡国机业",
+          "tr": "Phantom Task",
+          "note": "Organisation terroriste, ennemie de l'académie IS (Infinite Stratos).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "亚原子激流",
+          "tr": "flux subatomique",
+          "note": "Perturbation des têtes Melta du héros (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "反重力系统",
+          "tr": "système anti-gravité",
+          "note": "PIC : annulateur d'inertie passive de l'IS (Infinite Stratos).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "6VT系统",
+          "tr": "système 6VT",
+          "note": "Monde virtuel de combat issu des noyaux IS (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "IS武装",
+          "tr": "armement IS",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "网络潜行设备",
+          "tr": "dispositif d'immersion réseau",
+          "note": "Capsule projetant la conscience dans le réseau des IS (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "IS核心网络",
+          "tr": "réseau des noyaux IS",
+          "note": "Réseau virtuel reliant les noyaux d'IS (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "ExtendedOperationSeeker",
+          "tr": "Extended Operation Seeker",
+          "note": "EOS : armure motorisée de l'ONU, rivale de l'IS (fic).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "外骨骼攻性动力装甲EOS",
+          "tr": "armure motorisée offensive exosquelettique EOS",
+          "note": "L'EOS, l'armure motorisée de l'ONU (fic).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "激波",
+          "tr": "onde de choc",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "灭绝令病毒",
+          "tr": "virus d'Exterminatus",
+          "note": "Arme viratoire planétaire, équivalent de l'Exterminatus (fic).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "swordbreaker剑形飞行器",
+          "tr": "Sword Breaker",
+          "note": "Le vaisseau-épée vu dans l'anime Lost Universe (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "飞天一号",
+          "tr": "Sword Breaker",
+          "note": "Nom du Sword Breaker dans le roman, celui de la grand-mère (Lost Universe).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "失落宇宙",
+          "tr": "Lost Universe",
+          "note": "Série sœur de Slayers, de Hajime Kanzaka.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "超空间跳跃",
+          "tr": "saut hyperspatial",
+          "note": "Propulsion supraluminique des vaisseaux (Lost Universe).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "假象装置",
+          "tr": "dispositif virtuel",
+          "note": "Appareil de Kagetane générant son champ de répulsion (fic).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "分子级再生药剂",
+          "tr": "agent de régénération moléculaire",
+          "note": "Obtenu en perçant les secrets du virus Gastrea (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "伪万灵药",
+          "tr": "panacée artificielle",
+          "note": "Remède tiré du sang du héros (roman).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "錵金属",
+          "tr": "métal Varanium",
+          "note": "Métal anti-Gastrea des armes et Monolithes (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "三十二号巨石碑",
+          "tr": "Monolithe n°32",
+          "note": "Mur anti-Gastrea de la Zone de Tokyo (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "五翔会",
+          "tr": "Syndicat des Cinq Ailes",
+          "note": "Five Wings Syndicate, organisation secrète (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "猫头鹰因子",
+          "tr": "facteur hibou",
+          "note": "ADN de hibou de Tina : vision et ouïe accrues (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "新人类创造计划",
+          "tr": "projet de création de nouveaux humains",
+          "note": "Expérimentations humaines de la guerre des Gastrea (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "促进者的起始者",
+          "tr": "Initiateur d'un Promoteur",
+          "note": "Terme du binôme Promoteur-Initiateur (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "斥力场",
+          "tr": "champ de répulsion",
+          "note": "Barrière de Kagetane repoussant les projectiles (Black Bullet).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "促进者",
+          "tr": "Promoteur",
+          "note": "Officier du binôme, analyse le combat (Black Bullet).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "起始者",
+          "tr": "Initiateur",
+          "note": "Enfant maudit du binôme, combat au front (Black Bullet).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "国际起始者监督机构",
+          "tr": "Organisation Internationale de Supervision des Initiateurs",
+          "note": "IISO, tient le classement mondial des rangs IP (Black Bullet).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "錵",
+          "tr": "Varanium",
+          "note": "Métal spécial, seul létal pour les Gastrea (Black Bullet).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "记忆金属能力",
+          "tr": "capacité de métal à mémoire",
+          "note": "Le slime retient les formes qu'il assimile (roman).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "天蝎座",
+          "tr": "Scorpion",
+          "note": "Gastrea zodiacal de stade V, le Scorpion (Black Bullet).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "阶段Ⅴ",
+          "tr": "Stade V",
+          "note": "Niveau maximal de danger des Gastrea (Black Bullet).",
+          "verdict": "harmoniser",
+          "cat": "title"
+        },
+        {
+          "raw": "初始人形史莱姆",
+          "tr": "slime humanoïde originel",
+          "note": "Souche originelle des Gastrea selon le roman.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "海豚型诅咒之子",
+          "tr": "enfant maudit de type dauphin",
+          "note": "Enfant maudit à l'ADN de dauphin, comme Kayo (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "阶段一",
+          "tr": "Stade I",
+          "note": "Plus bas niveau de danger des Gastrea (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "阶段二",
+          "tr": "Stade II",
+          "note": "Gastrea tué par bombe ou décapitation (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "阶段四",
+          "tr": "Stade IV",
+          "note": "Gastrea ne mourant qu'en cendres (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "阶段五",
+          "tr": "Stade 5",
+          "note": "",
+          "verdict": "garder",
+          "cat": "title"
+        },
+        {
+          "raw": "国际起始者监督机构 (IISO)",
+          "tr": "Organisation Internationale de Supervision des Initiateurs (IISO)",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "司马重工",
+          "tr": "Shiba Heavy Industries",
+          "note": "Plus grand complexe d'armement du monde (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "辅助驱动器",
+          "tr": "actionneur auxiliaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "EOS",
+          "tr": "EOS",
+          "note": "Armure motorisée de l'ONU, rivale de l'IS (fic).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "IS核心",
+          "tr": "noyau IS",
+          "note": "Boîte noire d'un IS, seule Tabane sait les produire (IS).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "IS展开",
+          "tr": "déploiement IS",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "副心智模型",
+          "tr": "modèle mental secondaire",
+          "note": "Double virtuel de Kongō dans le roman (Arpeggio).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "根服务器",
+          "tr": "serveur racine",
+          "note": "Le I-401, centre du réseau de la Flotte du Brouillard (roman).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "MURU物质",
+          "tr": "substance MURU",
+          "note": "Boisson des héroïnes à constitution spéciale, gag du roman.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "超空间航行",
+          "tr": "navigation hyperspatiale",
+          "note": "Voyage alimenté par l'énergie psychique (Lost Universe).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "相位转移空间",
+          "tr": "espace de transition de phase",
+          "note": "Rapproché du déplacement phasique des Nécrons (roman).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "类百灵药物质",
+          "tr": "substance quasi-panacée",
+          "note": "Substance extraite des héroïnes, équivalent de la panacée (roman).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "大阪地区",
+          "tr": "Zone d'Osaka",
+          "note": "Enclave de Saitake, une des Zones du Japon (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "东京地区",
+          "tr": "Zone de Tokyo",
+          "note": "Enclave protégée par les Monolithes (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "外围区",
+          "tr": "zone périphérique",
+          "note": "Quartier pauvre où vivent les enfants maudits (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "北海道地区",
+          "tr": "Zone de Hokkaido",
+          "note": "Une des cinq Zones du Japon (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "博多地区",
+          "tr": "Zone de Hakata",
+          "note": "Une des cinq Zones du Japon (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "仙台地区",
+          "tr": "Zone de Sendai",
+          "note": "Une des cinq Zones du Japon (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "机械化士兵",
+          "tr": "soldat mécanisé",
+          "note": "Humain au corps modifié, comme Kagetane (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "五芒星纹身",
+          "tr": "tatouage en forme de pentagramme",
+          "note": "Marque des membres du Syndicat des Cinq Ailes (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "毕宿五",
+          "tr": "Aldébaran",
+          "note": "Gastrea de stade IV, bras droit du Taureau (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "金牛座",
+          "tr": "Taurus",
+          "note": "Gastrea zodiacal de stade V, le Taureau (Black Bullet).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "白骑士",
+          "tr": "White Knight",
+          "note": "IS légendaire de l'incident du même nom (Infinite Stratos).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "外骨骼攻性机动装甲",
+          "tr": "armure motorisée offensive exosquelettique",
+          "note": "L'EOS, l'armure de l'ONU développée contre les IS (fic).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "量产型IS",
+          "tr": "IS de série",
+          "note": "IS d'entraînement de l'académie (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "假想装置",
+          "tr": "dispositif virtuel",
+          "note": "Appareil de Kagetane générant son champ de répulsion (fic).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "伪万灵药物质",
+          "tr": "substance de panacée artificielle",
+          "note": "La matière du remède tiré du sang du héros (roman).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "学生会长",
+          "tr": "présidente du conseil étudiant",
+          "note": "Tatenashi Sarashiki, à l'académie IS (Infinite Stratos).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "彗星级战舰",
+          "tr": "vaisseau de classe Comète",
+          "note": "Classe des cinq vaisseaux au canon à ondes du roman.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超光速航行",
+          "tr": "navigation supraluminique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "IS装备",
+          "tr": "équipement IS",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "IS装甲",
+          "tr": "armure IS",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "类百灵药",
+          "tr": "quasi-panacée",
+          "note": "Substance des héroïnes aux effets de la panacée (roman).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "横刀",
+          "tr": "hengdao",
+          "note": "Sabre droit chinois de l'époque Tang, arme du héros.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "卫星级巡洋 cruiser",
+          "tr": "Croiseur de classe satellite",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "光之枪",
+          "tr": "lance de lumière",
+          "note": "Attaque des serviteurs d'un Gastrea zodiacal (roman).",
+          "verdict": "corriger",
+          "cat": "item"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "帝格拉迪古都",
+          "tr": "Dugradigdu",
+          "note": "Seigneur noir Dark Star, rival du dieu dragon Vorfeed (Lost Universe).",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "帝格拉迪古",
+          "tr": "Dugradigdu",
+          "note": "Abréviation de Dugradigdu, le seigneur noir (Lost Universe).",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "凯娜儿",
+          "tr": "Canal",
+          "note": "Canal Vorfeed, IA du Sword Breaker (Lost Universe).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "克萝伊",
+          "tr": "Chloé",
+          "note": "Robot-femme de chambre créé par Tabane (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "奥尔卡特",
+          "tr": "Alcott",
+          "note": "Fragment de Cecilia Alcott (Infinite Stratos).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "织斑千冬老师",
+          "tr": "Professeure Chifuyu Orimura",
+          "note": "Professeure de l'académie IS (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "山田真耶老师",
+          "tr": "Professeure Maya Yamada",
+          "note": "Assistante de Chifuyu à l'académie IS.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "塞西莉娅",
+          "tr": "Cecilia",
+          "note": "Cecilia Alcott (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "箒",
+          "tr": "Houki",
+          "note": "Houki Shinonono (Infinite Stratos).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "塞西莉亚",
+          "tr": "Cecilia",
+          "note": "Cecilia Alcott (Infinite Stratos).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "夏洛特",
+          "tr": "Charlotte",
+          "note": "Charlotte Dunois (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "克萝伊克罗尼克",
+          "tr": "Chloé Chronique",
+          "note": "Robot-femme de chambre de Tabane (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "拉芙拉",
+          "tr": "Laura",
+          "note": "Laura Bodewig (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "塞西莉娅奥尔卡特",
+          "tr": "Cecilia Alcott",
+          "note": "Pilote d'IS anglaise, Blue Tears (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "篠之之箒",
+          "tr": "Houki Shinonono",
+          "note": "Soeur de Tabane, amie d'enfance d'Ichika (IS).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "上山田真耶",
+          "tr": "Maya Yamada",
+          "note": "Fragment : Maya Yamada, professeure de l'académie IS.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "山田真耶",
+          "tr": "Maya Yamada",
+          "note": "Assistante de Chifuyu à l'académie IS.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "凰铃音",
+          "tr": "Lingyin Huang",
+          "note": "Pilote chinoise, amie d'enfance d'Ichika (IS).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "织斑千冬",
+          "tr": "Chifuyu Orimura",
+          "note": "Professeure de l'académie IS, soeur d'Ichika (IS).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "篠之之帚",
+          "tr": "Houki Shinonono",
+          "note": "Soeur de Tabane, amie d'enfance d'Ichika (IS).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "凯娜儿沃菲德",
+          "tr": "Canal Vorfeed",
+          "note": "IA du Sword Breaker, liée au dieu dragon Vorfeed (Lost Universe).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "拉古德梅扎基斯",
+          "tr": "Ragudo Mezegis",
+          "note": "Vaisseau perdu ennemi du Sword Breaker (Lost Universe).",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "帝古雷迪都DarkStar",
+          "tr": "Dugradigdu DarkStar",
+          "note": "Transport IA qui porte le nom du seigneur noir Dugradigdu (roman).",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "阿尔布雷希特格吕内瓦尔德",
+          "tr": "Albrecht Grünwald",
+          "note": "Un des Quatre Sages, à l'origine du soldat mécanisé Kagetane (roman).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "齐武玄宗",
+          "tr": "Sōgen Saitake",
+          "note": "Président de la Zone d'Osaka, membre des Cinq Ailes (Black Bullet).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "蒂娜",
+          "tr": "Tina",
+          "note": "Tina Sprout, Initiator modèle hibou, rang IP 98 (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "千寿夏世",
+          "tr": "Kayo Senju",
+          "note": "Initiator modèle dauphin, binôme de Shougen Ikuma (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "室户堇",
+          "tr": "Muroto Sumire",
+          "note": "Médecin de l'agence Tendō, un des Quatre Sages (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "保胁卓人",
+          "tr": "Takuto Yasuwaki",
+          "note": "Chef des gardes du corps de la Seitenshi (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "蛭子影胤",
+          "tr": "Kagetane Hiruko",
+          "note": "Promoter masqué, ex-soldat mécanisé de l'unité 787 (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "三岛社长",
+          "tr": "Président Mikajima",
+          "note": "Kagemochi Mikajima, patron de l'agence de Shougen Ikuma (Black Bullet).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊熊将监",
+          "tr": "Shougen Ikuma",
+          "note": "Promoter orgueilleux, binôme de Kayo Senju (Black Bullet).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "莲太郎",
+          "tr": "Rentaro",
+          "note": "Rentaro Satomi, Promoter de l'agence Tendō (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "里见莲太郎",
+          "tr": "Rentaro Satomi",
+          "note": "Promoter de l'agence Tendō, héros de Black Bullet.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "蓝原延珠",
+          "tr": "Enju Aihara",
+          "note": "Initiator modèle lapin, binôme de Rentaro (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "延珠",
+          "tr": "Enju",
+          "note": "Enju Aihara (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "司马未织",
+          "tr": "Miori Shiba",
+          "note": "Fille du PDG de Shiba Heavy Industries (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "清美",
+          "tr": "Kiyomi",
+          "note": "Secrétaire de la Seitenshi (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "拉芙拉布迪威伊",
+          "tr": "Laura Bodewig",
+          "note": "Pilote allemande, Schwarzer Regen (Infinite Stratos).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "伊老",
+          "tr": "Vieux Yi",
+          "note": "Le héros Yijie, appelé familièrement ainsi (roman).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "小克",
+          "tr": "Petite Chloé",
+          "note": "Surnom de Chloé Chronique, robot de Tabane (fic).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "山田",
+          "tr": "Yamada",
+          "note": "Yamada Elf, autrice de light novels (Eromanga Sensei).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "更识簪",
+          "tr": "Kanzashi Sarashiki",
+          "note": "Pilote d'IS, soeur cadette de Tatenashi (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "更识楯无",
+          "tr": "Tatenashi Sarashiki",
+          "note": "Présidente du conseil étudiant de l'académie IS (Infinite Stratos).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "织斑老师",
+          "tr": "Professeure Orimura",
+          "note": "Chifuyu Orimura, professeure de l'académie IS.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "齐武",
+          "tr": "Saitake",
+          "note": "Sōgen Saitake, président de la Zone d'Osaka (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "管家",
+          "tr": "Majordome",
+          "note": "Ancien majordome des Tendō, membre des Cinq Ailes (Black Bullet).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊同学",
+          "tr": "Laura Bodewig",
+          "note": "Fragment de Bodewig ; ch 932+ : l'élève Yijie (roman).",
+          "verdict": "corriger",
+          "gender": "Female"
+        }
+      ]
+    },
+    {
+      "id": "bloc9",
+      "corrige": true,
+      "title": "Bloc 9 · Vol 20-21 (ch. 580-669)",
+      "capture": "164 fiches : Arpeggio of Blue Steel + Gundam 00. Les 4 apostrophes U+2019 résolues : global à 0. Verdicts : 68 corriger / 31 harmoniser / 58 garder.",
+      "observations": [
+        "Gundam 00 : Aeolia Schenberg, Wang Liu Mei, Kati Mannequin, Ralph Eifman, Ligue de réforme humaine, Gundam Akatsuki, Union de l'énergie solaire, Royaume d'Azadistan.",
+        "Arpeggio : suite des modèles mentaux, 卫星级 = classe Satellite harmonisée.",
+        "OCR corrigé : 壬鸟要 = 千鸟要 = Kaname Chidori (Full Metal Panic, retour).",
+        "Gunzō Chihaya g Male corrigé. Les 4 apostrophes typographiques restantes (NR 841/855/856/863) harmonisées : U+2019 = 0 dans tout le CSV depuis ce bloc."
+      ],
+      "terms": [
+        {
+          "raw": "大型量子演算系统吠陀（VEDA）",
+          "tr": "VEDA, système de calcul quantique à grande échelle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "平行世界拯救机关（PWRA）",
+          "tr": "Organisation de Sauvetage des Mondes Parallèles (PWRA)",
+          "note": "Agence de sauvetage des mondes parallèles (fic).",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "能天使高达",
+          "tr": "Gundam Exia",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "铁人式高机动B型",
+          "tr": "Tieren haute mobilité type B",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "高斯步枪",
+          "tr": "fusil Gauss",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "动力外骨骼装甲",
+          "tr": "armure exosquelette motorisée",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "托勒密",
+          "tr": "Ptolemaios",
+          "note": "Vaisseau-mère de Celestial Being (Gundam 00).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "全息实体投影技术",
+          "tr": "technologie de projection holographique solide",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "超空间航行装置",
+          "tr": "dispositif de navigation hyperspatiale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "飞天一号核心舱",
+          "tr": "module central de Sword Breaker",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "黑暗之星",
+          "tr": "Dark Star",
+          "note": "Seigneur noir de Lost Universe, rival de Vorfeed.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "智能人偶",
+          "tr": "poupée intelligente",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "机械方舟",
+          "tr": "Arche Mechanicus",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "量子跃迁",
+          "tr": "Saut quantique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "太阳能源和自由国度联合",
+          "tr": "Union de l'énergie solaire et des nations libres",
+          "note": "Un des trois blocs de Gundam 00.",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "阿扎迪斯坦王国",
+          "tr": "Royaume d'Azadistan",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "MS技术",
+          "tr": "technologie MS",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "量子分化",
+          "tr": "différenciation quantique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "量子实体分化",
+          "tr": "dispositif de scission quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "陆行鸟",
+          "tr": "Chocobo",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "魔晄之光",
+          "tr": "Lueur du Mako",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "灵能射线",
+          "tr": "rayons d'énergie psychique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "时空武器",
+          "tr": "arme spatio-temporelle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "火种计划",
+          "tr": "projet Étincelle",
+          "note": "Plan de survie de l'humanité d'un autre monde (fic).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "IA【又称呼铁人】",
+          "tr": "IA (également appelées Hommes de Fer)",
+          "note": "IA ennemie de ce monde, dite Hommes de Fer.",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "超战舰",
+          "tr": "Super-cuirassé",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "仿生智能机器人",
+          "tr": "robot intelligent bionique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "光量子力场",
+          "tr": "champ de force photo-quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "量子实体分身装置",
+          "tr": "dispositif de clone physique quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "卫星级战舰",
+          "tr": "Vaisseau de classe Satellite",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "AdmiralityCode",
+          "tr": "Admiralty Code",
+          "note": "Code de la Flotte du Brouillard (Arpeggio).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "长良型雾之战舰",
+          "tr": "navire de Brume de classe Nagara",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "长良型",
+          "tr": "classe Nagara",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "ECS技术",
+          "tr": "Technologie ECS",
+          "note": "Full Metal Panic, camouflage furtif.",
+          "verdict": "harmoniser",
+          "cat": "other"
+        },
+        {
+          "raw": "量子127技术",
+          "tr": "technologie quantique 127",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "拯救平行世界机关",
+          "tr": "Agence de Sauvetage des Mondes Parallèles",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "托勒密号",
+          "tr": "Ptolemaios",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "太阳炉",
+          "tr": "réacteur solaire",
+          "note": "Gundam 00, coeur des GN Drive.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "吠陀",
+          "tr": "VEDA",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "原始变革者",
+          "tr": "Innovateurs originels",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "P W R A",
+          "tr": "PWRA",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "Paralle1WorldRescueAgency",
+          "tr": "Agence de Sauvetage des Mondes Parallèles",
+          "note": "Parallel World Rescue Agency (fic).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "变革者",
+          "tr": "Innovateur",
+          "note": "Humain évolué de Gundam 00.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "GN动器",
+          "tr": "Actionneur GN",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "量子叠加状态",
+          "tr": "État de superposition quantique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "任意门",
+          "tr": "Porte Dimensionnelle",
+          "note": "Image de la porte de Doraemon, accès direct entre zones.",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "轨道环",
+          "tr": "anneau orbital",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "不可视之刃",
+          "tr": "lame invisible",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "爆炸引擎",
+          "tr": "Moteur à explosion",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "GN子",
+          "tr": "Particules GN",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "天人号",
+          "tr": "Celestial Being",
+          "note": "Vaisseau-mère éponyme de l'organisation (Gundam 00).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "吠陀（VEDA）",
+          "tr": "VEDA",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "防空粒子炮",
+          "tr": "Canon à particules anti-aérien",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "拟变革者",
+          "tr": "pseudo-Innovateur",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "德天使",
+          "tr": "Virtue",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "AEU",
+          "tr": "AEU",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "力天使高达",
+          "tr": "Gundam Dynames",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "天人武装组织",
+          "tr": "Celestial Being",
+          "note": "Organisation armée de Gundam 00.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "能天使",
+          "tr": "Exia",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "力天使",
+          "tr": "Dynames",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "主天使",
+          "tr": "Kyrios",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "太阳能技术",
+          "tr": "Technologie solaire",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "神谕",
+          "tr": "Providence",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "光波带防御罩",
+          "tr": "bouclier à ondes lumineuses",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "拂晓",
+          "tr": "Akatsuki",
+          "note": "MS doré d'Orb (Gundam SEED Destiny).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "平行世界拯救机关",
+          "tr": "Organisation de Sauvetage des Mondes Parallèles",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "人革联",
+          "tr": "Ligue de réforme humaine",
+          "note": "Un des trois blocs de Gundam 00.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "重生高达",
+          "tr": "Gundam Reborns",
+          "note": "Mobile suit de Ribbons Almark (Gundam 00).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "核聚变炉",
+          "tr": "Réacteur à Fusion Nucléaire",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "暗能量Aldnoah术",
+          "tr": "technologie de l'énergie sombre Aldnoah",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "精神能量-driver技术",
+          "tr": "système Lambda Driver",
+          "note": "Full Metal Panic, convertit l'énergie mentale.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "GN阳炉",
+          "tr": "réacteur solaire GN",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "量子演算信息系统Veda",
+          "tr": "VEDA, système d'information à calcul quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "脑量子波",
+          "tr": "ondes cérébrales quantiques",
+          "note": "Perception des Innovateurs (Gundam 00).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "核裂变反应炉",
+          "tr": "Réacteur à fission nucléaire",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "大天使级强袭特装舰",
+          "tr": "cuirassé d'assaut de classe Archangel",
+          "note": "Gundam SEED, classe de l'Archangel.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "主天使号",
+          "tr": "Dominion",
+          "note": "Vaisseau-jumeau de l'Archangel (Gundam SEED).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "大型量子演算系统吠陀",
+          "tr": "VEDA, système de calcul quantique à grande échelle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "GN-Drive",
+          "tr": "GN Drive",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "E-碳钢",
+          "tr": "E-Carbon",
+          "note": "Alliage des châssis (Gundam 00).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "要塞级拟太阳炉",
+          "tr": "pseudo-réacteur solaire de classe forteresse",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "阿尔提密斯之伞",
+          "tr": "Parapluie d'Artémis",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technique"
+        },
+        {
+          "raw": "拂晓高达",
+          "tr": "Gundam Akatsuki",
+          "note": "Nom romanesque de l'Akatsuki (SEED).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "骑士高达",
+          "tr": "Knight Gundam",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "GNX运式机体",
+          "tr": "unités GN-X",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "GN装战机",
+          "tr": "GN Arms",
+          "note": "Module d'armement des Gundam (G00).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "喰种",
+          "tr": "goules",
+          "note": "Tokyo Ghoul.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "量子化",
+          "tr": "Quantification",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technique"
+        },
+        {
+          "raw": "ELS",
+          "tr": "ELS",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "量子通信",
+          "tr": "Communication quantique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "GN粒子",
+          "tr": "Particules GN",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "VEDA",
+          "tr": "VEDA",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "堕天使",
+          "tr": "Fallen Angel",
+          "note": "IS codé Fallen Angel (fic).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "P W R A机构",
+          "tr": "Organisation PWRA",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "MS部队",
+          "tr": "Unités MS",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "类伪万灵药",
+          "tr": "quasi-panacée artificielle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "IS动力装甲",
+          "tr": "Armure motorisée IS",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "玛丽？帕法西",
+          "tr": "Marie Parfacy",
+          "note": "Vraie personnalité de Soma Peries (Gundam 00).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "菲露特",
+          "tr": "Feldt",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "亚历杭德罗科纳",
+          "tr": "Alejandro Corner",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "利冯兹阿尔马克",
+          "tr": "Ribbons Almark",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "克里斯蒂娜",
+          "tr": "Christina Sierra",
+          "note": "Opératrice des communications du Ptolemaios (Gundam 00).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "玛莉娜",
+          "tr": "Marina",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "帕特里克克拉萨瓦",
+          "tr": "Patrick Colasour",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "刹那F清英",
+          "tr": "Setsuna F. Seiei",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "格拉汉姆艾卡",
+          "tr": "Graham Aker",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "索玛",
+          "tr": "Soma",
+          "note": "Soma Peries, soldate surhumaine de la HRL (Gundam 00).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "谢尔盖斯米尔诺夫",
+          "tr": "Sergei Smirnov",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "希尔达哈肯",
+          "tr": "Hilda Hacken",
+          "note": "Commandante des forces au sol pour la princesse Marina (fic).",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "娟江克洛斯罗德",
+          "tr": "Kinue Crossroad",
+          "note": "Journaliste, soeur de Saji Crossroad (Gundam 00).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "玛丽娜",
+          "tr": "Marina",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "席琳巴弗提亚尔",
+          "tr": "Shirin Bakhtiar",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "克里斯蒂娜塞拉",
+          "tr": "Christina Sierra",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "洛克昂史特拉托斯",
+          "tr": "Lockon Stratos",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "提耶利亚",
+          "tr": "Tieria Erde",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "皇李诺瑞加",
+          "tr": "Sumeragi Lee Noriega",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "王留美",
+          "tr": "Wang Liu Mei",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "易澪",
+          "tr": "Yi Ling",
+          "note": "Ligne corrompue, référent incertain.",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "玛莉娜伊斯玛仪",
+          "tr": "Marina Ismail",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "四月一日伊织",
+          "tr": "Iori Watanuki",
+          "note": "Modèle mental infiltrée à l'académie (fic).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "长门",
+          "tr": "Nagato",
+          "note": "Modèle mental de la Flotte du Brouillard (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "长良",
+          "tr": "Nagara",
+          "note": "Croiseur de la Brume de classe Nagara (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "刑部莳绘",
+          "tr": "Keibu Shikae",
+          "note": "Enfant du monde de la Brume, graphie incertaine.",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "伊织",
+          "tr": "Iori Watanuki",
+          "note": "Forme abrégée (fic).",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "伊奥利亚修罕贝克",
+          "tr": "Aeolia Schenberg",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊奥利亚",
+          "tr": "Aeolia",
+          "note": "Aeolia Schenberg, fondateur de Celestial Being (Gundam 00).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "菲露特古蕾斯",
+          "tr": "Feldt Grace",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "提耶利亚厄德",
+          "tr": "Tieria Erde",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "塔丽亚",
+          "tr": "Talia",
+          "note": "Talia Gladys, officier du Dominion (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "青树高雄",
+          "tr": "Takao Aoki",
+          "note": "Alias humaine du modèle mental Takao (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "千早群像",
+          "tr": "Gunzō Chihaya",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "千早翔像",
+          "tr": "Shōzō Chihaya",
+          "note": "Père de Gunzō Chihaya (Arpeggio).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "玛莉娜公主",
+          "tr": "Princesse Marina",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "壬鸟要",
+          "tr": "Kaname Chidori",
+          "note": "Graphie OCR de Kaname Chidori (Full Metal Panic).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "利冯兹",
+          "tr": "Ribbons",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "洛克昂",
+          "tr": "Lockon",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "哈雷路亚",
+          "tr": "Hallelujah",
+          "note": "Alter ego d'Allelujah Haptism (Gundam 00).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "卡蒂玛内金",
+          "tr": "Kati Mannequin",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "哈雷路亚哈普提森",
+          "tr": "Allelujah Haptism",
+          "note": "Alter ego : Hallelujah (Gundam 00).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "谢尔盖",
+          "tr": "Sergei",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "米娅坎贝尔",
+          "tr": "Meer Campbell",
+          "note": "Doublure de Lacus Clyne (Gundam SEED Destiny).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "索玛皮里斯",
+          "tr": "Soma Peries",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "八七七",
+          "tr": "877",
+          "note": "Innovade de Ribbons Almark (fic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊恩",
+          "tr": "Ian",
+          "note": "Ian Vashti, mécanicien de Celestial Being (Gundam 00).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "雾岛董香",
+          "tr": "Touka Kirishima",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "董香",
+          "tr": "Touka",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "拉尔夫埃夫曼",
+          "tr": "Ralph Eifman",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "卡蒂",
+          "tr": "Kati",
+          "note": "",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "路易斯",
+          "tr": "Louise",
+          "note": "Louise Halevy (Gundam 00).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "比利片桐",
+          "tr": "Billy Katagiri",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "拉斐尔",
+          "tr": "Ralph Eifman",
+          "note": "Graphie variante du professeur Eifman (Gundam 00).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "路易丝",
+          "tr": "Louise",
+          "note": "Louise Halevy (Gundam 00).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "妙高",
+          "tr": "Myōkō",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "足柄",
+          "tr": "Ashigara",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "榛名",
+          "tr": "Haruna",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "一零七",
+          "tr": "107",
+          "note": "Ligne corrompue, référent incertain.",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "贞德",
+          "tr": "Jeanne d'Arc",
+          "note": "Comparaison, pas un personnage du roman.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        }
+      ]
+    },
+    {
+      "id": "bloc10",
+      "corrige": true,
+      "title": "Bloc 10 · Vol 22-25 (ch. 670-767)",
+      "capture": "121 fiches : arcs Mahouka (début), Muv-Luv, retours divers. Verdicts : 57 corriger / 14 harmoniser / 32 garder.",
+      "observations": [
+        "Mahouka : Oko Shinomiya, Retsu Kudou, Minami Sakurai, Carina Tomo Hosaka (= Argo), Altair.",
+        "想子 = psion, 灵子 = pushion : convention Mahouka gravée (sauf contexte DxD plus tard).",
+        "BETA laser/excavateur alignés sur le canon Muv-Luv.",
+        "Piège : 帆坂朋 = Argo (le même perso que Carina Tomo Hosaka)."
+      ],
+      "terms": [
+        {
+          "raw": "三大广域暴力团",
+          "tr": "trois grands syndicats du crime régionaux",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "秀知院学园",
+          "tr": "académie Shuchi'in",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "四叶家",
+          "tr": "Famille Yotsuba",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "十师族",
+          "tr": "Dix Clans Maîtres",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "十师族甄选会议",
+          "tr": "conférence de sélection des Dix Clans",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "国际魔法协会",
+          "tr": "association internationale de magie",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "CAD",
+          "tr": "CAD (dispositif d'assistance au séquençage)",
+          "note": "Mahouka, outil de lancement des magies.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "战略魔法师",
+          "tr": "magicien de classe stratégique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "人形核弹",
+          "tr": "bombe nucléaire humanoïde",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "C'Tan Saranorga",
+          "tr": "C'Tan Saranorga",
+          "note": "C'Tan du roman (fic).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "超空间设备",
+          "tr": "équipement hyperspatial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超次元门",
+          "tr": "Portail transdimensionnel",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "虚拟登录器",
+          "tr": "connecteur virtuel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "Ho300",
+          "tr": "Ho300",
+          "note": "Aéronef du héros, évolution du Ho229 (roman).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "女王蜂巢系统",
+          "tr": "système ruche de la reine",
+          "note": "Copie du système des reines BETA (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "STL舱",
+          "tr": "Capsule STL",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "婴儿摇篮床【大人版】",
+          "tr": "berceau pour bébé [version adulte]",
+          "note": "Gadget du roman.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "量子化跃迁",
+          "tr": "saut quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "帝国泰拉",
+          "tr": "Terra impériale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "高领主",
+          "tr": "Hauts Seigneurs",
+          "note": "",
+          "verdict": "garder",
+          "cat": "title"
+        },
+        {
+          "raw": "贸易许可令",
+          "tr": "permis commercial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "行商王朝",
+          "tr": "dynastie marchande",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "圣遗物",
+          "tr": "relique sacrée",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "模因病毒",
+          "tr": "virus mémétique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "异端审判庭",
+          "tr": "Inquisition",
+          "note": "Inquisition de Warhammer 40K.",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "格伦诺瓦",
+          "tr": "Grenova",
+          "note": "Vaisseau perdu ennemi de Lost Universe (roman).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "空间棱镜",
+          "tr": "prisme spatial",
+          "note": "Dispositif de Grenova déformant l'espace (Lost Universe).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "利普尔枪",
+          "tr": "fusil Ripple",
+          "note": "Arme de Canal brisant l'espace (Lost Universe, roman).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "黑暗灵族",
+          "tr": "Drukhari",
+          "note": "Eldars noirs (Warhammer 40K).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "灭绝令病毒炸弹",
+          "tr": "bombe virale d'Exterminatus",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "平行世界拯救机构",
+          "tr": "agence de sauvetage des mondes parallèles",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "生物工业母机",
+          "tr": "machine-mère industrielle biologique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "生物盾构机母舰级beta",
+          "tr": "BETA excavateur de classe cuirassé",
+          "note": "Forme BETA du roman (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "光线种beta",
+          "tr": "BETA de classe laser",
+          "note": "Type laser des BETA (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "冰雾神域",
+          "tr": "domaine divin de la brume glacée",
+          "note": "Magie de vibration de Miya (fic).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "战略级魔法",
+          "tr": "Magie de classe stratégique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technique"
+        },
+        {
+          "raw": "阿卡夏空间",
+          "tr": "espace Akashique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "叠加太极",
+          "tr": "Taiji superposé",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technique"
+        },
+        {
+          "raw": "W形式",
+          "tr": "forme W",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technique"
+        },
+        {
+          "raw": "M形式",
+          "tr": "forme M",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technique"
+        },
+        {
+          "raw": "S基因",
+          "tr": "gène S",
+          "note": "Gène des Coordinateurs (Gundam SEED).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "ALDNOAH动器",
+          "tr": "actionneur Aldnoah",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "幻象胶体粒子系特殊装甲防御阵",
+          "tr": "matrice de défense d'armure spéciale à particules de colloïde fantôme",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "一型宏炮",
+          "tr": "macro-canon de type 1",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "二型宏炮",
+          "tr": "macro-canon de type 2",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "Ho300战斗飞行器",
+          "tr": "aéronef de combat Ho300",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "等离子护盾",
+          "tr": "bouclier plasma",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "激光燃烧型光矛",
+          "tr": "lance de lumière à combustion laser",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "宇宙殖民卫星",
+          "tr": "satellite de colonisation spatiale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "灵子放射光过敏症",
+          "tr": "allergie à la radiation de pushion",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "风纪委员",
+          "tr": "comité de discipline",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "想子",
+          "tr": "Psions",
+          "note": "Particule de l'information magique (Mahouka).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "灵子光",
+          "tr": "lumière de pushion",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "灵子",
+          "tr": "pushion",
+          "note": "Particule spirituelle de Mahouka, avec le psion.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "晶阳石",
+          "tr": "cristal solaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "魔法协会",
+          "tr": "association magique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "忘川的支配者",
+          "tr": "souverain du fleuve de l'oubli",
+          "note": "Surnom de Miya Yotsuba (fic).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "飞行魔法",
+          "tr": "magie de vol",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "传送门",
+          "tr": "portail de téléportation",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "戴森球",
+          "tr": "sphère de Dyson",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "魔法式",
+          "tr": "formule magique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "四叶本家",
+          "tr": "Maison principale Yotsuba",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "人造魔法师",
+          "tr": "magicien artificiel",
+          "note": "Expérience des Yotsuba sur Tatsuya (Mahouka).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "精神魔法师",
+          "tr": "magicien mental",
+          "note": "Magicien manipulant les esprits (Mahouka).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "灵子的光",
+          "tr": "lumière de pushion",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超空间引擎",
+          "tr": "moteur hyperspatial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "虚拟舱",
+          "tr": "Cabine virtuelle",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "生物机甲",
+          "tr": "mecha biologique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "法阵",
+          "tr": "Cercle magique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technique"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "四条真妃",
+          "tr": "Maki Shijo",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "四辉夜",
+          "tr": "Kaguya",
+          "note": "Fusion OCR de Kaguya Shinomiya (Kaguya-sama).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "藤原千花",
+          "tr": "Chika Fujiwara",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "早坂妈妈",
+          "tr": "Mère de Hayasaka",
+          "note": "Mère d'Ai Hayasaka (Kaguya-sama).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "四宫黄光",
+          "tr": "Oko Shinomiya",
+          "note": "Frère aîné de Kaguya (Kaguya-sama).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "早坂奈央",
+          "tr": "Nao Hayasaka",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "四叶真夜",
+          "tr": "Maya Yotsuba",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "九岛烈",
+          "tr": "Retsu Kudou",
+          "note": "Chef des Dix Clans (Mahouka).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "塔丽亚库拉迪斯",
+          "tr": "Talia Gladys",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "朝田诗乃",
+          "tr": "Shino Asada",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "桐谷直叶",
+          "tr": "Suguha Kirigaya",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "直叶",
+          "tr": "Suguha",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "帆坂朋",
+          "tr": "Carina Tomo Hosaka",
+          "note": "Argo, informatrice de SAO (Sword Art Online).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "筱崎里香",
+          "tr": "Rika Shinozaki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "阿尔泰尔",
+          "tr": "Altair",
+          "note": "Création de Re:Creators.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "四叶深雪",
+          "tr": "Miyuki Yotsuba",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "深雪",
+          "tr": "Miyuki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "母亲大人",
+          "tr": "Mère",
+          "note": "Miya Yotsuba, mère de Miyuki (Mahouka).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "四叶深夜",
+          "tr": "Miya Yotsuba",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "樱井水波",
+          "tr": "Minami Sakurai",
+          "note": "Gardienne de Miyuki, nièce d'Honami (Mahouka).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "樱井穗波",
+          "tr": "Honami Sakurai",
+          "note": "Tutrice de Miyuki, tante de Minami (Mahouka).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "莉法",
+          "tr": "Leafa",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "司波深雪",
+          "tr": "Miyuki Shiba",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "北山雫",
+          "tr": "Shizuku Kitayama",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "雫",
+          "tr": "Shizuku",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "风间玄信",
+          "tr": "Kenshin Kazama",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "司波",
+          "tr": "Shiba",
+          "note": "Fragment de Shiba Miyuki ou Tatsuya (Mahouka).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "藤林响子",
+          "tr": "Kyoko Fujibayashi",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "电子魔女",
+          "tr": "sorcière électronique",
+          "note": "Surnom de Kyoko Fujibayashi (Mahouka).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "将辉",
+          "tr": "Kaguya",
+          "note": "Fragment de phrase désignant Kaguya, pas Masaki (Kaguya-sama).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "穗波",
+          "tr": "Honami",
+          "note": "Honami Sakurai (Mahouka).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "水波",
+          "tr": "Minami",
+          "note": "Fragment de Minami Sakurai (Mahouka).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "姨母",
+          "tr": "Tante",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "卡莲",
+          "tr": "Kallen",
+          "note": "Fan du monde réel ; à distinguer de Kallen Stadtfeld (Code Geass).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        }
+      ]
+    },
+    {
+      "id": "bloc11",
+      "corrige": true,
+      "title": "Bloc 11 · Vol 26-29 (ch. 768-887)",
+      "capture": "148 fiches : Re:Creators complet + Tokyo Ghoul + Yamato 2202 + Gauna + Protoss + Heroic Age. Verdicts : 100 corriger / 26 harmoniser / 43 garder.",
+      "observations": [
+        "Re:Creators : Magane Chikujouin, Alicetaria February, Yuya Mirokuji, Blitz Talker, Mamika Kirameki, Meteora Österreich, Hikayu Hoshikawa, Vogelchevalier, Avalken.",
+        "Tokyo Ghoul : Fueguchi, Cochlea, Anteiku, CCG. Yamato : Starsha, Gatlantis, Cosmos Reverse System.",
+        "Sidonia : 奇居子 = Gauna, kabi/kabizashi; 幼女四叶真夜.",
+        "Deianeira (Heroic Age) et les Protoss (StarCraft) identifiés. Piège : l'introuvable 二一七舰队 (ch 880) reste sans référent certain."
+      ],
+      "terms": [
+        {
+          "raw": "双重动力装甲",
+          "tr": "armure motorisée double",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "对策会议",
+          "tr": "conseil des contre-mesures",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "魔导机甲",
+          "tr": "armure magitech",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "弗格尔骑士",
+          "tr": "Vogelchevalier",
+          "note": "Mecha de Selesia (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "消除室FES",
+          "tr": "bureau d'effacement FES",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "承认力",
+          "tr": "reconnaissance du public",
+          "note": "Source des pouvoirs des créations (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "Gigasmachina",
+          "tr": "Gigasmachina",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "追忆的阿瓦肯",
+          "tr": "Avalken des souvenirs",
+          "note": "Jeu de Meteora (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "追加设定",
+          "tr": "paramétrage additionnel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "里番",
+          "tr": "hentai",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "天降之物",
+          "tr": "Heaven's Lost Property",
+          "note": "Sora no Otoshimono.",
+          "verdict": "harmoniser",
+          "cat": "item"
+        },
+        {
+          "raw": "星空银河",
+          "tr": "Galaxie Stellaire",
+          "note": "Jeu galgame de Hikayu (Re:Creators).",
+          "verdict": "harmoniser",
+          "cat": "item"
+        },
+        {
+          "raw": "无限神机Monomagia",
+          "tr": "Monomagia, machine divine infinie",
+          "note": "Anime de Rui (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "闭锁区underground-darknight-",
+          "tr": "zone fermée : Underground-Darknight",
+          "note": "Oeuvre d'Alicetaria (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "夜窗鬼录",
+          "tr": "chroniques des démons de la fenêtre nocturne",
+          "note": "Roman de Magane (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "code？Babylon",
+          "tr": "code:Babylon",
+          "note": "Oeuvre de Blitz et Rui (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "魔法杀手茉美香",
+          "tr": "Mamika, la tueuse de magie",
+          "note": "Anime de Mamika (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "绯色的爱丽丝特莉娅",
+          "tr": "Alicetaria écarlate",
+          "note": "Oeuvre d'Alicetaria (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "次元之门",
+          "tr": "portail dimensionnel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超高校级的偶像",
+          "tr": "idole de niveau super lycée",
+          "note": "Titre de Sayaka Maizono (Danganronpa).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "超高校级的赌徒",
+          "tr": "parieur de niveau super lycée",
+          "note": "Titre de Celestia (Danganronpa).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "十神财团",
+          "tr": "conglomérat Togami",
+          "note": "Famille de Byakuya Togami (Danganronpa).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "空想具现",
+          "tr": "matérialisation de la fantaisie",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "具现化",
+          "tr": "matérialisation",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "大崩溃",
+          "tr": "grand effondrement",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "鸟笼世界",
+          "tr": "monde cage à oiseaux",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "波动咏唱",
+          "tr": "chant d'ondes",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "全能射击",
+          "tr": "tir omnipotent",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "反射领域",
+          "tr": "domaine de réflexion",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "魔法飞溅闪光",
+          "tr": "éclat magique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "因子模仿",
+          "tr": "imitation de facteur",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "因果还元",
+          "tr": "retour causal",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "魔法机甲",
+          "tr": "mecha magique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "鸟笼",
+          "tr": "cage à oiseaux",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "魔导书",
+          "tr": "grimoire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "精灵机想曲弗格尔骑士",
+          "tr": "Vogelchevalier, symphonie des esprits",
+          "note": "Oeuvre de Selesia (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "封闭区underground-darknight-",
+          "tr": "zone fermée : Underground-Darknight",
+          "note": "Oeuvre d'Alicetaria (Re:Creators).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "星辰之盾",
+          "tr": "bouclier stellaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "六角星辰之盾",
+          "tr": "bouclier stellaire hexagonal",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "神族",
+          "tr": "Protoss",
+          "note": "StarCraft.",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "加米拉斯帝国",
+          "tr": "Empire Gamilas",
+          "note": "Yamato 2199.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "宇宙修复系统",
+          "tr": "Cosmos Reverse System",
+          "note": "Yamato 2199.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "波动核心",
+          "tr": "noyau à ondes",
+          "note": "Coeur du moteur à ondes (Yamato).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "EVA型beta",
+          "tr": "BETA type EVA",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "生物基地车",
+          "tr": "véhicule de base biologique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "CCG",
+          "tr": "CCG",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "奎库利阿监狱",
+          "tr": "prison Cochlea",
+          "note": "Prison du CCG (Tokyo Ghoul).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "假想装置展开",
+          "tr": "déploiement du dispositif virtuel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "鸟卜仪系统",
+          "tr": "système d'auspex",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "库因克",
+          "tr": "Quinque",
+          "note": "Arme anti-goule du CCG (Tokyo Ghoul).",
+          "verdict": "harmoniser",
+          "cat": "item"
+        },
+        {
+          "raw": "鸣神",
+          "tr": "Narukami",
+          "note": "Quinque électrique (Tokyo Ghoul).",
+          "verdict": "harmoniser",
+          "cat": "item"
+        },
+        {
+          "raw": "RC检查门",
+          "tr": "porte de détection RC",
+          "note": "Tokyo Ghoul.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "古董咖啡店",
+          "tr": "Anteiku",
+          "note": "Café refuge des goules (Tokyo Ghoul).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "伊斯坎达尔人",
+          "tr": "Iscandariens",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "星际弹道导弹",
+          "tr": "missile balistique interstellaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "冥王星前线基地",
+          "tr": "base avancée de Pluton",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "帝星【帝国母星】",
+          "tr": "planète-mère impériale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "游星炸弹",
+          "tr": "bombe planétaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "反卫星炮",
+          "tr": "canon anti-satellite",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "曲率航行",
+          "tr": "navigation à courbure",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "加米拉斯人",
+          "tr": "Gamilasiens",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "加米拉斯星",
+          "tr": "planète Gamilas",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "伊斯坎达尔文明",
+          "tr": "civilisation d'Iscandar",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "泽姆利亚文明",
+          "tr": "civilisation de Zemuria",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "圣殿",
+          "tr": "le Temple",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "宇宙恢复系统",
+          "tr": "Cosmos Reverse System",
+          "note": "Yamato 2199.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "白色彗星帝国",
+          "tr": "Empire de la Comète Blanche",
+          "note": "Yamato 2199.",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "波动技术",
+          "tr": "technologie à ondes",
+          "note": "Yamato 2199.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "beta登陆单元",
+          "tr": "unité de débarquement BETA",
+          "note": "Muv-Luv.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "奇居子",
+          "tr": "Gauna",
+          "note": "Créatures de Knights of Sidonia.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "希格斯粒子",
+          "tr": "particule de Higgs",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "亚特兰蒂斯之城",
+          "tr": "cité d'Atlantis",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "量子态",
+          "tr": "état quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "灵能魔法",
+          "tr": "magie psychique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "白色彗星",
+          "tr": "comète blanche",
+          "note": "Vaisseau de Gatlantis (Yamato).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "二一七舰队",
+          "tr": "Flotte 217",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "加米拉斯",
+          "tr": "Gamilas",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "大和号",
+          "tr": "Yamato",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "伊斯坎达尔",
+          "tr": "Iskandar",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "希望之峰学园",
+          "tr": "Académie des Pics de l'Espoir",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "超高校级的平面模特",
+          "tr": "mannequin de niveau super lycée",
+          "note": "Titre de Junko Enoshima (Danganronpa).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "加特兰蒂斯",
+          "tr": "Gatlantis",
+          "note": "Yamato 2199.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "特蕾莎星",
+          "tr": "Planète Theresa",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "伊斯坎达尔星",
+          "tr": "Iscandar",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "次元潜艇",
+          "tr": "sous-marin dimensionnel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "星核",
+          "tr": "noyau stellaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "不死船员会",
+          "tr": "société des membres d'équipage immortels",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "水瓶座文明",
+          "tr": "civilisation du Verseau",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "禁魔领域",
+          "tr": "domaine d'interdiction magique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "黄金族",
+          "tr": "tribu d'Or",
+          "note": "Heroic Age.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "白银族",
+          "tr": "tribu d'Argent",
+          "note": "Heroic Age.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "青铜族",
+          "tr": "tribu de Bronze",
+          "note": "Heroic Age.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "黑铁族",
+          "tr": "tribu de Fer noir",
+          "note": "Heroic Age.",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "诺多斯",
+          "tr": "Nodos",
+          "note": "Heroic Age.",
+          "verdict": "harmoniser",
+          "cat": "item"
+        },
+        {
+          "raw": "阿尔戈诺特号",
+          "tr": "Argonaut",
+          "note": "Vaisseau humain (Heroic Age).",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "灵魂绑定",
+          "tr": "lien d'âme",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "英雄族",
+          "tr": "tribu des Héros",
+          "note": "Heroic Age.",
+          "verdict": "corriger",
+          "cat": "species"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "赛蕾嘉尤比缇利亚",
+          "tr": "Selesia Yubitilia",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "筑城院真鉴",
+          "tr": "Magane Chikujouin",
+          "note": "Romancière menteuse de Re:Creators.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "爱丽丝特莉娅菲布拉里",
+          "tr": "Alicetaria February",
+          "note": "Chevaleresse de Re:Creators.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "弥勒寺优夜",
+          "tr": "Yuya Mirokuji",
+          "note": "Escrimeur de Re:Creators.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "布里茨托卡",
+          "tr": "Blitz Talker",
+          "note": "Sniper de Re:Creators.",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "茉美香",
+          "tr": "Mamika",
+          "note": "Fille magique de Re:Creators.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "鹿屋瑠伟",
+          "tr": "Rui Kanoya",
+          "note": "Pilote de Monomagia (Re:Creators).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "米特奥拉艾斯特莱希",
+          "tr": "Meteora Österreich",
+          "note": "Magicienne sage de Re:Creators.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "赛蕾嘉",
+          "tr": "Selesia",
+          "note": "Selesia Yubitilia (Re:Creators).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "星河希卡由",
+          "tr": "Hikayu Hoshikawa",
+          "note": "Héroïne du jeu galgame (Re:Creators).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "菊地原亚希",
+          "tr": "Aki Kikuchihara",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "米特奥拉",
+          "tr": "Meteora",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "小幡優衣",
+          "tr": "Yui Obata",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "宫岛桜",
+          "tr": "Sakura Miyajima",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "倉敷玲奈",
+          "tr": "Rena Kurashiki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "小幡夏美",
+          "tr": "Natsumi Obata",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "宫岛椿",
+          "tr": "Tsubaki Miyajima",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "倉敷麗華",
+          "tr": "Reika Kurashiki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "椿原米拉",
+          "tr": "Mira Tsubakihara",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "中乃钟昌明",
+          "tr": "Kaneaki Nakanai",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "白亚翔",
+          "tr": "Sho Shiraya",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "江之岛同学",
+          "tr": "Mademoiselle Enoshima",
+          "note": "Camarda d'Enoshima (Danganronpa).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "舞园沙耶香",
+          "tr": "Sayaka Maizono",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "江之岛盾子",
+          "tr": "Junko Enoshima",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "塞蕾丝缇雅罗登贝克",
+          "tr": "Celestia Ludenberg",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "十神",
+          "tr": "Togami",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "眼镜仔",
+          "tr": "Le garçon aux lunettes",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "玛里涅",
+          "tr": "Marine",
+          "note": "Marine, créatrice cosplayeuse (Re:Creators).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "爱丽丝特莉娅",
+          "tr": "Alicetaria",
+          "note": "Alicetaria February (Re:Creators).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "煌树茉美香",
+          "tr": "Mamika Kirameki",
+          "note": "Fille magique de Re:Creators.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "椿原由奈",
+          "tr": "Yuna Tsubakihara",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "椿原仁奈",
+          "tr": "Nina Tsubakihara",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "仁奈",
+          "tr": "Nina",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "赛蕾",
+          "tr": "Selesia",
+          "note": "Forme abrégée (Re:Creators).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "军服公主",
+          "tr": "Princesse en uniforme",
+          "note": "Surnom d'Altair, la création militaire (Re:Creators).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "布里茨",
+          "tr": "Blitz",
+          "note": "Blitz Talker (Re:Creators).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "骏河骏马",
+          "tr": "Junma Suruga",
+          "note": "Créateur de Blitz (Re:Creators, fic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "第六塔",
+          "tr": "Sixième Tour",
+          "note": "IA du canal transdimensionnel (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "德尔塔",
+          "tr": "Delta",
+          "note": "Créature du héros, code Delta (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "森雪",
+          "tr": "Mori Yuki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "尤莉夏伊斯坎达尔",
+          "tr": "Yurisha Iskandar",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "森寻",
+          "tr": "Mori Xun",
+          "note": "Proche de Yuki Mori (Yamato, fic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "莎夏",
+          "tr": "Sasha",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "黑白熊",
+          "tr": "Monokuma",
+          "note": "Monokuma, l'ours directeur (Danganronpa).",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "真户晓",
+          "tr": "Akira Mado",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "田中丸望元",
+          "tr": "Mogen Tanamaru",
+          "note": "Enquêteur d'élite du CCG (Tokyo Ghoul).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "有马贵将",
+          "tr": "Kishou Arima",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "笛口凉子",
+          "tr": "Ryoko Fueguchi",
+          "note": "Mère de Hinami (Tokyo Ghoul).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "笛口雏实",
+          "tr": "Hinami Fueguchi",
+          "note": "Fille de Ryoko (Tokyo Ghoul).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "雏实",
+          "tr": "Hinami",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "巴尔盖修鲁兹",
+          "tr": "Balge Shuluz",
+          "note": "Commandant de la base de Pluton (roman, Yamato).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "盖尔",
+          "tr": "Gail",
+          "note": "Général de la flotte galactique (roman, Yamato).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "雨盖尔",
+          "tr": "Gail",
+          "note": "Fragment OCR du général Gail (roman).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "阿伯特德斯拉",
+          "tr": "Abert Desla",
+          "note": "Président de l'Empire (roman, Yamato).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "巴尔盖",
+          "tr": "Balge",
+          "note": "Fragment du commandant Balge (roman).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "修鲁兹",
+          "tr": "Shuluz",
+          "note": "Fragment du commandant Shuluz (roman).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "尤莉夏",
+          "tr": "Yurisha",
+          "note": "Yurisha Iskandar (Yamato 2199).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "八代",
+          "tr": "Yashiro",
+          "note": "28e capitaine du Sidonia (fic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "真鉴",
+          "tr": "Magane",
+          "note": "Fragment de Magane Chikujouin (Re:Creators).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "冲田十三",
+          "tr": "Jūzō Okita",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "原田真琴",
+          "tr": "Makoto Harada",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "新见熏",
+          "tr": "Kaoru Niimi",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "岬百合亚",
+          "tr": "Yuria Misaki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "斯塔希娅",
+          "tr": "Starsha",
+          "note": "Reine d'Iscandar (Yamato).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "斯塔希娅伊斯坎达尔",
+          "tr": "Starsha Iskandar",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "特蕾莎",
+          "tr": "Theresa",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "绿川缬",
+          "tr": "Midorikawa Ayame",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "小林",
+          "tr": "Kobayashi",
+          "note": "Capitaine du Sidonia (Knights of Sidonia).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "塞蕾丝缇雅",
+          "tr": "Celestia",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "葛雷姆特盖尔",
+          "tr": "Gail",
+          "note": "Variante OCR du général Gail (roman).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "佐达",
+          "tr": "Zoda",
+          "note": "Clone de Gatlantis (fic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "迪安奈拉",
+          "tr": "Deianeira",
+          "note": "Princesse humaine (Heroic Age).",
+          "verdict": "corriger",
+          "gender": "Female"
+        }
+      ]
+    },
+    {
+      "id": "bloc12",
+      "corrige": true,
+      "title": "Bloc 12 · Vol 30-33 (ch. 888-1110)",
+      "capture": "171 fiches : Mahouka suite + Danganronpa + Knights of Sidonia + retours. Verdicts : 102 corriger / 26 harmoniser / 46 garder.",
+      "observations": [
+        "Mahouka : Mayumi Saegusa, Mari Watanabe, FLT = Four Leaves Technology (résout l'introuvable ch 938).",
+        "Danganronpa : Fuyuhiko Kuzuryu, Mondo Owada, Chihiro g Male.",
+        "Sidonia : Nagate Tanikawa, Lala Hiyama g Female, vaisseau-migrateur Sidonia (bug de caractère arabe سIED corrigé).",
+        "NGNL : Imanity. FMP : Arm Slave harmonisé, Kati Mannequin (retour)."
+      ],
+      "terms": [
+        {
+          "raw": "因果律武器",
+          "tr": "arme de causalité",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "仙女座战舰",
+          "tr": "vaisseau Andromeda",
+          "note": "Yamato 2199.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "黑暗星团帝国",
+          "tr": "Empire de la nébuleuse noire",
+          "note": "Yamato.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "重核子炸弹",
+          "tr": "Bombe à baryons lourds",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "戴泽利亚姆",
+          "tr": "Dezarium",
+          "note": "Monde capital (Yamato).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "波拉联邦",
+          "tr": "Fédération Bolar",
+          "note": "Yamato.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "特别阅读室",
+          "tr": "salle de lecture spéciale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "Blanche",
+          "tr": "Blanche",
+          "note": "Organisation anti-magie (Mahouka).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "量子实体分化装置",
+          "tr": "dispositif de différenciation d'entité quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "克苏鲁怪物",
+          "tr": "monstres Cthulhu",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "社团联盟",
+          "tr": "alliance des clubs",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "邪眼",
+          "tr": "oeil maléfique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "魔法部队",
+          "tr": "unités magiques",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "独立魔装大队",
+          "tr": "bataillon indépendant d'équipement magique",
+          "note": "Mahouka.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "FLT",
+          "tr": "FLT",
+          "note": "Four Leaves Technology, laboratoire de Tatsuya (Mahouka).",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "魔法特别行动部门",
+          "tr": "département des opérations magiques spéciales",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "振动系魔法",
+          "tr": "magie de vibration",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "冰冻魔法",
+          "tr": "magie de gel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "巴氏腺流动性物质",
+          "tr": "substance fluide des glandes de Bartholin",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "社团联盟总长",
+          "tr": "cheffe de l'alliance des clubs",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "风纪委员长",
+          "tr": "cheffe du comité de discipline",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "佩戴章",
+          "tr": "insigne de fonction",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "一科生",
+          "tr": "élève de premier cours",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "二科生",
+          "tr": "élève de deuxième cours",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "想子光",
+          "tr": "lumière de psion",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "土卫六",
+          "tr": "Titan",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "厄倪俄",
+          "tr": "Ényo",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "新型扬陆城",
+          "tr": "nouveau château de débarquement",
+          "note": "Aldnoah.Zero.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "数码空间",
+          "tr": "espace numérique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "戴比路克星",
+          "tr": "planète Deviluke",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "戴比路克人",
+          "tr": "Devilukiens",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "恒星级",
+          "tr": "classe stellaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "人造的超新星爆炸",
+          "tr": "supernova artificielle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "反转亚空间",
+          "tr": "sous-espace inversé",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "真理之门",
+          "tr": "porte de la Vérité",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "高纬度生命体",
+          "tr": "être de haute dimension",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "量子坍塌",
+          "tr": "effondrement quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "想子杂讯干扰波",
+          "tr": "onde d'interférence psionique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "灵子聚合体",
+          "tr": "agrégat de pushion",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "法器",
+          "tr": "artefact magique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "第一高中",
+          "tr": "Premier Lycée",
+          "note": "Mahouka.",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "思想钢印",
+          "tr": "sceau mental",
+          "note": "Concept de Three-Body.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "堕天使IS装甲",
+          "tr": "armure IS Fallen Angel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "量子实体化分化",
+          "tr": "différenciation de matérialisation quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "秘碑解码",
+          "tr": "décodage de la stèle secrète",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "九校战",
+          "tr": "compétition des neuf écoles",
+          "note": "Mahouka.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "光波振动系魔法",
+          "tr": "magie de vibration des ondes lumineuses",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "FourLeavesTechnology (FLT)",
+          "tr": "FourLeavesTechnology (FLT)",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "诡术士",
+          "tr": "trickster",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "宗师",
+          "tr": "grand maître",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "3D模拟引擎",
+          "tr": "moteur de simulation 3D",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "精灵通讯终端",
+          "tr": "terminal de communication spirituelle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "十三使徒",
+          "tr": "treize apôtres",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "幻境摘星",
+          "tr": "fête des étoiles",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "FLT公司",
+          "tr": "FLT (Four Leaves Technology)",
+          "note": "Mahouka.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "摘花现象",
+          "tr": "phénomène de cueillette des fleurs",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "受肉",
+          "tr": "incarnation",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "人体魔法师改造技术",
+          "tr": "technologie de modification du magicien humain",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "破魔箭矢",
+          "tr": "flèche brise-magie",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "破魔刀",
+          "tr": "sabre brise-magie",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "风纪委员会",
+          "tr": "comité de discipline",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "精灵魔法",
+          "tr": "magie des esprits",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "雷达装置",
+          "tr": "dispositif radar",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "数码世界空间",
+          "tr": "espace du monde numérique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "空间跃迁技术",
+          "tr": "technologie de saut spatial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "地外变异性金属生命体",
+          "tr": "forme de vie métallique extraterrestre mutante",
+          "note": "ELS (Gundam 00).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "硅基版虫群舰队",
+          "tr": "flotte d'essaim de silicium",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "结缘神社",
+          "tr": "sanctuaire des liens",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "第三高中",
+          "tr": "Troisième Lycée",
+          "note": "Mahouka.",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "注连绳",
+          "tr": "shimenawa",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "想子波动",
+          "tr": "ondes de psion",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "飞跃魔法",
+          "tr": "magie de saut",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "人类种",
+          "tr": "Imanity",
+          "note": "Race humaine (No Game No Life).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "集束型波动G弹",
+          "tr": "bombe G à ondes",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "量子网络",
+          "tr": "réseau quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "地球联宇宙军",
+          "tr": "force spatiale unifiée de la Terre",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "星际探索舰",
+          "tr": "vaisseau d'exploration interstellaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "彗星级护卫舰",
+          "tr": "frégate de classe Comète",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "希德尼亚移民舰",
+          "tr": "vaisseau-migrateur Sidonia",
+          "note": "Knights of Sidonia.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "执行长官",
+          "tr": "officier exécutif",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "蓬莱药",
+          "tr": "médicament de Penglai",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "美利达岛",
+          "tr": "île de Mérida",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "AS机甲",
+          "tr": "Arm Slave (AS)",
+          "note": "Mecha de Full Metal Panic.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "爆轰发动机",
+          "tr": "moteur à détonation",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "量子意识网络",
+          "tr": "réseau de conscience quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "量子网络世界",
+          "tr": "monde du réseau quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "GN性炮",
+          "tr": "canon GN",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超高校级的保健委员",
+          "tr": "infirmière de niveau super lycée",
+          "note": "Danganronpa.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "超高校级的黑道",
+          "tr": "yakuza de niveau super lycée",
+          "note": "Danganronpa.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "超高校级的幸运",
+          "tr": "chanceux de niveau super lycée",
+          "note": "Danganronpa.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "超高校级的暴走族",
+          "tr": "bosozoku de niveau super lycée",
+          "note": "Danganronpa.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "超高校级的机械工程师",
+          "tr": "ingénieur mécanicien de niveau super lycée",
+          "note": "Danganronpa.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "超高校级的程序员",
+          "tr": "programmeur de niveau super lycée",
+          "note": "Danganronpa.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "鱿鱼的游戏",
+          "tr": "jeu du calamar",
+          "note": "Squid Game.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "电浆炮",
+          "tr": "canon à plasma",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "生化电浆炮",
+          "tr": "canon à plasma biochimique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "强相互作用力",
+          "tr": "interaction forte",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "波动壁障",
+          "tr": "barrière à ondes",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "振动弹头",
+          "tr": "ogive vibratoire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "人工虫洞",
+          "tr": "trou de ver artificiel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "同化能力",
+          "tr": "capacité d'assimilation",
+          "note": "ELS (Gundam 00).",
+          "verdict": "harmoniser",
+          "cat": "technique"
+        },
+        {
+          "raw": "机动兵器",
+          "tr": "arme mobile",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "增强现实",
+          "tr": "réalité augmentée",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "微型虫洞",
+          "tr": "micro-trou de ver",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "小野遥",
+          "tr": "Haruka Ono",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "摩利",
+          "tr": "Mari",
+          "note": "Mari Watanabe (Mahouka).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "司一",
+          "tr": "Si Yi",
+          "note": "Chef de la branche locale de Blanche (fic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "真由美",
+          "tr": "Mayumi",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "美月",
+          "tr": "Mizuki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "七草真由美",
+          "tr": "Mayumi Saegusa",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "十文字克人",
+          "tr": "Katsuto Jumonji",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "渡边摩利",
+          "tr": "Mari Watanabe",
+          "note": "Cheffe du comité de discipline (Mahouka).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "柴田美月",
+          "tr": "Mizuki Shibata",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "七草会长",
+          "tr": "présidente Saegusa",
+          "note": "Mayumi Saegusa (Mahouka).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "小梓",
+          "tr": "Azusa",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "中条梓",
+          "tr": "Azusa Nakajo",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "光井穗香",
+          "tr": "Honoka Mitsui",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "穗香",
+          "tr": "Honoka",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "一条将辉",
+          "tr": "Masaki Ichijo",
+          "note": "Masaki Ichijo (Mahouka).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "浴血王子",
+          "tr": "Prince Sanglant",
+          "note": "Surnom de Masaki Ichijo (Mahouka).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "桐原武明",
+          "tr": "Takeaki Kirihara",
+          "note": "Epéiste du club de kendo (Mahouka).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "不见咲薰",
+          "tr": "Minage Saki Kaoru",
+          "note": "Officière (fic), ligne partiellement corrompue.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "梦梦",
+          "tr": "Mumu",
+          "note": "Etre du roman (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "菈菈",
+          "tr": "Lala",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "奇多路西翁戴比路克",
+          "tr": "Gid Lucione Deviluke",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "奇多",
+          "tr": "Gid",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "赛菲",
+          "tr": "Sephi",
+          "note": "Reine de Deviluke (To Love-Ru).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "千代田",
+          "tr": "Chiyoda",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "千代田花音",
+          "tr": "Kanon Chiyoda",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "市原铃音",
+          "tr": "Rin Ichihara",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "伊杰同学",
+          "tr": "Élève Ijie",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "英美",
+          "tr": "Emi",
+          "note": "Emi Akechi, amie de Miyuki (Mahouka).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "花音",
+          "tr": "Kanon",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "安吉莉娜谢尔兹",
+          "tr": "Angelina Shields",
+          "note": "Jeune fille du roman (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "安吉",
+          "tr": "Angie",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "天狼星",
+          "tr": "Sirius",
+          "note": "Identité publique déguisée (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "卡蒂马尼金",
+          "tr": "Kati Mannequin",
+          "note": "Ex-colonel AEU (Gundam 00).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "霍摩片桐",
+          "tr": "Homo Katagiri",
+          "note": "Commandant de la force spatiale (fic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "司波学妹",
+          "tr": "cadette Shiba",
+          "note": "Miyuki Shiba (Mahouka).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "伊学弟",
+          "tr": "cadet Yi",
+          "note": "Le héros Yijie (Mahouka).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "一条爱梨",
+          "tr": "Airi Ichijou",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "吉祥寺真红郎",
+          "tr": "Shinkuro Kichijouji",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "壬生纱耶香",
+          "tr": "Sayaka Mibu",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "铃妹",
+          "tr": "Suzu",
+          "note": "Petite soeur de Rin Ichihara (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "千叶艾莉卡",
+          "tr": "Erika Chiba",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "御门凉子",
+          "tr": "Ryoko Mikado",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "四叶人",
+          "tr": "Yotsuba",
+          "note": "Membre du monde Mahouka (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "暗夜女王",
+          "tr": "Reine de la Nuit",
+          "note": "Titre de Miya Yotsuba (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "一色爱梨",
+          "tr": "Airi Isshiki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "庞哈库里",
+          "tr": "Ponhakuri",
+          "note": "Commandant, camarade de Sergei Smirnov (fic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "比山拉拉",
+          "tr": "Lala Hiyama",
+          "note": "Ourse gardienne du dortoir (Knights of Sidonia).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "谷风长道",
+          "tr": "Nagate Tanikaze",
+          "note": "Pilote du Sidonia (Knights of Sidonia).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "十神白夜",
+          "tr": "Byakuya Togami",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "雾彻响子",
+          "tr": "Kyoko Kirigiri",
+          "note": "Détective (Danganronpa).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "雾切响子",
+          "tr": "Kyoko Kirigiri",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "雷纳德泰斯塔罗莎",
+          "tr": "Leonard Testarossa",
+          "note": "Chef d'Amalgam (Full Metal Panic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "雷纳德",
+          "tr": "Leonard",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "Mr。Ag（银）",
+          "tr": "M. Ag (Argent)",
+          "note": "Nom de code de Leonard Testarossa (Full Metal Panic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "卡蒂玛尼金",
+          "tr": "Kati Mannequin",
+          "note": "Gundam 00.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "罪木蜜柑",
+          "tr": "Mikan Tsumiki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "蜜柑",
+          "tr": "Mikan",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "狛枝凪斗",
+          "tr": "Nagito Komaeda",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "九头龙冬彦",
+          "tr": "Fuyuhiko Kuzuryu",
+          "note": "Yakuza (Danganronpa 2).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "大和田纹土",
+          "tr": "Mondo Owada",
+          "note": "Chef de gang moto (Danganronpa).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "左右田和一",
+          "tr": "Kazuichi Soda",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "不二咲千寻",
+          "tr": "Chihiro Fujisaki",
+          "note": "Se présente en fille (Danganronpa).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "雪染千纱",
+          "tr": "Chisa Yukizome",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "七海千秋",
+          "tr": "Chiaki Nanami",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "千秋",
+          "tr": "Chiaki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "纱耶香",
+          "tr": "Sayaka",
+          "note": "Fragment de Sayaka Mibu (Mahouka).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "唯吹",
+          "tr": "Ibuki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "日向创",
+          "tr": "Hajime Hinata",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "神座出流",
+          "tr": "Izuru Kamukura",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "小林舰长",
+          "tr": "Kobayashi",
+          "note": "Capitaine du Sidonia (Knights of Sidonia).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        }
+      ]
+    },
+    {
+      "id": "bloc13",
+      "corrige": true,
+      "title": "Bloc 13 · Vol 34-37 (ch. 1111-1329)",
+      "capture": "170 fiches : No Game No Life (Disboard) + Yamato 2202 + Fafner + retours Warhammer. Verdicts : 102 corriger / 22 harmoniser / 49 garder.",
+      "observations": [
+        "NGNL : races d'Imanity (Old Deus, Dragonia, Lunamana, Dwarves, Elves, Fairies, Warbeasts), Dix Serments, Star Grail, Avant Heim (gender vidé), Tet g Male.",
+        "Yamato : Abelt Dessler, Melda Dietz. Fafner : persos de l'île Tatsumiya corrigés.",
+        "Warhammer : Trazyn (Solemnace) identifié, Schwi (NGNL movie)."
+      ],
+      "terms": [
+        {
+          "raw": "迪司博德世界",
+          "tr": "le monde de Disboard",
+          "note": "NGNL.",
+          "verdict": "harmoniser",
+          "cat": "location"
+        },
+        {
+          "raw": "石花膏",
+          "tr": "gelée de fleurs de pierre",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "本命之色",
+          "tr": "couleur emblématique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "神髓",
+          "tr": "moelle divine",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "地精种",
+          "tr": "Dwarves",
+          "note": "Race des nains (NGNL).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "髓爆",
+          "tr": "explosion de moelle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "神灵种",
+          "tr": "Old Deus",
+          "note": "Race des dieux anciens (NGNL).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "幻想种",
+          "tr": "Phantasma",
+          "note": "Race des fantasmes (NGNL).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "天翼种",
+          "tr": "Flügel",
+          "note": "Race ailée créée par Artosh (NGNL).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "龍精种",
+          "tr": "Dragonia",
+          "note": "Race des dragons (NGNL).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "月咏种",
+          "tr": "Lunamana",
+          "note": "Race lunaire (NGNL).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "天击",
+          "tr": "frappe céleste",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "天移",
+          "tr": "transfert céleste",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "时空转移",
+          "tr": "transfert spatio-temporel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "王座之厅",
+          "tr": "salle du trône",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "森精种",
+          "tr": "Elves",
+          "note": "Race elfique (NGNL).",
+          "verdict": "harmoniser",
+          "cat": "species"
+        },
+        {
+          "raw": "空中乐园",
+          "tr": "paradis céleste",
+          "note": "Avant Heim (NGNL).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "星杯",
+          "tr": "Star Grail",
+          "note": "Relique qui a créé les races (NGNL).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "创造种族",
+          "tr": "race créatrice",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "机凯种",
+          "tr": "Ex-Machina",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "解析体",
+          "tr": "unité d'analyse",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "天空都市",
+          "tr": "cité céleste",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "量子实体分化变化",
+          "tr": "différenciation d'entité quantique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "滞空回线",
+          "tr": "ligne de suspension",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "虚空第零加护",
+          "tr": "protection du Vide zéro",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "久远第四加护",
+          "tr": "quatrième protection de l'éternité",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "眷属种族",
+          "tr": "race vassale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "灵骸",
+          "tr": "squelette spirituel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "花冠卿",
+          "tr": "lord Couronne de fleurs",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "兽人种",
+          "tr": "Warbeasts",
+          "note": "Race des bêtes (NGNL).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "妖精种",
+          "tr": "Fairies",
+          "note": "Race féerique (NGNL).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "十条盟约",
+          "tr": "Dix Serments",
+          "note": "Lois du monde de Disboard (NGNL).",
+          "verdict": "corriger",
+          "cat": "other"
+        },
+        {
+          "raw": "迪司博德",
+          "tr": "Disboard",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "恶魔引擎",
+          "tr": "moteur démoniaque",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "重叠跃迁",
+          "tr": "saut superposé",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "方舟号",
+          "tr": "l'Arche",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "索勒姆纳斯博物馆",
+          "tr": "musée de Solemnace",
+          "note": "Collection de Trazyn (WH40K).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "零维度武器",
+          "tr": "arme à dimension zéro",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "死线",
+          "tr": "ligne de mort",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "曲率驱动引擎",
+          "tr": "moteur à courbure",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "龍精语",
+          "tr": "langue des dragons",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "观测体",
+          "tr": "unité d'observation",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "精灵回廊",
+          "tr": "couloir spirituel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "液态金属生命体",
+          "tr": "forme de vie en métal liquide",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "自动化工厂",
+          "tr": "usine automatisée",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "跃迁炸弹",
+          "tr": "bombe de saut",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "水滴舰队",
+          "tr": "flotte Goutte",
+          "note": "Sondes de Three-Body.",
+          "verdict": "harmoniser",
+          "cat": "organization"
+        },
+        {
+          "raw": "瓦尔塞克斯电场涡环",
+          "tr": "anneau tourbillonnaire de champ électrique Valsex",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "无惯性引擎",
+          "tr": "moteur sans inertie",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "波动护盾",
+          "tr": "bouclier à ondes",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "伊斯坎达尔波动核心",
+          "tr": "noyau à ondes d'Iscandar",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "毁灭方舟",
+          "tr": "arche de destruction",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "盖森钢战舰",
+          "tr": "vaisseaux en acier Gaisen",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "烈焰直击炮",
+          "tr": "canon à impact flamboyant",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "卡拉库姆鲁级战列舰",
+          "tr": "cuirassé de classe Karakumru",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "雷击钻头",
+          "tr": "foreuse foudroyante",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "雷击回旋加农",
+          "tr": "canon rotatif foudroyant",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "究极加农",
+          "tr": "canon ultime",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "非冻结空间",
+          "tr": "espace non gelé",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "次元潜艇UX-01",
+          "tr": "Sous-marin dimensionnel UX-01",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "加特兰蒂斯毁灭光束",
+          "tr": "rayon destructeur de Gatlantis",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "ML力场",
+          "tr": "Champ de force ML",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "雷暴角恒星系",
+          "tr": "système stellaire de la Corne de l'Orage",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "巴伦星大型星门",
+          "tr": "grande porte stellaire de la planète Baron",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "白鲸",
+          "tr": "baleine blanche",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "音响鱼雷",
+          "tr": "torpille acoustique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "隐形护盾",
+          "tr": "bouclier d'invisibilité",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超空泡航行系统",
+          "tr": "système de navigation supercavitante",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超空泡发生装置",
+          "tr": "dispositif de génération de supercavitation",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "水分子共振破坏",
+          "tr": "destruction par résonance moléculaire de l'eau",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "战术分析仪",
+          "tr": "analyseur tactique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "中央塔",
+          "tr": "tour centrale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "钢铁修士",
+          "tr": "moines d'acier",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "相位传送照射器",
+          "tr": "projecteur de téléportation phasique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "星空议厅",
+          "tr": "hall du conseil stellaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "幻想领域",
+          "tr": "domaine fantastique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "宇宙剥离与牵引",
+          "tr": "détachement et traction universelle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "本源能量",
+          "tr": "énergie originelle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "虚拟海战YP派对",
+          "tr": "fête YP de bataille navale virtuelle",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "Festum",
+          "tr": "Festum",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "法芙娜",
+          "tr": "Fafner",
+          "note": "Mecha de Fafner.",
+          "verdict": "harmoniser",
+          "cat": "technology"
+        },
+        {
+          "raw": "高级纳米技术",
+          "tr": "nanotechnologie avancée",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "裁定者",
+          "tr": "arbitre",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "电浆武器",
+          "tr": "arme à plasma",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "量七9邻柒鏾死·踆子实体分化",
+          "tr": "division d'entité quantique",
+          "note": "Ligne corrompue, référent incertain.",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "宇宙壁垒",
+          "tr": "barrière cosmique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "次元夹层",
+          "tr": "interstice dimensionnel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超级系机体",
+          "tr": "unité de type super",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "中央核心",
+          "tr": "noyau central",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "联合核心",
+          "tr": "noyau uni",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "抉择核心",
+          "tr": "noyau de décision",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "行星重置",
+          "tr": "réinitialisation planétaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "天体引擎",
+          "tr": "moteur céleste",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "天体引力模拟装置",
+          "tr": "dispositif de simulation de gravité céleste",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "镜像系统",
+          "tr": "système miroir",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "空间跃迁系统",
+          "tr": "système de saut spatial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "人面狮身A型种",
+          "tr": "Sphinx type A",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "L区域浮动平台",
+          "tr": "plateforme flottante du secteur L",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "晶体铠甲",
+          "tr": "armure cristalline",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "武装手甲",
+          "tr": "gantelet armé",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "臂甲",
+          "tr": "brassard",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "龙宫岛",
+          "tr": "île Tatsumiya",
+          "note": "L'île refuge de Fafner.",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "海格斯粒子",
+          "tr": "particules de Higgs",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "L岛屿",
+          "tr": "île L",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "虫球",
+          "tr": "sphère vermiculaire",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "黑色太阳",
+          "tr": "soleil noir",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "北极星核",
+          "tr": "noyau stellaire de l'Arctique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "空间抹消型虫球",
+          "tr": "sphère vermiculaire à effacement spatial",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "能源核心",
+          "tr": "noyau énergétique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "P。W。R。A。",
+          "tr": "P.W.R.A.",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "弑神",
+          "tr": "théocide",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "中转站",
+          "tr": "station de transit",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "强相互作用力材料",
+          "tr": "matériaux à interaction forte",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "能量光翼",
+          "tr": "ailes de lumière énergétiques",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "后勤舰队",
+          "tr": "flotte logistique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "罗尼多劳布尼尔",
+          "tr": "Ronido Laubnier",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "阿邦特·赫伊姆",
+          "tr": "Avant Heim",
+          "note": "Cité volante des Flügel (NGNL), pas un personnage.",
+          "verdict": "corriger",
+          "gender": ""
+        },
+        {
+          "raw": "阿尔特修",
+          "tr": "Artosh",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "小吉",
+          "tr": "Jibril",
+          "note": "Jibril, la Flügel (NGNL).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "阿兹莉尔",
+          "tr": "Azril",
+          "note": "Première des Flügel (NGNL).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "吉普莉尔",
+          "tr": "Jibril",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "拉菲尔",
+          "tr": "Raphael",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "第一号个体",
+          "tr": "Premier Individu",
+          "note": "Cluster Ex-Machina (NGNL).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "最终号个体",
+          "tr": "Dernier Individu",
+          "note": "Cluster Ex-Machina (NGNL).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "吉普酱",
+          "tr": "Jibril",
+          "note": "Surnom affectueux de Jibril (NGNL).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "辛克",
+          "tr": "Sinc",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "克洛妮",
+          "tr": "Clony",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "小吉酱",
+          "tr": "Jibril",
+          "note": "Surnom affectueux de Jibril (NGNL).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "莉吉尔普",
+          "tr": "Lijilpu",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "终龍哈提雷姆",
+          "tr": "Hathilem le Dragon Final",
+          "note": "Dragon final du roman (fic).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "辛克尼尔巴连",
+          "tr": "Sinc Nilbaren",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "史蒂芬妮",
+          "tr": "Stephanie",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "特图",
+          "tr": "Teto",
+          "note": "Tet, dieu des jeux (NGNL).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "梅萨",
+          "tr": "Messa",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "梅尔萨",
+          "tr": "Melsa",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "山本玲",
+          "tr": "Rei Yamamoto",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "西条未来",
+          "tr": "Miku Saijo",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "塔拉辛",
+          "tr": "Trazyn",
+          "note": "Trazyn l'Infini, Nécron collectionneur (WH40K).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "哈提雷姆",
+          "tr": "Hatirelm",
+          "note": "Dragon du roman (fic).",
+          "verdict": "harmoniser",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "c207Pr4f57t9",
+          "tr": "c207Pr4f57t9",
+          "note": "Unité Ex-Machina (NGNL).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "休比",
+          "tr": "Schwi",
+          "note": "Schwi, l'Ex-Machina du film NGNL Zero.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "亚兰雷夫",
+          "tr": "Alanlev",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "戈兰德",
+          "tr": "Goland",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "亚伯特戴斯拉",
+          "tr": "Abelt Dessler",
+          "note": "Leader de l'Empire Gamilas (Yamato).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "戴斯拉",
+          "tr": "Dessler",
+          "note": "Abelt Dessler (Yamato).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "渥夫弗拉肯",
+          "tr": "Wolf Frakken",
+          "note": "Commandant du sous-marin (Yamato).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "梅尔达狄兹",
+          "tr": "Melda Dietz",
+          "note": "Pilote Gamilas (Yamato 2199).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "赫姆狄兹",
+          "tr": "Helm Dietz",
+          "note": "Officier Gamilas (Yamato).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "塞尔班德美尔",
+          "tr": "Selband Mel",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "埃丽莎德美尔",
+          "tr": "Eliza Mel",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "八月一日静香",
+          "tr": "Shizuka Hazu",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "那智",
+          "tr": "Nachi",
+          "note": "Croiseur, modèle mental (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "羽黑",
+          "tr": "Haguro",
+          "note": "Croiseur, modèle mental (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "摩耶",
+          "tr": "Maya",
+          "note": "Croiseur, modèle mental (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "鸟海",
+          "tr": "Chōkai",
+          "note": "Croiseur, modèle mental (fic).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "响真琉璃",
+          "tr": "Maruri Hibiki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "狄兹",
+          "tr": "Ditz",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "赫姆谢立克",
+          "tr": "Hemshereck",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "埃丽莎",
+          "tr": "Eliza",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "弗拉肯",
+          "tr": "Flacken",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "赫姆",
+          "tr": "Hem",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "真壁史彦",
+          "tr": "Fumihiko Makabe",
+          "note": "Fumihiko Makabe (Fafner).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "达德利·伯恩斯",
+          "tr": "Dudley Burns",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "远见千鹤",
+          "tr": "Chizuru Tōmi",
+          "note": "Chizuru Tōmi (Fafner).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "远见弓子",
+          "tr": "Yumi Tōmi",
+          "note": "Mère de Maya et Kazuki (Fafner).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "乙姬",
+          "tr": "Otome",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "皆城乙姬",
+          "tr": "Otome Minashiro",
+          "note": "Fafner.",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "远见真矢",
+          "tr": "Maya Tōmi",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "生驹祐未",
+          "tr": "Yumi Ikoma",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "祐未",
+          "tr": "Yumi",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "真矢",
+          "tr": "Maya",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "弓子",
+          "tr": "Yumi",
+          "note": "Yumi Tōmi (Fafner).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "皆城公藏",
+          "tr": "Kozo Minashiro",
+          "note": "Commandant de l'île Tatsumiya (Fafner).",
+          "verdict": "corriger",
+          "gender": "Male"
+        }
+      ]
+    },
+    {
+      "id": "bloc14",
+      "corrige": true,
+      "title": "Bloc 14 · Vol 38-40 (ch. 1330-1579)",
+      "capture": "146 fiches : Knights of Sidonia + Demon Slayer + Code Geass. Verdicts : 61 corriger / 5 harmoniser / 80 garder.",
+      "observations": [
+        "Sidonia : Shizuka Hoshijiro, Norio Kunato, canons Heigus, Gauna.",
+        "Demon Slayer : lame de Nichirin, techniques de respiration, Lunes supérieures.",
+        "Code Geass : Diethard Ried, Cecile Croomy, Kanon Maldini, Pendragon, sakuradite, Sayoko Shinozaki, Kyoshiro Tōdō, Zone 11, île Kamine, Milly.",
+        "伊同学 idx 532 = fragment de 布迪威伊同学 : tr Laura Bodewig, g Female (retour Infinite Stratos)."
+      ],
+      "terms": [
+        {
+          "raw": "恋柱",
+          "tr": "Pilier de l'Amour",
+          "note": "",
+          "verdict": "garder",
+          "cat": "title"
+        },
+        {
+          "raw": "鬼杀队",
+          "tr": "Corps des Pourfendeurs de Démons",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "十二鬼月",
+          "tr": "Douze Lunes Démoniaques",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "上弦",
+          "tr": "Lunes Supérieures",
+          "note": "",
+          "verdict": "garder",
+          "cat": "title"
+        },
+        {
+          "raw": "下弦",
+          "tr": "Lunes Inférieures",
+          "note": "",
+          "verdict": "garder",
+          "cat": "title"
+        },
+        {
+          "raw": "血鬼术",
+          "tr": "art sanglant",
+          "note": "Demon Slayer.",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "P.W.R.A",
+          "tr": "P.W.R.A",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "Knightmare",
+          "tr": "Knightmare",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "布里塔尼亚帝国",
+          "tr": "Empire de Britannia",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "十一区",
+          "tr": "Zone 11",
+          "note": "Japon occupé (Code Geass).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "CodeGeass",
+          "tr": "Code Geass",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "京都六家",
+          "tr": "six maisons de Kyoto",
+          "note": "Code Geass.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "黑色巨神兵",
+          "tr": "colosse noir",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "190解放战线",
+          "tr": "front de libération 190",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "Sutherland",
+          "tr": "Sutherland",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "兰斯洛特",
+          "tr": "Lancelot",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "Geass",
+          "tr": "Geass",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technique"
+        },
+        {
+          "raw": "P.W.R.A.",
+          "tr": "P.W.R.A.",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "格洛斯特",
+          "tr": "Gloucester",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "奇居子舰队",
+          "tr": "flotte Gauna",
+          "note": "Knights of Sidonia.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "海格斯粒子炮",
+          "tr": "canon à particules Heigus",
+          "note": "Knights of Sidonia.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "奇居子巢舰",
+          "tr": "vaisseau-ruche Gauna",
+          "note": "Knights of Sidonia.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "希德尼亚号",
+          "tr": "Sidonia",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "大众合船",
+          "tr": "vaisseau-fusion populaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "超级海格斯粒子炮",
+          "tr": "super canon à particules Heigus",
+          "note": "Knights of Sidonia.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "伊家宅邸",
+          "tr": "résidence de la famille Yi",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "无限城",
+          "tr": "Forteresse Infinie",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "日光设备",
+          "tr": "dispositif de lumière solaire",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "上弦之肆",
+          "tr": "quatrième Lune supérieure",
+          "note": "Demon Slayer.",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "蚀骨之雾",
+          "tr": "brouillard corrosif d'os",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "日轮刀",
+          "tr": "lame de Nichirin",
+          "note": "Sabre anti-démon (Demon Slayer).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "呼吸法",
+          "tr": "technique de respiration",
+          "note": "Demon Slayer.",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "纳米级感知单元",
+          "tr": "unité de perception nanométrique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "微反重力",
+          "tr": "micro-antigravité",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "红莲",
+          "tr": "Guren",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "樱石",
+          "tr": "sakuradite",
+          "note": "Minerai énergétique (Code Geass).",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "Code Geass",
+          "tr": "Code Geass",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "稀血",
+          "tr": "sang rare",
+          "note": "Demon Slayer.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "紫藤花药剂",
+          "tr": "sérum de glycine",
+          "note": "Demon Slayer.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "惑血视觉梦幻之香",
+          "tr": "parfum onirique de vision du sang",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "等离子偏导护盾",
+          "tr": "bouclier de déviation plasma",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "阿什弗德学园",
+          "tr": "académie Ashford",
+          "note": "Code Geass.",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "学生终端",
+          "tr": "terminal étudiant",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "帝国军",
+          "tr": "armée impériale",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "格洛斯特柯内莉亚专用特装型",
+          "tr": "Gloucester modèle spécial de Cornelia",
+          "note": "Code Geass.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "辐射波动",
+          "tr": "onde de radiation",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "能源光盾",
+          "tr": "bouclier énergétique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "潘德拉贡",
+          "tr": "Pendragon",
+          "note": "Capitale de Britannia (Code Geass).",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "破魔弹",
+          "tr": "balles exorcistes",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "猩绯矿石",
+          "tr": "minerai écarlate",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "万世极乐教",
+          "tr": "culte du paradis éternel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "神圣布里塔尼亚帝国",
+          "tr": "Saint Empire de Britannia",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "超次元时空",
+          "tr": "espace-temps superdimensionnel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "纳米造物",
+          "tr": "créations nanotechnologiques",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "人造人复制人",
+          "tr": "répliques humanoïdes",
+          "note": "",
+          "verdict": "garder",
+          "cat": "species"
+        },
+        {
+          "raw": "意识空间",
+          "tr": "espace de conscience",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "C世界",
+          "tr": "Monde C",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "世界统一政府",
+          "tr": "gouvernement unifié mondial",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "第二世界",
+          "tr": "second monde",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "阿卡夏之剑",
+          "tr": "épée d'Akasha",
+          "note": "Code Geass.",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "神根岛",
+          "tr": "île Kamine",
+          "note": "Code Geass.",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "Refrain",
+          "tr": "Refrain",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "CodeGeass总部",
+          "tr": "quartier général de Code Geass",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "11区",
+          "tr": "Zone 11",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "反发冲击炮",
+          "tr": "canon à impact repoussant",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "Geass遗迹",
+          "tr": "ruines Geass",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "阿卡夏系统",
+          "tr": "système Akasha",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "虚拟游戏舱",
+          "tr": "capsule de jeu virtuel",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "圆桌骑士",
+          "tr": "Chevaliers de la Table Ronde",
+          "note": "",
+          "verdict": "garder",
+          "cat": "title"
+        },
+        {
+          "raw": "大宦官",
+          "tr": "grand eunuque",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "广播基地",
+          "tr": "base de radiodiffusion",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "朱禁城",
+          "tr": "Cité Interdite Vermillon",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "伪虫洞",
+          "tr": "pseudo-trou de ver",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "表世界",
+          "tr": "monde de surface",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "蝴蝶忍",
+          "tr": "Shinobu Kocho",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "香奈惠",
+          "tr": "Kanae",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "蝴蝶香奈惠",
+          "tr": "Kanae Kocho",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "香奈乎",
+          "tr": "Kanao",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "产屋敷天音",
+          "tr": "Amane Ubuyashiki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "天音",
+          "tr": "Amane",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "甘露寺蜜璃",
+          "tr": "Mitsuri Kanroji",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "蜜璃",
+          "tr": "Mitsuri",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "珠世",
+          "tr": "Tamayo",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "无惨",
+          "tr": "Muzan",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "产屋敷雏衣",
+          "tr": "Hinaki Ubuyashiki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "产屋敷日香",
+          "tr": "Nichika Ubuyashiki",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "柯内莉亚",
+          "tr": "Cornelia",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "洛伊德",
+          "tr": "Lloyd",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "藤堂镜志朗",
+          "tr": "Kyoshiro Tōdō",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "米蕾",
+          "tr": "Milly",
+          "note": "Milly Ashford (Code Geass).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "老阿什弗德伯爵",
+          "tr": "vieux comte Ashford",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "千草",
+          "tr": "Chigusa",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "维蕾塔",
+          "tr": "Villetta",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "娜娜莉",
+          "tr": "Nunnally",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "皇神乐耶",
+          "tr": "Kaguya Sumeragi",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "鲁路修兰佩洛基",
+          "tr": "Lelouch Lamperouge",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "克洛维斯La布里塔尼亚",
+          "tr": "Clovis la Britannia",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "柯内莉亚Li布里塔尼亚",
+          "tr": "Cornelia li Britannia",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "栗花落香奈乎",
+          "tr": "Kanao Tsuyuri",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "鸣女",
+          "tr": "Nakime",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "黑死牟",
+          "tr": "Kokushibo",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "天音夫人",
+          "tr": "Madame Amane",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "筱崎咲世子",
+          "tr": "Sayoko Shinozaki",
+          "note": "Servante de la famille Ashford (Code Geass).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "二皇子",
+          "tr": "deuxième prince",
+          "note": "Schneizel el Britannia (Code Geass).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "卡莲修坦费尔特",
+          "tr": "Kallen Stadtfeld",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "拉克夏塔恰拉",
+          "tr": "Rakshata Chawla",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "藤堂",
+          "tr": "Tōdō",
+          "note": "Kyoshiro Tōdō (Code Geass).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "愈史郎",
+          "tr": "Yushiro",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "鬼舞辻无惨",
+          "tr": "Muzan Kibutsuji",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "星白闲",
+          "tr": "Shizuka Hoshijiro",
+          "note": "Pilote du Sidonia (Knights of Sidonia).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "星白",
+          "tr": "Hoshijiro",
+          "note": "Shizuka Hoshijiro (Sidonia).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "岐神海苔夫",
+          "tr": "Norio Kunato",
+          "note": "Pilote du Sidonia (Knights of Sidonia).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "仄姐妹",
+          "tr": "Sœurs Madara",
+          "note": "Pilotes clones du Sidonia (Knights of Sidonia).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "白羽衣紬",
+          "tr": "Shiraui Tsumugi",
+          "note": "Chimère Gauna géante (Sidonia).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "米蕾阿什弗德",
+          "tr": "Milly Ashford",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "夏莉菲内特",
+          "tr": "Shirley Fenette",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "夏莉",
+          "tr": "Shirley",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "克洛维斯",
+          "tr": "Clovis",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "基尔伯特",
+          "tr": "Gilbert",
+          "note": "Gilbert Guilford (Code Geass).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "达尔顿",
+          "tr": "Dalton",
+          "note": "Andreas Dalton (Code Geass).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "霍华德米切尔",
+          "tr": "Howard Mitchell",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "霍华德",
+          "tr": "Howard",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "修奈泽尔",
+          "tr": "Schneizel",
+          "note": "Schneizel el Britannia (Code Geass).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "父皇",
+          "tr": "père empereur",
+          "note": "Charles zi Britannia (Code Geass).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "查尔斯",
+          "tr": "Charles",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "童磨",
+          "tr": "Douma",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "伊老爷",
+          "tr": "Vieux Yi",
+          "note": "Le héros Yijie (roman).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "维蕾塔努",
+          "tr": "Villetta Nu",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "杰瑞米亚哥德巴尔德",
+          "tr": "Jeremiah Gottwald",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "查尔斯DI布里塔尼亚",
+          "tr": "Charles zi Britannia",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "蕾塔",
+          "tr": "Letta",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "阿尼亚",
+          "tr": "Anya",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "玛莉安娜",
+          "tr": "Marianne",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "蒋丽华",
+          "tr": "Tianzi",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "周香凛",
+          "tr": "Zhou Xianglin",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "莉莉",
+          "tr": "Lily",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "尤菲米娅",
+          "tr": "Euphemia",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "尤菲米娅Li布里塔尼亚",
+          "tr": "Euphemia li Britannia",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "迪托哈特利特",
+          "tr": "Diethard Ried",
+          "note": "Propagandiste de l'Ordre Noir (Code Geass).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "朱雀",
+          "tr": "Suzaku",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "拉克夏塔",
+          "tr": "Rakshata",
+          "note": "Rakshata Chawla (Code Geass).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "阿尼亚阿尔斯特雷姆",
+          "tr": "Anya Alstreim",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "莫妮卡库鲁席夫斯基",
+          "tr": "Monica Kruszewski",
+          "note": "Chevalier de la Table Ronde (Code Geass).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "塞希尔柯尔米",
+          "tr": "Cecile Croomy",
+          "note": "Ingénieure du Lancelot (Code Geass).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "卡农伯爵",
+          "tr": "Kanon Maldini",
+          "note": "Aide de Schneizel (Code Geass).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "黎星刻",
+          "tr": "Li Xingke",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        }
+      ]
+    },
+    {
+      "id": "bloc15",
+      "corrige": true,
+      "title": "Bloc 15 · Vol 41-43 (ch. 1580-1742)",
+      "capture": "136 fiches : MJP Majestic Prince + Heroic Age + High School DxD + retours des mondes visités. Verdicts : 53 corriger / 45 harmoniser / 39 garder.",
+      "observations": [
+        "MJP : Kei Kugumiya, Ataru Suruga, Toshikazu Asagi, Izuru Hitachi (chef), Tamaki Irie, Rin Suzukaze, Teoria, Wulgaru partout (empereur, civilisation, vaisseaux), Team Rabbits, Godinion, base de la Planète Rose.",
+        "DxD : Ravel Phenex (蕾维儿·菲尼克斯 ch 1722), Riser Phenex, Great Red, Falbium Asmodeus, Suzaku Himejima, Yasaka (八坂, renarde kyûbi), Kunou (九重, sa fille), Asia Argento, Bureau des phénomènes trans-limites harmonisé.",
+        "Retours : 民警 = sécurité civile (Black Bullet, pas Police Civile); 黄金马桶 = trône d'or (parodie du Trône d'Or WH40K); Nier g Male; Kuroneko, Tifa et 2B g Female.",
+        "Simon (西蒙司令) : officier MJP d'identité incertaine, gardé avec note."
+      ],
+      "terms": [
+        {
+          "raw": "Aldnoah",
+          "tr": "Aldnoah",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "高达",
+          "tr": "Gundam",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "尼尔世界",
+          "tr": "Monde de NieR",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "AldnoahZero世界",
+          "tr": "Monde d'Aldnoah.Zero",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "漆黑子弹世界",
+          "tr": "Monde de Black Bullet",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "学园默示录世界",
+          "tr": "Monde de Highschool of the Dead",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "俺妹世界",
+          "tr": "Monde de Oreimo",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "最终幻想",
+          "tr": "Final Fantasy",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "Re:CREATORS",
+          "tr": "Re:CREATORS",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "民警",
+          "tr": "sécurité civile",
+          "note": "Organisation de défense anti-Gastrea (Black Bullet).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "GDF",
+          "tr": "GDF",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "玫瑰星",
+          "tr": "Planète Rose",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "地球防御体系",
+          "tr": "Système de défense terrestre",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "亚光速导弹",
+          "tr": "Missile sous-luminique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "侦查型水滴单元",
+          "tr": "Unité Goutte de reconnaissance",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "乌鲁加尔",
+          "tr": "Wulgaru",
+          "note": "Espèce extraterrestre ennemie (MJP).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "AHSMB技术",
+          "tr": "Technologie AHSMB",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "军团长",
+          "tr": "commandant de légion",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "黄色军团",
+          "tr": "légion jaune",
+          "note": "Escadre de pilotes MJP.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "红色军团",
+          "tr": "légion rouge",
+          "note": "Escadre de pilotes MJP.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "橙色军团",
+          "tr": "légion orange",
+          "note": "Escadre de pilotes MJP.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "紫色军团",
+          "tr": "légion violette",
+          "note": "Escadre de pilotes MJP.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "绿色军团",
+          "tr": "légion verte",
+          "note": "Escadre de pilotes MJP.",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "兔子小队",
+          "tr": "Team Rabbits",
+          "note": "Escadron de héros pilotes (MJP).",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "戈迪尼昂",
+          "tr": "Godinion",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "大型激光推进器",
+          "tr": "Propulseur Laser Géant",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "AHSMB",
+          "tr": "AHSMB",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "磁场防御罩",
+          "tr": "Bouclier de Champ Magnétique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "玫瑰星基地",
+          "tr": "base de la Planète Rose",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "侦查型水滴",
+          "tr": "Goutte de reconnaissance",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "全球防卫军GDF",
+          "tr": "force de défense globale GDF",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "深空发射装置",
+          "tr": "Dispositif de lancement spatial profond",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "beta生物技术",
+          "tr": "biotechnologie BETA",
+          "note": "Technologie des BETA (Muv-Luv).",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "克莱恩军团",
+          "tr": "Légion de Klein",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "MJP Majestic Prince",
+          "tr": "MJP Majestic Prince",
+          "note": "",
+          "verdict": "garder",
+          "cat": "other"
+        },
+        {
+          "raw": "AHSMB机体",
+          "tr": "Unité AHSMB",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "乌鲁加尔文明",
+          "tr": "civilisation Wulgaru",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "乌鲁加尔战舰",
+          "tr": "vaisseau de guerre Wulgaru",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "戈迪尼昂号",
+          "tr": "le Godinion",
+          "note": "",
+          "verdict": "garder",
+          "cat": "item"
+        },
+        {
+          "raw": "driver640系统",
+          "tr": "système driver640",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "人形要塞",
+          "tr": "forteresse humanoïde",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "生物装甲",
+          "tr": "armure biologique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "基因播种计划",
+          "tr": "projet de semence génétique",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "前文明技术",
+          "tr": "technologie de la civilisation antérieure",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "超限现象管控局",
+          "tr": "Bureau des phénomènes trans-limites",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "退魔师",
+          "tr": "exorciste",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "里京都",
+          "tr": "Kyoto caché",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "西之总帅",
+          "tr": "commandante en chef de l'Ouest",
+          "note": "Titre de Yasaka à Kyoto (High School DxD).",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "圣钉",
+          "tr": "clou sacré",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "魔方阵",
+          "tr": "cercle magique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "神子监视者",
+          "tr": "surveillants des enfants de Dieu",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "星之道",
+          "tr": "voie des étoiles",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "location"
+        },
+        {
+          "raw": "变异金属生命体",
+          "tr": "formes de vie métalliques mutantes",
+          "note": "Semblables aux ELS (Gundam 00).",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "蟻塚",
+          "tr": "fourmilière",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "Hedron盾",
+          "tr": "bouclier Hedron",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technology"
+        },
+        {
+          "raw": "神秘侧",
+          "tr": "côté mystique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "organization"
+        },
+        {
+          "raw": "下级恶魔",
+          "tr": "démons inférieurs",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "灵子防御场",
+          "tr": "Champ de défense spirituel",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "灵子引擎",
+          "tr": "Moteur spirituel",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "冥界",
+          "tr": "Inframonde",
+          "note": "",
+          "verdict": "garder",
+          "cat": "location"
+        },
+        {
+          "raw": "虚空引擎",
+          "tr": "Moteur du Vide",
+          "note": "",
+          "verdict": "garder",
+          "cat": "technology"
+        },
+        {
+          "raw": "四大魔王",
+          "tr": "quatre grands rois démons",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "Bureau des phénomènes trans-limites",
+          "tr": "Bureau des phénomènes trans-limites",
+          "note": "",
+          "verdict": "garder",
+          "cat": "organization"
+        },
+        {
+          "raw": "魔剑",
+          "tr": "épée magique",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "妖石",
+          "tr": "pierres démoniaques",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "item"
+        },
+        {
+          "raw": "灵魂绑定术式",
+          "tr": "technique de liaison d'âme",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "灵魂契约",
+          "tr": "contrat d'âme",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "technique"
+        },
+        {
+          "raw": "九尾一族",
+          "tr": "clan des neuf queues",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "species"
+        },
+        {
+          "raw": "妖怪大将",
+          "tr": "général yôkai",
+          "note": "",
+          "verdict": "corriger",
+          "cat": "title"
+        },
+        {
+          "raw": "九尾之狐",
+          "tr": "renard à neuf queues",
+          "note": "Désigne Yasaka à Kyoto (High School DxD).",
+          "verdict": "corriger",
+          "cat": "species"
+        }
+      ],
+      "characters": [
+        {
+          "raw": "公主",
+          "tr": "princesse",
+          "note": "Titre générique : la princesse du monde concerné (Mars pour Aldnoah).",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "黄金马桶",
+          "tr": "trône d'or",
+          "note": "Parodie du Trône d'Or de l'Empereur (Warhammer 40K), gag du roman.",
+          "verdict": "corriger",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "黑猫",
+          "tr": "Kuroneko",
+          "note": "Héroïne d'Oreimo, alias de la romancière.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "蒂法",
+          "tr": "Tifa",
+          "note": "Héroïne de Final Fantasy VII.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "诺得赵",
+          "tr": "Nord Zhao",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Undecided"
+        },
+        {
+          "raw": "2B",
+          "tr": "2B",
+          "note": "Androïde de combat de NieR : Automata.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "堕天圣黑猫",
+          "tr": "Chat Noir Sacré Déchu",
+          "note": "Pseudonyme complet de Kuroneko (Oreimo).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "尼尔",
+          "tr": "Nier",
+          "note": "Protagoniste replicant de la série NieR.",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "火星公主",
+          "tr": "Princesse de Mars",
+          "note": "Asseylum Vers Allusia, princesse d'Aldnoah.Zero.",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "西蒙司令",
+          "tr": "Commandant Simon",
+          "note": "Officier de la force de défense globale (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "缇欧莉娅",
+          "tr": "Teoria",
+          "note": "Princesse extraterrestre exilée (MJP).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "吉亚特",
+          "tr": "Giat",
+          "note": "Prince wulgaru, second fils (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "露提尔",
+          "tr": "Luthier",
+          "note": "Commandante wulgaru de la légion jaune (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "多鲁加那",
+          "tr": "Dolgana",
+          "note": "Officier wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "路梅斯",
+          "tr": "Lumes",
+          "note": "Officier wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "克莱恩",
+          "tr": "Klein",
+          "note": "Officier wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "入江环",
+          "tr": "Tamaki Irie",
+          "note": "Membre des Team Rabbits (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "钉宫桂",
+          "tr": "Kei Kugumiya",
+          "note": "Membre des Team Rabbits (MJP).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "骏河中",
+          "tr": "Ataru Suruga",
+          "note": "Membre des Team Rabbits (MJP).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "浅木俊一",
+          "tr": "Toshikazu Asagi",
+          "note": "Membre des Team Rabbits (MJP).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "日立出",
+          "tr": "Izuru Hitachi",
+          "note": "Chef des Team Rabbits (MJP).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "铃风凛",
+          "tr": "Rin Suzukaze",
+          "note": "Membre des Team Rabbits (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "加鲁奇",
+          "tr": "Garuchi",
+          "note": "Empereur wulgaru, frère de Teoria (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "天音叶月",
+          "tr": "Hazuki Amane",
+          "note": "Opératrice de la GDF (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "钉宫",
+          "tr": "Kei",
+          "note": "Kei Kugumiya, des Team Rabbits (MJP).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "西园寺丽华",
+          "tr": "Reika Saionji",
+          "note": "Officière de la GDF (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "乌鲁加尔皇帝",
+          "tr": "Empereur Wulgaru",
+          "note": "Souverain des Wulgaru (MJP).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "奥蕾莉亚王后",
+          "tr": "Reine Aurelia",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "缇欧莉娅公主",
+          "tr": "Princesse Teoria",
+          "note": "",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "奥蕾莉亚",
+          "tr": "Aurelia",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Female"
+        },
+        {
+          "raw": "姬岛朱雀",
+          "tr": "Suzaku Himejima",
+          "note": "Cheffe du clan Himejima (High School DxD).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "八坂",
+          "tr": "Yasaka",
+          "note": "Renarde kyûbi de Kyoto (High School DxD).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "九重",
+          "tr": "Kunou",
+          "note": "Fille renarde de Yasaka (High School DxD).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "莱克媞",
+          "tr": "Lekti",
+          "note": "Officière wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "卡尔奇诺斯",
+          "tr": "Calcinos",
+          "note": "Officier wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "普洛梅欧",
+          "tr": "Proméno",
+          "note": "Officière wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "普洛梅",
+          "tr": "Promé",
+          "note": "Officière wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "贝尔库罗斯",
+          "tr": "Belkuros",
+          "note": "Officier wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "罗姆罗",
+          "tr": "Romlo",
+          "note": "Officier wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "爱西亚",
+          "tr": "Asia",
+          "note": "Nonne devenue démone (High School DxD).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "罗丝薇瑟",
+          "tr": "Rossweisse",
+          "note": "Valkyrie au service d'Azazel (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "寇克博尔",
+          "tr": "Kokabiel",
+          "note": "Ange déchu (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "莉雅丝吉蒙里",
+          "tr": "Rias Gremory",
+          "note": "Héritière du clan Gremory (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "莉雅丝",
+          "tr": "Rias",
+          "note": "Rias Gremory (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "姬岛朱乃",
+          "tr": "Akeno Himejima",
+          "note": "Vice-cheffe du club occulte (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "朱乃",
+          "tr": "Akeno",
+          "note": "Akeno Himejima (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "古蕾菲亚",
+          "tr": "Grayfia",
+          "note": "Reine de Sirzechs (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "萨泽克斯吉蒙里",
+          "tr": "Sirzechs Gremory",
+          "note": "Roi démon Lucifer (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "瓦利",
+          "tr": "Vali",
+          "note": "Descendant de Lucifer (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "阿萨谢尔",
+          "tr": "Azazel",
+          "note": "Chef des anges déchus (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "齐格飞",
+          "tr": "Siegfried",
+          "note": "Epéiste de la Brigade du Chaos (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "帕伊特欧欧",
+          "tr": "Paiteo",
+          "note": "Officier wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "卡尔奇诺斯鲁卡恩",
+          "tr": "Kalchinosrukan",
+          "note": "Officier wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "帕伊特欧",
+          "tr": "Paiteo",
+          "note": "Officier wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "莱克媞列克",
+          "tr": "Lecklieck",
+          "note": "Hôte d'un héros wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "艾尔曼陀斯",
+          "tr": "Elmandos",
+          "note": "Héros de l'espèce wulgaru (MJP).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "蕾维儿",
+          "tr": "Ravel",
+          "note": "Ravel Phenex (High School DxD).",
+          "verdict": "corriger",
+          "gender": "Female"
+        },
+        {
+          "raw": "支取苍那",
+          "tr": "Sona Sitri",
+          "note": "Cheffe du conseil étudiant (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "瑞赛尔菲尼克斯",
+          "tr": "Riser Phenex",
+          "note": "Fiancé éconduit de Rias (High School DxD).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "瑞赛尔",
+          "tr": "Riser",
+          "note": "Riser Phenex (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "萨泽克斯",
+          "tr": "Sirzechs",
+          "note": "Sirzechs Lucifer (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "阿杰卡别西卜",
+          "tr": "Ajuka Beelzebub",
+          "note": "Roi démon Beelzebub (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Male"
+        },
+        {
+          "raw": "法尔毕温阿斯莫德",
+          "tr": "Falbium Asmodeus",
+          "note": "Roi démon Asmodeus (High School DxD).",
+          "verdict": "corriger",
+          "gender": "Male"
+        },
+        {
+          "raw": "塞拉芙尔利维坦",
+          "tr": "Serafall Leviathan",
+          "note": "Reine démon Leviathan (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "爱西亚·阿基多",
+          "tr": "Asia Argento",
+          "note": "Nom complet d'Asia (High School DxD).",
+          "verdict": "harmoniser",
+          "gender": "Female"
+        },
+        {
+          "raw": "杜鲁玛多",
+          "tr": "Dullahan",
+          "note": "",
+          "verdict": "garder",
+          "gender": "Male"
+        },
+        {
+          "raw": "伟大之红",
+          "tr": "Great Red",
+          "note": "Dragon de la dimension du Vide (High School DxD).",
+          "verdict": "corriger",
+          "gender": "Male"
+        }
+      ]
+    }
+  ],
+  "aSuivre": [
+    "Import : le CSV corrigé (bouton de téléchargement) s'importe dans l'appli; l'import écrase les 2210 traductions, aucune action manuelle.",
+    "Introuvables laissés tels quels (composites ou graphies absentes du texte) : 爱丽丝·祖贝鲁克, 诺得赵, 伊—兰斯, 二一七舰队. À trancher avec Shenn si besoin.",
+    "Roman en cours : les chapitres au-delà du 1742 pourront réclamer des mises à jour du glossaire."
+  ]
+};
