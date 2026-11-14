@@ -34,6 +34,15 @@ const ROMANS = [
     fichier: "data-honkai-gacha.js",
     format: "ns",
     accent: "#8b5cf6"
+  },
+  {
+    id: "chatgroup-40k",
+    court: "超次元群聊",
+    sub: "《从战锤开启的超次元综漫》 · glossaire complet 2210 entrées corrigé le 14/11 (marathon 15 blocs, harnais 10/10 à chaque bloc) : raw chinois → canon FR Warhammer 40K, HOTD, FMP, NieR, Muv-Luv, SEED, SAO, Arpeggio, Black Bullet, IS, Gundam 00, Mahouka, Re:Creators, NGNL, Sidonia, DxD, MJP...",
+    fichier: "data-chatgroup-40k.js",
+    format: "ns",
+    accent: "#e0115f",
+    csv: "csv-40k-corrige.csv"
   }
   // Prochain roman : ajouter une entrée ici + pousser son fichier
   // data-<id>.js au format "ns", puis repousser le site (version++).
