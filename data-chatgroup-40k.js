@@ -1044,7 +1044,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "红龍",
-          "tr": "dragon rouge",
+          "tr": "Dragon rouge",
           "note": "Dragon apparu à Shinjuku en 2003 (NieR), hébergé plus tard chez Wang Liu Mei.",
           "verdict": "corriger",
           "gender": "Undecided"
@@ -1304,7 +1304,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         {
           "raw": "黄金先生",
           "tr": "Monsieur d'Or",
-          "note": "Variante raccourcie du pseudo du héros, Monsieur Toilette d'Or.",
+          "note": "Surnom donné à l'Empereur du Trône d'Or par le Martien (WH40K).",
           "verdict": "harmoniser",
           "gender": "Male"
         },
@@ -2464,7 +2464,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc3",
       "corrige": true,
       "title": "Bloc 3 · Vol 6-8 (ch. 132-196)",
-      "capture": "101 fiches : Full Metal Panic + Warhammer Orks + retours NieR/HOTD + débuts SEED/Code Geass/Muv-Luv/Three-Body. Verdicts : 62 corriger / 39 harmoniser / 0 garder.",
+      "capture": "101 fiches : Full Metal Panic + Warhammer Orks + retours NieR/HOTD + débuts SEED/Code Geass/Muv-Luv/Three-Body. Verdicts : 63 corriger / 38 harmoniser / 0 garder.",
       "observations": [
         "FMP nautiljon : Sousuke Sagara, Tessa Testarossa, Kurz Weber; 强弩兵 = ARX-7 Arbalest; 丹努之子 = Tuatha de Danaan.",
         "WH40K : 行商浪人 = Libre Marchand (Lexicanum FR); 沉思者 = Cogitateur; 虚空盾 = Bouclier Void.",
@@ -2838,9 +2838,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "尤尼乌斯7",
-          "tr": "Junius 7",
+          "tr": "Junius Seven",
           "note": "Colonie détruite lors de la Saint-Valentin Sanglante (SEED).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "location"
         },
         {
@@ -3187,7 +3187,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc4",
       "corrige": true,
       "title": "Bloc 4 · Vol 9-10 (ch. 197-286)",
-      "capture": "209 fiches : Gundam SEED massif + Muv-Luv Total Eclipse + arc FF7 + T'au/Tyranides + retour SAO. Verdicts : 135 corriger / 77 harmoniser / 0 garder.",
+      "capture": "209 fiches : Gundam SEED massif + Muv-Luv Total Eclipse + arc FF7 + T'au/Tyranides + retour SAO. Verdicts : 137 corriger / 75 harmoniser / 0 garder.",
       "observations": [
         "SEED : Natarle Badgiruel, Siegel Clyne, Cagalli Yula Athha, Morgenroete, classe Nazca = destroyer rapide, classe Laurasia = frégate, CGUE, armure Phase Shift, canon positronique.",
         "Muv-Luv : Cryska Barchenowa, Inia Sestina, Cui Yifei, Bao-Feng, classes BETA canon, champ Rutherford, Moorcock-Lechte Drive; Stella Bremer = canon Total Eclipse.",
@@ -3919,9 +3919,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "北美合众国",
-          "tr": "États-Unis d'Amérique (USA)",
+          "tr": "États-Unis d'Amérique",
           "note": "États-Unis d'Amérique, nation terrienne du roman (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "organization"
         },
         {
@@ -4073,7 +4073,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "超重光线级",
-          "tr": "classe Laser-Fort",
+          "tr": "BETA de classe Laser-Fort",
           "note": "Canon : Laser-Fort, corps de classe Fort aux yeux Heavy Laser, rarissime.",
           "verdict": "corriger",
           "cat": "species"
@@ -4348,9 +4348,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "迪亚哥",
-          "tr": "Dearka Elsman",
+          "tr": "Dearka",
           "note": "Pilote ZAFT du Buster, ami d'Yzak (Gundam SEED).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Male"
         },
         {
@@ -4688,7 +4688,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc5",
       "corrige": true,
       "title": "Bloc 5 · Vol 11-12 (ch. 287-336)",
-      "capture": "106 fiches : flotte-ruche + monde-tombe Nécron + FF7 Dirge of Cerberus + salon de convention. Verdicts : 67 corriger / 39 harmoniser / 0 garder.",
+      "capture": "106 fiches : flotte-ruche + monde-tombe Nécron + FF7 Dirge of Cerberus + salon de convention. Verdicts : 69 corriger / 37 harmoniser / 0 garder.",
       "observations": [
         "WH40K : Loup Suprême (Logan Grimnar), Spectre Canoptek, Monde-Tombe, C'tan, métal vivant, classe Luna, Guerre dans le Ciel, Aeldari, armure Mark X Primaris.",
         "FF7R : Murmures (菲拉/菈菲 = deux graphies du même être), matéria, Reeve Tuesti (l'appli disait Levitusty), Deepground, Nero frère de Weiss.",
@@ -5217,9 +5217,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "将监",
-          "tr": "Shōgen",
-          "note": "1re occ fragment (surveillance) ; référent : Ikuma Shōgen, lié à Miori Shiba (Black Bullet).",
-          "verdict": "harmoniser",
+          "tr": "Shougen",
+          "note": "1re occ fragment (surveillance) ; référent : Shougen Ikuma (Black Bullet).",
+          "verdict": "corriger",
           "gender": "Male"
         },
         {
@@ -5329,9 +5329,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "旗柳",
-          "tr": "Flagellum",
+          "tr": "artefact OCR",
           "note": "Occurrence unique dans un passage corrompu du texte ; référent non identifié.",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Undecided"
         },
         {
@@ -5445,7 +5445,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc6",
       "corrige": true,
       "title": "Bloc 6 · Vol 13-14 (ch. 337-448)",
-      "capture": "169 fiches : SAO Aincrad puis Alicization + retour Gundam SEED + Arpeggio + retours NieR/HOTD. Verdicts : 116 corriger / 54 harmoniser / 0 garder.",
+      "capture": "169 fiches : SAO Aincrad puis Alicization + retour Gundam SEED + Arpeggio + retours NieR/HOTD. Verdicts : 117 corriger / 53 harmoniser / 0 garder.",
       "observations": [
         "SAO : Chevaliers de l'Intégrité, Église de l'Axiome, Deusolbert, Taillavenir (VF nautiljon de l'épée temporelle), Yûki Konno, Argo femme, Centoria, Fluctlight, objet divin, Grande Prêtresse.",
         "Arpeggio : Flotte du Brouillard (3 graphies harmonisées), champ de Klein, modèle mental, I-401, Kotono Amaha.",
@@ -5533,7 +5533,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "平行世界人类拯救机关",
-          "tr": "organisation de sauvetage des humains des mondes parallèles",
+          "tr": "Organisation de Sauvetage des Mondes Parallèles",
           "note": "Organisation du héros sauvant les mondes (roman).",
           "verdict": "corriger",
           "cat": "other"
@@ -6627,9 +6627,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "AC",
-          "tr": "AC",
+          "tr": "Admiralty Code",
           "note": "Admiralty Code, clé suprême de la Flotte du Brouillard (Arpeggio).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Female"
         },
         {
@@ -6652,7 +6652,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc7",
       "corrige": true,
       "title": "Bloc 7 · Vol 15-16 (ch. 449-493)",
-      "capture": "81 fiches : retour Warhammer (moisson des peaux + Grand Démon) + Aldnoah.Zero + retours. Verdicts : 44 corriger / 37 harmoniser / 0 garder.",
+      "capture": "81 fiches : retour Warhammer (moisson des peaux + Grand Démon) + Aldnoah.Zero + retours. Verdicts : 46 corriger / 35 harmoniser / 0 garder.",
       "observations": [
         "Aldnoah : Asseylum Vers Allusia, Lemrina Vers Envers, Slaine Troyard, Comtes Klancain/Cruhteo/Saazbaum, Barouhcruz, Eddelrittuo, Darzana Magbaredge, château de débarquement; Inaho g Male.",
         "Kaguya-sama : Ai Hayasaka. IS : Tabane Shinonono (ID du chat 我家妹妹最可爱).",
@@ -7104,9 +7104,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "竹取物语",
-          "tr": "Conte du coupeur de bambou",
+          "tr": "Le Conte du coupeur de bambou",
           "note": "ID chat de Shinomiya Kaguya (Kaguya-sama).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Female"
         },
         {
@@ -7216,9 +7216,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "ZERO",
-          "tr": "ZERO",
+          "tr": "Zero",
           "note": "Identité masquée de Lelouch (Code Geass).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Male"
         },
         {
@@ -7234,7 +7234,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc8",
       "corrige": true,
       "title": "Bloc 8 · Vol 17-19 (ch. 494-579)",
-      "capture": "133 fiches : Black Bullet + retour Warhammer/Lost Universe + Infinite Stratos. Verdicts : 87 corriger / 49 harmoniser / 0 garder.",
+      "capture": "133 fiches : Black Bullet + retour Warhammer/Lost Universe + Infinite Stratos. Verdicts : 89 corriger / 47 harmoniser / 0 garder.",
       "observations": [
         "Black Bullet : Shougen Ikuma (le 将监 du bloc 5 résolu), Sōgen Saitake, Président Mikajima, Syndicat des Cinq Ailes, Tina Sprout, Monolithe n°32 corrodé par Aldébaran, Zones (pas District), Varanium, Shiba Heavy Industries.",
         "Lost Universe (KanzakaDex) : Canal Vorfeed, Sword Breaker, Dugradigdu, Lost Universe (typo corrigée), technologie psychique.",
@@ -7601,9 +7601,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "阶段五",
-          "tr": "Stade 5",
+          "tr": "Stade V",
           "note": "Stade ultime d'érosion Gastrea (Black Bullet).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "title"
         },
         {
@@ -7846,9 +7846,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "卫星级巡洋 cruiser",
-          "tr": "Croiseur de classe satellite",
+          "tr": "Croiseur de classe Satellite",
           "note": "Croiseur de la classe Satellite (Arpeggio, roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -8202,7 +8202,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc9",
       "corrige": true,
       "title": "Bloc 9 · Vol 20-21 (ch. 580-669)",
-      "capture": "164 fiches : Arpeggio of Blue Steel + Gundam 00. Les 4 apostrophes U+2019 résolues : global à 0. Verdicts : 68 corriger / 89 harmoniser / 0 garder.",
+      "capture": "164 fiches : Arpeggio of Blue Steel + Gundam 00. Les 4 apostrophes U+2019 résolues : global à 0. Verdicts : 78 corriger / 79 harmoniser / 0 garder.",
       "observations": [
         "Gundam 00 : Aeolia Schenberg, Wang Liu Mei, Kati Mannequin, Ralph Eifman, Ligue de réforme humaine, Gundam Akatsuki, Union de l'énergie solaire, Royaume d'Azadistan.",
         "Arpeggio : suite des modèles mentaux, 卫星级 = classe Satellite harmonisée.",
@@ -8219,9 +8219,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "平行世界拯救机关（PWRA）",
-          "tr": "Organisation de Sauvetage des Mondes Parallèles (PWRA)",
+          "tr": "Organisation de Sauvetage des Mondes Parallèles (P.W.R.A.)",
           "note": "Agence de sauvetage des mondes parallèles (fic).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "other"
         },
         {
@@ -8303,9 +8303,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "量子跃迁",
-          "tr": "Saut quantique",
+          "tr": "saut quantique",
           "note": "Téléportation via états quantiques (technologie du roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "other"
         },
         {
@@ -8331,9 +8331,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "量子分化",
-          "tr": "différenciation quantique",
+          "tr": "dédoublement quantique",
           "note": "Duplication d'états quantiques (technologie du roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "other"
         },
         {
@@ -8457,9 +8457,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "拯救平行世界机关",
-          "tr": "Agence de Sauvetage des Mondes Parallèles",
+          "tr": "Organisation de Sauvetage des Mondes Parallèles",
           "note": "Organisation de sauvetage du héros (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "organization"
         },
         {
@@ -8492,16 +8492,16 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "P W R A",
-          "tr": "PWRA",
+          "tr": "P.W.R.A.",
           "note": "Organisation du héros, sauvetage (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "organization"
         },
         {
           "raw": "Paralle1WorldRescueAgency",
-          "tr": "Agence de Sauvetage des Mondes Parallèles",
+          "tr": "Organisation de Sauvetage des Mondes Parallèles",
           "note": "Agence de Sauvetage des Mondes Parallèles du héros (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "organization"
         },
         {
@@ -8688,9 +8688,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "核聚变炉",
-          "tr": "Réacteur à Fusion Nucléaire",
+          "tr": "réacteur à fusion nucléaire",
           "note": "Réacteur à fusion nucléaire, énergie du héros (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -8730,9 +8730,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "核裂变反应炉",
-          "tr": "Réacteur à fission nucléaire",
+          "tr": "réacteur à fission nucléaire",
           "note": "Réacteur à fission nucléaire, énergie du héros (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -8863,9 +8863,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "P W R A机构",
-          "tr": "Organisation PWRA",
+          "tr": "Organisation P.W.R.A.",
           "note": "Organisation PWRA, agence de sauvetage du héros (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "organization"
         },
         {
@@ -9068,9 +9068,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "刑部莳绘",
-          "tr": "Keibu Shikae",
-          "note": "Enfant du monde de la Brume, graphie incertaine.",
-          "verdict": "harmoniser",
+          "tr": "Makie Osakabe",
+          "note": "Enfant-clef créée pour contrer la Flotte du Brouillard (Arpeggio of Blue Steel).",
+          "verdict": "corriger",
           "gender": "Undecided"
         },
         {
@@ -9317,7 +9317,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc10",
       "corrige": true,
       "title": "Bloc 10 · Vol 22-25 (ch. 670-767)",
-      "capture": "121 fiches : arcs Mahouka (début), Muv-Luv, retours divers. Verdicts : 57 corriger / 46 harmoniser / 0 garder.",
+      "capture": "121 fiches : arcs Mahouka (début), Muv-Luv, retours divers. Verdicts : 60 corriger / 43 harmoniser / 0 garder.",
       "observations": [
         "Mahouka : Oko Shinomiya, Retsu Kudou, Minami Sakurai, Carina Tomo Hosaka (= Argo), Altair.",
         "想子 = psion, 灵子 = pushion : convention Mahouka gravée (sauf contexte DxD plus tard).",
@@ -9537,7 +9537,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "平行世界拯救机构",
-          "tr": "agence de sauvetage des mondes parallèles",
+          "tr": "Organisation de Sauvetage des Mondes Parallèles",
           "note": "Agence de sauvetage des mondes parallèles du héros (roman).",
           "verdict": "corriger",
           "cat": "organization"
@@ -9558,7 +9558,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "光线种beta",
-          "tr": "BETA de classe laser",
+          "tr": "BETA de classe Laser",
           "note": "BETA de classe laser, défense antiaérienne (Muv-Luv).",
           "verdict": "corriger",
           "cat": "species"
@@ -9789,9 +9789,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "虚拟舱",
-          "tr": "Cabine virtuelle",
+          "tr": "cabine virtuelle",
           "note": "Cabine virtuelle, caisson d'immersion du héros (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -9803,9 +9803,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "法阵",
-          "tr": "Cercle magique",
+          "tr": "cercle magique",
           "note": "Cercle magique, diagramme d'activation (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technique"
         }
       ],
@@ -9987,9 +9987,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "风间玄信",
-          "tr": "Kenshin Kazama",
+          "tr": "Genjin Kazama",
           "note": "Chef du club de kendo du lycée (Mahouka, roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Male"
         },
         {
@@ -10054,7 +10054,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc11",
       "corrige": true,
       "title": "Bloc 11 · Vol 26-29 (ch. 768-887)",
-      "capture": "148 fiches : Re:Creators complet + Tokyo Ghoul + Yamato 2202 + Gauna + Protoss + Heroic Age. Verdicts : 100 corriger / 69 harmoniser / 0 garder.",
+      "capture": "148 fiches : Re:Creators complet + Tokyo Ghoul + Yamato 2202 + Gauna + Protoss + Heroic Age. Verdicts : 106 corriger / 63 harmoniser / 0 garder.",
       "observations": [
         "Re:Creators : Magane Chikujouin, Alicetaria February, Yuya Mirokuji, Blitz Talker, Mamika Kirameki, Meteora Österreich, Hikayu Hoshikawa, Vogelchevalier, Avalken.",
         "Tokyo Ghoul : Fueguchi, Cochlea, Anteiku, CCG. Yamato : Starsha, Gatlantis, Cosmos Reverse System.",
@@ -10365,9 +10365,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "EVA型beta",
-          "tr": "BETA type EVA",
+          "tr": "BETA de type EVA",
           "note": "BETA imitant l'Eva du héros (Muv-Luv, roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -10435,9 +10435,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "伊斯坎达尔人",
-          "tr": "Iscandariens",
+          "tr": "Iskandariens",
           "note": "Peuple d'Iscandar, pacifique (Yamato 2199).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "species"
         },
         {
@@ -10617,9 +10617,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "希望之峰学园",
-          "tr": "Académie des Pics de l'Espoir",
-          "note": "Académie des Pics de l'Espoir, lycée piège (Danganronpa).",
-          "verdict": "harmoniser",
+          "tr": "Académie Hope's Peak",
+          "note": "Académie Hope's Peak, lycée piège (Danganronpa).",
+          "verdict": "corriger",
           "cat": "location"
         },
         {
@@ -11116,9 +11116,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "阿伯特德斯拉",
-          "tr": "Abert Desla",
+          "tr": "Abelt Dessler",
           "note": "Fragment OCR d'Abelt Dessler, chef de Gamilas (Yamato).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Male"
         },
         {
@@ -11144,9 +11144,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "八代",
-          "tr": "Yashiro",
+          "tr": "Kobayashi",
           "note": "Fragment désignant Kobayashi, 28e capitaine du Sidonia (Knights of Sidonia).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Male"
         },
         {
@@ -11207,9 +11207,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "绿川缬",
-          "tr": "Midorikawa Ayame",
+          "tr": "Yuhata Midorikawa",
           "note": "Assistante du commandant du Sidonia (Knights of Sidonia).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Female"
         },
         {
@@ -11253,7 +11253,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc12",
       "corrige": true,
       "title": "Bloc 12 · Vol 30-33 (ch. 888-1110)",
-      "capture": "171 fiches : Mahouka suite + Danganronpa + Knights of Sidonia + retours. Verdicts : 102 corriger / 72 harmoniser / 0 garder.",
+      "capture": "171 fiches : Mahouka suite + Danganronpa + Knights of Sidonia + retours. Verdicts : 106 corriger / 68 harmoniser / 0 garder.",
       "observations": [
         "Mahouka : Mayumi Saegusa, Mari Watanabe, FLT = Four Leaves Technology (résout l'introuvable ch 938).",
         "Danganronpa : Fuyuhiko Kuzuryu, Mondo Owada, Chihiro g Male.",
@@ -11592,9 +11592,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "FourLeavesTechnology (FLT)",
-          "tr": "FourLeavesTechnology (FLT)",
+          "tr": "Four Leaves Technology (FLT)",
           "note": "Four Leaves Technology, entreprise (Mahouka).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "organization"
         },
         {
@@ -12112,9 +12112,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "不见咲薰",
-          "tr": "Minage Saki Kaoru",
-          "note": "Officière (fic), ligne partiellement corrompue.",
-          "verdict": "harmoniser",
+          "tr": "Kaoru Misaki",
+          "note": "Vice-capitaine du vaisseau, ligne corrompue, nom reconstruit (Aldnoah, roman).",
+          "verdict": "corriger",
           "gender": "Female"
         },
         {
@@ -12175,9 +12175,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "伊杰同学",
-          "tr": "Élève Ijie",
+          "tr": "Élève Yijie",
           "note": "Désignation du héros Yijie par ses camarades (Mahouka, roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Male"
         },
         {
@@ -12476,9 +12476,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "小林舰长",
-          "tr": "Kobayashi",
+          "tr": "capitaine Kobayashi",
           "note": "Capitaine du Sidonia (Knights of Sidonia).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Female"
         }
       ]
@@ -12487,7 +12487,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc13",
       "corrige": true,
       "title": "Bloc 13 · Vol 34-37 (ch. 1111-1329)",
-      "capture": "170 fiches : No Game No Life (Disboard) + Yamato 2202 + Fafner + retours Warhammer. Verdicts : 102 corriger / 71 harmoniser / 0 garder.",
+      "capture": "170 fiches : No Game No Life (Disboard) + Yamato 2202 + Fafner + retours Warhammer. Verdicts : 106 corriger / 67 harmoniser / 0 garder.",
       "observations": [
         "NGNL : races d'Imanity (Old Deus, Dragonia, Lunamana, Dwarves, Elves, Fairies, Warbeasts), Dix Serments, Star Grail, Avant Heim (gender vidé), Tet g Male.",
         "Yamato : Abelt Dessler, Melda Dietz. Fafner : persos de l'île Tatsumiya corrigés.",
@@ -12496,9 +12496,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "terms": [
         {
           "raw": "迪司博德世界",
-          "tr": "le monde de Disboard",
+          "tr": "Monde de Disboard",
           "note": "Disboard, monde plateau régi par les jeux (NGNL).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "location"
         },
         {
@@ -12741,7 +12741,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "方舟号",
-          "tr": "l'Arche",
+          "tr": "Arche",
           "note": "L'Arche, vaisseau d'exploration du héros (roman).",
           "verdict": "corriger",
           "cat": "location"
@@ -13394,9 +13394,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "莉吉尔普",
-          "tr": "Lijilpu",
-          "note": "Unité Ex-Machina, variante graphique (NGNL, roman).",
-          "verdict": "harmoniser",
+          "tr": "Jibril",
+          "note": "Nom de Jibril aux caractères réordonnés par la magie du livre (NGNL, roman).",
+          "verdict": "corriger",
           "gender": "Female"
         },
         {
@@ -13422,9 +13422,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "特图",
-          "tr": "Teto",
+          "tr": "Tet",
           "note": "Tet, dieu enfant des jeux de Disboard (NGNL).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Male"
         },
         {
@@ -13464,9 +13464,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "哈提雷姆",
-          "tr": "Hatirelm",
+          "tr": "Hathilem",
           "note": "Variante graphique d'Hathilem le dragon (NGNL).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Undecided"
         },
         {
@@ -13713,7 +13713,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc14",
       "corrige": true,
       "title": "Bloc 14 · Vol 38-40 (ch. 1330-1579)",
-      "capture": "146 fiches : Knights of Sidonia + Demon Slayer + Code Geass. Verdicts : 61 corriger / 85 harmoniser / 0 garder.",
+      "capture": "146 fiches : Knights of Sidonia + Demon Slayer + Code Geass. Verdicts : 65 corriger / 81 harmoniser / 0 garder.",
       "observations": [
         "Sidonia : Shizuka Hoshijiro, Norio Kunato, canons Heigus, Gauna.",
         "Demon Slayer : lame de Nichirin, techniques de respiration, Lunes supérieures.",
@@ -13765,9 +13765,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "P.W.R.A",
-          "tr": "P.W.R.A",
+          "tr": "P.W.R.A.",
           "note": "P.W.R.A, sigle de l'agence de sauvetage du héros (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "organization"
         },
         {
@@ -13905,9 +13905,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "无限城",
-          "tr": "Forteresse Infinie",
-          "note": "Forteresse dimensionnelle de Muzan (Demon Slayer).",
-          "verdict": "harmoniser",
+          "tr": "Château Infini",
+          "note": "Château dimensionnel de Muzan (Demon Slayer).",
+          "verdict": "corriger",
           "cat": "location"
         },
         {
@@ -14397,9 +14397,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "克洛维斯La布里塔尼亚",
-          "tr": "Clovis la Britannia",
+          "tr": "Clovis el Britannia",
           "note": "Troisième prince, gouverneur de la Zone 11 (Code Geass).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Male"
         },
         {
@@ -14509,9 +14509,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "仄姐妹",
-          "tr": "Sœurs Madara",
+          "tr": "Sœurs Homura et Ren",
           "note": "Pilotes clones du Sidonia (Knights of Sidonia).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Female"
         },
         {
@@ -14751,7 +14751,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
       "id": "bloc15",
       "corrige": true,
       "title": "Bloc 15 · Vol 41-43 (ch. 1580-1742)",
-      "capture": "136 fiches : MJP Majestic Prince + Heroic Age + High School DxD + retours des mondes visités. Verdicts : 53 corriger / 84 harmoniser / 0 garder.",
+      "capture": "136 fiches : MJP Majestic Prince + Heroic Age + High School DxD + retours des mondes visités. Verdicts : 64 corriger / 73 harmoniser / 0 garder.",
       "observations": [
         "MJP : Kei Kugumiya, Ataru Suruga, Toshikazu Asagi, Izuru Hitachi (chef), Tamaki Irie, Rin Suzukaze, Teoria, Wulgaru partout (empereur, civilisation, vaisseaux), Team Rabbits, Godinion, base de la Planète Rose.",
         "DxD : Ravel Phenex (蕾维儿·菲尼克斯 ch 1722), Riser Phenex, Great Red, Falbium Asmodeus, Suzaku Himejima, Yasaka (八坂, renarde kyûbi), Kunou (九重, sa fille), Asia Argento, Bureau des phénomènes trans-limites harmonisé.",
@@ -14852,9 +14852,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "亚光速导弹",
-          "tr": "Missile sous-luminique",
+          "tr": "missile subluminique",
           "note": "Missile sous-luminique, arme lourde du héros (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -14936,9 +14936,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "大型激光推进器",
-          "tr": "Propulseur Laser Géant",
+          "tr": "propulseur laser géant",
           "note": "Propulseur laser géant, lancement de MJP (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -14950,9 +14950,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "磁场防御罩",
-          "tr": "Bouclier de Champ Magnétique",
+          "tr": "bouclier de champ magnétique",
           "note": "Bouclier de champ magnétique (MJP, roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -14978,9 +14978,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "深空发射装置",
-          "tr": "Dispositif de lancement spatial profond",
+          "tr": "dispositif de lancement dans l'espace profond",
           "note": "Dispositif de lancement profond (MJP, roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -15027,16 +15027,16 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "戈迪尼昂号",
-          "tr": "le Godinion",
+          "tr": "Godinion",
           "note": "Le Godinion, vaisseau-mère des AHSMB de MJP (MJP).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "item"
         },
         {
           "raw": "driver640系统",
-          "tr": "système driver640",
+          "tr": "système Driver 640",
           "note": "Système driver640, interface de pilotage (roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -15160,16 +15160,16 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "灵子防御场",
-          "tr": "Champ de défense spirituel",
+          "tr": "champ de défense spirituel",
           "note": "Champ de défense spirituel (High School DxD).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
           "raw": "灵子引擎",
-          "tr": "Moteur spirituel",
+          "tr": "moteur spirituel",
           "note": "Moteur d'essence spirituelle (High School DxD).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -15181,9 +15181,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "虚空引擎",
-          "tr": "Moteur du Vide",
+          "tr": "moteur du vide",
           "note": "Moteur exploitant le Vide (High School DxD, roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "cat": "technology"
         },
         {
@@ -15260,7 +15260,7 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "黄金马桶",
-          "tr": "trône d'or",
+          "tr": "Toilette d'Or",
           "note": "Parodie du Trône d'Or de l'Empereur (Warhammer 40K), gag du roman.",
           "verdict": "corriger",
           "gender": "Undecided"
@@ -15337,9 +15337,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "露提尔",
-          "tr": "Luthier",
+          "tr": "Lutiel",
           "note": "Commandante wulgaru de la légion jaune (MJP).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Female"
         },
         {
@@ -15617,9 +15617,9 @@ window.ROMANS_DATA["chatgroup-40k"] = {
         },
         {
           "raw": "卡尔奇诺斯鲁卡恩",
-          "tr": "Kalchinosrukan",
+          "tr": "Calcinos Rukan",
           "note": "Variante de l'officier wulgaru Calcinos (MJP, roman).",
-          "verdict": "harmoniser",
+          "verdict": "corriger",
           "gender": "Male"
         },
         {
