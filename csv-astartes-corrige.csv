@@ -1892,7 +1892,7 @@ character,Serena,Serena,Female,,Fille du chef du Village des Eaux Sombres (roman
 character,Abdel,Abdel,Male,,"Astartes de la légion des Enfants de l'Empereur (Warhammer 40K, roman).",2
 character,Diruk,Diruk,Male,,"Astartes de la légion des Enfants de l'Empereur (Warhammer 40K, roman).",2
 character,Phénix de Chemos,Phénix de Chemos,Undecided,,"Épithète de Fulgrim, primarque parfait (Warhammer 40K).",2
-character,Ivar le Mauvais Œil,Ivar le Mauvais Œil,Male,,"Fondateur légendaire cité, mauvais oeil (Warhammer 40K, roman).",2
+character,Ivar le Mauvais Œil,Ivar Malœil,Male,,"Fondateur de l'École de la Vipère, ex-sorceleur de l'Ours (The Witcher).",2
 term,最强岩石,Roc le plus puissant,,title,"Roc le plus puissant, titre de Fortissax (roman).",
 term,魔弓手,archer magique,,title,"Archer magique, rôle de Latenna l'albinaurique (Elden Ring, roman).",
 term,混种铁匠,forgeron mal engendré,,title,"Forgeron mal engendré du Bastion (Elden Ring, roman).",
@@ -3104,11 +3104,11 @@ term,东部集团军,groupe d'armées de l'Est,,other,Groupe d'armées de l'Est 
 term,东部亚甸战线,Front d'Aedirn oriental,,other,"Front oriental de la guerre d'Aedirn (The Witcher, roman).",
 term,那乌西卡旅,Brigade Nauzicaa,,other,"Brigade d'élite nilfgaardienne (The Witcher, roman).",
 term,猎魔人配方,formules de sorceleur,,other,"Recettes alchimiques des sorceleurs (The Witcher, roman).",
-term,蝮蛇学派,école de la vipère,,other,"École de sorceleurs de la vipère (The Witcher, roman).",
+term,蝮蛇学派,École de la Vipère,,other,"École sorceleur du Sud, fondée par Ivar Malœil (The Witcher).",
 term,格斯韦德,Gorthur Gvaed,,other,"Gorthur Gvaed, repaire de l'école (The Witcher, roman).",
 term,蝮蛇学派城堡,"fort de l'école de la vipère, Gorthur Gvaed",,other,"Fort de l'école de la vipère, Gorthur Gvaed (The Witcher, roman).",
 term,高等吸血鬼,Vampire supérieur,,other,"Vampire hors norme, espèce supérieure (The Witcher).",
-term,海恩卡威赫,Haern Caduch,,other,"Nom elfique de Kaer Morhen, la Vieille Forteresse (The Witcher).",
+term,海恩卡威赫,Haern Caduch,,other,"Forteresse de l'École de l'Ours, dans les monts Amell (The Witcher).",
 term,阿梅尔山脉,Montagnes Amell,,other,"Massif méridional, les monts Amell (The Witcher).",
 term,太阳教神权,culte du Grand Soleil,,other,"Culte du Grand Soleil de l'Empire (The Witcher, roman).",
 term,在敌人墓地上舞动的白焰,Flamme blanche dansant sur les tombes des ennemis,,other,"Surnom du héros, flamme blanche vengeresse (roman).",
@@ -5019,7 +5019,7 @@ term,煉金箭矢,Flèches alchimiques,,technology,"Projectiles traités à l'al
 term,高階吸血鬼,Vampire supérieur,,species,"Vampire hors norme, espèce supérieure (The Witcher).",
 term,狼學派,École du Loup,,organization,Confrérie sorceleuse du Loup (The Witcher).,
 term,獅鷲學派,École du Griffon,,organization,Confrérie sorceleuse du Griffon (The Witcher).,
-term,海恩卡威赫城堡,Forteresse de Haen Carveh,,location,Donjon de l'École de l'Ours dans les Amell (roman).,
+term,海恩卡威赫城堡,Forteresse de Haern Caduch,,location,Donjon de l'École de l'Ours dans les monts Amell (The Witcher).,
 term,奧倫幣,Oren,,item,Monnaie temerienne de cuivre (The Witcher).,
 term,狸怪,Grotesque,,species,"Créature infestant les collines de Sodden, citation (The Witcher, roman).",
 term,狗頭人,Cobold,,species,"Créature mineure des collines, le cobold (The Witcher).",
@@ -6780,7 +6780,7 @@ term,國王之手,Main du Roi,,title,Plus haut office des Sept Couronnes (Game o
 term,禦前會議,Petit Conseil,,organization,Conseil restreint du roi (Game of Thrones).,2
 term,小小鳥,Petits Oiseaux,,organization,Réseau d'informateurs de Varys (Game of Thrones).,2
 term,七神教義,Dogmes des Sept,,item,"Croyances des Sept, dogmes (Game of Thrones).",2
-term,奪權者之戰,guerre de l'Usurpateur,,technology,Entrée de l'appli : conflit de succession autour d'un trône usurpé (roman).,2
+term,奪權者之戰,guerre de l'Usurpateur,,technology,Entrée de l'appli : guerre de Robert pour le trône (Game of Thrones).,2
 term,Poison de Pendu,Poison de Pendu,,item,"Toxine distillée d'un pendu, poison lent (roman).",2
 term,Foudre,Foudre,,technique,Potion orageuse du sorceleur (The Witcher).,2
 term,Tempête de neige,Tempête de neige,,technique,Potion tempétueuse du sorceleur (The Witcher).,2
