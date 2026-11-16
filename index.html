@@ -283,7 +283,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 <script id="app">
 (function () {
   "use strict";
-  var VERSION = "v2.10";
+  var VERSION = "v2.11";
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -674,18 +674,27 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
   }
   function loadRoman(r, cb) {
     if (cache[r.id]) { cb(cache[r.id]); return; }
-    var s = document.createElement("script");
-    s.src = r.fichier;
-    s.onload = function () {
-      var data = null;
-      try {
-        data = r.format === "legacy" ? harvestLegacy() : (window.ROMANS_DATA || {})[r.id];
-      } catch (_) { data = null; }
-      if (data && data.chapters) { cache[r.id] = data; cb(data); }
-      else cb(null);
-    };
-    s.onerror = function () { cb(null); };
-    document.head.appendChild(s);
+    // r.fichier : une string (un fichier) OU un array (fichiers charges sequentiellement,
+    // pour les data JS trop gros pour un seul fichier ; le format "ns" s'assemble dans
+    // window.ROMANS_DATA["<id>"], la part 1 cree l'objet, les suivantes concatent les chapters).
+    var fichiers = Array.isArray(r.fichier) ? r.fichier : [r.fichier];
+    var i = 0;
+    (function next() {
+      var s = document.createElement("script");
+      s.src = fichiers[i];
+      s.onload = function () {
+        i++;
+        if (i < fichiers.length) { next(); return; }
+        var data = null;
+        try {
+          data = r.format === "legacy" ? harvestLegacy() : (window.ROMANS_DATA || {})[r.id];
+        } catch (_) { data = null; }
+        if (data && data.chapters) { cache[r.id] = data; cb(data); }
+        else cb(null);
+      };
+      s.onerror = function () { cb(null); };
+      document.head.appendChild(s);
+    })();
   }
 
   var state = { onlyFix: false, hideDone: false, open: {} };

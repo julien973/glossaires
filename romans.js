@@ -43,7 +43,16 @@ const ROMANS = [
     format: "ns",
     accent: "#e0115f",
     csv: "csv-40k-corrige.csv"
-  }
+  },
+  {
+    id: "astartes",
+    court: "熊學派的阿斯塔特",
+    sub: "《熊學派的阿斯塔特》 (Astartes of the Bear School) · glossaire complet 6848 entrées corrigé le 16/11 (marathon 35 blocs, 6848/6848 notées) : raw chinois → canon FR The Witcher, Warhammer 40K, Tolkien (trad. Ledoux), Game of Thrones, Elden Ring, Dark Souls, Sekiro, Bloodborne, Monster Hunter.",
+    fichier: ["data-astartes-1.js", "data-astartes-2.js", "data-astartes-3.js"],
+    format: "ns",
+    accent: "#d97706",
+    csv: "csv-astartes-corrige.csv"
+  },
   // Prochain roman : ajouter une entrée ici + pousser son fichier
   // data-<id>.js au format "ns", puis repousser le site (version++).
 ];
