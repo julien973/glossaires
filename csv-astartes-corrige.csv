@@ -405,7 +405,6 @@ character,科沃的维索戈塔,Vysogota de Corvo,Undecided,,"Vysogota de Corvo,
 character,尼格蒂姆·德·布特,Nicodème de Boot,Undecided,,"Nicodème de Boot, historien du Nord (The Witcher, roman).",
 character,泽丽卡,reine Zuleyka Thyssen,Female,,"Zuleyka Thyssen, reine de Kovir (The Witcher, roman).",
 character,探戈河,Rivière Tango,Undecided,,"Rivière Tango, cours d'eau du Nazair (The Witcher, roman).",
-character,朗·爱赛特,Lan Exeter,Undecided,,"Lan Exeter, capitale d'hiver de Kovir (The Witcher, roman).",
 character,克里斯,Damoclès,Undecided,,"Fin du nom de Damoclès, segment (Assassin's Creed, roman).",
 character,达西,aep Darcy,Undecided,,"Patronyme nilfgaardien, la famille aep Darcy (roman).",
 character,瀚纳仕,Hanush de Leipa,Undecided,,"Hanush de Leipa, seigneur de Rattay (Kingdom Come, roman).",
@@ -575,7 +574,6 @@ character,道三,Dōsan,Undecided,,"Saitō Dōsan, la vipère de Mino (Nioh, rom
 character,斋藤氏,Clan Saitō,Undecided,,"Lignée de seigneurs de Mino, maison (Nioh, roman).",
 character,黑田如水,Kuroda Jōsui,Undecided,,"Kuroda Jōsui, stratège du Japon (Nioh, roman).",
 character,竹中半兵卫重治,Takenaka Hanbei Shigeharu,Undecided,,"Takenaka Hanbei Shigeharu, stratège de Mino (Nioh, roman).",
-character,山王权现,Sannō Gongen,Undecided,,"Sannō Gongen, avatar divin du mont Hiei (Nioh, roman).",
 character,秀千代,Hidechiyo,Undecided,,"Hidechiyo, héritière de Saitō Dōsan (Nioh, roman).",
 character,最澄,Saichō,Undecided,,"Saichō, moine fondateur du Tendai (Nioh, roman).",
 character,丰臣秀吉,Toyotomi Hideyoshi,Undecided,,"Toyotomi Hideyoshi, unificateur du Japon (Nioh, roman).",
@@ -1893,6 +1891,53 @@ character,Abdel,Abdel,Male,,"Astartes de la légion des Enfants de l'Empereur (W
 character,Diruk,Diruk,Male,,"Astartes de la légion des Enfants de l'Empereur (Warhammer 40K, roman).",2
 character,Phénix de Chemos,Phénix de Chemos,Undecided,,"Épithète de Fulgrim, primarque parfait (Warhammer 40K).",2
 character,Ivar le Mauvais Œil,Ivar Malœil,Male,,"Fondateur de l'École de la Vipère, ex-sorceleur de l'Ours (The Witcher).",2
+character,Strenger,Strenger,Male,,"Philippe Strenger, sergent enquêteur au service du seigneur de Velen (roman).",2
+character,Margarita Laux-Antille,Margarita Laux-Antille,Female,,"Rectrice d'Aretuza, l'une des plus puissantes sorcières du monde (The Witcher, roman).",2
+character,Neken,Neken,Male,,"Ancien pêcheur de Cidaris devenu trafiquant, interrogé par Lann (roman).",2
+character,Baren,Baren,Male,,Capitaine décédé de la garde de Philippe Strenger lors de l'enquête (roman).,2
+character,Le Petit White,Le Petit White,Male,,"Enfant d'Oreton, cueilleur d'herbes, enlevé par le culte cannibale (roman).",2
+character,Sorceleur de Lann,Sorceleur de Lann,Male,,"Titre du protagoniste Lann, sorceleur mutant de l'École de l'Ours (roman).",2
+character,Enfant surprise,Enfant surprise,Male,,"Enfant réclamé par un sorceleur au titre de la Loi de Surprise (The Witcher, roman).",2
+character,Saint-Heir de Dresde,Saint-Heir de Dresde,Male,,Érudit ayant théorisé que les Guenaudes sont les épouses des Noyeurs (roman).,2
+character,Vieux Hansen,Vieux Hansen,Male,,"Vieil homme barbu, sbire du camp des trafiquants d'Ubank (roman).",2
+character,Le Duc,Le Duc,Male,,"Titre seigneurial ; le duc de Velen, ou Eddard, duc du Nord (roman).",2
+character,Yennefer,Yennefer,Female,,"Sorcière renommée, amie de Margarita, liée à un sorceleur (The Witcher, roman).",2
+character,Sansa,Sansa,Female,,"Fille aînée d'Eddard Stark, demoiselle courtoise aux songes brisés (Game of Thrones, roman).",2
+character,Robb,Robb,Male,,"Fils aîné d'Eddard Stark, héritier de Winterfell et du Nord (Game of Thrones, roman).",2
+character,Jon,Jon,Male,,"Prénom ; désigne Jon Snow le bâtard ou Jon Arryn le défunt (Game of Thrones, roman).",2
+character,Cosimo Malaspina,Cosimo Malaspina,Male,,"Célèbre mage, cofondateur de l'alchimie des sorceleurs avec Alzur (The Witcher, roman).",2
+character,Petit Ourson,Petit Ourson,Male,,"Surnom affectueux de Lann, sorceleur de l'École de l'Ours (roman).",2
+character,La Dame du Lac,La Dame du Lac,Female,,"Divinité des eaux, détentrice des cinq vertus chevaleresques (The Witcher, roman).",2
+character,Balerion,Balerion,Undecided,,"Balerion, le plus grand dragon Targaryen, dit la Terreur Noire (Game of Thrones, roman).",2
+character,Dame,Dame,Female,,Titre honorifique ; désigne Margarita ou la Dame du Lac selon le contexte (roman).,2
+character,Lannister,Lannister,Undecided,,"Maison dorée de la reine Cersei, riche et redoutée à Port-Réal (Game of Thrones, roman).",2
+character,Tyrion Lannister,Tyrion Lannister,Male,,"Le Lannister nain, esprit vif et calomnié, frère de Cersei (Game of Thrones, roman).",2
+character,Jory Cassel,Jory Cassel,Male,,"Capitaine de la garde personnelle d'Eddard Stark, homme de confiance (Game of Thrones, roman).",2
+character,Baratheon,Baratheon,Undecided,,"Maison Baratheon, dont le roi Robert et son aïeul Lyonel (Game of Thrones, roman).",2
+character,roi porcin,roi porcin,Male,,"Moquerie envers le roi Robert, devenu obèse et décrépi (Game of Thrones, roman).",2
+character,Barristan le Hardi,Barristan le Hardi,Male,,"Ser Barristan Selmy, commandant de la Garde Royale, chevalier d'exception (Game of Thrones, roman).",2
+character,Gregor,Gregor,Male,,"Gregor Clegane, dit la Montagne, frère de Sandor, brute des Lannister (Game of Thrones, roman).",2
+character,Régicide,Régicide,Male,,"Épithète de Jaime Lannister, tueur du roi Aerys, honni des siens (Game of Thrones, roman).",2
+character,Robert Baratheon,Robert Baratheon,Male,,"Roi des Sept Couronnes, guerrier couronné devenu monarque déçu (Game of Thrones, roman).",2
+character,Petit monstre,Petit monstre,Male,,"Surnom méprisant pour Joffrey, écorcheur de chattes selon Robert (Game of Thrones, roman).",2
+character,Brandon Stark,Brandon Stark,Male,,"Jeune fils d'Eddard, cible d'une tentative d'assassinat à Winterfell (Game of Thrones, roman).",2
+character,Tommen,Tommen,Male,,"Jeune prince, frère cadet de Joffrey, doux et innocent (Game of Thrones, roman).",2
+character,Myrcella,Myrcella,Female,,"Princesse, fille de la reine Cersei, sœur de Joffrey et Tommen (Game of Thrones, roman).",2
+character,Vieille lionne,Vieille lionne,Female,,"Épithète de la doyenne des Lannister dans le règlement du conflit (Game of Thrones, roman).",2
+character,Tywin,Tywin,Male,,"Tywin Lannister, patriarche redoutable de la maison dorée (Game of Thrones, roman).",2
+character,Vieux lion,Vieux lion,Male,,"Épithète de Tywin Lannister, patriarche du clan (Game of Thrones, roman).",2
+character,Mikae,Mikae,Undecided,,"Jeune ami d'Arya, garçon du peuple victime de la cruauté de Joffrey (Game of Thrones, roman).",2
+character,le Limier,le Limier,Male,,"Surnom du chien de garde zélé : Ubank à Velen, Sandor Clegane à Port-Réal (roman).",2
+character,Sandor,Sandor,Male,,"Sandor Clegane, dit le Limier, garde du corps du prince Joffrey (Game of Thrones, roman).",2
+character,Gendry,Gendry,Male,,"Apprenti forgeron chez Tobho Mott, fort et méconnu de ses origines (Game of Thrones, roman).",2
+character,Tobho Mott,Tobho Mott,Male,,"Maître armurier de Port-Réal, forgeur d'armes d'acier valyrien (Game of Thrones, roman).",2
+character,Lobo,Lobo,Undecided,,"Nom familier cité par Arya en évoquant Winterfell et son épée (Game of Thrones, roman).",2
+character,Lysa,Lysa,Female,,"Lady Lysa, veuve de Jon Arryn et sœur de lady Catelyn (Game of Thrones, roman).",2
+character,Bran,Bran,Male,,"Jeune fils d'Eddard Stark, frère d'Arya, dit l'enfant infirme (Game of Thrones, roman).",2
+character,Terreur Noire,Terreur Noire,Male,,"Surnom de Balerion, au gosier capable d'avaler un mammouth (Game of Thrones, roman).",2
+character,Baelish,Baelish,Male,,"Petyr Baelish, maître de la monnaie et conseiller du roi (Game of Thrones, roman).",2
+character,Herbert Stammelford,Herbert Stammelford,Male,,"Célèbre mage créateur du philtre qui porte son nom (The Witcher, roman).",2
+character,vieil homme,vieil homme,Male,,"Mot générique désignant un homme âgé, sans nom propre (roman).",2
 term,最强岩石,Roc le plus puissant,,title,"Roc le plus puissant, titre de Fortissax (roman).",
 term,魔弓手,archer magique,,title,"Archer magique, rôle de Latenna l'albinaurique (Elden Ring, roman).",
 term,混种铁匠,forgeron mal engendré,,title,"Forgeron mal engendré du Bastion (Elden Ring, roman).",
@@ -6847,3 +6892,189 @@ term,École de la Vipère,École de la Vipère,,organization,"École sorceleur d
 term,Cone Crystal,Cristal Conique,,item,"Cristal conique, artefact du récit (roman).",2
 term,Crystal Cultivation Project,Projet de Culture de Cristaux,,technology,"Programme de culture de cristaux (Warhammer 40K, roman).",2
 term,Space Expansion Pack,Pack d'Extension Spatiale,,technology,"Module d'extension de l'espace de stockage (Warhammer 40K, roman).",2
+term,rue Cardo,rue Cardo,,location,"Grande artère de Gors Velen, montant vers Thanedd et Aretuza (The Witcher, roman).",2
+term,île de Thanedd,île de Thanedd,,location,"Île de Gors Velen où siège l'académie d'Aretuza (The Witcher, roman).",2
+term,Nain,Nain,,species,"Race non humaine trapue, réputée forgeronne et discriminée (The Witcher, roman).",2
+term,carte d'élément de terre,carte d'élément de terre,,item,Carte de jeu due par le nain Fergus à la suite d'un pari (roman).,2
+term,Apprentice en chef,apprenti en chef,,title,"Titre que s'attribue Fergus, aide du forgeron Tull Butcher (roman).",2
+term,armure d'école,armure d'école,,item,"Armure de sorceleur propre à une École, ici celle de l'Ours (The Witcher, roman).",2
+term,Armor de Sorceleur,Armure de Sorceleur,,item,"Équipement distinctif des chasseurs de monstres mutants (The Witcher, roman).",2
+term,Décoction d’Hirondelle,Décoction d'Hirondelle,,item,"Décoction de guérison du sorceleur, l'Hirondelle (The Witcher).",2
+term,Chasse Sauvage,Chasse Sauvage,,organization,Cavalcade spectrale du roi de la Chasse (The Witcher).,2
+term,Condaire,Condaire,,location,"Village de la côte ouest de Velen, repaire des trafiquants (roman).",2
+term,orins,orens,,item,"Orens, pièce temerienne courante des récompenses (The Witcher, roman).",2
+term,épée d'argent,épée d'argent,,item,"Lame anti-monstres des sorceleurs, souple et pure (The Witcher, roman).",2
+term,claque des Janissaires,claque des Janissaires,,technique,"Coup réputé de la boxe des Janissaires, redoutable en mêlée (roman).",2
+term,Union,Union,,organization,"L'Union Humaine, pouvoir dirigeant du monde natal de Mentos (roman).",2
+term,bio-cerveau,bio-cerveau,,technology,"Organe de calcul biologique, que Lann surnomme Mentos (roman).",2
+term,Armure de l'École de l'Ours,Armure de l'École de l'Ours,,item,"Équipement de l'École de l'Ours, porté par Lann en chasse (roman).",2
+term,Perchefreux,Perchefreux,,location,"Château de sir Veserad, siège ordinaire de sa garnison (roman).",2
+term,Basilisc,Basilic,,species,"Grand monstre reptilien, gibier des maîtres sorceleurs (The Witcher, roman).",2
+term,Ptérodactyle,Ptérodactyle,,species,"Monstre volant d'une autre époque, chassé par les meilleurs (roman).",2
+term,Académie,Académie,,organization,"L'académie d'Aretuza, école des sorcières sur l'île de Thanedd (The Witcher, roman).",2
+term,Aretuza's Dean,Doyenne d'Aretuza,,title,"Titre de Margarita Laux-Antille, rectrice de l'académie (The Witcher, roman).",2
+term,Nymphes,Nymphes,,species,"Esprits féminins des eaux, d'une beauté légendaire (roman).",2
+term,Royal Vizima,Royal Vizima,,item,"Alcool de qualité servi à Oreton, réserve du vieux Allen (roman).",2
+term,Mode de Survie Exoplanétaire,Mode de Survie Exoplanétaire,,technology,Protocole de sécurité que Mentos invoque hors du monde d'origine (roman).,2
+term,Signes de Sorceleur,Signes de Sorceleur,,technique,"Les cinq techniques magiques basiques des sorceleurs (The Witcher, roman).",2
+term,Écoles de Sorceleurs,Écoles de Sorceleurs,,organization,"Fraternités de chasseurs mutants, comme l'Ours et le Loup (The Witcher, roman).",2
+term,Maîtres Sorceleurs,Maîtres Sorceleurs,,title,"Élite des chasseurs de monstres, du gibier le plus dur (The Witcher, roman).",2
+term,Archimages,Archimages,,title,"Grands mages chercheurs, auteurs des études sur les monstres (The Witcher, roman).",2
+term,Courbe d'humeur,Courbe d'humeur,,technology,Graphique mental de Mentos traçant hormones et esprit (roman).,2
+term,Assistant,Assistant,,technology,"Rôle du bio-ordinateur, assistant de l'homme selon Mentos (roman).",2
+term,Qi,Qi,,technology,Souffle vital circulant dans le corps pendant les techniques (roman).,2
+term,Gambison,Gambison,,item,"Veste matelassée amortissant les coups, portée sous l'armure (roman).",2
+term,Cidaris,Cidaris,,location,"Royaume voisin de Temeria, patrie du pêcheur Neken (The Witcher, roman).",2
+term,armée de restauration de Temeria,armée de restauration de Temeria,,organization,Forces temeriennes parties rétablir la dynastie royale de Cidaris (roman).,2
+term,Leshen,Leshen,,species,"Leshen, monstre forestier à bois (The Witcher, roman).",2
+term,drakkar de combat,drakkar de combat,,item,Navire de guerre nordique promis à Ubank pour sa cargaison (roman).,2
+term,Skelligien,Skelligien,,species,"Habitant des Îles de Skellige, rude marin des mers du Nord (The Witcher, roman).",2
+term,orin,oren,,item,"Oren, monnaie temerienne des primes et du marché (The Witcher, roman).",2
+term,Redania,Redania,,location,"Grand royaume rival de Temeria dans le Nord (The Witcher, roman).",2
+term,semence génétique,Gene-seed,,technology,"Semence génétique d'un Space Marine, celle de Lann (Warhammer 40K).",2
+term,Quartier du Temple,Quartier du Temple,,location,"Quartier pauvre de Vizima, refuge des indigents et criminels (The Witcher, roman).",2
+term,orén,orén,,item,"Oren, la pièce d'or du royaume de Temeria (The Witcher, roman).",2
+term,Loi de Surprise,Loi de Surprise,,technique,"Usage ancien scellant un destin, la Surprise (The Witcher).",2
+term,Bourse Alchimique,Bourse Alchimique,,item,"Sac d'ingrédients refermé par des cordons, porté à la ceinture (roman).",2
+term,perfusion de compétence,perfusion de compétence,,technique,Injection de savoir par le bio-ordinateur dans l'esprit de Lann (roman).,2
+term,bracers,brassards,,item,"Protection d'acier des avant-bras, portée avec les gants (roman).",2
+term,gambison,gambison,,item,Étoffe matelassée protégeant le torse sous l'armure (roman).,2
+term,oren coin,oren,,item,"Oren, la pièce promise par Lann à son cueilleur d'herbes (The Witcher, roman).",2
+term,épée en argent,épée en argent,,item,"Lame d'argent anti-monstres de l'École de l'Ours (The Witcher, roman).",2
+term,Contrôle Corporel,Contrôle Corporel,,technique,Fonction du bio-ordinateur commandant le corps en direct (roman).,2
+term,kikimores,kikimores,,species,"Créatures insectoïdes à exosquelette, gibier des sorceleurs (The Witcher, roman).",2
+term,semence de la puissance,semence de la puissance,,item,Le conteneur de gene-seed que Lann porte contre sa poitrine (roman).,2
+term,guide de la puissance,guide de la puissance,,item,"Implant cérébral de Lann, guide de ses pouvoirs et de son calcul (roman).",2
+term,Noyeur,Noyeur,,species,"Noyé rôdeur des berges, le noyeur (The Witcher).",2
+term,mage,mage,,title,Mot générique pour un praticien des arts magiques (roman).,2
+term,pierre-tortue,pierre-tortue,,item,"Amulette sculptée en tortue, fétiche des marchés occultes (roman).",2
+term,épée de Velen,épée de Velen,,item,"Lame d'acier modeste, épée de travail vendue à Velen (roman).",2
+term,élixirs,élixirs,,item,"Préparations alchimiques, pilier du savoir sorceleur (roman).",2
+term,Spectre,Spectre,,species,"Revenant éthéré, image du déplacement surnaturel de Lann (roman).",2
+term,bombe alchimique,bombe alchimique,,item,"Charge explosive des sorceleurs, mortelle pour les nids (The Witcher, roman).",2
+term,Guenaude des marais,Guenaude des marais,,species,"Femelle monstrueuse des marais, cousine des noyeurs (The Witcher, roman).",2
+term,loup-garou,loup-garou,,species,"Homme-loup maudit, bête de pleine lune (roman).",2
+term,Empire nilfgaardien,Empire nilfgaardien,,location,"Puissance du Sud, expansionniste, vouée au culte du Soleil (The Witcher, roman).",2
+term,Magicienne,Magicienne,,title,"Femme pratiquant la magie, cousine des sorcières d'Aretuza (roman).",2
+term,magie spatiale,magie spatiale,,technique,"Sort repliant l'espace, plus grand que le contenant (The Witcher, roman).",2
+term,appareil de communication à distance,appareil de communication à distance,,technology,"Cristal magique transmettant la voix entre porteurs éloignés (The Witcher, roman).",2
+term,Héron d'Argent,Héron d'Argent,,location,Auberge dont les recettes paient des guerriers des Îles (roman).,2
+term,noyours,Noyeurs,,species,"Noyeurs du lac de Velen, gibier quotidien des chasseurs (The Witcher, roman).",2
+term,Sac d'Alchimie,Sac d'Alchimie,,item,"Besace du sorceleur pour fioles et ingrédients (The Witcher, roman).",2
+term,water hag,Guenaude aquatique,,species,"Guenaude aquatique, femelle monstrueuse des marais de Velen (The Witcher, roman).",2
+term,White Honey,Miel blanc,,item,"Potion purifiant la toxicité, miel blanc (The Witcher, roman).",2
+term,écuyer,écuyer,,title,"Jeune noble servant un chevalier, apprenti d'armes (roman).",2
+term,Nord,Nord,,location,"Royaumes du Nord : temerien chez le Sorceleur, celui des Stark à Westeros (roman).",2
+term,Water Hag,Guenaude aquatique,,species,"Guenaude aquatique, bête des marais de Velen (The Witcher, roman).",2
+term,Gare de Condyle,Gare de Condyle,,location,"Hameau isolé de Velen, étape des patrouilles de Philippe (roman).",2
+term,Hirondelle,Hirondelle,,item,"Décoction de guérison du sorceleur, l'Hirondelle (The Witcher).",2
+term,Sorceresse,Sorcière,,title,"Magicienne émérite, telle les dames d'Aretuza (The Witcher, roman).",2
+term,Château du Perchoir des Corbeaux,Château du Perchoir des Corbeaux,,location,"Forteresse où réside le seigneur local de Velen (The Witcher, roman).",2
+term,crème magique,crème magique,,item,Onguent enchanteur accentuant ou masquant le charme (roman).,2
+term,mutations de sorceleur,mutations de sorceleur,,technique,"Transformations hormonales et toxiques des chasseurs mutants (The Witcher, roman).",2
+term,Magic Power,Puissance magique,,technology,Énergie magique irriguant les sorts et les signes (roman).,2
+term,Nilfgaard,Nilfgaard,,location,"Empire du Sud, puissance expansionniste rivale du Nord (The Witcher, roman).",2
+term,faille spatiale,faille spatiale,,technology,Déchirure dimensionnelle reliant les mondes traversés par Lann (roman).,2
+term,Miasma,Miasme,,other,Exhalaison putride des charniers et des sorcelleries (roman).,2
+term,Chevaliers Nobles,Chevaliers Nobles,,title,"Chevaliers de haut rang, mieux armés que les errants (roman).",2
+term,Île de la Sterne Noire,Île de la Sterne Noire,,location,"Île du culte de Dagon, la même que l'Hirondelle Noire (roman).",2
+term,elixirs de sorceleur,élixirs de sorceleur,,item,"Potions mutagènes toxiques, réservées aux corps de sorceleurs (The Witcher, roman).",2
+term,drowners,Noyeurs,,species,"Noyé rôdeur des berges, le noyeur (The Witcher).",2
+term,nymphe,nymphe,,species,"Esprit féminin des eaux, d'une beauté proverbiale (roman).",2
+term,ondines,ondines,,species,Esprits femelles des eaux dans les légendes paysannes (roman).,2
+term,harpies,harpies,,species,"Monstre femelle ailé des légendes paysannes (The Witcher, roman).",2
+term,parole de l'esprit,parole de l'esprit,,technique,"Télépathie magique, couche enchantée du cristal (The Witcher, roman).",2
+term,Ordre,Ordre,,organization,"L'ancien Ordre des sorceleurs, dont les Écoles sont les filles (roman).",2
+term,Quintessence d'Eau,Quintessence d'Eau,,item,"Substance alchimique tirée des noyeurs, eau dense et pure (roman).",2
+term,noyaleurs,Noyeurs,,species,"Noyeurs des berges, créatures aquatiques de Velen (The Witcher, roman).",2
+term,guenaudes aquatiques,guenaudes aquatiques,,species,"Guenaudes aquatiques, source de la quintessence d'eau (The Witcher, roman).",2
+term,Ordre des Sorceleurs,Ordre des Sorceleurs,,organization,"Guilde mère des Écoles de sorceleurs, aujourd'hui scindée (roman).",2
+term,Haern Caduch,Haern Caduch,,location,"Forteresse d'origine de l'École de l'Ours, aujourd'hui déserte (The Witcher, roman).",2
+term,dracotigres,dracotigres,,species,"Monstres volants de l'époque ancienne, avec cockatrices et griffons (roman).",2
+term,cockatrices,cockatrices,,species,"Bêtes ailées de jadis, cousines des griffons et dracotigres (The Witcher, roman).",2
+term,griffons,griffons,,species,"Monstre volant à serres, le griffon (The Witcher).",2
+term,noyés,noyés,,species,"Noyé rôdeur des berges, le noyeur (The Witcher).",2
+term,spectres,spectres,,species,Revenants et fantômes hantant les légendes de Velen (roman).,2
+term,Voie du Sorceleur,Voie du Sorceleur,,technique,Chemin des mutations et du métier de chasseur de monstres (roman).,2
+term,Eaux Sombres,Eaux Sombres,,location,Village lacustre voisin de l'île du culte de Dagon (roman).,2
+term,lac Caelum,lac Caelum,,location,"Lac de Toussaint où la Dame transmit les vertus chevaleresques (The Witcher, roman).",2
+term,Toussaint,Toussaint,,location,"Duché viticole du Sud, pays de la chevalerie (The Witcher, roman).",2
+term,Great Ones,grands personnages,,species,"Les puissants de ce monde, nobles et grands seigneurs (roman).",2
+term,alcool nain,alcool nain,,item,"Eau-de-vie distillée par les Nains, base des préparations alchimiques (roman).",2
+term,Brume magique,Brume magique,,other,"Nappe de brouillard enchantée, repaire de monstres (roman).",2
+term,Armure d'École de l'Ours Supérieure,Armure d'École de l'Ours Supérieure,,item,"Sommet de l'artisanat humain, pièce maîtresse de l'École de l'Ours (roman).",2
+term,Village Head,Chef du village,,title,"Titre du père de Serena, notable d'un village de Velen (roman).",2
+term,Sorcier,Sorcier,,title,Praticien de la magie ; les anciens créèrent les sorceleurs (roman).,2
+term,besace d'alchimie,besace d'alchimie,,item,"Sac du sorceleur contenant fioles et ingrédients (The Witcher, roman).",2
+term,cristal de communication,cristal de communication,,technology,"Objet magique conique permettant de parler à distance (The Witcher, roman).",2
+term,Amplificateur osseux,Amplificateur osseux,,technology,"Implant Astartes épaississant le squelette pour porter les organes de guerre (Warhammer 40K, roman).",2
+term,chevalière,chevalière,,title,"Femme exerçant la chevalerie, aspiration d'Arya (roman).",2
+term,Parole de l'esprit,Parole de l'esprit,,technique,"Sort de télépathie porté par le cristal conique de Triss (The Witcher, roman).",2
+term,Cristal,Cristal,,item,"Cristal conique de communication magique, don de Margarita (The Witcher, roman).",2
+term,dragons,dragons,,species,"Grands reptiles ailés et cracheurs de feu, légendes vivantes (roman).",2
+term,médaillon à tête d'ours rugissant,médaillon à tête d'ours rugissant,,item,"Insigne de l'École de l'Ours, trembleur de magie (The Witcher, roman).",2
+term,Dragons d'or,Dragons d'or,,item,"Pluriel du dragon d'or, monnaie royale de Westeros (Game of Thrones, roman).",2
+term,temple de Dagon,temple de Dagon,,location,"Sanctuaire lacustre du dieu Dagon et de son culte (The Witcher, roman).",2
+term,tour de la Main,tour de la Main,,location,"Résidence de la Main du roi dans le Donjon Rouge (Game of Thrones, roman).",2
+term,La Généalogie et l'Histoire des Grandes Maisons des Sept Couronnes,La Généalogie et l'Histoire des Grandes Maisons des Sept Couronnes,,item,"Livre généalogique remis à Eddard, clef de sa découverte (Game of Thrones, roman).",2
+term,corbeaux messagers,corbeaux messagers,,technology,"Oiseaux porteurs de nouvelles entre les châteaux de Westeros (Game of Thrones, roman).",2
+term,plastron royal,plastron royal,,item,"Protection ventrale bombée, qui sauve le roi d'une dague (Game of Thrones, roman).",2
+term,morningstar,morgenstern,,item,"Masse d'armes hérissée de pointes, arme de brigands (roman).",2
+term,Supérieur,Supérieur,,title,"Plus haut grade d'équipement sorceleur, avec Amélioré (roman).",2
+term,Maître,Maître,,title,"Titre de maîtrise : mentor, sorceleur émérite ou artisan (roman).",2
+term,Amélioré,Amélioré,,title,"Grade d'équipement des sorceleurs, supérieur au schéma courant (roman).",2
+term,Griffons,Griffons,,species,"Monstre volant à serres, le griffon (The Witcher).",2
+term,Spectres,Spectres,,species,Revenants que purgent les sorceleurs d'École (roman).,2
+term,Golems,Golems,,species,"Colosses d'argile animés, adversaires incontrôlables (The Witcher, roman).",2
+term,Ban Ard,Ban Ard,,location,"Académie des mages masculins, jumelle d'Aretuza (The Witcher, roman).",2
+term,Tour Blanche,Tour Blanche,,location,"Siège de la Garde Royale au Donjon Rouge (Game of Thrones, roman).",2
+term,Donjon Rouge,Donjon Rouge,,location,"Forteresse royale de Port-Réal, siège du trône et du conseil (Game of Thrones, roman).",2
+term,Trône de Fer,Trône de Fer,,item,"Siège du roi forgé de mille épées fondues (Game of Thrones, roman).",2
+term,Cités Libres,Cités Libres,,location,"Cités marchandes d'Essos, rêve de roi-mercenaire de Robert (Game of Thrones, roman).",2
+term,Conseil Restreint,Conseil Restreint,,organization,"Petit conseil du roi à Port-Réal, où siège la Main (Game of Thrones, roman).",2
+term,le Mur,le Mur,,location,"Muraille séculaire gardant le Nord des dangers du dehors (Game of Thrones, roman).",2
+term,Black Ones,Gardiens de la Nuit,,organization,"Frères vêtus de noir jurant sur le Mur, la Garde de Nuit (Game of Thrones, roman).",2
+term,le Nord,le Nord,,location,"Vieux royaume de Westeros, fief des Stark, le plus étendu (Game of Thrones, roman).",2
+term,Limier,Limier,,title,"Traqueur d'hommes au service d'un seigneur, tel Ubank (roman).",2
+term,sept enfers,sept enfers,,other,"Juron westerosi invoquant les enfers (Game of Thrones, roman).",2
+term,sept couronnes,sept couronnes,,location,"Les Sept Couronnes, royaume unifié de Westeros (Game of Thrones, roman).",2
+term,famille Targaryen,famille Targaryen,,organization,"Dynastie des seigneurs dragons, jadis maîtresse de Westeros (Game of Thrones, roman).",2
+term,Axii,Axii,,technique,Signe de persuasion et de charme (The Witcher).,2
+term,Valyrian steel,acier valyrien,,item,"Métal légendaire des forges de Valyria, léger et inaltérable (Game of Thrones, roman).",2
+term,"AXI Sign - Optimisation, réorientation des flux","Signe d'Axii - Optimisation, réorientation des flux",,technique,"Application du signe Axii pour faire parler et orienter les esprits (The Witcher, roman).",2
+term,Magic Academy,académie de magie,,organization,"Institution d'enseignement magique, dont Aretuza est la première (roman).",2
+term,cerf d'argent,cerf d'argent,,item,"Monnaie d'argent de Westeros, sous-multiple du dragon d'or (Game of Thrones, roman).",2
+term,Dragon d'or,Dragon d'or,,item,"Monnaie d'or des Sept Couronnes, la plus haute valeur (Game of Thrones, roman).",2
+term,lune d'argent,lune d'argent,,item,"Monnaie d'argent de Westeros, entre le cerf et le dragon (Game of Thrones, roman).",2
+term,Swordsmanship,Escrime,,technique,"Art du maniement des lames, science des Emperor's Children (Warhammer 40K, roman).",2
+term,君臨城,Port-Réal,,location,"Capitale des Sept Couronnes, siège du Trône de Fer (Game of Thrones, roman).",2
+term,金龍幣,Dragon d'or,,item,"Monnaie d'or des Sept Couronnes, la plus précieuse (Game of Thrones, roman).",2
+term,比武大會,Tournoi,,other,"Grande joute célébrant l'arrivée d'Eddard comme Main (Game of Thrones, roman).",2
+term,Aiguille,Aiguille,,item,"L'épée d'Arya Stark, fine lame de la famille de Winterfell (Game of Thrones, roman).",2
+term,dragons d’or,dragons d'or,,item,"Dragons d'or, monnaie de grande valeur de Westeros (Game of Thrones, roman).",2
+term,Tour de la Main,Tour de la Main,,location,"Donjon où loge la Main du roi à Port-Réal (Game of Thrones, roman).",2
+term,os de dragon,os de dragon,,item,"Matériau rare des ossuaires Targaryen, léger et précieux (Game of Thrones, roman).",2
+term,Black Miasma,Miasme noir,,other,"Image des veines sombres profondes de l'acier valyrien (Game of Thrones, roman).",2
+term,La Danse des Dragons,La Danse des Dragons,,other,"Livre d'histoire dragonienne cité par Lann (Game of Thrones, roman).",2
+term,Profond,Profond,,species,"Serviteur amphibie du dieu Dagon, hideux par nature (roman).",2
+term,Vent du Nord,Vent du Nord,,item,"Bombe alchimique de gel, pulvérisant les entités matérielles (The Witcher, roman).",2
+term,Grand Argentier,Grand Argentier,,title,"Ministre des finances royales, chantant la pauvreté du royaume (Game of Thrones, roman).",2
+term,le Neck,le Col,,location,"Région marécageuse du sud du Nord, repaire des lions-lézards (Game of Thrones, roman).",2
+term,lion-lézard,lion-lézard,,species,"Bête reptilienne venimeuse du Col, future chasse de Lann (Game of Thrones, roman).",2
+term,Projet de Culture de Cristal,Projet de Culture de Cristal,,technology,"Chantier de recherche alchimique de Tissaya, frontière du savoir (roman).",2
+term,Telescope,Télescope,,technology,Appareil magique de synthèse à distance du projet de Tissaya (roman).,2
+term,Philtre de Stammelford,Philtre de Stammelford,,item,"Élixir du mage Stammelford, décuplant la puissance magique (The Witcher, roman).",2
+term,élixir de Stamelford,élixir de Stamelford,,item,"Version du philtre de Stammelford, adaptée par Lann (The Witcher, roman).",2
+term,Signe d'Igni,Signe d'Igni,,technique,Signe de sorceleur crachant des flammes (The Witcher).,2
+term,mandibule de Balerion,mandibule de Balerion,,item,"Mâchoire de dragon rapportée de Westeros pour Aretuza (Game of Thrones, roman).",2
+term,Brise-Mal,Brise-Mal,,technique,Attribut conféré par la Dame à l'épée Aerondight contre le mal (roman).,2
+term,Profonds,Profonds,,species,"Serviteurs amphibies du dieu Dagon, la lie de ses autels (roman).",2
+term,Sorcières d'Aretuza,Sorcières d'Aretuza,,organization,"Les magiciennes de l'académie, chercheuses hors pair (roman).",2
+term,Torii,Torii,,item,Portique shintoïste marquant l'entrée d'un lieu sacré (roman).,2
+term,brumelins,brumelins,,species,"Brumelin, monstre de brume, trompeur et presque invisible (The Witcher, roman).",2
+term,Armure standard de Temeria,Armure standard de Temeria,,item,"Tenue de guerre des soldats du royaume de Temeria (The Witcher, roman).",2
+term,Médaillon de Sorceleur,Médaillon de Sorceleur,,item,"Tête d'ours vibrant à la magie, insigne de l'École (The Witcher, roman).",2
+term,Élixir,Élixir,,item,"Préparation alchimique puissante, sortie de la sacoche de Poldon (roman).",2
+term,Huile pour épée,Huile pour épée,,item,"Enduit alchimique appliqué sur la lame avant la chasse (The Witcher, roman).",2
+character,朗·爱赛特,Lan Exeter,Undecided,,"Lan Exeter, capitale d'hiver de Kovir (The Witcher, roman).",
+character,山王权现,Sannō Gongen,Undecided,,"Sannō Gongen, avatar divin du mont Hiei (Nioh, roman).",
