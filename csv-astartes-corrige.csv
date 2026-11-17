@@ -189,7 +189,7 @@ character,艾德·史塔克,Eddard (Ned) Stark,Undecided,,"Eddard Stark, sire de
 character,罗伯·史塔克,Robb Stark,Undecided,,"Robb Stark, héritier loup de Winterfell (Game of Thrones, roman).",
 character,艾丽娅·史塔克,Arya Stark,Undecided,,"Arya Stark, louve cadette de Winterfell (Game of Thrones, roman).",
 character,杜鹃骑士长,capitaine des chevaliers du Coucou,Undecided,,"Capitaine des chevaliers du Coucou (Elden Ring, roman).",
-character,罗伯,Vieux Robert,Undecided,,"Père de Petit Robert, guerrier étranger endeuillé (Sekiro, roman).",
+character,罗伯,Robb,Undecided,,"Loup gris de Letina, hommage à Robb Stark ; puis Robb Stark lui-même (Elden Ring, Game of Thrones).",
 character,勒缇娜,Latenna,Female,,"Latenna, archère albinaurique louvetière (Elden Ring, roman).",
 character,尤姆,Yhorm,Undecided,,"Géant roi solitaire, Seigneur des Cendres (Dark Souls 3, roman).",
 character,达瑞威尔,Darriwil,Undecided,,"Darriwil, chevalier limier fugitif (Elden Ring, roman).",
@@ -1891,7 +1891,7 @@ character,Abdel,Abdel,Male,,"Astartes de la légion des Enfants de l'Empereur (W
 character,Diruk,Diruk,Male,,"Astartes de la légion des Enfants de l'Empereur (Warhammer 40K, roman).",2
 character,Phénix de Chemos,Phénix de Chemos,Undecided,,"Épithète de Fulgrim, primarque parfait (Warhammer 40K).",2
 character,Ivar le Mauvais Œil,Ivar Malœil,Male,,"Fondateur de l'École de la Vipère, ex-sorceleur de l'Ours (The Witcher).",2
-character,Strenger,Strenger,Male,,"Philippe Strenger, sergent enquêteur au service du seigneur de Velen (roman).",2
+character,Strenger,Strenger,Male,,"Philippe Strenger, futur Baron-Sanglier, ici sergent de Sir Veserad (The Witcher, roman).",2
 character,Margarita Laux-Antille,Margarita Laux-Antille,Female,,"Rectrice d'Aretuza, l'une des plus puissantes sorcières du monde (The Witcher, roman).",2
 character,Neken,Neken,Male,,"Ancien pêcheur de Cidaris devenu trafiquant, interrogé par Lann (roman).",2
 character,Baren,Baren,Male,,Capitaine décédé de la garde de Philippe Strenger lors de l'enquête (roman).,2
@@ -1927,11 +1927,11 @@ character,Vieille lionne,Vieille lionne,Female,,"Épithète de la doyenne des La
 character,Tywin,Tywin,Male,,"Tywin Lannister, patriarche redoutable de la maison dorée (Game of Thrones, roman).",2
 character,Vieux lion,Vieux lion,Male,,"Épithète de Tywin Lannister, patriarche du clan (Game of Thrones, roman).",2
 character,Mikae,Mikae,Undecided,,"Jeune ami d'Arya, garçon du peuple victime de la cruauté de Joffrey (Game of Thrones, roman).",2
-character,le Limier,le Limier,Male,,"Surnom du chien de garde zélé : Ubank à Velen, Sandor Clegane à Port-Réal (roman).",2
+character,le Limier,le Limier,Male,,Chien de garde zélé : Ubank à Velen (roman) ; Sandor Clegane à Port-Réal (Game of Thrones).,2
 character,Sandor,Sandor,Male,,"Sandor Clegane, dit le Limier, garde du corps du prince Joffrey (Game of Thrones, roman).",2
 character,Gendry,Gendry,Male,,"Apprenti forgeron chez Tobho Mott, fort et méconnu de ses origines (Game of Thrones, roman).",2
 character,Tobho Mott,Tobho Mott,Male,,"Maître armurier de Port-Réal, forgeur d'armes d'acier valyrien (Game of Thrones, roman).",2
-character,Lobo,Lobo,Undecided,,"Nom familier cité par Arya en évoquant Winterfell et son épée (Game of Thrones, roman).",2
+character,Lobo,Robb,Undecided,,"Robb Stark, mal romanisé Lobo par le traducteur FR ; aîné des Stark (Game of Thrones).",2
 character,Lysa,Lysa,Female,,"Lady Lysa, veuve de Jon Arryn et sœur de lady Catelyn (Game of Thrones, roman).",2
 character,Bran,Bran,Male,,"Jeune fils d'Eddard Stark, frère d'Arya, dit l'enfant infirme (Game of Thrones, roman).",2
 character,Terreur Noire,Terreur Noire,Male,,"Surnom de Balerion, au gosier capable d'avaler un mammouth (Game of Thrones, roman).",2
@@ -6908,13 +6908,13 @@ term,claque des Janissaires,claque des Janissaires,,technique,"Coup réputé de 
 term,Union,Union,,organization,"L'Union Humaine, pouvoir dirigeant du monde natal de Mentos (roman).",2
 term,bio-cerveau,bio-cerveau,,technology,"Organe de calcul biologique, que Lann surnomme Mentos (roman).",2
 term,Armure de l'École de l'Ours,Armure de l'École de l'Ours,,item,"Équipement de l'École de l'Ours, porté par Lann en chasse (roman).",2
-term,Perchefreux,Perchefreux,,location,"Château de sir Veserad, siège ordinaire de sa garnison (roman).",2
+term,Perchefreux,Perchoir du Corbeau,,location,"Perchoir du Corbeau : nid de corbeaux traduit Perchefreux, château de Veserad (The Witcher).",2
 term,Basilisc,Basilic,,species,"Grand monstre reptilien, gibier des maîtres sorceleurs (The Witcher, roman).",2
 term,Ptérodactyle,Ptérodactyle,,species,"Monstre volant d'une autre époque, chassé par les meilleurs (roman).",2
 term,Académie,Académie,,organization,"L'académie d'Aretuza, école des sorcières sur l'île de Thanedd (The Witcher, roman).",2
 term,Aretuza's Dean,Doyenne d'Aretuza,,title,"Titre de Margarita Laux-Antille, rectrice de l'académie (The Witcher, roman).",2
 term,Nymphes,Nymphes,,species,"Esprits féminins des eaux, d'une beauté légendaire (roman).",2
-term,Royal Vizima,Royal Vizima,,item,"Alcool de qualité servi à Oreton, réserve du vieux Allen (roman).",2
+term,Royal Vizima,Vizima Royale,,item,Bière de la capitale temérienne servie à Oreton ; parente du Champion de Wyzima (The Witcher).,2
 term,Mode de Survie Exoplanétaire,Mode de Survie Exoplanétaire,,technology,Protocole de sécurité que Mentos invoque hors du monde d'origine (roman).,2
 term,Signes de Sorceleur,Signes de Sorceleur,,technique,"Les cinq techniques magiques basiques des sorceleurs (The Witcher, roman).",2
 term,Écoles de Sorceleurs,Écoles de Sorceleurs,,organization,"Fraternités de chasseurs mutants, comme l'Ours et le Loup (The Witcher, roman).",2
@@ -6969,7 +6969,7 @@ term,Water Hag,Guenaude aquatique,,species,"Guenaude aquatique, bête des marais
 term,Gare de Condyle,Gare de Condyle,,location,"Hameau isolé de Velen, étape des patrouilles de Philippe (roman).",2
 term,Hirondelle,Hirondelle,,item,"Décoction de guérison du sorceleur, l'Hirondelle (The Witcher).",2
 term,Sorceresse,Sorcière,,title,"Magicienne émérite, telle les dames d'Aretuza (The Witcher, roman).",2
-term,Château du Perchoir des Corbeaux,Château du Perchoir des Corbeaux,,location,"Forteresse où réside le seigneur local de Velen (The Witcher, roman).",2
+term,Château du Perchoir des Corbeaux,Château du Perchoir du Corbeau,,location,"Forteresse de Sir Veserad, seigneur de Velen : le Perchoir du Corbeau (The Witcher, roman).",2
 term,crème magique,crème magique,,item,Onguent enchanteur accentuant ou masquant le charme (roman).,2
 term,mutations de sorceleur,mutations de sorceleur,,technique,"Transformations hormonales et toxiques des chasseurs mutants (The Witcher, roman).",2
 term,Magic Power,Puissance magique,,technology,Énergie magique irriguant les sorts et les signes (roman).,2
