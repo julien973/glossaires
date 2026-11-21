@@ -70,7 +70,7 @@ character,布兰,Bran,Undecided,,"Roi de Skellige, frère d'Eist Tuirseach (The 
 character,乔里,Jory,Undecided,,Garde du Nord au service d'Eddard (Game of Thrones).,
 character,培提尔·贝里席,Petyr Baelish,Undecided,,"Petyr Baelish, maître de la monnaie (Game of Thrones).",
 character,琼恩·艾林,Jon Arryn,Undecided,,"Main du Roi défunte, déclencheur du récit (Game of Thrones).",
-character,派席尔,Pycelle,Undecided,,Grand maître du petit conseil (Game of Thrones).,
+character,派席尔,Pycelle,Undecided,,Grand Maester du conseil restreint (Game of Thrones).,
 character,格雷果·克里冈,Gregor Clegane,Undecided,,"Colosse des Lannister, la Montagne (Game of Thrones).",
 character,淑女,Dame,Undecided,,"Louve de Sansa, direwolf exécutée (Game of Thrones).",
 character,贝勒里恩,Balerion,Undecided,,"Balerion, la Terreur Noire, dragon des Targaryen (Game of Thrones).",
@@ -95,7 +95,7 @@ character,乔弗里,Joffrey,Undecided,,"Prince héritier cruel, fils de Cersei (
 character,娜梅莉亚,Nymeria,Undecided,,"Louve d'Arya, direwolf lâchée en fuite (Game of Thrones).",
 character,劳勃,Robert,Undecided,,"Roi des Sept Couronnes, l'Usurpateur (Game of Thrones).",
 character,桑铎·克里冈,Sandor Clegane,Undecided,,"Colosse des Lannister, la Montagne (Game of Thrones).",
-character,斯泰萨,Prinzislav Stessa,Undecided,,"Comte de Stygga, commanditaire de l'affaire (roman).",
+character,斯泰萨,Stessa,Undecided,,"Patronyme du comte Stessa, commanditaire de l'affaire (roman).",
 character,摩根,Morgan,Undecided,,"Savant de l'escorte, analyste des sorceleurs (roman).",
 character,宁芙小姐,Mademoiselle Nymphe,Undecided,,"Servante des eaux de la Dame du Lac, nymphe (roman).",
 character,王母娘娘,Reine Mère de l'Ouest,Undecided,,"Déesse chinoise Xiwangmu, reine-mère de l'Ouest (roman).",
@@ -1003,7 +1003,7 @@ character,Cristin,Cristin,Female,,"Prince de Viden, fils du roi Ervyll (roman)."
 character,Vieux Robert,Vieux Robert,Male,,"Père endeuillé de Petit Robert, venu d'Occident (Sekiro, roman).",
 character,Robert,Robert,Male,,"Robert Baratheon, roi des Sept Couronnes (Game of Thrones).",
 character,Sword Saint,Saint de l'Épée,Male,,"Titre d'Isshin Ashina, sabreur absolu (Sekiro, roman).",
-character,Nogami Inosuke,Nogami Inosuke,Male,,"Soldat vétéran d'Ashina, allié de Wolf (Sekiro).",
+character,Nogami Inosuke,Inosuke Nogami,Male,,"Jeune samouraï d'Ashina, petit-fils de Gensai (Sekiro, roman).",
 character,Inosuke,Inosuke,Male,,"Soldat vétéran d'Ashina, forme courte (Sekiro).",
 character,Gensai Nogami,Gensai Nogami,Male,,"Soldat vétéran d'Ashina, allié de Wolf (Sekiro).",
 character,Dame du Lac,Dame du Lac,Female,,"Fée souveraine du lac, dispensatrice de dons (The Witcher).",
@@ -1090,7 +1090,7 @@ character,維賽基德,Vissegerd,Male,,"Maréchal cintranien, serviteur de Calan
 character,辛特拉的雌獅,La Lionne de Cintra,Female,,"Surnom de Calanthe, la Lionne de Cintra (The Witcher).",
 term,獵爵,Duc Chasseur,,title,"Titre de Lann, gagné en châtiant le comte Stessa (roman).",
 character,卡蘭瑟,Calanthe,Female,,"Reine lionne de Cintra, grand-mère de Ciri (The Witcher).",
-character,斯泰薩,Prinzislav Stessa,Male,,"Comte de Stygga, commanditaire de l'affaire (roman).",
+character,斯泰薩,Stessa,Male,,"Patronyme du comte Stessa, commanditaire de l'affaire (roman).",
 character,利維亞的傑洛特,Geralt de Rivia,Male,,"Sorceleur légendaire, le Loup Blanc de Rivia (The Witcher).",
 character,尼維爾,Neville,Male,,"Propriétaire du souvenir, apothicaire au temps des Primaris (Warhammer 40K, roman).",
 character,多米尼烏斯·貝利撒留·考爾,Dominus Belisarius Cawl,Male,,"Archimagos technoprêtre de Mars, génie millénaire (Warhammer 40K).",
@@ -1301,7 +1301,7 @@ character,薩奇亞·薩斯,Saskia Sass,Female,,"Saskia Sass, la Vierge d'Aedirn
 character,薩奇亞,Saskia,Female,,"Saskia, la Vierge d'Aedirn, amie des elfes (The Witcher, roman).",
 character,南尼克嬤嬤,Nenneke,Female,,"Nenneke, haute prêtresse du temple (The Witcher, roman).",
 character,奈爾文,Nelwin,Male,,"Chevalier lecteur, proche du duc (roman).",
-character,普林斯拉夫·斯泰薩,Prinslav Staysa,Male,,Mécène d'un ouvrage scolaire d'Oxenfurt (roman).,
+character,普林斯拉夫·斯泰薩,Prinzislav Stessa,Male,,Mécène d'un ouvrage scolaire d'Oxenfurt (roman).,
 character,盧多維克,Ludovic,Male,,Roi humain qui reçut la reddition des elfes (roman).,
 character,蘇美魯後裔,Descendant pthumérien,Undecided,,"Descendant du peuple pthumérien (Bloodborne, roman).",
 character,第一獵人,Premier Chasseur,Male,,"Premier chasseur de l'Église, Ludwig (Bloodborne, roman).",
@@ -1774,8 +1774,8 @@ character,Maître Miroir,Maître Miroir,Male,,"Gaunter O'Dimm, le Maître Miroir
 character,Gamin de verre,Gamin de verre,Male,,Surnom de Gaunter O'Dimm avec Maître Miroir (The Witcher).,2
 character,Morgan,Morgan,Male,,"Savant de l'escorte, analyste des sorceleurs (roman).",2
 character,Adda,Adda,Female,,"Princesse de Témérie, la striga Adda guérie (The Witcher).",2
-character,Prinzlav Stessa,Prinzislav Stessa,Male,,"Comte de Stygga, commanditaire de l'affaire (roman).",2
-character,"Prinzlav Stessa, Comte Stygga","Prinzislav Stessa, comte de Stygga",Male,,"Comte de Stygga, commanditaire de l'affaire (roman).",2
+character,Prinzlav Stessa,Prinzislav Stessa,Male,,"Comte Stessa, commanditaire de l'affaire (roman).",2
+character,"Prinzlav Stessa, Comte Stygga","Prinzislav Stessa, comte Stessa",Male,,"Comte Stessa, commanditaire de l'affaire (roman).",2
 character,Keira Metz,Keira Metz,Female,,"Keira Metz, magicienne de la Loge (The Witcher).",2
 character,Merigold,Merigold,Female,,"Triss Merigold, forme courte du nom (The Witcher).",2
 character,Roche,Roche,Male,,"Entrée de l'appli, capture hors contexte (roman).",2
@@ -1814,7 +1814,7 @@ character,Tywin Lannister,Tywin Lannister,Male,,Patriarche de la maison Lanniste
 character,Arya Stark,Arya Stark,Female,,"Enfant de Westeros douée pour la magie, à Aretuza (Game of Thrones).",2
 character,Sang de Loup courant,Sang de Loup courant,Female,,"Tempérament sauvage des Stark, hérité par Arya (Game of Thrones).",2
 character,Rhaegar,Rhaegar,Male,,"Prince dragon disparu, dernier des siens (Game of Thrones).",2
-character,Pycelle,Pycelle,Male,,Grand maître du petit conseil (Game of Thrones).,2
+character,Pycelle,Pycelle,Male,,Grand Maester du conseil restreint (Game of Thrones).,2
 character,La Tempête Rieuse,La Tempête Rieuse,Male,,"Épithète de Lyonel Baratheon, l'Orage (Game of Thrones).",2
 character,Lyonel Baratheon,Lyonel Baratheon,Male,,"Roi de l'Orage révolté, Tempête Rieuse (Game of Thrones).",2
 character,Duncan le Grand,Duncan le Grand,Male,,"Chevalier errant géant, Duncan le Grand (Game of Thrones).",2
@@ -3675,7 +3675,7 @@ term,卡萨斯的烽火,balise de Carthus,,other,"Sort croissant à chaque ennem
 term,大祭司,Grand Prêtre,,other,"Chef du culte du Soleil, titre impérial (The Witcher, roman).",
 term,主祭,grande prêtresse,,other,"Cheffe du clergé de Lothric, titre d'Emma (Dark Souls 3).",
 term,教士,Prêtre,,other,Clerc combattant de la foi blanche (Dark Souls 3).,
-term,玻璃小子,garçon de verre,,other,"Surnom de Gaunter O'Dimm, Maître Miroir (The Witcher, roman).",
+term,玻璃小子,Homme de Verre,,other,"Surnom de Gaunter O'Dimm, Maître Miroir (The Witcher, roman).",
 term,镜子大师,Maître Miroir,,other,"Gaunter O'Dimm, démon marcheur de miroirs (The Witcher, roman).",
 term,术士兄弟会,Confrérie des Sorciers,,other,"Confrérie des sorciers, ordre des mages (The Witcher, roman).",
 term,女术士之岛,île des sorcières,,other,"Thanedd, île des mages (The Witcher, roman).",
@@ -4301,7 +4301,7 @@ term,大蚁冢荒地,Wildspire Waste,,other,"Désert à termitières géantes (M
 term,史矛革龙鳞,Écailles de dragon Smaug,,other,"Écailles de Smaug, matière de forge (Tolkien, roman).",
 term,鹿首精,Leshen,,other,"Leshen, monstre forestier à bois (The Witcher, roman).",
 term,大衮神殿,Temple de Dagon,,other,"Ruines du dieu poisson (Monster Hunter, roman).",
-term,黑燕鸥岛,Île de la Guifette noire,,other,"Île lacustre des Profonds, repaire maudit (roman).",
+term,黑燕鸥岛,Île de la Sterne Noire,,other,"Île lacustre des Profonds, repaire maudit (roman).",
 term,魔毯,tapis magique,,other,"Tapis volant, artefact d'Ofier (The Witcher, roman).",
 term,猫猫抖水,secousse du chat,,other,Secousse du chat mouillé pour se sécher (roman).,
 term,卵石肾脏,Rein oolithique,,other,"Rein oolithique de la tyranide (Warhammer 40K, roman).",
@@ -4436,9 +4436,9 @@ term,梅里泰利信仰,Foi en Melitele,,other,Culte de la déesse Melitele sur 
 term,梅里泰利神殿,temple de Mélitele,,other,"Temple de Mélitele d'Ellander (The Witcher, roman).",
 term,吸血妖鸟,Bruxa,,other,"Vampire féminin strident, la bruxa (The Witcher, roman).",
 term,授剑者,Porteur d'épée,,other,Officiant qui confère l'épée aux élèves (roman).,
-term,苇名众,Guerriers Ashina,,other,"Soldats du clan Ashina du Sengoku (Sekiro, roman).",
+term,苇名众,guerriers d'Ashina,,other,"Soldats du clan Ashina du Sengoku (Sekiro, roman).",
 term,半鱼人,Vodyanoï,,other,"Amphibiens du lac, peuple des eaux douces (The Witcher, roman).",
-term,暗沉之水,Eaux troubles,,other,"Auberge des Eaux troubles, gîte du récit (roman).",
+term,暗沉之水,Eaux Sombres,,other,"Village et taverne des Eaux Sombres, gîte du récit (roman).",
 term,空间扩展包,Pack d'extension spatiale,,other,"Module d'extension spatiale, espace replié (roman).",
 term,苇名流·躯干吐息,style Ashina : souffle corporel,,other,"Style Ashina, souffle du tronc (Sekiro, roman).",
 term,精灵样式长刀,épée longue de style elfe,,other,"Épée longue de style elfe, lame incurvée (roman).",
@@ -4696,7 +4696,7 @@ term,Force Interne,Force Interne,,technique,"Énergie interne du pratiquant, nei
 term,Grande Ming,Grande Ming,,organization,"La Chine des grands Ming, dynastie (roman).",
 term,Temple Désaffecté,Temple Désaffecté,,location,"Sanctuaire abandonné servant de repaire (Sekiro, roman).",
 term,Clan des Shinobi,Clan des Shinobi,,organization,"Confrérie de ninjas du pays d'Ashina (Sekiro, roman).",
-term,Rivière Dragonspring,Rivière Dragonspring,,location,"Cours d'eau du pays d'Ashina, la Source du Dragon (Sekiro, roman).",
+term,Rivière Dragonspring,Ryusen,,location,"Source du Dragon, la rivière Ryusen du pays d'Ashina (Sekiro, roman).",
 term,Écailles de la Carpe Précieuse,Écailles de la Carpe Précieuse,,item,"Écailles de la carpe géante, monnaie rare (Sekiro, roman).",
 term,Pilules de Dévoreur de Dieux,Pilules de Dévoreur de Dieux,,item,"Pilules du récit digérant le pouvoir divin (Sekiro, roman).",
 term,Traversée du Bateau Flottant,Passage flottant,,item,"Art du ninjutsu, esquive de la barque flottante (Sekiro, roman).",
@@ -4777,7 +4777,7 @@ term,Marteau d'Air,Marteau d'Air,,technique,Technique du récit frappant d'un po
 term,Signe d'Aard,Signe d'Aard,,technique,Signe de télékinésie : onde de choc (The Witcher).,
 term,獸化病,Fléau des bêtes,,species,Épidémie de bestialité ravageant Yharnam (Bloodborne).,
 term,驅獸熏香,Encens Répulsif,,item,"Fumigation chassant les bêtes, encens (Bloodborne, roman).",
-term,黑燕鷗島,Île de la Guifette noire,,location,"Île lacustre des Profonds, repaire maudit (roman).",
+term,黑燕鷗島,Île de la Sterne Noire,,location,"Île lacustre des Profonds, repaire maudit (roman).",
 term,水澤仙女,Ondine,,species,"Nymphe des eaux douces, ondine du lac (roman).",
 term,半魚人,Vodyanoï,,species,"Amphibiens du lac, peuple des eaux douces (The Witcher, roman).",
 term,深潛者,Profond,,species,"Créature des profondeurs, monstre aquatique (roman).",
@@ -4837,7 +4837,7 @@ term,Dryades,dryades,,species,"Gardes sylvestres de Brokilon, femmes-fées (The 
 term,griffon,griffon,,species,Monstre hybride aquilin post-Conjonction (The Witcher).,
 term,Multi-lung,Multi-poumon,,technology,Greffons pulmonaires cumulés de Lann (roman).,
 term,Second Heart,Second Cœur,,technology,Implant Space Marine : le cœur de secours (Warhammer 40K).,
-term,Ryuzengawa,Ryuzengawa,,location,"Cours d'eau du pays d'Ashina (Sekiro, roman).",
+term,Ryuzengawa,Ryusen,,location,"Cours d'eau du pays d'Ashina, la Ryusen (Sekiro, roman).",
 term,Technique de Dissimulation du Souffle et du Son,Technique de Dissimulation du Souffle et du Son,,technique,"Ninjutsu muet, souffle et pas silencieux (Sekiro, roman).",
 term,Cockatrice,Cockatrice,,species,"Monstre reptile ailé, cousin du griffon (The Witcher).",
 term,formule de mutation de l'Ours,formule de mutation de l'Ours,,technique,Recette mutagène de l'École de l'Ours (roman).,
@@ -5331,7 +5331,7 @@ term,萊曼之耳,oreille de Lyman,,technology,"L'oreille de Lyman, implant sens
 term,精靈女王,Reine des Elfes,,title,"La reine des Elfes, Galadriel souveraine de Lothlórien (Tolkien, roman).",
 term,邪靈,Esprit maléfique,,species,"Esprit maléfique, ombre hostile des ténèbres (roman).",
 term,西方高等精靈,Hauts-Elfes de l'Ouest,,species,"Hauts Elfes de l'Ouest, exilés de l'Aman (Tolkien, roman).",
-term,破邪,Exorcisme,,technique,Rite brisant la possession maléfique (roman).,
+term,破邪,Brise-Mal,,technique,"Attribut brisant le mal, porté par l'épée Aerondight de la Dame du Lac (roman).",
 term,西方蒙福之地,Terres Immortelles,,technology,"Les Terres Immortelles, terres bénies de l'Ouest (Tolkien).",
 term,主神,dieu principal,,species,"Rang suprême du panthéon blanc (Dark Souls 3, roman).",
 term,為奧力所設計,Conçu par Aulë,,technology,"Formule : conçus par Aulë, les nains et leur père (Tolkien, roman).",
@@ -6689,7 +6689,7 @@ term,Silver Sword,Épée d'argent,,item,Lame d'argent contre les monstres (The W
 term,Griffon,Griffon,,species,Monstre hybride aquilin post-Conjonction (The Witcher).,2
 term,Grand Maître de l'École de l'Ours,Grand Maître de l'École de l'Ours,,title,Chef supérieur de l'École de l'Ours (The Witcher).,2
 term,Reine Mère de l’Ouest,Reine Mère de l'Ouest,,title,"Déesse chinoise Xiwangmu, reine-mère de l'Ouest (roman).",2
-term,île de l’Hirondelle Noire,Île de l'Hirondelle Noire,,location,"Île du culte de Dagon, repaire maritime (roman).",2
+term,île de l’Hirondelle Noire,Île de la Sterne Noire,,location,"Forme fautive du traducteur ; île du culte de Dagon, repaire maritime (roman).",2
 term,lac Vizima,Lac Vizima,,location,Plan d'eau proche de la capitale temerienne (The Witcher).,2
 term,Emperor's Children,Enfants de l'Empereur,,organization,"Légion traitresse de Fulgrim, IIIe légion (Warhammer 40K).",2
 term,AXI Sign,Signe d'Axii,,technique,Signe de persuasion et de charme (The Witcher).,2
@@ -6737,7 +6737,7 @@ term,Mother's Tears,Larmes de la Mère,,item,Potion larmoyante du sorceleur (The
 term,Port-Réal,Port-Réal,,location,Capitale des Sept Couronnes (Game of Thrones).,2
 term,la Main,la Main,,title,"Office suprême du roi, la Main (Game of Thrones).",2
 term,Armor,Armure,,technology,Protection métallique portée au combat (roman).,2
-term,Manteaux d'Or,Manteaux dorés,,organization,Garde de la ville de Port-Réal (Game of Thrones).,2
+term,Manteaux d'Or,manteaux d'or,,organization,Garde de la ville de Port-Réal (Game of Thrones).,2
 term,Royal Capital,Port-Réal,,location,Capitale des Sept Couronnes (Game of Thrones).,2
 term,Westeros,Westeros,,location,Continent des Sept Couronnes (Game of Thrones).,2
 term,Nekker,Nekker,,species,Petit nécrophage des marais de Velen (The Witcher).,2
@@ -6756,11 +6756,11 @@ term,Sword of Chivalric Virtues: Aerondight,Épée des Vertus Chevaleresques : A
 term,Interdimensional Crossing,Traversée Interdimensionnelle,,technology,Passage entre les mondes du multivers (roman).,2
 term,Direwolf,Direwolf,,species,"Loup géant des Stark, direwolf (Game of Thrones).",2
 term,Witcher Eyes,Yeux de Sorceleur,,technique,"Yeux noirs à pupille féline, signe mutant (The Witcher).",2
-term,紅堡,Forteresse Rouge,,location,Palais royal de Port-Réal (Game of Thrones).,2
+term,紅堡,Donjon Rouge,,location,Palais royal de Port-Réal (Game of Thrones).,2
 term,鋼鐵街,Rue de l'Acier,,location,Rue des forgerons de Port-Réal (Game of Thrones).,2
 term,首相塔,Tour de la Main,,location,Donjon de la Main du Roi (Game of Thrones).,2
 term,國王之手,Main du Roi,,title,Plus haut office des Sept Couronnes (Game of Thrones).,2
-term,禦前會議,Petit Conseil,,organization,Conseil restreint du roi (Game of Thrones).,2
+term,禦前會議,Conseil restreint,,organization,Conseil restreint du roi (Game of Thrones).,2
 term,小小鳥,Petits Oiseaux,,organization,Réseau d'informateurs de Varys (Game of Thrones).,2
 term,七神教義,Dogmes des Sept,,item,"Croyances des Sept, dogmes (Game of Thrones).",2
 term,奪權者之戰,guerre de l'Usurpateur,,technology,Entrée de l'appli : guerre de Robert pour le trône (Game of Thrones).,2
@@ -7016,3 +7016,9 @@ term,Élixir,Élixir,,item,"Préparation alchimique puissante, sortie de la saco
 term,Huile pour épée,Huile pour épée,,item,"Enduit alchimique appliqué sur la lame avant la chasse (The Witcher, roman).",2
 character,朗·爱赛特,Lan Exeter,Undecided,,"Lan Exeter, capitale d'hiver de Kovir (The Witcher, roman).",
 character,山王权现,Sannō Gongen,Undecided,,"Sannō Gongen, avatar divin du mont Hiei (Nioh, roman).",
+term,葦名眾,guerriers d'Ashina,,organization,"Soldats du clan Ashina du Sengoku (Sekiro, roman).",
+term,龍泉川,Ryusen,,location,"Rivière de la Source du Dragon, au pays d'Ashina (Sekiro, roman).",
+term,龍泉河,Ryusen,,location,"La Ryusen, la Source du Dragon du pays d'Ashina (Sekiro, roman).",
+term,Ryugami,Ryusen,,location,"Rendu erroné du traducteur ; la rivière Ryusen, Source du Dragon (Sekiro, roman).",
+term,大學士,Grand Maester,,title,"Savants-médecins du conseil restreint de Port-Réal (Game of Thrones, roman).",
+term,首相,Main du roi,,title,"La Main du roi, chef du conseil restreint (Game of Thrones, roman).",
