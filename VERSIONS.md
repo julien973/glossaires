@@ -37,7 +37,7 @@ Registre créé le 21/11/2026.
 
 ## sources/Astartes of the Bear Schoo section 2 - corrige COMPLET.epub (EPUB section 2 réparé, import appli)
 
-**Version actuelle : v1.3** (21/11/2026, 622 953 octets, md5 31366a76a85968b2886ada20d9e471f5f.)
+**Version actuelle : v1.4** (21/11/2026, 623 834 octets, md5 04ed0918cb34c9c616873324bf68dd14, blob 305c162d07a54e2864dcb56b2d384ad059bb59db.)
 
 Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des noms intermédiaires (« corrige (blocs 1-x sur 34) ») ; l'historique complet est dans les messages de commit.
 
@@ -47,6 +47,7 @@ Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des no
 | v1.1 | 21/11/2026 | 616 983 o | fe704829115c07042068e0265a86917e | Erratum : restauration du texte du traducteur avant la frontière (occurrence du ch. 73) |
 | v1.2 | 21/11/2026 | 616 977 o | 61cbb17b80aebb0b8726eb9ca50c26d8 | Errata de l'audit glossaire (6 corrections de texte) |
 | v1.3 | 21/11/2026 | 622 953 o | 31366a76a85968b2886da20d9e471f5f | Traduction et insertion des chapitres ZH 182-183 (le trou comblé) |
+| v1.4 | 21/11/2026 | 623 834 o | 04ed0918cb34c9c616873324bf68dd14 | Mise en page v4.4 appliquée : titres ## en texte (l1/l2) + séparateurs *** (sep), balises h1/h2/hr converties (ignorées par l'appli) ; 10 séparations perdues restaurées, 4 anomalies d'origine normalisées ; corps du texte inchangé |
 
 ## Autres EPUB fusionnés livrés
 
