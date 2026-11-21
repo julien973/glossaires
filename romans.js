@@ -51,7 +51,9 @@ const ROMANS = [
     fichier: ["data-astartes-1.js", "data-astartes-2.js", "data-astartes-3.js"],
     format: "ns",
     accent: "#d97706",
-    csv: "csv-astartes-corrige.csv"
+    csv: "csv-astartes-corrige.csv",
+    epub: "sources/Astartes%20of%20the%20Bear%20Schoo%20section%202%20-%20corrige%20COMPLET.epub",
+    epubNom: "Astartes of the Bear Schoo section 2 - corrige COMPLET.epub"
   },
   // Prochain roman : ajouter une entrée ici + pousser son fichier
   // data-<id>.js au format "ns", puis repousser le site (version++).
