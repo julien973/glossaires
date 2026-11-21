@@ -283,7 +283,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 <script id="app">
 (function () {
   "use strict";
-  var VERSION = "v2.19";
+  var VERSION = "v2.20";
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -568,7 +568,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
       aCsv.href = roman.csv;
       aCsv.setAttribute("download", roman.csv);
       aCsv.setAttribute("title", "Télécharger le glossaire corrigé, prêt pour l'import dans l'appli de lecture");
-      aCsv.textContent = "⬇ Télécharger le CSV corrigé (import appli)";
+      aCsv.textContent = "⬇ Télécharger le CSV corrigé (" + (roman.csvVer ? roman.csvVer + ", " : "") + "import appli)";
       hero.appendChild(aCsv);
     }
     // Bouton de téléchargement de l'EPUB réparé (section 2, import appli) —
