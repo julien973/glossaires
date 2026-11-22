@@ -37,7 +37,7 @@ Registre créé le 21/11/2026.
 
 ## sources/Astartes of the Bear Schoo section 2 - corrige COMPLET.epub (EPUB section 2 réparé, import appli)
 
-**Version actuelle : v1.4** (21/11/2026, 623 834 octets, md5 04ed0918cb34c9c616873324bf68dd14, blob 305c162d07a54e2864dcb56b2d384ad059bb59db.)
+**Version actuelle : v1.7** (22/11/2026, 620 950 octets, md5 35a07ab916cbdd52791fa1d99255d8a4, blob 90faca155ab91be68d18f88f2ea20b461ee88061.)
 
 Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des noms intermédiaires (« corrige (blocs 1-x sur 34) ») ; l'historique complet est dans les messages de commit.
 
@@ -50,6 +50,7 @@ Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des no
 | v1.4 | 21/11/2026 | 623 834 o | 04ed0918cb34c9c616873324bf68dd14 | Mise en page v4.4 appliquée : titres ## en texte (l1/l2) + séparateurs *** (sep), balises h1/h2/hr converties (ignorées par l'appli) ; 10 séparations perdues restaurées, 4 anomalies d'origine normalisées ; corps du texte inchangé |
 | v1.5 | 22/11/2026 | 621 233 o | 64eec390ad455b56e60f0d55c74e2d19 | Refonte qualité : prose de la traduction boostée restaurée verbatim après la tuerie de Vizima (89 blocs), fixes canoniques (Stygga→Stessa ×61, Eaux Sombres ×14, Gene-seed, Donjon Rouge, Conseil restreint, Sterne Noire), doublon majordome du ch. 110 supprimé (31 §), trou ZH 182-183 conservé (47 §), mise en page v4.4 conservée |
 | v1.6 | 22/11/2026 | 621 230 o | 20ae79a992abceb030390195a6904d0a | Terme « Graine génétique » partout dans la zone post-tuerie (décision de Shenn : « Gene-seed » est le terme anglais, ne va pas dans la prose) : 13 occurrences restaurées verbatim depuis le boost, 12 « Gene-seed » natifs du boost et 1 dans le trou harmonisés avec leurs articles ; l'avant-tuerie est inchangée |
+| v1.7 | 22/11/2026 | 620 950 o | 35a07ab916cbdd52791fa1d99255d8a4 | Réparation de la zone 101-201 (reste de la section 2 après v1.6, 88 blocs l1 = ZH 105-200) en 4 pushes (b1 : lots 1-2, blocs 101-116 ; b2-b3 : lots 2-3, blocs 117-125 ; b4 : blocs 126-201) : double contrôle ligne à ligne FR/ZH de chaque bloc, prose boostée conservée verbatim, 187 fusions de paragraphes éclatés + omission du ch. 21 restituée + 5 fusions de tirets orphels d’onomatopées (b138, b139 x2, b177, b181), Stygga → Stessa x13 (le titre « comte de Stygga » du ch. 111, légitime, est conservé), « Graine génétique » harmonisé (avant-tuerie intacte), 3 guillemets de dialogue refermés (b188), 2 tirets séparateurs de scène conservés (b156, b175), mégas B164 / B177 / B182 vérifiés complets contre leurs chapitres ZH multiples |
 
 ## Autres EPUB fusionnés livrés
 
