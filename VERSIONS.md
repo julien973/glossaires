@@ -48,6 +48,7 @@ Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des no
 | v1.2 | 21/11/2026 | 616 977 o | 61cbb17b80aebb0b8726eb9ca50c26d8 | Errata de l'audit glossaire (6 corrections de texte) |
 | v1.3 | 21/11/2026 | 622 953 o | 31366a76a85968b2886da20d9e471f5f | Traduction et insertion des chapitres ZH 182-183 (le trou comblé) |
 | v1.4 | 21/11/2026 | 623 834 o | 04ed0918cb34c9c616873324bf68dd14 | Mise en page v4.4 appliquée : titres ## en texte (l1/l2) + séparateurs *** (sep), balises h1/h2/hr converties (ignorées par l'appli) ; 10 séparations perdues restaurées, 4 anomalies d'origine normalisées ; corps du texte inchangé |
+| v1.5 | 22/11/2026 | 621 233 o | 64eec390ad455b56e60f0d55c74e2d19 | Refonte qualité : prose de la traduction boostée restaurée verbatim après la tuerie de Vizima (89 blocs), fixes canoniques (Stygga→Stessa ×61, Eaux Sombres ×14, Gene-seed, Donjon Rouge, Conseil restreint, Sterne Noire), doublon majordome du ch. 110 supprimé (31 §), trou ZH 182-183 conservé (47 §), mise en page v4.4 conservée |
 
 ## Autres EPUB fusionnés livrés
 
