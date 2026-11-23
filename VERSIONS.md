@@ -6,7 +6,7 @@ Registre créé le 21/11/2026.
 
 ## csv-astartes-corrige.csv (glossaire Astartes 《熊學派的阿斯塔特》, import appli)
 
-**Version actuelle : v1.9** (21/11/2026, 739 863 octets, md5 350c881fc28d6016909ef17229d23bc7, 7025 entrées.)
+**Version actuelle : v1.10** (23/11/2026, 739 931 octets, md5 6299c20e4d60e7835ced8ac0a3504998, 7025 entrées.)
 
 | Version | Date | Taille | md5 | Changement |
 | --- | --- | --- | --- | --- |
@@ -20,6 +20,7 @@ Registre créé le 21/11/2026.
 | v1.7 | 21/11/2026 | 739 608 o | a41f3eae6e5930c6ad2f47005d6fb18e | Réparation post-marathon (20 corrections, 6 ajouts), 7023 entrées |
 | v1.8 | 21/11/2026 | 739 859 o | 58b3733e79698919bd6554b98021b39e | Ajout des 2 entrées Felicia Kelly (trou ZH 182-183 comblé), 7025 entrées |
 | v1.9 | 21/11/2026 | 739 863 o | 350c881fc28d6016909ef17229d23bc7 | Correctif du format des 2 lignes Felicia (type character en colonne 1 au lieu de category) : import appli réparé |
+| v1.10 | 23/11/2026 | 739 931 o | 6299c20e4d60e7835ced8ac0a3504998 | Canon Diluc (décision de Shenn du 22/11, alignement sur l'EPUB v1.8) : fiche « Diruk, Diruk » → « Diluc, Diluc », note enrichie après relecture du passage (Astartes médecin des Enfants de l'Empereur, figure du souvenir d'Abdel, manipulations subtiles sur le Second Cœur) ; comptes inchangés : 7025 entrées ; les fiches « Gene-seed » restent « Gene-seed » (règle prose ≠ CSV) |
 
 ## csv-40k-corrige.csv (glossaire 《从战锤开启的超次元综漫》)
 
