@@ -6,7 +6,7 @@ Registre créé le 21/11/2026.
 
 ## csv-astartes-corrige.csv (glossaire Astartes 《熊學派的阿斯塔特》, import appli)
 
-**Version actuelle : v1.11** (23/11/2026, 739 892 octets, md5 3362ae00862d79f4a8934b5d6e963f62, 7025 entrées.)
+**Version actuelle : v1.12** (23/11/2026, 740 112 octets, md5 52099b93097ab9978bc494267ca3281a, 7027 entrées.)
 
 | Version | Date | Taille | md5 | Changement |
 | --- | --- | --- | --- | --- |
@@ -22,6 +22,7 @@ Registre créé le 21/11/2026.
 | v1.9 | 21/11/2026 | 739 863 o | 350c881fc28d6016909ef17229d23bc7 | Correctif du format des 2 lignes Felicia (type character en colonne 1 au lieu de category) : import appli réparé |
 | v1.10 | 23/11/2026 | 739 931 o | 6299c20e4d60e7835ced8ac0a3504998 | Canon Diluc (décision de Shenn du 22/11, alignement sur l'EPUB v1.8) : fiche « Diruk, Diruk » → « Diluc, Diluc », note enrichie après relecture du passage (Astartes médecin des Enfants de l'Empereur, figure du souvenir d'Abdel, manipulations subtiles sur le Second Cœur) ; comptes inchangés : 7025 entrées ; les fiches « Gene-seed » restent « Gene-seed » (règle prose ≠ CSV) |
 | v1.11 | 23/11/2026 | 739 892 o | 3362ae00862d79f4a8934b5d6e963f62 | Canon potions (décision de Shenn du 23/11, alignement sur l'EPUB v1.9) : 4 fiches réalignées : « Foudre, Foudre » → « Tonnerre, Tonnerre » ; « Tempête de neige, Tempête de neige » → « Blizzard, Blizzard » ; « élixir Tempête de neige » → « élixir Blizzard » ; tr de « Thunder and Snowstorm » → « Tonnerre et Blizzard ». Les fiches ZH-raw 雷霆/暴风雪 (météo possible en chinois) restent inchangées ; comptes inchangés : 7025 entrées |
+| v1.12 | 23/11/2026 | 740 112 o | 52099b93097ab9978bc494267ca3281a | Canon suite audit des termes entre crochets (décision de Shenn du 23/11) : 13 fiches réalignées (Philtre de Petri, Huile contre les vestiges, Décocté de Raffard le Blanc, Décoction de foglet, Vent du nord aux graphies 北风/北風, note du fragment 纯白) + 2 fiches créées (派翠的魔药 = Philtre de Petri base, 甜嘴 = Raff Tout-miel), 7027 entrées |
 
 ## csv-40k-corrige.csv (glossaire 《从战锤开启的超次元综漫》)
 
@@ -39,7 +40,7 @@ Registre créé le 21/11/2026.
 
 ## sources/Astartes of the Bear Schoo section 2 - corrige COMPLET.epub (EPUB section 2 réparé, import appli)
 
-**Version actuelle : v1.9** (23/11/2026, 620 944 octets, md5 9232ef7a776f581908191f5bfa25b3c0, blob cdaf77c29d88b2100f7366827b345760884ba90a.)
+**Version actuelle : v1.10** (23/11/2026, 620 939 octets, md5 5967af952b36feb001ec8db93a6c3143, blob 9966b0609abbae633558cdef6d5d4ba442e0609b.)
 
 Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des noms intermédiaires (« corrige (blocs 1-x sur 34) ») ; l'historique complet est dans les messages de commit.
 
@@ -55,6 +56,7 @@ Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des no
 | v1.7 | 22/11/2026 | 620 950 o | 35a07ab916cbdd52791fa1d99255d8a4 | Réparation de la zone 101-201 (reste de la section 2 après v1.6, 88 blocs l1 = ZH 105-200) en 4 pushes (b1 : lots 1-2, blocs 101-116 ; b2-b3 : lots 2-3, blocs 117-125 ; b4 : blocs 126-201) : double contrôle ligne à ligne FR/ZH de chaque bloc, prose boostée conservée verbatim, 187 fusions de paragraphes éclatés + omission du ch. 21 restituée + 5 fusions de tirets orphels d’onomatopées (b138, b139 x2, b177, b181), Stygga → Stessa x13 (le titre « comte de Stygga » du ch. 111, légitime, est conservé), « Graine génétique » harmonisé (avant-tuerie intacte), 3 guillemets de dialogue refermés (b188), 2 tirets séparateurs de scène conservés (b156, b175), mégas B164 / B177 / B182 vérifiés complets contre leurs chapitres ZH multiples |
 | v1.8 | 22/11/2026 | 620 959 o | 61d57d0e22dee53d1ad74b8de407f02f | Décisions finales de Shenn (feu vert import donné) : harmonisation « Graine génétique » étendue à l'avant-tuerie, 71 occurrences (articles ajustés au féminin : le/du/un/son/ce → la/de la/une/sa/cette, pluriel « Gene-seeds » → « Graines génétiques », titres du Volume 1, chapitre 11 « Mentos, Graine génétique », titre de section dans toc.ncx et nav.xhtml inclus) ; « Diruk » x14 → « Diluc » (le ZH écrit 狄路克, romanisation Diluc ; le personnage appartient à la mémoire des Enfants de l'Empereur, correction approuvée). Le CSV glossaire garde « Gene-seed » (règle prose ≠ CSV). Zéro « Gene-seed » et zéro « Diruk » restants dans l'EPUB |
 | v1.9 | 23/11/2026 | 620 944 o | 9232ef7a776f581908191f5bfa25b3c0 | Harmonisation canonique des potions (décision de Shenn du 23/11) : ZH119[3] 雷霆/暴風雪 = potions du sorceleur, canon Wiki Officiel du Sorceleur ; 22 occurrences corrigées dans la prose (11 « Foudre » → « Tonnerre », 11 « Tempête de neige » → « Blizzard ») avec accords harmonisés (une→un, de la→du, La première/La seconde→Le premier/Le second, elle→il) ; occurrences météo et franchises (Foudre d'Alzur, foudre rouge/draconique Elden Ring, Tempête Rieuse, tempêtes figurées) intactes ; touche uniquement chap_cffbdc49 |
+| v1.10 | 23/11/2026 | 620 939 o | 5967af952b36feb001ec8db93a6c3143 | Harmonisation canon suite audit des termes entre crochets (feu vert de Shenn du 23/11) : 11 occurrences corrigées dans la prose (【Élixir de Petri】 → 【Philtre de Petri】 x1, 【Huile contre les reliquats】 et 【Huile contre les reliques】 → 【Huile contre les vestiges】 x2, 【Décoction de Raffard Blanc Pur】 → 【Décocté de Raffard le Blanc】 x1 plus une occurrence en liste sans crochets x1, 【Décoction de Petit Foglette】 → 【Décoction de foglet】 x1, 【Tout-Doux】 → 【Tout-miel】 x5) ; canon vérifié : Wiki Officiel du Sorceleur, graphie « Décocté » de The Witcher 3, surnom officiel « Raff Tout-miel » de La Garde de Nuit ; touche uniquement chap_cffbdc49 |
 
 ## Autres EPUB fusionnés livrés
 
