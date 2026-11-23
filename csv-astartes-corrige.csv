@@ -6664,7 +6664,7 @@ term,clan Udvik,clan Udvik,,organization,Clan de dresseurs de loups de Skellige 
 term,Îles de Skellige,Îles de Skellige,,location,Archipel nordique de guerriers (The Witcher).,2
 term,Continent,Continent,,location,Le monde principal des sorceleurs (The Witcher).,2
 term,Le Fouet et le Coursier Ardent,Le Fouet et le Coursier Ardent,,organization,"Auberge citée au récit, lieu de rencontre (roman).",2
-term,élixir Tempête de neige,élixir Tempête de neige,,item,Potion tempétueuse du sorceleur (The Witcher).,2
+term,élixir Blizzard,élixir Blizzard,,item,Potion tempétueuse du sorceleur (The Witcher).,2
 term,Palais de Loxia,Palais de Loxia,,location,"Demeure seigneuriale de Loxia, palace cité (roman).",2
 term,Succube,Succube,,species,Démone séductrice qui vole la vie (The Witcher).,2
 term,Swallow,Hirondelle,,item,Potion de soin rapide du sorceleur (The Witcher).,2
@@ -6731,7 +6731,7 @@ term,Kaedwen Stout,Stout de Kaedwen,,item,Bière brune forte brassée à Kaedwen
 term,Trial of the Herbs,Épreuve des Herbes,,technique,Rite de sélection des enfants sorceleurs (The Witcher).,2
 term,Retinal projection,Projection rétinienne,,technology,"Affichage direct dans la rétine (Warhammer 40K, roman).",2
 term,White Raffard Decoction,Décoction de Raffard le Blanc,,item,Décoction de guérison de Raffard le Blanc (The Witcher).,2
-term,Thunder and Snowstorm,Foudre et Tempête de neige,,technique,Potion tempétueuse du sorceleur (The Witcher).,2
+term,Thunder and Snowstorm,Tonnerre et Blizzard,,technique,Potion tempétueuse du sorceleur (The Witcher).,2
 term,Fortified White Mead,Hydromel Blanc Fortifié,,item,Boisson fortifiante du sorceleur (The Witcher).,2
 term,Mother's Tears,Larmes de la Mère,,item,Potion larmoyante du sorceleur (The Witcher).,2
 term,Port-Réal,Port-Réal,,location,Capitale des Sept Couronnes (Game of Thrones).,2
@@ -6765,8 +6765,8 @@ term,小小鳥,Petits Oiseaux,,organization,Réseau d'informateurs de Varys (Gam
 term,七神教義,Dogmes des Sept,,item,"Croyances des Sept, dogmes (Game of Thrones).",2
 term,奪權者之戰,guerre de l'Usurpateur,,technology,Entrée de l'appli : guerre de Robert pour le trône (Game of Thrones).,2
 term,Poison de Pendu,Poison de Pendu,,item,"Toxine distillée d'un pendu, poison lent (roman).",2
-term,Foudre,Foudre,,technique,Potion orageuse du sorceleur (The Witcher).,2
-term,Tempête de neige,Tempête de neige,,technique,Potion tempétueuse du sorceleur (The Witcher).,2
+term,Tonnerre,Tonnerre,,technique,Potion orageuse du sorceleur (The Witcher).,2
+term,Blizzard,Blizzard,,technique,Potion tempétueuse du sorceleur (The Witcher).,2
 term,Signe d'Axii,Signe d'Axii,,technique,Signe de persuasion et de charme (The Witcher).,2
 term,École du Griffon,École du Griffon,,organization,École sorceleur fondée par Erland de Larvik (The Witcher).,2
 term,Murky Waters,Eaux Troubles,,location,"Village des Eaux Sombres, eaux troubles (roman).",2
