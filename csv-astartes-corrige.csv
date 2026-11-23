@@ -1987,13 +1987,13 @@ term,消音屏息术,Technique de Dissimulation du Souffle et du Son,,other,"Nin
 term,孤影众忍法招式书,Manuel des Techniques Ninjutsu du Clan des Ombres Solitaires,,other,"Recueil d'arts du clan de l'Ombre Solitaire (Sekiro, roman).",
 term,生化技术,Technologie biochimique,,other,"Science génétique des Astartes (Warhammer 40K, roman).",
 term,马里波森林,Forêt de Maribor,,other,"Décoction de sorceleur, potion de récupération de vitalité ; dans le roman, la potion (The Witcher).",
-term,小雾妖煎药,décoction de petit foglet,,other,Décoction à base de petit foglet (roman).,
+term,小雾妖煎药,Décoction de foglet,,other,Décoction de sorceleur à base de foglet (The Witcher).,
 term,舞动之星炸弹,Bombe Étoile Dansante,,other,"Bombe de sorceleur, déflagration dansante (The Witcher).",
 term,黑血,Sang Noir,,other,"Potion de sorceleur, le Sang noir (The Witcher).",
 term,吊死鬼之毒,poison du pendu,,other,"Toxine de l'arbre aux pendus de Velen (The Witcher, roman).",
 term,煎药,décoction,,other,"Élixir long à préparer du sorceleur (The Witcher, roman).",
 term,蜂窝,Ruche,,other,"Structure alvéolée du récit, la ruche (roman).",
-term,北风,Borée,,other,"Le vent du nord divin, Borée de Grèce (roman).",
+term,北风,Vent du nord,,other,Bombe alchimique de gel du sorceleur (The Witcher).,
 term,深潜者,Profonds,,other,"Peuple aquatique des profondeurs, hostile (roman).",
 term,精神防御备案,Protocole de Défense Mentale,,other,Procédure mentale de protection du récit (roman).,
 term,大衮祭坛,Autel de Dagon,,other,Sanctuaire du dieu vodyanoï des profondeurs (roman).,
@@ -2442,7 +2442,7 @@ term,火焰时代,âge du feu,,other,"Âge du feu des géants anciens (Elden Rin
 term,初始黄金树,Arbre-Monde primordial,,other,"Arbre-Monde primordial d'avant l'âge (Elden Ring, roman).",
 term,回复药,potion de soin,,other,"Potion de soin des chasseurs en campagne (Monster Hunter, roman).",
 term,原素瓶,fiole d'Estus,,other,"Fiole d'Estus des morts-vivants (Dark Souls, roman).",
-term,纯白拉法德,Décoction de Raffard le Blanc,,other,"Remède de sorceleur, recette de Raffard (The Witcher).",
+term,纯白拉法德,Décocté de Raffard le Blanc,,other,"Remède de sorceleur, recette de Raffard (The Witcher).",
 term,红露滴圣杯瓶,flacon de larmes cramoisies,,other,"Flacon de larmes cramoisies du héros (Elden Ring, roman).",
 term,火焰恶神,Dieu Déchu,,other,"Dieu Déchu des géants de feu (Elden Ring, roman).",
 term,恶神火焰,flamme du Dieu Déchu,,other,"Flamme du Dieu Déchu des géants (Elden Ring, roman).",
@@ -3806,7 +3806,7 @@ term,白蔷薇,Rose blanche,,other,"Rose blanche, ordre chevaleresque (The Witch
 term,骑士团,ordre chevaleresque,,other,Ordre de chevalerie du Continent (roman).,
 term,变种人,mutant,,other,"Être muté du récit, créature altérée (roman).",
 term,摄政大法师,archimage régent,,other,Mage régnant en intérim sur le royaume (roman).,
-term,纯白,Blanc pur,,other,Fragment du remède Décoction de Raffard le Blanc (roman).,
+term,纯白,Blanc pur,,other,Fragment du remède Décocté de Raffard le Blanc (roman).,
 term,术士最高评议会,Conseil suprême des sorciers,,other,"Instance dirigeante des mages (The Witcher, roman).",
 term,恐暴龙的肾脏研磨液,fluide de broyage des reins de Deviljho,,other,"Préparation tirée des reins du Deviljho, trophée d'échange du héros (Monster Hunter, roman).",
 term,三色药剂,potion tricolore,,other,Élixir à trois phases superposées (roman).,
@@ -3934,6 +3934,8 @@ term,咒术之火·炎妃龙火焰,flamme de pyromancie : feu de Lunastra,,other
 term,该隐赫斯特火焰,Flamme de Cainhurst,,other,"Feu magique de Cainhurst (Bloodborne, roman).",
 term,烈火长刀,Lame longue flamboyante,,other,"Lame longue embrasée, arme de Léon (roman).",
 term,高等派翠魔药,Philtre de Petri supérieur,,other,"Potion supérieure dite de Petri, recette maison (roman).",
+term,派翠的魔药,Philtre de Petri,,other,Potion du mage Petri amplifiant l'intensité des signes (The Witcher).,
+character,甜嘴,Raff Tout-miel,Male,,"Rafford, homme de la Montagne, surnommé Tout-miel (Game of Thrones).",
 term,高等暴风雪,Blizzard supérieur,,other,Potion sorceleur supérieure d'esquive (The Witcher).,
 term,进阶法印,Signe avancé,,other,Version améliorée d'un signe de sorceleur (The Witcher).,
 term,燃烧之夜,Nuit de l'incendie,,other,"Nuit de feu, tragédie de Yharnam (Bloodborne, roman).",
@@ -4140,7 +4142,7 @@ term,恐暴龙肾脏研磨液,fluide de broyage des reins de Deviljho,,other,"Li
 term,曼陀罗菇,champignon mandragore,,other,"Champignon mandragore, ingrédient d'alchimie (Monster Hunter, roman).",
 term,蓝蘑菇,Champignon bleu,,other,"Champignon récoltable (Monster Hunter, roman).",
 term,恢复药草,herbe médicinale,,other,"Herbe médicinale, base des potions (Monster Hunter, roman).",
-term,高等纯白拉法德,décoction supérieure de Raffard le Blanc,,other,"Potion de soin historique, Raffard le Blanc (The Witcher, roman).",
+term,高等纯白拉法德,Décocté de Raffard le Blanc supérieur,,other,"Potion de soin historique, Raffard le Blanc (The Witcher, roman).",
 term,秘药,Max Potion,,other,"Potion de soin ultime (Monster Hunter, roman).",
 term,治疗药,potion,,other,"Potion de soin, fiole du chasseur (Monster Hunter, roman).",
 term,蛮颚龙的火炎袋,Poche à flammes d'Anjanath,,other,"Organe à combustible d'Anjanath (Monster Hunter, roman).",
@@ -4361,7 +4363,7 @@ term,妖灵,spectre,,other,Apparition fantomatique du récit (roman).,
 term,半灵体,corps semi-spectral,,other,Corps semi-spectral de l'esprit matérialisé (roman).,
 term,外挂钢甲片皮革靴子,bottes en cuir à plaques d'acier,,other,Bottes renforcées de plaques d'acier (roman).,
 term,短途传送术,sort de téléportation courte,,other,Sort de téléportation à courte portée (roman).,
-term,残物油,Huile contre les reliques,,other,Huile de sorceleur contre les relictes (The Witcher).,
+term,残物油,Huile contre les vestiges,,other,Huile de sorceleur contre les reliques (The Witcher).,
 term,构装生物油,Huile contre les créatures élémentaires,,other,Huile contre les créatures élémentaires (roman).,
 term,鬼灵油,Huile contre les spectres,,other,"Huile de sorceleur contre les spectres (The Witcher, roman).",
 term,诅咒油,Huile contre les maudits,,other,"Huile contre les maudits, arme ointe (roman).",
@@ -4867,7 +4869,7 @@ term,Eaux de Jouvence,Eaux rajeunissantes,,item,"Eaux du temple Senpou prolongea
 term,technique de légèreté,technique de légèreté,,technique,"Mouvement allégeant le corps du shinobi (Sekiro, roman).",
 term,escrime Nanban,escrime Nanban,,technique,"Escrime des barbares du Sud, école occidentale (roman).",
 term,kusabi,Kunai,,item,"Dard de jet du shinobi, arme discrète (roman).",
-term,Huile contre les vestiges,Huile contre les morts-vivants,,item,Huile enduisant la lame contre les morts-vivants (roman).,
+term,Huile contre les vestiges,Huile contre les vestiges,,item,Huile de sorceleur contre les reliques (The Witcher).,
 term,Possession Insectoïde,Possession Insectoïde,,species,Parasitisme d'un insecte prenant le corps (roman).,
 term,Hall des Trente-trois Baies,Hall des Trente-trois Baies,,location,Galerie du temple aux trente-trois travées (roman).,
 term,Lame de flux d'air,Lame de flux d'air,,technique,"Technique du récit, lame de vent tranchante (roman).",
@@ -5049,7 +5051,7 @@ term,瓦雷利亞鋼板甲,armure de plates en acier valyrien,,item,"Harnois de 
 term,馬裡波,Maribor,,location,"Cité et forêt de Temerie, Maribor (The Witcher).",
 term,阿爾祖雙十字,Double Croix d'Alzur,,technique,"Sort d'invocation d'Alzur (The Witcher, roman).",
 term,艾瑞圖薩學院,Académie d'Aretuza,,organization,"Académie de magie des jeunes filles, sur Thanedd (The Witcher).",
-term,北風,Borée,,item,"Bombe d'air glacé du récit, Borée (roman).",
+term,北風,Vent du nord,,item,Bombe alchimique de gel du sorceleur (The Witcher).,
 term,龍之夢,Rêve du Dragon,,item,"Objet du récit, songe envoyé par le dragon (roman).",
 term,雙十字星,Double Croix,,organization,"Symbole du sort d'Alzur (The Witcher, roman).",
 term,那烏西卡騎兵班,Escadron de cavalerie Nauzicaa,,organization,"Cavalerie d'élite nilfgaardienne (The Witcher, roman).",
@@ -6255,7 +6257,7 @@ term,Arda,Arda,,location,"Arda, le monde entier de la création (Tolkien).",
 term,le Comté,la Comté,,location,"Région des hobbits, patrie de Bilbo (Tolkien).",
 term,Balrog,Balrog,,species,"Balrog, valaraukar de flamme et d'ombre (Tolkien).",
 term,監視者,Surveillant,,species,"Faux nom : fragment, celui qui surveille (roman).",
-term,殘物油,Huile contre les reliques,,item,Huile de sorceleur contre les relictes (The Witcher).,
+term,殘物油,Huile contre les vestiges,,item,Huile de sorceleur contre les reliques (The Witcher).,
 term,混合獸油,huile contre les hybrides,,item,"Huile de sorceleur qui rend la lame toxique pour les créatures hybrides (The Witcher, roman).",
 term,第二十一大廳,vingt et unième salle,,location,"Salle du niveau nord de la Moria, reconquise par la colonie de Balin (Tolkien, roman).",
 term,水形劍；大切斷,Épée de forme d'eau : Grande Coupe,,technique,"Technique du héros, la grande coupe de l'épée de forme d'eau (roman).",
@@ -6668,7 +6670,7 @@ term,élixir Blizzard,élixir Blizzard,,item,Potion tempétueuse du sorceleur (T
 term,Palais de Loxia,Palais de Loxia,,location,"Demeure seigneuriale de Loxia, palace cité (roman).",2
 term,Succube,Succube,,species,Démone séductrice qui vole la vie (The Witcher).,2
 term,Swallow,Hirondelle,,item,Potion de soin rapide du sorceleur (The Witcher).,2
-term,Pure White Raffard's Decoction,Décoction de Raffard Blanc Pur,,item,Décoction de guérison de Raffard le Blanc (The Witcher).,2
+term,Pure White Raffard's Decoction,Décocté de Raffard le Blanc,,item,Décocté de guérison de Raffard le Blanc (The Witcher).,2
 term,Hydromel Blanc Fortifié,Hydromel Blanc Fortifié,,item,Boisson fortifiante du sorceleur (The Witcher).,2
 term,Recouvreur de dettes,Recouvreur de dettes,,title,Métier : percevoir les dettes pour le compte (roman).,2
 term,Academy of Aretuza,Académie d'Aretuza,,organization,Académie de magie d'Aretuza (The Witcher).,2
@@ -6730,7 +6732,7 @@ term,Lys blanc de Temeria,Lys blanc de Temeria,,organization,Emblème royal de l
 term,Kaedwen Stout,Stout de Kaedwen,,item,Bière brune forte brassée à Kaedwen (The Witcher).,2
 term,Trial of the Herbs,Épreuve des Herbes,,technique,Rite de sélection des enfants sorceleurs (The Witcher).,2
 term,Retinal projection,Projection rétinienne,,technology,"Affichage direct dans la rétine (Warhammer 40K, roman).",2
-term,White Raffard Decoction,Décoction de Raffard le Blanc,,item,Décoction de guérison de Raffard le Blanc (The Witcher).,2
+term,White Raffard Decoction,Décocté de Raffard le Blanc,,item,Décocté de guérison de Raffard le Blanc (The Witcher).,2
 term,Thunder and Snowstorm,Tonnerre et Blizzard,,technique,Potion tempétueuse du sorceleur (The Witcher).,2
 term,Fortified White Mead,Hydromel Blanc Fortifié,,item,Boisson fortifiante du sorceleur (The Witcher).,2
 term,Mother's Tears,Larmes de la Mère,,item,Potion larmoyante du sorceleur (The Witcher).,2
@@ -6774,8 +6776,8 @@ term,races anciennes,races anciennes,,species,"Vestiges laissés par les Anciens
 term,Salamandra,Salamandre,,organization,Secte de magiciens criminels de Vizima (The Witcher).,2
 term,Sang Noir,Sang Noir,,item,Potion qui empoisonne le sang du prédateur (The Witcher).,2
 term,Bombe Étoile Dansante,Bombe Étoile Dansante,,item,Bombe incendiaire du sorceleur (The Witcher).,2
-term,Décoction de Petit Foglette,Décoction de Petit Foglette,,item,Décoction à base de foglet du sorceleur (The Witcher).,2
-term,Relict Oil,Huile contre les reliquats,,item,Huile contre les monstres reliquats (The Witcher).,2
+term,Décoction de foglet,Décoction de foglet,,item,Décoction de sorceleur à base de foglet (The Witcher).,2
+term,Relict Oil,Huile contre les vestiges,,item,Huile de sorceleur contre les reliques (The Witcher).,2
 term,Guet,Guet,,organization,Corps de garde de la cité (Game of Thrones).,2
 term,Garde Royale,Garde Royale,,organization,Garde rapprochée du roi (Game of Thrones).,2
 term,Main,Main,,title,Mot isolé capté par l'appli hors contexte (roman).,2
