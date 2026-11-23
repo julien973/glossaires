@@ -47,12 +47,12 @@ const ROMANS = [
   {
     id: "astartes",
     court: "熊學派的阿斯塔特",
-    sub: "《熊學派的阿斯塔特》 (Astartes of the Bear School) · glossaire complet 6848 entrées corrigé le 16/11 (marathon 35 blocs, 6848/6848 notées) : raw chinois → canon FR The Witcher, Warhammer 40K, Tolkien (trad. Ledoux), Game of Thrones, Elden Ring, Dark Souls, Sekiro, Bloodborne, Monster Hunter.",
+    sub: "《熊學派的阿斯塔特》 (Astartes of the Bear School) · glossaire complet 7017 fiches (marathon 35 blocs + scan v2 + correctifs canon, revu jusqu'au 23/11) : raw chinois → canon FR The Witcher, Warhammer 40K, Tolkien (trad. Ledoux), Game of Thrones, Elden Ring, Dark Souls, Sekiro, Bloodborne, Monster Hunter.",
     fichier: ["data-astartes-1.js", "data-astartes-2.js", "data-astartes-3.js"],
     format: "ns",
     accent: "#d97706",
     csv: "csv-astartes-corrige.csv",
-    csvVer: "v1.9",
+    csvVer: "v1.12",
     epub: "sources/Astartes%20of%20the%20Bear%20Schoo%20section%202%20-%20corrige%20COMPLET.epub",
     epubNom: "Astartes of the Bear Schoo section 2 - corrige COMPLET.epub"
   },
