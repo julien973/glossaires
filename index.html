@@ -283,7 +283,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 <script id="app">
 (function () {
   "use strict";
-  var VERSION = "v2.26";
+  var VERSION = "v2.27";
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -579,7 +579,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
       aEpub.href = roman.epub;
       aEpub.setAttribute("download", roman.epubNom || "roman-corrige.epub");
       aEpub.setAttribute("title", "Télécharger l'EPUB de la section 2 réparée, prêt pour l'import dans l'appli de lecture");
-      aEpub.textContent = "⬇ Télécharger la section 2 corrigée (EPUB)";
+      aEpub.textContent = "⬇ Télécharger la section 2 corrigée (" + (roman.epubVer ? roman.epubVer + ", " : "") + "EPUB)";
       hero.appendChild(aEpub);
     }
     // KPI
