@@ -42,7 +42,7 @@ Registre créé le 21/11/2026.
 
 ## sources/Astartes of the Bear Schoo section 2 - corrige COMPLET.epub (EPUB section 2 réparé, import appli)
 
-**Version actuelle : v1.13** (27/11/2026, 626 645 octets, md5 66e6c3c739fed1a7384f72bcd12290b1, blob c5fbc1f597a3a777402fbfe20480ccaf3559e7b6.)
+**Version actuelle : v1.14** (27/11/2026, 628 470 octets, md5 5894408bcb890e2407a696885a40ddce, blob 02a44e461e008f4bca28a177406c409b9fc053ee.)
 
 Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des noms intermédiaires (« corrige (blocs 1-x sur 34) ») ; l'historique complet est dans les messages de commit.
 
@@ -62,6 +62,7 @@ Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des no
 | v1.11 | 25/11/2026 | 620 456 o | 914d5ee2d5fc5fd963a6644c251134ea | Suppression du duplicata parasite du boost d'origine, signalé par Shenn (capture IMG_9466) : 12 paragraphes (2007 caractères) collés en fin du ch « 141. Tu es vraiment terrifiant » après la vraie fin canonique (la réplique de Sandor), à savoir une répétition du §1 du ch suivant « Le jugement par combat commença. » (le combat complet vit dans le ch « 142. Une victoire fulgurante ») et une re-traduction des §65-80 du ch « 144. Le Donjon Rouge passoire » (scène des coffres et conversation Jory, existant intégralement dans son chapitre légitime) ; vérifié contre le ZH et contre l'EPUB boosté d'origine : zéro scène perdue ; scan des 126 frontières de chapitres : ce chevauchement était l'unique cas du fichier ; touche uniquement chap_cffbdc49 |
 | v1.12 | 27/11/2026 | 622 887 o | e9e159830f155b75d69290dc95d56cb3 | Re-titrage interne : 73 titres de chapitre insérés aux frontières des 16 blocs fondus (200 titres l1 au total, chaque coupe prouvée mot pour mot contre le ZH source), suppression d'un para parasite d'appli de lecture en fin de ch 91 (décision de Shenn du 27/11) |
 | v1.13 | 27/11/2026 | 626 645 o | 66e6c3c739fed1a7384f72bcd12290b1 | Systeme de rappel de Shenn (feu vert du 25/11 : « Oui, sur les 201 chapitres ») : 199 rappels en tete des chs 2 a 201, marqueur + copie verbatim du dernier paragraphe du ch precedent (double si moins de 120 caracteres), trou 103 gere (le ch 104 rappelle la fin du 102) |
+| v1.14 | 27/11/2026 | 628 470 o | 5894408bcb890e2407a696885a40ddce | Enrichissement (passe demandée par Julien, feu vert du 27/11) : 34 paragraphes jamais traduits par le boost, traduits depuis le ZH et insérés : 17 paras en tête du ch 53 (la réticence de Philippe à croiser Lann, la tactique de la milice qui avait embusqué Poldon) et 17 paras en tête du ch 68 (la sorcière à plat ventre sur le sable, le dialogue de la crème magique) ; style boost validé par Julien en plusieurs allers-retours, zéro deux-points, lexique attesté du roman, règles gravées dans le skill boost-traduction-romans |
 
 ## Autres EPUB fusionnés livrés
 
