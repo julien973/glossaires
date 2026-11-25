@@ -42,7 +42,7 @@ Registre créé le 21/11/2026.
 
 ## sources/Astartes of the Bear Schoo section 2 - corrige COMPLET.epub (EPUB section 2 réparé, import appli)
 
-**Version actuelle : v1.14** (27/11/2026, 628 470 octets, md5 5894408bcb890e2407a696885a40ddce, blob 02a44e461e008f4bca28a177406c409b9fc053ee.)
+**Version actuelle : v1.15** (27/11/2026, 628 544 octets, md5 b81d4c0546a474acd0795264e9b91e1b, blob 8ce031809c4f88badd6f03ef93b4d88f8059931a.)
 
 Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des noms intermédiaires (« corrige (blocs 1-x sur 34) ») ; l'historique complet est dans les messages de commit.
 
@@ -63,6 +63,7 @@ Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des no
 | v1.12 | 27/11/2026 | 622 887 o | e9e159830f155b75d69290dc95d56cb3 | Re-titrage interne : 73 titres de chapitre insérés aux frontières des 16 blocs fondus (200 titres l1 au total, chaque coupe prouvée mot pour mot contre le ZH source), suppression d'un para parasite d'appli de lecture en fin de ch 91 (décision de Shenn du 27/11) |
 | v1.13 | 27/11/2026 | 626 645 o | 66e6c3c739fed1a7384f72bcd12290b1 | Systeme de rappel de Shenn (feu vert du 25/11 : « Oui, sur les 201 chapitres ») : 199 rappels en tete des chs 2 a 201, marqueur + copie verbatim du dernier paragraphe du ch precedent (double si moins de 120 caracteres), trou 103 gere (le ch 104 rappelle la fin du 102) |
 | v1.14 | 27/11/2026 | 628 470 o | 5894408bcb890e2407a696885a40ddce | Enrichissement (passe demandée par Julien, feu vert du 27/11) : 34 paragraphes jamais traduits par le boost, traduits depuis le ZH et insérés : 17 paras en tête du ch 53 (la réticence de Philippe à croiser Lann, la tactique de la milice qui avait embusqué Poldon) et 17 paras en tête du ch 68 (la sorcière à plat ventre sur le sable, le dialogue de la crème magique) ; style boost validé par Julien en plusieurs allers-retours, zéro deux-points, lexique attesté du roman, règles gravées dans le skill boost-traduction-romans |
+| v1.15 | 27/11/2026 | 628 544 o | b81d4c0546a474acd0795264e9b91e1b | Passe Game of Thrones + glossaire (feu vert de Julien du 27/11, vérification cas par cas) : 4 formes fautives de la Main corrigées selon ses choix (ch 145 « Son Excellence, la Main du Roi » ; ch 154 narration « la Main du Roi » sans honorifique ; chs 155 et 165 dialogues « Son Excellence la Main »), 1 mention disparue du ch 153 restaurée (« signe de tête au seigneur » devient « à la Main », chinois 首相大人), 7 « Direwolf » harmonisés en loup géant / louve géante (titre du ch 138 inclus, canon lexique 冰原狼), 2 « Samurai » du ch 197 francisés en samouraï (glose Samurai-Taishō conservée), 24 mentions de la légion harmonisées en « Emperor's Children » (22 « Enfants de l'Empereur » + 2 « Children of the Emperor », chinois uniforme 帝皇之子, règle v1.8 noms de légion en VO), 10 rappels parasités réparés selon la règle des rappels (uniquement des paras narratifs, 20 paras parasites remplacés par 19 paras narratifs : chs 11, 12, 13, 144, 145, 146, 155, 156, 157, 180) ; 199 marqueurs, 200 titres, trou 103 intacts, cadratins inchangés (1559) ; scan complet des 9 occurrences chinoises de 首相大人 vérifié une à une ; touche uniquement chap_cffbdc49 |
 
 ## Autres EPUB fusionnés livrés
 
