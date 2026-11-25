@@ -42,7 +42,7 @@ Registre créé le 21/11/2026.
 
 ## sources/Astartes of the Bear Schoo section 2 - corrige COMPLET.epub (EPUB section 2 réparé, import appli)
 
-**Version actuelle : v1.12** (27/11/2026, 622 887 octets, md5 e9e159830f155b75d69290dc95d56cb3, blob bbf9db97d0c635a32373c387b1f6c9b2ce907759.)
+**Version actuelle : v1.13** (27/11/2026, 626 645 octets, md5 66e6c3c739fed1a7384f72bcd12290b1, blob c5fbc1f597a3a777402fbfe20480ccaf3559e7b6.)
 
 Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des noms intermédiaires (« corrige (blocs 1-x sur 34) ») ; l'historique complet est dans les messages de commit.
 
@@ -61,6 +61,7 @@ Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des no
 | v1.10 | 23/11/2026 | 620 939 o | 5967af952b36feb001ec8db93a6c3143 | Harmonisation canon suite audit des termes entre crochets (feu vert de Shenn du 23/11) : 11 occurrences corrigées dans la prose (【Élixir de Petri】 → 【Philtre de Petri】 x1, 【Huile contre les reliquats】 et 【Huile contre les reliques】 → 【Huile contre les vestiges】 x2, 【Décoction de Raffard Blanc Pur】 → 【Décocté de Raffard le Blanc】 x1 plus une occurrence en liste sans crochets x1, 【Décoction de Petit Foglette】 → 【Décoction de foglet】 x1, 【Tout-Doux】 → 【Tout-miel】 x5) ; canon vérifié : Wiki Officiel du Sorceleur, graphie « Décocté » de The Witcher 3, surnom officiel « Raff Tout-miel » de La Garde de Nuit ; touche uniquement chap_cffbdc49 |
 | v1.11 | 25/11/2026 | 620 456 o | 914d5ee2d5fc5fd963a6644c251134ea | Suppression du duplicata parasite du boost d'origine, signalé par Shenn (capture IMG_9466) : 12 paragraphes (2007 caractères) collés en fin du ch « 141. Tu es vraiment terrifiant » après la vraie fin canonique (la réplique de Sandor), à savoir une répétition du §1 du ch suivant « Le jugement par combat commença. » (le combat complet vit dans le ch « 142. Une victoire fulgurante ») et une re-traduction des §65-80 du ch « 144. Le Donjon Rouge passoire » (scène des coffres et conversation Jory, existant intégralement dans son chapitre légitime) ; vérifié contre le ZH et contre l'EPUB boosté d'origine : zéro scène perdue ; scan des 126 frontières de chapitres : ce chevauchement était l'unique cas du fichier ; touche uniquement chap_cffbdc49 |
 | v1.12 | 27/11/2026 | 622 887 o | e9e159830f155b75d69290dc95d56cb3 | Re-titrage interne : 73 titres de chapitre insérés aux frontières des 16 blocs fondus (200 titres l1 au total, chaque coupe prouvée mot pour mot contre le ZH source), suppression d'un para parasite d'appli de lecture en fin de ch 91 (décision de Shenn du 27/11) |
+| v1.13 | 27/11/2026 | 626 645 o | 66e6c3c739fed1a7384f72bcd12290b1 | Systeme de rappel de Shenn (feu vert du 25/11 : « Oui, sur les 201 chapitres ») : 199 rappels en tete des chs 2 a 201, marqueur + copie verbatim du dernier paragraphe du ch precedent (double si moins de 120 caracteres), trou 103 gere (le ch 104 rappelle la fin du 102) |
 
 ## Autres EPUB fusionnés livrés
 
