@@ -6,7 +6,7 @@ Registre créé le 21/11/2026.
 
 ## csv-astartes-corrige.csv (glossaire Astartes 《熊學派的阿斯塔特》, import appli)
 
-**Version actuelle : v1.13** (23/11/2026, 740 064 octets, md5 493d998cbb5e2f23c4dadf73f44ef302, 7027 entrées.)
+**Version actuelle : v1.14** (25/11/2026, 740 119 octets, md5 697cb51c7d4f678e4fccad2f30359582, 7027 entrées.)
 
 | Version | Date | Taille | md5 | Changement |
 | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@ Registre créé le 21/11/2026.
 | v1.11 | 23/11/2026 | 739 892 o | 3362ae00862d79f4a8934b5d6e963f62 | Canon potions (décision de Shenn du 23/11, alignement sur l'EPUB v1.9) : 4 fiches réalignées : « Foudre, Foudre » → « Tonnerre, Tonnerre » ; « Tempête de neige, Tempête de neige » → « Blizzard, Blizzard » ; « élixir Tempête de neige » → « élixir Blizzard » ; tr de « Thunder and Snowstorm » → « Tonnerre et Blizzard ». Les fiches ZH-raw 雷霆/暴风雪 (météo possible en chinois) restent inchangées ; comptes inchangés : 7025 entrées |
 | v1.12 | 23/11/2026 | 740 112 o | 52099b93097ab9978bc494267ca3281a | Canon suite audit des termes entre crochets (décision de Shenn du 23/11) : 13 fiches réalignées (Philtre de Petri, Huile contre les vestiges, Décocté de Raffard le Blanc, Décoction de foglet, Vent du nord aux graphies 北风/北風, note du fragment 纯白) + 2 fiches créées (派翠的魔药 = Philtre de Petri base, 甜嘴 = Raff Tout-miel), 7027 entrées |
 | v1.13 | 23/11/2026 | 740 064 o | 493d998cbb5e2f23c4dadf73f44ef302 | Import appli réparé : la note enrichie de Diluc (v1.10) faisait 138 caractères, l'appli impose 100 max par note (erreur « Row 1830, column F » à l'import, rien n'était importé) ; note comprimée à 90 caractères, 7027 entrées inchangées ; scan complet du fichier : aucune autre note au-dessus de la limite |
+| v1.14 | 25/11/2026 | 740 119 o | 697cb51c7d4f678e4fccad2f30359582 | Renotes contextuelles après la question de Shenn sur les Profonds (lecture ZH 105 à 135) : fiche 深潜者 (Profonds) = clin d'œil aux Profonds de Lovecraft, ici vodyanoï corrompus au service de Dagon ; fiche 堕落半鱼人 (Vodyanoï Corrompus) : ce sont eux les Profonds, déchus de la Dame du Lac, et non un peuple au service d'un autre ; 7027 entrées inchangées |
 
 ## csv-40k-corrige.csv (glossaire 《从战锤开启的超次元综漫》)
 
