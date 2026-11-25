@@ -16,6 +16,11 @@
 //  - "csv" (optionnel) : fichier CSV corrigé à télécharger pour
 //      l'import dans l'appli de lecture ; si défini, le site affiche
 //      un bouton de téléchargement dans le bandeau du roman.
+//  - "csvVer" / "epubVer" (optionnels mais exigés) : version ACTUELLE
+//      du fichier livré, affichée à côté du bouton de téléchargement
+//      (exigence de Julien du 27/11 : chaque fichier téléchargeable du
+//      site porte sa version visible). À mettre à jour à CHAQUE push
+//      du fichier correspondant, en même temps que VERSIONS.md.
 // ─────────────────────────────────────────────────────────────
 const ROMANS = [
   {
@@ -25,7 +30,8 @@ const ROMANS = [
     fichier: "data.js",
     format: "legacy",
     accent: "#2de2e6",
-    csv: "csv-glossaire-corrige.csv"
+    csv: "csv-glossaire-corrige.csv",
+    csvVer: "v1.0"
   },
   {
     id: "honkai-gacha",
@@ -42,7 +48,8 @@ const ROMANS = [
     fichier: "data-chatgroup-40k.js",
     format: "ns",
     accent: "#e0115f",
-    csv: "csv-40k-corrige.csv"
+    csv: "csv-40k-corrige.csv",
+    csvVer: "v1.2"
   },
   {
     id: "astartes",
@@ -53,6 +60,7 @@ const ROMANS = [
     accent: "#d97706",
     csv: "csv-astartes-corrige.csv",
     csvVer: "v1.14",
+    epubVer: "v1.15",
     epub: "sources/Astartes%20of%20the%20Bear%20Schoo%20section%202%20-%20corrige%20COMPLET.epub",
     epubNom: "Astartes of the Bear Schoo section 2 - corrige COMPLET.epub"
   },
