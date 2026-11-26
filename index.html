@@ -283,7 +283,7 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
 <script id="app">
 (function () {
   "use strict";
-  var VERSION = "v2.27";
+  var VERSION = "v2.28";
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -571,17 +571,20 @@ tr.grow.done .td-raw, tr.grow.done .td-tr { opacity: .5; }
       aCsv.textContent = "⬇ Télécharger le CSV corrigé (" + (roman.csvVer ? roman.csvVer + ", " : "") + "import appli)";
       hero.appendChild(aCsv);
     }
-    // Bouton de téléchargement de l'EPUB réparé (section 2, import appli) —
-    // visible seulement si le roman en a un.
-    if (roman.epub) {
+    // Boutons de téléchargement des EPUB réparés — un roman peut livrer
+    // plusieurs sections (ex. Astartes : section 2 et section 3), chacune
+    // avec sa propre version visible. Format actuel : roman.epubs (liste).
+    // Format historique conservé : roman.epub (une seule section).
+    var listeEpubs = roman.epubs || (roman.epub ? [{ label: "la section 2 corrigée", ver: roman.epubVer, href: roman.epub, nom: roman.epubNom }] : []);
+    listeEpubs.forEach(function (e) {
       var aEpub = document.createElement("a");
       aEpub.className = "csvbtn";
-      aEpub.href = roman.epub;
-      aEpub.setAttribute("download", roman.epubNom || "roman-corrige.epub");
-      aEpub.setAttribute("title", "Télécharger l'EPUB de la section 2 réparée, prêt pour l'import dans l'appli de lecture");
-      aEpub.textContent = "⬇ Télécharger la section 2 corrigée (" + (roman.epubVer ? roman.epubVer + ", " : "") + "EPUB)";
+      aEpub.href = e.href;
+      aEpub.setAttribute("download", e.nom || "roman-corrige.epub");
+      aEpub.setAttribute("title", "Télécharger l'EPUB réparé, prêt pour l'import dans l'appli de lecture");
+      aEpub.textContent = "⬇ Télécharger " + e.label + " (" + (e.ver ? e.ver + ", " : "") + "EPUB)";
       hero.appendChild(aEpub);
-    }
+    });
     // KPI
     var kpis = clear($("kpis"));
     function kpi(label, value, sub) {
