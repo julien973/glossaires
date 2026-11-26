@@ -26,6 +26,15 @@ Registre créé le 21/11/2026.
 | v1.13 | 23/11/2026 | 740 064 o | 493d998cbb5e2f23c4dadf73f44ef302 | Import appli réparé : la note enrichie de Diluc (v1.10) faisait 138 caractères, l'appli impose 100 max par note (erreur « Row 1830, column F » à l'import, rien n'était importé) ; note comprimée à 90 caractères, 7027 entrées inchangées ; scan complet du fichier : aucune autre note au-dessus de la limite |
 | v1.14 | 25/11/2026 | 740 119 o | 697cb51c7d4f678e4fccad2f30359582 | Renotes contextuelles après la question de Shenn sur les Profonds (lecture ZH 105 à 135) : fiche 深潜者 (Profonds) = clin d'œil aux Profonds de Lovecraft, ici vodyanoï corrompus au service de Dagon ; fiche 堕落半鱼人 (Vodyanoï Corrompus) : ce sont eux les Profonds, déchus de la Dame du Lac, et non un peuple au service d'un autre ; 7027 entrées inchangées |
 
+## data-astartes-1.js (fiches miroir site Astartes 《熊學派的阿斯塔特》, blocs 0-10)
+
+**Version actuelle : v1.1** (26/11/2026, 394 870 octets, md5 ce45e4c361d1325dcd3a47c03749e7d1.)
+
+| Version | Date | Taille | md5 | Changement |
+| --- | --- | --- | --- | --- |
+| v1.0 | état servi jusqu'au 26/11 | 394 843 o | d336a011766e5b979c0b360d014fa6c0 | Fiches miroir des blocs 0-10 servant l'affichage du site |
+| v1.1 | 26/11/2026 | 394 870 o | ce45e4c361d1325dcd3a47c03749e7d1 | Alignement canon île sur le CSV v1.14 (ordre de Julien du 26/11) : tr de 黑燕鸥岛 et 黑燕鷗島 « Île de la Guifette noire » → « Île de la Sterne Noire » ; fiche « île de l'Hirondelle Noire » → tr « Île de la Sterne Noire » (forme fautive du traducteur, note alignée sur le CSV) |
+
 ## csv-40k-corrige.csv (glossaire 《从战锤开启的超次元综漫》)
 
 **Version actuelle : v1.2** (14/11/2026, 225 493 octets, md5 ee5a916db8216c0cd054e16a9c002f92.)
