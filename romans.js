@@ -61,7 +61,7 @@ const ROMANS = [
     csv: "csv-astartes-corrige.csv",
     csvVer: "v1.15",
     epubs: [
-      { label: "la section 2 corrigée", ver: "v1.17",
+      { label: "la section 2 corrigée", ver: "v1.18",
         href: "sources/Astartes%20of%20the%20Bear%20Schoo%20section%202%20-%20corrige%20COMPLET.epub",
         nom: "Astartes of the Bear Schoo section 2 - corrige COMPLET.epub" },
       { label: "la section 3 corrigée", ver: "v1.3",
