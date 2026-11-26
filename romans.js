@@ -64,7 +64,7 @@ const ROMANS = [
       { label: "la section 2 corrigée", ver: "v1.16",
         href: "sources/Astartes%20of%20the%20Bear%20Schoo%20section%202%20-%20corrige%20COMPLET.epub",
         nom: "Astartes of the Bear Schoo section 2 - corrige COMPLET.epub" },
-      { label: "la section 3 corrigée", ver: "v1.0",
+      { label: "la section 3 corrigée", ver: "v1.1",
         href: "sources/Astartes%20of%20the%20Bear%20School%20-%20section%203%20-%20corrig%C3%A9%20COMPLET.epub",
         nom: "Astartes of the Bear School - section 3 - corrigé COMPLET.epub" }
     ]
