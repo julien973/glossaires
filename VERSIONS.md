@@ -80,7 +80,7 @@ Note : avant v1.0, ce même EPUB a été publié pendant le marathon sous des no
 
 ## sources/Astartes of the Bear School - section 3 - corrigé COMPLET.epub (EPUB section 3 réparé, import appli)
 
-**Version actuelle : v1.9** (29/11/2026, 628725 octets, md5 a745c8039ddec2ee6793f1b3fcd06b93, blob 1901958af9271b49fbf5f85d46785e65dfdc722e, commit à venir après push.)
+**Version actuelle : v1.9** (29/11/2026, 628725 octets, md5 a745c8039ddec2ee6793f1b3fcd06b93, blob 1901958af9271b49fbf5f85d46785e65dfdc722e, commit b12fc0fb2d717d1ce98bc7bf5e53502687e0206a.)
 
 | Version | Date | Taille | md5 | Changement |
 | --- | --- | --- | --- | --- |
